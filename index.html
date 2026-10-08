@@ -30,9 +30,9 @@ h1{font-family:var(--f-display);font-style:italic;font-weight:bold;font-size:cla
 .weather{display:inline-flex;flex-wrap:wrap;gap:4px 12px;font-size:12px;background:#fff;border:2px inset var(--btn);padding:3px 8px;align-self:flex-start}
 .weather b{color:var(--bar)}
 .ticker{background:#000;color:#ffff66;font-family:var(--f-mono);font-size:12px;white-space:nowrap;overflow:hidden;border:2px solid #000;border-top:0;border-bottom:0}
-.ticker span{display:inline-block;padding:4px 0 4px 100%;animation:tick 60s linear infinite}
-@keyframes tick{to{transform:translateX(-100%)}}
-@media (prefers-reduced-motion:reduce){.ticker span{animation:none;padding-left:8px}}
+.ticker span{display:inline-block;padding:4px 0 4px 100%;-webkit-animation:tick 60s linear infinite;animation:tick 60s linear infinite;will-change:transform}
+@-webkit-keyframes tick{to{-webkit-transform:translateX(-100%);transform:translateX(-100%)}}@keyframes tick{to{-webkit-transform:translateX(-100%);transform:translateX(-100%)}}
+@media (prefers-reduced-motion:reduce){.ticker span{-webkit-animation-duration:120s;animation-duration:120s}}
 /* folder tabs */
 .tabs{display:flex;gap:4px;background:var(--sheet);border-left:2px solid #000;border-right:2px solid #000;padding:8px 10px 0;border-bottom:3px solid var(--bar);overflow-x:auto}
 .tab{font:bold 13px var(--f-body);background:var(--tab);color:#000;border:1px solid #7a7350;border-bottom:0;border-radius:8px 8px 0 0;padding:6px 14px;cursor:pointer;white-space:nowrap}
