@@ -312,7 +312,6 @@ function renderReading(){
       const s=SOURCES[a.source]||{name:a.source,c:"--muted"};
       const tag=el("span",{className:"tag"},s.name); tag.style.setProperty("--c",`var(${s.c})`); tag.style.setProperty("--cb",`var(${s.c}-bg, var(--line))`);
       const meta=el("div",{className:"meta"},tag);
-      if(a.author) meta.append(el("span",{},a.author));
       const d=new Date(a.published); if(!a.dateOnly && !isNaN(d)) meta.append(el("span",{},d.toLocaleTimeString(undefined,{hour:"numeric",minute:"2-digit"})));
       if(lastVisit && a.added && a.added>lastVisit) meta.append(el("span",{className:"new"},"● new"));
       sec.append(el("article",{},meta,el("a",{className:"t",href:a.url,target:"_blank",rel:"noopener"},a.title||a.url),a.summary?el("p",{},a.summary):null));
