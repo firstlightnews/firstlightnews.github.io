@@ -289,7 +289,7 @@ function renderReading(){
   const box=$("sources"); box.replaceChildren();
   for(const[k,s] of Object.entries(SOURCES)){
     const st=status?.sources?.[k]; const d=el("span",{className:"dot"}); d.style.setProperty("--c",`var(${s.c})`);
-    let t="Not checked yet", warn=false; if(s.linkOnly) t="Open site ↗"; else if(st){ if(st.ok===false){t="Last check failed";warn=true;} else t = st.newCount>0?`${st.newCount} new today`:"Nothing new today"; }
+    let t="Not checked yet", warn=false; if(s.linkOnly) t="Open site ↗"; else if(st){ if(st.ok===false){t="Last check failed";warn=true;} else { const n=articles.filter(a=>a.source===k&&Date.now()-Date.parse(a.published)<864e5).length; t = n>0?`${n} new today`:"Nothing new today"; } }
     box.append(el("div",{className:"src"},el("a",{href:s.home,target:"_blank",rel:"noopener",className:"name"},d,s.name),el("span",{className:"stat"+(warn?" warn":"")},t)));
   }
   const feed=$("feed"); const list=articles.filter(a=>SOURCES[a.source]&&(filter==="all"||a.source===filter));
