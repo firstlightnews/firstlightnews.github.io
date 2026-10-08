@@ -4,17 +4,17 @@
    {
     "cond": "Sunny",
     "hi": 78,
-    "lo": 52,
+    "lo": 54,
     "name": "Baltimore",
     "rain": 0
    }
   ],
   "date": "2026-10-08",
-  "updatedAt": "2026-10-08T15:50:00Z"
+  "updatedAt": "2026-10-08T18:31:42Z"
  },
  "digest": {
   "date": "2026-10-08",
-  "generatedAt": "2026-10-08T17:30:00Z",
+  "generatedAt": "2026-10-08T18:33:47Z",
   "items": [
    {
     "headline": "Houthi strikes hit Saudi airports and oil sites",
@@ -145,17 +145,17 @@
     "summary": "Students protesting underfunded schools in France are carrying signs that reference the 1968 uprising that nearly brought down the government. More than 250,000 people have marched over education reforms, class sizes and building conditions."
    }
   ],
-  "overview": "At home, Isaias has strengthened into a hurricane and Gulf Coast residents are preparing for the storm ahead of a weekend Georgia-Alabama game Trump plans to attend. In politics, both parties are pouring money into about 60 competitive House districts, Kansas has become an unexpected Senate battleground, and Georgia's governor candidates Keisha Lance Bottoms and Rick Jackson met in their only televised debate. The administration's one-time $90 Medicare rebate is rolling out, though millions of enrollees don't qualify. An NPR investigation reports ICE quietly ran a detention site out of a New Jersey warehouse this summer. In business, the Ellison family's $110 billion Skydance deal for Warner Bros. Discovery is drawing media-concentration concerns, and the regulator for crypto and prediction markets is shrinking as those markets grow. Actor Eva Marie Saint, star of 'On the Waterfront,' died at 102.\n\nAbroad, Houthi rebels struck Saudi airports, killing three and injuring 36, after earlier attacks on Saudi oil sites that pushed oil prices up. In Ukraine, Russian strikes including one on a public bus killed 30 people as blackouts worsen in Kyiv. South Korea said it will recall its ambassador to Ukraine in a dispute over North Korean prisoners of war, and it test-flew its first homegrown hypersonic weapon after a North Korean hypersonic test and border mine blasts that injured three South Korean soldiers. An NPR and BBC investigation found a Syrian general wanted for crimes against humanity living under protection in Lebanon. In France, student protests over school funding are drawing comparisons to May 1968, and Indonesia is restricting access to forest data as deforestation surges."
+  "overview": "At home, Isaias became the Atlantic season's first hurricane and is heading toward eastern Louisiana and the western Florida Panhandle. Both parties are pouring money into about 60 competitive House districts, and Kansas has become an unexpected Senate battleground. Trump rallied in San Antonio for Texas Senate nominee Ken Paxton, who has trailed Democrat James Talarico in nearly every poll. The administration's one-time $90 Medicare rebate is rolling out, though millions of enrollees don't qualify. The EPA said it will further loosen methane limits for oil and gas operations. NPR reports ICE quietly detained people in a New Jersey warehouse this summer. Actor Eva Marie Saint died at 102.\n\nAbroad, Houthi strikes on Saudi airports killed three and injured 36, and more than 200,000 Yemenis have been displaced by recent fighting. Projectiles hit a tanker north of Qatar after Iranian warnings over its Strait of Hormuz blockade, and oil prices rose more than 2%. In Ukraine, Russian attacks including a strike on a public bus killed 30 people as blackouts deepen in Kyiv. South Korea will recall its ambassador to Ukraine over a dispute about North Korean prisoners of war, and it test-flew its first homegrown hypersonic weapon after a North Korean launch. Russia denied reports of a second pneumonic plague case tied to an Irkutsk lab, where about 200 people were quarantined. Spain will hold a snap election on November 29 amid a housing crisis, and French students staged new mass protests over crowded schools. Indonesia is restricting access to forest data as deforestation surges."
  },
  "status": {
-  "lastRun": "2026-10-08T17:20:00Z",
+  "lastRun": "2026-10-08T18:31:42Z",
   "sources": {
    "e360": {
-    "newCount": 5,
+    "newCount": 0,
     "ok": true
    },
    "nation": {
-    "newCount": 5,
+    "newCount": 2,
     "ok": true
    },
    "npr": {
@@ -163,7 +163,7 @@
     "ok": true
    },
    "pbs": {
-    "newCount": 3,
+    "newCount": 0,
     "ok": true
    },
    "time": {
@@ -178,6 +178,7 @@
    "group": "soccer",
    "name": "Bundesliga",
    "order": 1,
+   "phase": "Matchday 5 this weekend",
    "results": [
     {
      "as": 0,
@@ -270,19 +271,29 @@
      "t": "2026-10-10T13:30:00Z"
     },
     {
+     "away": "Leverkusen",
+     "home": "Mainz",
+     "t": "2026-10-10T13:30:00Z"
+    },
+    {
      "away": "Frankfurt",
      "home": "RB Leipzig",
      "t": "2026-10-10T16:30:00Z"
+    },
+    {
+     "away": "Schalke",
+     "home": "Freiburg",
+     "t": "2026-10-11T15:30:00Z"
     }
    ],
-   "updatedAt": "2026-10-08T15:05:00Z"
+   "updatedAt": "2026-10-08T18:28:57Z"
   },
   "championship": {
    "country": "eng",
    "group": "soccer",
    "name": "Championship",
    "order": 2,
-   "phase": "Matchday 9 this weekend",
+   "phase": "Games resume Oct 9 after the international break",
    "results": [
     {
      "as": 4,
@@ -290,6 +301,14 @@
      "dateOnly": true,
      "home": "Norwich",
      "hs": 3,
+     "t": "2026-09-20T12:00:00Z"
+    },
+    {
+     "as": 0,
+     "away": "West Brom",
+     "dateOnly": true,
+     "home": "Wolves",
+     "hs": 1,
      "t": "2026-09-20T12:00:00Z"
     },
     {
@@ -322,14 +341,6 @@
      "dateOnly": true,
      "home": "Wrexham",
      "hs": 2,
-     "t": "2026-09-19T12:00:00Z"
-    },
-    {
-     "as": 1,
-     "away": "Charlton",
-     "dateOnly": true,
-     "home": "Cardiff",
-     "hs": 3,
      "t": "2026-09-19T12:00:00Z"
     }
    ],
@@ -395,22 +406,22 @@
      "t": "2026-10-10T11:30:00Z"
     },
     {
+     "away": "Norwich",
+     "home": "Swansea",
+     "t": "2026-10-10T11:30:00Z"
+    },
+    {
+     "away": "Birmingham",
+     "home": "West Brom",
+     "t": "2026-10-10T11:30:00Z"
+    },
+    {
      "away": "Wolves",
      "home": "Middlesbrough",
      "t": "2026-10-10T14:00:00Z"
-    },
-    {
-     "away": "Wrexham",
-     "home": "Derby",
-     "t": "2026-10-10T14:00:00Z"
-    },
-    {
-     "away": "Lincoln City",
-     "home": "Sheffield United",
-     "t": "2026-10-10T14:00:00Z"
     }
    ],
-   "updatedAt": "2026-10-08T15:30:00Z"
+   "updatedAt": "2026-10-08T18:27:56Z"
   },
   "eflcup": {
    "country": "eng",
@@ -420,74 +431,82 @@
    "phase": "Carabao Cup · Round 4 week of Oct 26",
    "results": [
     {
-     "as": 2,
-     "away": "Ipswich",
-     "home": "Arsenal",
-     "hs": 4,
-     "label": "Round 3"
-    },
-    {
-     "as": 1,
-     "away": "Tottenham",
-     "home": "Liverpool",
-     "hs": 3,
-     "label": "Round 3"
-    },
-    {
-     "as": 2,
-     "away": "Man United",
-     "home": "Brighton",
-     "hs": 3,
-     "label": "Round 3"
-    },
-    {
-     "as": 0,
-     "away": "Norwich",
-     "home": "Man City",
-     "hs": 5,
-     "label": "Round 3"
+     "as": 5,
+     "away": "Man City",
+     "dateOnly": true,
+     "home": "Norwich",
+     "hs": 0,
+     "t": "2026-09-17T12:00:00Z"
     },
     {
      "as": 3,
-     "away": "Leeds",
-     "home": "Chelsea",
-     "hs": 6,
-     "label": "Round 3"
+     "away": "Brighton",
+     "dateOnly": true,
+     "home": "Man United",
+     "hs": 2,
+     "t": "2026-09-16T12:00:00Z"
+    },
+    {
+     "as": 3,
+     "away": "Aston Villa",
+     "dateOnly": true,
+     "home": "Coventry",
+     "hs": 1,
+     "t": "2026-09-16T12:00:00Z"
+    },
+    {
+     "as": 1,
+     "away": "Everton",
+     "dateOnly": true,
+     "home": "Wolves",
+     "hs": 0,
+     "t": "2026-09-16T12:00:00Z"
+    },
+    {
+     "as": 1,
+     "away": "Fleetwood",
+     "dateOnly": true,
+     "home": "Sheffield United",
+     "hs": 0,
+     "t": "2026-09-16T12:00:00Z"
+    },
+    {
+     "as": 3,
+     "away": "Liverpool",
+     "dateOnly": true,
+     "home": "Tottenham",
+     "hs": 1,
+     "t": "2026-09-15T12:00:00Z"
     }
    ],
    "upcoming": [
     {
-     "as": null,
      "away": "Chelsea",
      "home": "Liverpool",
-     "hs": "Round 4"
+     "t": "2026-10-28T20:00:00Z"
     },
     {
-     "as": null,
      "away": "Brighton",
      "home": "Man City",
-     "hs": "Round 4"
+     "label": "Round 4"
     },
     {
-     "as": null,
      "away": "Arsenal",
      "home": "Fleetwood",
-     "hs": "Round 4"
+     "label": "Round 4"
     },
     {
-     "as": null,
      "away": "Newcastle",
      "home": "Everton",
-     "hs": "Round 4"
+     "label": "Round 4"
     },
     {
-     "as": null,
      "away": "Crystal Palace",
      "home": "Fulham",
-     "hs": "Round 4"
+     "label": "Round 4"
     }
    ],
-   "updatedAt": "2026-10-08T15:20:00Z"
+   "updatedAt": "2026-10-08T18:27:56Z"
   },
   "epl": {
    "country": "eng",
@@ -596,6 +615,11 @@
      "t": "2026-10-10T11:30:00Z"
     },
     {
+     "away": "Bournemouth",
+     "home": "Chelsea",
+     "t": "2026-10-10T14:00:00Z"
+    },
+    {
      "away": "Tottenham",
      "home": "Man United",
      "t": "2026-10-10T16:30:00Z"
@@ -606,23 +630,23 @@
      "t": "2026-10-11T15:30:00Z"
     },
     {
-     "away": "Bournemouth",
-     "home": "Chelsea",
-     "t": "2026-10-10T14:00:00Z"
+     "away": "Newcastle",
+     "home": "Coventry",
+     "t": "2026-10-12T19:00:00Z"
     }
    ],
-   "updatedAt": "2026-10-08T15:05:00Z"
+   "updatedAt": "2026-10-08T18:28:57Z"
   },
   "facup": {
    "country": "eng",
    "group": "soccer",
    "name": "FA Cup",
-   "note": "Qualifying rounds are under way. Premier League clubs join in the third round in January, and scores will show here once the main rounds begin.",
+   "note": "Qualifying rounds are under way, the first round proper is on Nov 7, and Premier League clubs join in the third round on Jan 9.",
    "order": 4,
    "phase": "Qualifying rounds",
    "results": [],
    "upcoming": [],
-   "updatedAt": "2026-10-08T15:20:00Z"
+   "updatedAt": "2026-10-08T18:27:56Z"
   },
   "intl": {
    "country": "intl",
@@ -634,25 +658,14 @@
     {
      "as": 0,
      "away": "Canada",
-     "dateOnly": true,
      "home": "USA",
      "hs": 1,
      "label": "Friendly",
-     "t": "2026-10-06T23:00:00Z"
-    },
-    {
-     "as": 0,
-     "away": "Uzbekistan",
-     "dateOnly": true,
-     "home": "South Korea",
-     "hs": 2,
-     "label": "Friendly",
-     "t": "2026-10-06T11:00:00Z"
+     "t": "2026-10-07T00:00:00Z"
     },
     {
      "as": 0,
      "away": "Czechia",
-     "dateOnly": true,
      "home": "England",
      "hs": 3,
      "label": "Nations League",
@@ -661,16 +674,22 @@
     {
      "as": 2,
      "away": "Spain",
-     "dateOnly": true,
      "home": "Croatia",
      "hs": 1,
      "label": "Nations League",
      "t": "2026-10-06T18:45:00Z"
     },
     {
+     "as": 0,
+     "away": "Uzbekistan",
+     "home": "South Korea",
+     "hs": 2,
+     "label": "Friendly",
+     "t": "2026-10-06T11:00:00Z"
+    },
+    {
      "as": 1,
      "away": "Belgium",
-     "dateOnly": true,
      "home": "France",
      "hs": 4,
      "label": "Nations League",
@@ -679,85 +698,97 @@
     {
      "as": 7,
      "away": "England",
-     "dateOnly": true,
      "home": "Croatia",
      "hs": 0,
      "label": "Nations League",
-     "t": "2026-10-03T18:45:00Z"
+     "t": "2026-10-03T16:00:00Z"
     }
    ],
    "upcoming": [
+    {
+     "away": "Croatia",
+     "home": "England",
+     "label": "Nations League",
+     "t": "2026-11-12T19:45:00Z"
+    },
+    {
+     "away": "England",
+     "home": "Spain",
+     "label": "Nations League",
+     "t": "2026-11-15T19:45:00Z"
+    },
+    {
+     "away": "Netherlands",
+     "home": "Germany",
+     "label": "Nations League",
+     "t": "2026-11-16T19:45:00Z"
+    },
     {
      "away": "Yemen",
      "dateOnly": true,
      "home": "South Korea",
      "label": "Asian Cup",
      "t": "2027-01-10T12:00:00Z"
-    },
-    {
-     "away": "South Korea",
-     "dateOnly": true,
-     "home": "Vietnam",
-     "label": "Asian Cup",
-     "t": "2027-01-15T12:00:00Z"
     }
    ],
-   "updatedAt": "2026-10-08T15:20:00Z"
+   "updatedAt": "2026-10-08T18:29:57Z"
   },
   "kleague1": {
    "country": "kor",
    "group": "soccer",
    "name": "K League 1",
+   "note": "FC Seoul lead by 15 points with three rounds left before the split.",
    "order": 1,
    "phase": "Round 31 this weekend · split after Round 33",
    "results": [
     {
-     "as": 1,
-     "away": "FC Seoul",
-     "dateOnly": true,
-     "home": "Pohang",
-     "hs": 2,
-     "t": "2026-09-20T12:00:00Z"
-    },
-    {
-     "as": 1,
-     "away": "Jeju SK",
-     "dateOnly": true,
+     "as": 0,
+     "away": "Incheon",
      "home": "Gangwon",
      "hs": 0,
-     "t": "2026-09-20T12:00:00Z"
-    },
-    {
-     "as": 2,
-     "away": "Gwangju",
-     "dateOnly": true,
-     "home": "Jeonbuk",
-     "hs": 2,
-     "t": "2026-09-20T12:00:00Z"
+     "t": "2026-09-27T10:00:00Z"
     },
     {
      "as": 1,
      "away": "Daejeon",
-     "dateOnly": true,
      "home": "Incheon",
      "hs": 1,
-     "t": "2026-09-20T12:00:00Z"
+     "t": "2026-09-20T10:00:00Z"
+    },
+    {
+     "as": 1,
+     "away": "FC Seoul",
+     "home": "Pohang",
+     "hs": 2,
+     "t": "2026-09-20T10:00:00Z"
+    },
+    {
+     "as": 2,
+     "away": "Gwangju",
+     "home": "Jeonbuk",
+     "hs": 2,
+     "t": "2026-09-20T07:30:00Z"
+    },
+    {
+     "as": 1,
+     "away": "Jeju SK",
+     "home": "Gangwon",
+     "hs": 0,
+     "t": "2026-09-20T07:30:00Z"
     },
     {
      "as": 1,
      "away": "Ulsan HD",
-     "dateOnly": true,
      "home": "Anyang",
      "hs": 2,
-     "t": "2026-09-19T12:00:00Z"
+     "t": "2026-09-19T10:00:00Z"
     },
     {
      "as": 2,
      "away": "Gimcheon",
-     "dateOnly": true,
      "home": "Bucheon",
      "hs": 0,
-     "t": "2026-09-19T12:00:00Z"
+     "t": "2026-09-19T07:30:00Z"
     }
    ],
    "table": [
@@ -817,22 +848,27 @@
      "t": "2026-10-09T05:00:00Z"
     },
     {
+     "away": "Pohang",
+     "home": "Incheon",
+     "t": "2026-10-09T07:30:00Z"
+    },
+    {
      "away": "Bucheon",
      "home": "Gangwon",
      "t": "2026-10-09T07:30:00Z"
     },
     {
-     "away": "Jeju",
+     "away": "Jeju SK",
      "home": "FC Seoul",
      "t": "2026-10-10T05:00:00Z"
     },
     {
-     "away": "Ulsan HD",
-     "home": "Gwangju",
-     "t": "2026-10-11T05:00:00Z"
+     "away": "Anyang",
+     "home": "Gimcheon",
+     "t": "2026-10-10T07:30:00Z"
     }
    ],
-   "updatedAt": "2026-10-08T15:10:00Z"
+   "updatedAt": "2026-10-08T18:29:57Z"
   },
   "kleague2": {
    "country": "kor",
@@ -961,30 +997,36 @@
      "t": "2026-10-09T07:30:00Z"
     },
     {
+     "away": "Seongnam",
+     "home": "Chungbuk Cheongju",
+     "t": "2026-10-09T07:30:00Z"
+    },
+    {
      "away": "Busan IPark",
      "home": "Paju",
      "t": "2026-10-10T05:00:00Z"
     },
     {
-     "away": "Ansan",
-     "home": "Suwon Samsung",
-     "t": "2026-10-11T05:00:00Z"
+     "away": "Yongin",
+     "home": "Jeonnam",
+     "t": "2026-10-10T05:00:00Z"
     }
    ],
-   "updatedAt": "2026-10-08T17:20:00Z"
+   "updatedAt": "2026-10-08T18:29:57Z"
   },
   "laliga": {
    "country": "esp",
    "group": "soccer",
    "name": "La Liga",
    "order": 1,
+   "phase": "Matchday 8 this weekend",
    "results": [
     {
      "as": 1,
      "away": "Real Madrid",
      "home": "Atlético",
      "hs": 2,
-     "label": "Derby",
+     "label": "Madrid derby",
      "t": "2026-09-20T14:15:00Z"
     },
     {
@@ -1061,6 +1103,16 @@
    ],
    "upcoming": [
     {
+     "away": "Espanyol",
+     "home": "Málaga",
+     "t": "2026-10-09T19:00:00Z"
+    },
+    {
+     "away": "Atlético",
+     "home": "Alavés",
+     "t": "2026-10-10T14:15:00Z"
+    },
+    {
      "away": "Getafe",
      "home": "Barcelona",
      "t": "2026-10-10T16:30:00Z"
@@ -1071,18 +1123,19 @@
      "t": "2026-10-10T19:00:00Z"
     },
     {
-     "away": "Atlético",
-     "home": "Alavés",
-     "t": "2026-10-10T14:15:00Z"
+     "away": "Osasuna",
+     "home": "Real Betis",
+     "t": "2026-10-11T16:30:00Z"
     }
    ],
-   "updatedAt": "2026-10-08T15:05:00Z"
+   "updatedAt": "2026-10-08T18:28:57Z"
   },
   "ligue1": {
    "country": "fra",
    "group": "soccer",
    "name": "Ligue 1",
    "order": 1,
+   "phase": "Matchday 6 this weekend",
    "results": [
     {
      "as": 2,
@@ -1171,6 +1224,11 @@
      "t": "2026-10-09T18:45:00Z"
     },
     {
+     "away": "Le Havre",
+     "home": "Lille",
+     "t": "2026-10-10T15:15:00Z"
+    },
+    {
      "away": "Le Mans",
      "home": "PSG",
      "t": "2026-10-10T18:45:00Z"
@@ -1179,24 +1237,21 @@
      "away": "Toulouse",
      "home": "Monaco",
      "t": "2026-10-10T18:45:00Z"
+    },
+    {
+     "away": "Marseille",
+     "home": "Troyes",
+     "t": "2026-10-11T18:45:00Z"
     }
    ],
-   "updatedAt": "2026-10-08T15:05:00Z"
+   "updatedAt": "2026-10-08T18:28:57Z"
   },
   "mlb": {
    "group": "mlb",
    "name": "MLB",
    "order": 1,
-   "phase": "Postseason: Division Series",
+   "phase": "Postseason: ALDS G4 tonight; NLCS starts Oct 11",
    "results": [
-    {
-     "as": 4,
-     "away": "Rays",
-     "home": "Yankees",
-     "hs": 3,
-     "label": "ALDS G3",
-     "t": "2026-10-08T00:00:00Z"
-    },
     {
      "as": 3,
      "away": "Brewers",
@@ -1204,6 +1259,14 @@
      "hs": 1,
      "label": "NLDS G4",
      "t": "2026-10-08T02:00:00Z"
+    },
+    {
+     "as": 4,
+     "away": "Rays",
+     "home": "Yankees",
+     "hs": 3,
+     "label": "ALDS G3",
+     "t": "2026-10-08T00:00:00Z"
     },
     {
      "as": 4,
@@ -1224,6 +1287,16 @@
    ],
    "series": [
     {
+     "round": "ALDS",
+     "status": "live",
+     "text": "White Sox lead Guardians, 2–1"
+    },
+    {
+     "round": "ALDS",
+     "status": "final",
+     "text": "Rays swept Yankees, 3–0"
+    },
+    {
      "round": "NLDS",
      "status": "final",
      "text": "Dodgers beat Braves, 3–1"
@@ -1232,16 +1305,6 @@
      "round": "NLDS",
      "status": "final",
      "text": "Brewers beat Padres, 3–1"
-    },
-    {
-     "round": "ALDS",
-     "status": "final",
-     "text": "Rays swept Yankees, 3–0"
-    },
-    {
-     "round": "ALDS",
-     "status": "live",
-     "text": "White Sox lead Guardians, 2–1"
     }
    ],
    "upcoming": [
@@ -1256,9 +1319,23 @@
      "home": "Guardians",
      "label": "ALDS G5 · if needed",
      "t": "2026-10-11T00:00:00Z"
+    },
+    {
+     "away": "Dodgers",
+     "dateOnly": true,
+     "home": "Brewers",
+     "label": "NLCS G1",
+     "t": "2026-10-11T12:00:00Z"
+    },
+    {
+     "away": "Dodgers",
+     "dateOnly": true,
+     "home": "Brewers",
+     "label": "NLCS G2",
+     "t": "2026-10-12T12:00:00Z"
     }
    ],
-   "updatedAt": "2026-10-08T15:05:00Z"
+   "updatedAt": "2026-10-08T18:30:00Z"
   },
   "mls": {
    "country": "usa",
@@ -1355,6 +1432,12 @@
    ],
    "upcoming": [
     {
+     "away": "CF Montréal",
+     "home": "Toronto",
+     "label": "Canadian Classique",
+     "t": "2026-10-10T17:00:00Z"
+    },
+    {
      "away": "NYCFC",
      "home": "Chicago Fire",
      "t": "2026-10-10T18:30:00Z"
@@ -1375,7 +1458,7 @@
      "t": "2026-10-11T00:30:00Z"
     }
    ],
-   "updatedAt": "2026-10-08T15:10:00Z"
+   "updatedAt": "2026-10-08T18:28:57Z"
   },
   "nba": {
    "group": "nba",
@@ -1388,7 +1471,7 @@
      "away": "Celtics",
      "home": "Pistons",
      "label": "Opening night",
-     "t": "2026-10-20T23:00:00Z"
+     "t": "2026-10-20T19:00:00Z"
     },
     {
      "away": "76ers",
@@ -1408,7 +1491,7 @@
      "t": "2026-10-22T02:00:00Z"
     }
    ],
-   "updatedAt": "2026-10-08T15:05:00Z"
+   "updatedAt": "2026-10-08T18:30:00Z"
   },
   "nfl": {
    "group": "nfl",
@@ -1463,16 +1546,6 @@
    ],
    "table": [
     {
-     "note": "AFC West",
-     "rec": "4-0",
-     "team": "Chiefs"
-    },
-    {
-     "note": "AFC South",
-     "rec": "3-1",
-     "team": "Jaguars"
-    },
-    {
      "note": "AFC East",
      "rec": "3-1",
      "team": "Bills"
@@ -1483,14 +1556,14 @@
      "team": "Browns"
     },
     {
-     "note": "NFC North",
-     "rec": "4-0",
-     "team": "Vikings"
+     "note": "AFC South",
+     "rec": "3-1",
+     "team": "Jaguars"
     },
     {
-     "note": "NFC West",
+     "note": "AFC West",
      "rec": "4-0",
-     "team": "49ers"
+     "team": "Chiefs"
     },
     {
      "note": "NFC East",
@@ -1498,9 +1571,19 @@
      "team": "Giants"
     },
     {
+     "note": "NFC North",
+     "rec": "4-0",
+     "team": "Vikings"
+    },
+    {
      "note": "NFC South",
      "rec": "2-2",
      "team": "Panthers"
+    },
+    {
+     "note": "NFC West",
+     "rec": "4-0",
+     "team": "49ers"
     }
    ],
    "upcoming": [
@@ -1511,9 +1594,10 @@
      "t": "2026-10-09T00:15:00Z"
     },
     {
-     "away": "Bears",
-     "home": "Packers",
-     "t": "2026-10-11T17:00:00Z"
+     "away": "Eagles",
+     "home": "Jaguars",
+     "label": "International Series",
+     "t": "2026-10-11T13:30:00Z"
     },
     {
      "away": "49ers",
@@ -1533,7 +1617,7 @@
      "t": "2026-10-13T00:15:00Z"
     }
    ],
-   "updatedAt": "2026-10-08T15:05:00Z"
+   "updatedAt": "2026-10-08T18:30:00Z"
   },
   "ucl": {
    "country": "eur",
@@ -1645,54 +1729,54 @@
      "t": "2026-10-13T19:00:00Z"
     },
     {
-     "away": "Club Brugge",
-     "home": "Inter",
-     "t": "2026-10-13T19:00:00Z"
+     "away": "PSG",
+     "home": "Man City",
+     "t": "2026-10-14T19:00:00Z"
+    },
+    {
+     "away": "Real Madrid",
+     "home": "Roma",
+     "t": "2026-10-14T19:00:00Z"
     }
    ],
-   "updatedAt": "2026-10-08T17:15:00Z"
+   "updatedAt": "2026-10-08T18:28:57Z"
   },
   "uecl": {
    "country": "eur",
    "group": "soccer",
    "name": "Conference League",
-   "note": "The league-phase table appears once the first matchday is played on Oct 15.",
+   "note": "The league phase starts on Oct 15, and the table will appear once the first matchday is played.",
    "order": 3,
    "phase": "League phase starts Oct 15",
    "results": [],
    "upcoming": [
     {
-     "away": "Kauno Žalgiris",
-     "dateOnly": true,
-     "home": "Brighton",
-     "t": "2026-10-15T12:00:00Z"
-    },
-    {
      "away": "Getafe",
-     "dateOnly": true,
      "home": "Univ. Craiova",
-     "t": "2026-10-15T12:00:00Z"
-    },
-    {
-     "away": "Jablonec",
-     "dateOnly": true,
-     "home": "Freiburg",
-     "t": "2026-10-15T12:00:00Z"
+     "t": "2026-10-15T16:45:00Z"
     },
     {
      "away": "Monaco",
-     "dateOnly": true,
      "home": "CSKA Sofia",
-     "t": "2026-10-15T12:00:00Z"
+     "t": "2026-10-15T16:45:00Z"
     },
     {
-     "away": "Freiburg",
-     "dateOnly": true,
-     "home": "Monaco",
-     "t": "2026-10-22T12:00:00Z"
+     "away": "Kauno Žalgiris",
+     "home": "Brighton",
+     "t": "2026-10-15T19:00:00Z"
+    },
+    {
+     "away": "Jablonec",
+     "home": "Freiburg",
+     "t": "2026-10-15T19:00:00Z"
+    },
+    {
+     "away": "Pafos",
+     "home": "Atalanta",
+     "t": "2026-10-15T19:00:00Z"
     }
    ],
-   "updatedAt": "2026-10-08T17:15:00Z"
+   "updatedAt": "2026-10-08T18:27:56Z"
   },
   "uel": {
    "country": "eur",
@@ -1703,14 +1787,6 @@
    "results": [
     {
      "as": 2,
-     "away": "Benfica",
-     "dateOnly": true,
-     "home": "Milan",
-     "hs": 0,
-     "t": "2026-09-16T12:00:00Z"
-    },
-    {
-     "as": 2,
      "away": "Bournemouth",
      "dateOnly": true,
      "home": "Real Sociedad",
@@ -1718,11 +1794,11 @@
      "t": "2026-09-17T12:00:00Z"
     },
     {
-     "as": 0,
-     "away": "NEC Nijmegen",
+     "as": 2,
+     "away": "Torreense",
      "dateOnly": true,
-     "home": "Juventus",
-     "hs": 5,
+     "home": "Lillestrøm",
+     "hs": 1,
      "t": "2026-09-17T12:00:00Z"
     },
     {
@@ -1740,6 +1816,22 @@
      "home": "Beşiktaş",
      "hs": 4,
      "t": "2026-09-17T12:00:00Z"
+    },
+    {
+     "as": 0,
+     "away": "AZ Alkmaar",
+     "dateOnly": true,
+     "home": "Sunderland",
+     "hs": 1,
+     "t": "2026-09-16T12:00:00Z"
+    },
+    {
+     "as": 2,
+     "away": "Benfica",
+     "dateOnly": true,
+     "home": "Milan",
+     "hs": 0,
+     "t": "2026-09-16T12:00:00Z"
     }
    ],
    "table": [
@@ -1804,6 +1896,11 @@
      "t": "2026-10-15T16:45:00Z"
     },
     {
+     "away": "Sunderland",
+     "home": "Torreense",
+     "t": "2026-10-15T16:45:00Z"
+    },
+    {
      "away": "Juventus",
      "home": "Celta",
      "t": "2026-10-15T19:00:00Z"
@@ -1812,66 +1909,78 @@
      "away": "Celtic",
      "home": "Benfica",
      "t": "2026-10-15T19:00:00Z"
-    },
-    {
-     "away": "Sunderland",
-     "home": "Torreense",
-     "t": "2026-10-15T16:45:00Z"
     }
    ],
-   "updatedAt": "2026-10-08T17:15:00Z"
+   "updatedAt": "2026-10-08T18:27:56Z"
   }
  },
  "sportsnews": {
   "home": {
-   "overview": "Baseball's final four is nearly set. The Dodgers closed out the Braves and will meet the Brewers in the NLCS, which eliminated the Padres, while the Rays swept the Yankees and await the winner of tonight's Game 4 between the White Sox (up 2–1) and Guardians. In the NFL, Thursday night features the winless Buccaneers at Dallas, with rookie QB Jalon Daniels starting for Tampa. The Chiefs, 49ers and Vikings are still unbeaten at 4–0, while Lamar Jackson and Ja'Marr Chase are uncertain for Sunday. The NBA season tips off Oct. 20, with Giannis Antetokounmpo starting his first year in Miami.\n\nClub soccer returns this weekend after the international break, headlined by Liverpool vs. Man City on Sunday, with City perfect at 5–0 despite being found guilty on 114 Premier League charges, which the club is appealing. Barcelona are 7–0 in La Liga, and Dortmund lead the Bundesliga. In the break, England beat Croatia 7–0, the USA edged Canada 1–0 and South Korea beat Uzbekistan 2–0. In K League 1, FC Seoul lead by 15 points and host third-place Jeju on Saturday. The Champions League resumes Oct. 13–14.",
-   "updatedAt": "2026-10-08T16:30:00Z"
+   "overview": "The White Sox can clinch a trip to the ALCS tonight, leading Cleveland 2–1 in their ALDS with Game 4 in Chicago after the Guardians stayed alive with a 9–3 win; the winner meets Tampa Bay, which swept the Yankees. The NLCS is set: the Dodgers closed out Atlanta 4–1 and the Brewers ousted San Diego 3–1, with Game 1 in Milwaukee on Sunday. In the NFL, the winless Buccaneers visit Dallas on Thursday night with rookie Jalon Daniels at quarterback, and Sunday opens with Eagles vs. Jaguars in London. The Chiefs, 49ers and Vikings remain unbeaten, while Lamar Jackson and Ja'Marr Chase are uncertain. The NBA tips off Oct. 20 with Celtics at Pistons.\n\nClub soccer returns this weekend, led by Liverpool vs. Man City on Sunday, with City perfect at 5–0 atop the Premier League. Barcelona are 7–0 in La Liga and Dortmund lead the Bundesliga. During the break, England beat Croatia 7–0, the USA edged Canada 1–0 and South Korea beat Uzbekistan 2–0, while Lionel Messi played his last game for Argentina. The Champions League resumes Oct. 13–14 with Man City vs. PSG. In K League 1, FC Seoul lead by 15 points and host Jeju SK on Saturday.",
+   "updatedAt": "2026-10-08T18:34:44Z"
   },
   "mlb": {
    "brief": [
-    "NLCS set: the Dodgers face the Brewers starting around Oct 11. LA beat Atlanta 4–1 in Game 4 to close out the series.",
-    "Milwaukee eliminated San Diego with a 3–1 win in Game 4 at Petco Park.",
-    "The Rays swept the Yankees, taking Game 3 4–3 in the Bronx. Aaron Boone's team is out.",
-    "White Sox vs. Guardians Game 4 is tonight in Chicago. Cleveland stayed alive with a 9–3 win, and the winner meets Tampa Bay in the ALCS.",
-    "Freddie Freeman and Enrique Hernández homered and Yoshinobu Yamamoto pitched well as the Dodgers won Game 3."
+    "Tonight: Guardians at White Sox in ALDS Game 4 (8 p.m. ET, TBS). Chicago leads 2–1, and the winner meets Tampa Bay in the ALCS starting Monday, Oct. 12.",
+    "Cleveland stayed alive with a 9–3 Game 3 win. José Ramírez went 2-for-4 with a double, a triple and two RBI.",
+    "The Dodgers closed out Atlanta 4–1 in NLDS Game 4. Andy Pages broke it open with a bases-loaded, two-run single in the seventh.",
+    "Milwaukee eliminated San Diego 3–1 in Game 4. Garrett Mitchell had a triple and an RBI single, and he robbed Manny Machado of a potential game-tying homer.",
+    "The Rays swept the Yankees, taking Game 3 4–3 in the Bronx behind Victor Mesa Jr.'s two-run homer off Max Fried.",
+    "The NLCS (Dodgers vs. Brewers) opens Sunday, Oct. 11, in Milwaukee. Start times haven't been announced."
    ],
    "headlines": [
+    {
+     "source": "Yahoo Sports",
+     "title": "Dodgers beat Braves to advance in MLB playoffs, Rays oust Yankees",
+     "url": "https://sports.yahoo.com/articles/dodgers-beat-braves-advance-guardians-015356353.html"
+    },
     {
      "source": "CBS Sports",
      "title": "2026 MLB playoff bracket: schedule, scores, where to watch",
      "url": "https://www.cbssports.com/mlb/news/2026-mlb-playoff-bracket-schedule-scores-results-how-to-watch/"
     },
     {
-     "source": "CBS Sports",
-     "title": "NLDS Game 3 winners and losers: Dodgers slug their way to series lead",
-     "url": "https://www.cbssports.com/mlb/news/nlds-game-3-winners-losers-dodgers-braves-brewers-padres/"
+     "source": "Yahoo Sports",
+     "title": "When do the Brewers play the Dodgers? NLCS schedule, Game 1",
+     "url": "https://sports.yahoo.com/articles/brewers-play-dodgers-nlcs-schedule-061749925.html"
+    },
+    {
+     "source": "Yahoo Sports",
+     "title": "Yankees' Aaron Judge admits calf felt 'great' but not enough to play Game 3 vs. Rays",
+     "url": "https://sports.yahoo.com/articles/yankees-aaron-judge-admits-calf-060542169.html"
     },
     {
      "source": "CBS Sports",
-     "title": "Season on the brink: what the Yankees had to do vs. Rays",
-     "url": "https://www.cbssports.com/mlb/news/yankees-rays-alds-game-3-aaron-boone-mlb-playoffs/"
+     "title": "NLDS Game 3 winners and losers: Dodgers slug their way to series lead",
+     "url": "https://www.cbssports.com/mlb/news/nlds-game-3-winners-losers-dodgers-braves-brewers-padres/"
     }
    ],
-   "updatedAt": "2026-10-08T15:05:00Z"
+   "updatedAt": "2026-10-08T18:30:00Z"
   },
   "nba": {
    "brief": [
-    "The regular season opens Oct 20 with Celtics at Pistons, 76ers at Knicks and Thunder at Spurs.",
-    "Giannis Antetokounmpo is preparing for his first season with the Miami Heat and says the team's culture \"gives me goosebumps.\"",
-    "The 76ers lost backup center Ariel Hukporti to a torn Achilles, which puts more weight on Joel Embiid.",
-    "The Knicks and Karl-Anthony Towns remain stuck in contract talks.",
-    "Broadcaster Mike Breen apologized after LeBron James disputed a story that James had called out Embiid at practice."
+    "The season opens Oct. 20 on NBC: Celtics at Pistons (3 p.m. ET), 76ers at Knicks (7 p.m.) and Thunder at Spurs (9:30 p.m.).",
+    "Kyrie Irving is set to end a 19-month absence in one of the Mavericks' Macau preseason games against Houston. He revealed that a calf strain added about eight weeks to his ACL rehab.",
+    "Knicks broadcaster Mike Breen apologized after LeBron James denied a story that he had scolded Joel Embiid for being late to practice.",
+    "The 76ers lost backup center Ariel Hukporti to a torn Achilles.",
+    "Karl-Anthony Towns says extension talks with the Knicks \"don't look good.\"",
+    "Giannis Antetokounmpo is preparing for his first season with the Heat and says the team's culture \"gives me goosebumps.\""
    ],
    "headlines": [
     {
      "source": "CBS Sports",
-     "title": "Eight pressing NBA questions for 2026-27: will the Knicks repeat?",
-     "url": "https://www.cbssports.com/nba/news/pressing-nba-questions-2026-27-season-knicks-repeat-76ers-break-through/"
+     "title": "Mike Breen apologizes after LeBron James refutes story about Joel Embiid",
+     "url": "https://www.cbssports.com/nba/news/mike-breen-apologizes-lebron-james-joel-embiid-76ers-knicks/"
+    },
+    {
+     "source": "Yahoo Sports",
+     "title": "Kyrie Irving reveals extra injury setback before ending 19-month absence",
+     "url": "https://sports.yahoo.com/articles/kyrie-irving-reveals-extra-injury-060327939.html"
     },
     {
      "source": "CBS Sports",
-     "title": "Giannis leaning into 'Heat Culture' ahead of first season in Miami",
-     "url": "https://www.cbssports.com/nba/news/giannis-antetokounmpo-miami-heat-culture-bucks-nba/"
+     "title": "Eight pressing NBA questions for 2026-27: Will Knicks repeat?",
+     "url": "https://www.cbssports.com/nba/news/pressing-nba-questions-2026-27-season-knicks-repeat-76ers-break-through/"
     },
     {
      "source": "CBS Sports",
@@ -1879,87 +1988,102 @@
      "url": "https://www.cbssports.com/nba/news/ariel-hukporti-injury-update-philadelphia-76ers-joel-embiid/"
     },
     {
-     "source": "CBS Sports",
-     "title": "NBA head coach rankings entering 2026-27",
-     "url": "https://www.cbssports.com/nba/news/nba-head-coach-rankings-2026-27-season/"
+     "source": "Yahoo Sports",
+     "title": "Jaden Hardy: Luka Doncic has taken his leadership to another level",
+     "url": "https://sports.yahoo.com/articles/jaden-hardy-luka-doncic-taken-060039665.html"
     }
    ],
-   "updatedAt": "2026-10-08T15:05:00Z"
+   "updatedAt": "2026-10-08T18:30:00Z"
   },
   "nfl": {
    "brief": [
-    "Tonight: the winless Buccaneers (0–4) visit Dallas, with rookie QB Jalon Daniels starting for Tampa against CeeDee Lamb and the Cowboys.",
+    "Tonight on TNF: the winless Buccaneers (0–4) visit the Cowboys (2–2), with rookie QB Jalon Daniels starting for Tampa.",
+    "Sunday opens with Eagles vs. Jaguars in London (9:30 a.m. ET). The Chiefs and Panthers are on bye.",
     "Still unbeaten: Chiefs, 49ers and Vikings (4–0). Still winless: Bucs, Chargers, Dolphins, Texans and Titans.",
-    "Injury watch: Lamar Jackson and Ja'Marr Chase are uncertain for Sunday. Jayden Daniels practiced fully and may return for Washington.",
-    "Texans head coach DeMeco Ryans is taking over defensive play-calling after an 0–4 start.",
-    "The Eagles are dismantling their offensive line and stockpiling picks, and many now see it as a full rebuild.",
-    "Last week: the Falcons routed the Saints 45–24 on Monday night, and the Panthers upset the Lions 32–26 on Sunday night."
+    "Philadelphia's teardown continues: the Eagles traded center Cam Jurgens to the Ravens for two draft picks after Lane Johnson retired.",
+    "Injury watch: Lamar Jackson and Ja'Marr Chase are uncertain for Sunday. Jayden Daniels logged a full practice.",
+    "The Vikings signed Odell Beckham Jr. after the Giants released him."
    ],
    "headlines": [
     {
      "source": "CBS Sports",
-     "title": "Cowboys vs. Buccaneers preview: can Tampa slow down CeeDee Lamb?",
+     "title": "Cowboys vs. Buccaneers preview: Can Tampa Bay slow down CeeDee Lamb?",
      "url": "https://www.cbssports.com/nfl/news/cowboys-vs-buccaneers-prediction-where-to-watch-tnf/"
     },
     {
      "source": "CBS Sports",
-     "title": "Injury report: Lamar Jackson, Ja'Marr Chase among stars uncertain",
+     "title": "Week 5 injury report: Lamar Jackson, Ja'Marr Chase among stars uncertain",
      "url": "https://www.cbssports.com/nfl/news/nfl-week-5-injury-report-lamar-jackson-jamarr-chase/"
     },
     {
      "source": "CBS Sports",
-     "title": "Are the Eagles tanking? Why Philadelphia's teardown looks like a rebuild",
-     "url": "https://www.cbssports.com/nfl/news/eagles-cam-jurgens-trade-lane-johnson-retirement-2026/"
+     "title": "Cam Jurgens trade grades: Eagles send Pro Bowl center to the Ravens",
+     "url": "https://www.cbssports.com/nfl/news/cam-jurgens-trade-eagles-ravens-nfl-draft-picks/"
     },
     {
-     "source": "CBS Sports",
-     "title": "DeMeco Ryans takes over Texans' defensive play-calling",
-     "url": "https://www.cbssports.com/nfl/news/texans-demeco-ryans-defensive-play-calling-duties-matt-burke/"
+     "source": "Yahoo Sports",
+     "title": "Cowboys looking to capitalize against a Baker-less Bucs team",
+     "url": "https://sports.yahoo.com/articles/cowboys-looking-capitalize-against-baker-010000803.html"
     },
     {
-     "source": "CBS Sports",
-     "title": "Upset alert: five favorites that could lose this week",
-     "url": "https://www.cbssports.com/nfl/news/nfl-week-5-upset-alert-why-five-favorites-could-lose-patriots/"
+     "source": "Yahoo Sports",
+     "title": "What Andy Reid told Kenneth Walker III and how it's lifting KC",
+     "url": "https://sports.yahoo.com/nfl/article/what-andy-reid-told-chiefs-rb-kenneth-walker-iii-that-meant-a-lot-to-me-and-how-its-lifting-kc-030910708.html"
     }
    ],
-   "updatedAt": "2026-10-08T15:05:00Z"
+   "updatedAt": "2026-10-08T18:30:00Z"
   },
   "soccer": {
    "brief": [
-    "Club football returns this weekend after the international break. The headline match is Liverpool vs. Man City on Sunday.",
-    "Man City lead the Premier League with five wins from five, even after a commission found the club guilty on 114 charges. City are appealing.",
-    "Barcelona have won all seven La Liga games. Real Madrid sit 4th after losing the derby 2–1 to Atlético. Dortmund lead the Bundesliga at 4–0.",
-    "European nights resume next week: Champions League on Oct 13–14, then Europa League Matchday 2 and the Conference League opener on Oct 15.",
-    "National teams: England beat Croatia 7–0 and Czechia 3–0 in the Nations League. The USA beat Canada 1–0 on Justin Ellis's winner, and South Korea beat Uzbekistan 2–0.",
-    "MLS: Nashville lead the league with 60 points, 10 clear of Vancouver, as the regular season winds down.",
-    "K League 1: FC Seoul lead by 15 points and host 3rd-place Jeju on Saturday. In K League 2, Suwon Samsung top the promotion race."
+    "Club football returns this weekend after the international break, headlined by Liverpool vs. Man City at Anfield on Sunday.",
+    "Man City lead the Premier League with five wins from five, three points clear of Arsenal, while the club appeals a commission's guilty verdict on 114 charges.",
+    "Barcelona (7–0) host Getafe and Real Madrid host Villarreal on Saturday in La Liga; Bundesliga leaders Dortmund open the weekend against Werder Bremen on Friday.",
+    "European nights resume next week: Champions League matchday 2 on Oct 13–14, including Man City vs. PSG, then the Europa League and the Conference League opener on Oct 15.",
+    "National teams: England beat Croatia 7–0 and Czechia 3–0, the USA beat Canada 1–0 for a fourth straight win, Lionel Messi played his final game for Argentina, and Cristiano Ronaldo left Portugal's camp after being benched.",
+    "K League 1: FC Seoul lead by 15 points with three rounds left before the split and host third-place Jeju SK on Saturday; K League 2 resumes Friday with Suwon Samsung on top.",
+    "MLS: Nashville lead the league with 60 points, 10 clear of Vancouver, as the regular season winds down."
    ],
    "headlines": [
     {
      "source": "CBS Sports",
-     "title": "Mikel Arteta signs Arsenal extension to 2030",
+     "title": "Mikel Arteta signs Arsenal extension to 2030, making him highest-paid Premier League manager",
      "url": "https://www.cbssports.com/soccer/news/mikel-arteta-arsenal-extension-2030-highest-paid-premier-league-manager/"
     },
     {
      "source": "CBS Sports",
-     "title": "Manchester City confirm appeal against commission's verdict on rule violations",
-     "url": "https://www.cbssports.com/soccer/news/manchester-city-appeal-premier-leagues-verdict-financial-rule-violations/"
+     "title": "Cristiano Ronaldo Portugal crisis: timeline as 41-year-old star gets benched and leaves team",
+     "url": "https://www.cbssports.com/soccer/news/cristiano-ronaldo-portugal-crisis-timeline-benched-leaves-team/"
     },
     {
-     "source": "CBS Sports",
-     "title": "Commission finds Manchester City guilty on 114 charges",
-     "url": "https://www.cbssports.com/soccer/news/manchester-city-premier-league-commission-guilty-114-charges/"
+     "source": "GOAL",
+     "title": "Palmer set to return for Bournemouth clash after Tuchel warning",
+     "url": "https://www.goal.com/en-us/lists/cole-palmer-injury-update-chelsea-bournemouth-thomas-tuchel/blt9590a5126659ab26"
     },
     {
-     "source": "CBS Sports",
-     "title": "Southampton coach Tonda Eckert gets suspended six-week ban after Spygate",
-     "url": "https://www.cbssports.com/soccer/news/southampton-coach-tonda-eckert-suspended-six-week-ban-spygate-scandal/"
+     "source": "GOAL",
+     "title": "Dortmund CEO confirms Kovac close to new contract",
+     "url": "https://www.goal.com/en-us/lists/dortmund-ceo-confirms-niko-kovac-contract-extension-new-long-term-deal/blta8245c8321f3d878"
+    },
+    {
+     "source": "Yahoo Sports",
+     "title": "Joshua Zirkzee: Willem van Hanegem delivers surprise verdict on Man United star",
+     "url": "https://sports.yahoo.com/articles/joshua-zirkzee-willem-van-hanegem-060500354.html"
     }
    ],
-   "updatedAt": "2026-10-08T15:20:00Z"
+   "updatedAt": "2026-10-08T18:34:44Z"
   }
  },
  "articles": [
+  {
+   "id": "nation-63b1d90ec56b",
+   "added": "2026-10-08T18:31:35Z",
+   "author": "Victoria Law",
+   "published": "2026-10-08T14:53:57Z",
+   "source": "nation",
+   "summary": "An interview with Harriet Clark about her first novel, having a mother in prison, and the role artists play in documenting atrocities.",
+   "title": "“The Best Possible Version of a Tragedy”: Harriet Clark on Her Debut Novel",
+   "url": "https://www.thenation.com/article/society/harriet-clark-debut-novel/"
+  },
   {
    "id": "time-9fa20da6307d",
    "added": "2026-10-08T14:45:00Z",
@@ -1977,6 +2101,16 @@
    "summary": "Kansas's Senate race has tightened between Roger Marshall and Democrat Adam Hamilton.",
    "title": "Kansas Has Emerged as a Senate Battleground State. Here's Why It Matters",
    "url": "https://time.com/article/2026/10/07/why-kansas-has-emerged-as-a-new-battleground-state-and-why-it-matters/"
+  },
+  {
+   "id": "nation-8afe938c4099",
+   "added": "2026-10-08T18:31:35Z",
+   "author": "Peter Kuper",
+   "published": "2026-10-08T12:30:34Z",
+   "source": "nation",
+   "summary": "A cartoon about Justice Clarence Thomas that presents him as a symbol of corruption.",
+   "title": "Harlan Crow’s Portrait of SCOTUS Under Trump",
+   "url": "https://www.thenation.com/article/politics/harlan-crows-portrait-of-scotus-under-trump/"
   },
   {
    "id": "npr-f5b4199af589",
