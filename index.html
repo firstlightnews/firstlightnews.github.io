@@ -152,7 +152,7 @@ footer{font-size:11px;color:#fff;padding-top:12px;text-align:center;display:flex
     <div id="sportBody"><div class="empty"><b>Scores and storylines appear here.</b><br>Soccer by country (plus European cups and national teams), MLB, NFL and NBA.</div></div>
   </section>
 
-  <footer><span>&copy; 2026 First Light News &middot; Updated daily at 7:45 AM ET</span><span class="badge">BEST VIEWED AT 800×600</span></footer>
+  <footer><span>&copy; 2026 First Light News &middot; Baltimore, MD &middot; Updated daily at 7:45 AM ET</span><span class="badge">BEST VIEWED AT 800×600</span></footer>
 </div>
 
 <script>
@@ -174,7 +174,7 @@ showTab(tab);
 let weather=null;
 function renderWeather(){
   const w=$("weather"); if(!weather?.cities?.length){ w.replaceChildren(); return; }
-  w.replaceChildren(...weather.cities.map(c=>el("span",{},el("b",{},(c.name==="Baltimore"?"Baltimore, Maryland":c.name)+": "),`High ${c.hi}°F / Low ${c.lo}°F`,c.cond?el("span",{className:"muted"}," · "+c.cond+(c.rain!=null&&c.rain>=20?`, ${c.rain}% rain`:"")):null)));
+  w.replaceChildren(...weather.cities.map(c=>el("span",{},el("b",{},(c.name==="Baltimore"?"Baltimore, MD":c.name)+": "),`High ${c.hi}°F / Low ${c.lo}°F`,c.cond?el("span",{className:"muted"}," · "+c.cond+(c.rain!=null&&c.rain>=20?`, ${c.rain}% rain`:"")):null)));
 }
 
 /* ---------- briefing ---------- */
