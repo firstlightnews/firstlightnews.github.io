@@ -30,9 +30,7 @@ h1{font-family:var(--f-display);font-style:italic;font-weight:bold;font-size:cla
 .weather{display:inline-flex;flex-wrap:wrap;gap:4px 12px;font-size:12px;background:#fff;border:2px inset var(--btn);padding:3px 8px;align-self:flex-start}
 .weather b{color:var(--bar)}
 .ticker{background:#000;color:#ffff66;font-family:var(--f-mono);font-size:12px;white-space:nowrap;overflow:hidden;border:2px solid #000;border-top:0;border-bottom:0}
-.ticker span{display:inline-block;padding:4px 0 4px 100%;-webkit-animation:tick 60s linear infinite;animation:tick 60s linear infinite;will-change:transform}
-@-webkit-keyframes tick{to{-webkit-transform:translateX(-100%);transform:translateX(-100%)}}@keyframes tick{to{-webkit-transform:translateX(-100%);transform:translateX(-100%)}}
-@media (prefers-reduced-motion:reduce){.ticker span{-webkit-animation-duration:120s;animation-duration:120s}}
+.ticker span{display:inline-block;padding:4px 0;will-change:transform;-webkit-transform:translate3d(100vw,0,0);transform:translate3d(100vw,0,0)}
 /* folder tabs */
 .tabs{display:flex;gap:4px;background:var(--sheet);border-left:2px solid #000;border-right:2px solid #000;padding:8px 10px 0;border-bottom:3px solid var(--bar);overflow-x:auto}
 .tab{font:bold 13px var(--f-body);background:var(--tab);color:#000;border:1px solid #7a7350;border-bottom:0;border-radius:8px 8px 0 0;padding:6px 14px;cursor:pointer;white-space:nowrap}
@@ -330,6 +328,12 @@ window.addEventListener("pagehide",()=>store("rd-lastvisit",new Date().toISOStri
     EMPTY.innerHTML=m; $("stories").firstElementChild.innerHTML=m;
   }
 })();
+
+/* ---------- ticker (JS-driven so it runs on iPhone/iPad Safari) ---------- */
+(function(){const el=document.getElementById("ticker"); if(!el) return; const box=el.parentElement; const speed=110; let x=box.clientWidth, last=null;
+ function step(t){ if(last!==null){ x-=speed*Math.min(t-last,100)/1000; if(x< -el.offsetWidth) x=box.clientWidth; } last=t;
+  el.style.webkitTransform=el.style.transform="translate3d("+x.toFixed(1)+"px,0,0)"; requestAnimationFrame(step); }
+ requestAnimationFrame(step);})();
 </script>
 
 </body>
