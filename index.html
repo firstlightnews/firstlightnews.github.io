@@ -174,7 +174,7 @@ showTab(tab);
 let weather=null;
 function renderWeather(){
   const w=$("weather"); if(!weather?.cities?.length){ w.replaceChildren(); return; }
-  w.replaceChildren(...weather.cities.map(c=>el("span",{},el("b",{},c.name+": "),`High ${c.hi}°F / Low ${c.lo}°F`,c.cond?el("span",{className:"muted"}," · "+c.cond+(c.rain!=null&&c.rain>=20?`, ${c.rain}% rain`:"")):null)));
+  w.replaceChildren(...weather.cities.map(c=>el("span",{},el("b",{},(c.name==="Baltimore"?"Baltimore, Maryland":c.name)+": "),`High ${c.hi}°F / Low ${c.lo}°F`,c.cond?el("span",{className:"muted"}," · "+c.cond+(c.rain!=null&&c.rain>=20?`, ${c.rain}% rain`:"")):null)));
 }
 
 /* ---------- briefing ---------- */
