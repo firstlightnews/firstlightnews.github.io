@@ -196,7 +196,7 @@ function renderBriefing(){
   if(digest.overview){ const paras=String(digest.overview).split(/\n\n+/); ov.replaceChildren(el("h3",{},"The day in brief"),...paras.map(t=>el("p",{},t))); ov.hidden=false; } else ov.hidden=true;
   const d=new Date(digest.date+"T12:00:00"); $("briefDate").textContent = isNaN(d)?"":d.toLocaleDateString(undefined,{weekday:"short",month:"short",day:"numeric"});
   $("stories").replaceChildren(...digest.items.map((it,i)=>{
-    const src=el("div",{className:"srcs"}); for(const s of (it.sources||[])) src.append(el("a",{href:s.url,target:"_blank",rel:"noopener"},s.name+" \u2192"));
+    const src=el("div",{className:"srcs"}); for(const s of (it.sources||[])) src.append(el("a",{href:s.url,target:"_blank",rel:"noopener"},s.name));
     return el("div",{className:"story"},el("span",{className:"rk"},String(i+1)),el("div",{},el("h4",{},it.sources?.[0]?el("a",{href:it.sources[0].url,target:"_blank",rel:"noopener"},it.headline):it.headline),el("p",{},it.summary),src));
   }));
 }
@@ -299,7 +299,7 @@ function renderReading(){
   const box=$("sources"); box.replaceChildren();
   for(const[k,s] of Object.entries(SOURCES)){
     const st=status?.sources?.[k]; const d=el("span",{className:"dot"}); d.style.setProperty("--c",`var(${s.c})`);
-    let t="Not checked yet", warn=false; if(s.linkOnly) t="Open site \u2192"; else if(st){ if(st.ok===false){t="Last check failed";warn=true;} else { const n=articles.filter(a=>a.source===k&&Date.now()-Date.parse(a.published)<864e5).length; t = n>0?`${n} new today`:"Nothing new today"; } }
+    let t="Not checked yet", warn=false; if(s.linkOnly) t="Open site"; else if(st){ if(st.ok===false){t="Last check failed";warn=true;} else { const n=articles.filter(a=>a.source===k&&Date.now()-Date.parse(a.published)<864e5).length; t = n>0?`${n} new today`:"Nothing new today"; } }
     box.append(el("div",{className:"src"},el("a",{href:s.home,target:"_blank",rel:"noopener",className:"name"},d,s.name),el("span",{className:"stat"+(warn?" warn":"")},t)));
   }
   const feed=$("feed"); const list=articles.filter(a=>SOURCES[a.source]&&(filter==="all"||a.source===filter));
