@@ -342,7 +342,7 @@ window.addEventListener("pagehide",()=>store("rd-lastvisit",new Date().toISOStri
 })();
 
 /* ---------- ticker (JS-driven so it runs on iPhone/iPad Safari) ---------- */
-(function(){const el=document.getElementById("ticker"); if(!el) return; const box=el.parentElement; const speed=110; let x=box.clientWidth, last=null;
+(function(){const el=document.getElementById("ticker"); if(!el) return; const box=el.parentElement; const speed=70; let x=box.clientWidth, last=null;
  function step(t){ if(last!==null){ x-=speed*Math.min(t-last,100)/1000; if(x< -el.offsetWidth) x=box.clientWidth; } last=t;
   el.style.webkitTransform=el.style.transform="translate3d("+x.toFixed(1)+"px,0,0)"; requestAnimationFrame(step); }
  requestAnimationFrame(step);})();
