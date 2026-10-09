@@ -405,6 +405,12 @@ html.modern .brief li::before{content:"\2013\00A0";}
 /* masthead always one line */
 html.modern header h1{white-space:nowrap;font-size:clamp(28px,6.3vw,70px)}
 @media (max-width:700px){html.modern header h1{font-size:9.6vw;padding-right:0;text-align:center}html.modern .dateline::after{content:none}}
+/* top stories heading + phone fixes */
+html.modern #stories::before{content:"Top Stories";column-span:all;display:block;font:bold 13px Georgia,serif;letter-spacing:.14em;text-transform:uppercase;text-align:center;color:#121212;padding:0 0 14px}
+@media (max-width:700px){
+ html.modern #sportBody > .box:not(:has(.grid2)),html.modern #sportBody > .box,html.modern #stories,html.modern .heads,html.modern .brief ul,html.modern .overview{column-count:1!important}
+ html.modern .score{font-size:15px}
+}
 /* ===== edition toggle ===== */
 .uitoggle{all:unset;box-sizing:border-box;cursor:pointer;position:absolute;top:14px;right:14px;z-index:2}
 .uitoggle:focus-visible{outline:2px dotted #000;outline-offset:3px}
@@ -569,7 +575,7 @@ function renderSports(){
     const now=Date.now(), horizon=now+48*3600e3, rows=[];
     for(const[k,L] of Object.entries(leagues)) for(const g of (L.upcoming||[])){ const t=Date.parse(g.t); if(!isNaN(t)&&t>=now-3*3600e3&&t<=horizon&&!g.dateOnly) rows.push({...g,league:L.name,_t:t}); }
     rows.sort((a,b)=>a._t-b._t);
-    if(rows.length) parts.push(el("div",{className:"box"},el("h3",{},"Coming up in the next 48 hours"),...rows.slice(0,14).map(scoreRow)));
+    if(rows.length) parts.push(el("div",{className:"box"},el("h3",{},"Coming up"),...rows.slice(0,14).map(scoreRow)));
   } else if(sport==="soccer"){
     const ls=Object.entries(leagues).filter(([k,v])=>v.group==="soccer");
     const present=COUNTRIES.filter(c=>ls.some(([k,v])=>v.country===c.k));
