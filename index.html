@@ -564,10 +564,12 @@ function scoreRow(g){
 }
 function tableEl(rows,soccer){
   if(!rows?.length) return null;
-  const head = soccer ? ["#","Team","W","D","L","Pts"] : ["","Team","Record"];
+  const head = soccer ? ["#","Team","GP","W","D","L","GD","Pts"] : ["","Team","Record"];
+  const gp=r=>r.gp??((+r.w||0)+(+r.d||0)+(+r.l||0));
+  const gd=r=>r.gd==null?"–":(r.gd>0?"+"+r.gd:r.gd<0?"−"+Math.abs(r.gd):"0");
   const t=el("table",{},el("thead",{},el("tr",{},...head.map(h=>el("th",{},h)))));
   const tb=el("tbody");
-  for(const r of rows) tb.append(el("tr",{},...(soccer?[r.pos,r.team,r.w,r.d,r.l,r.pts]:[r.note||"",r.team,r.rec]).map(v=>el("td",{},String(v??"")))));
+  for(const r of rows) tb.append(el("tr",{},...(soccer?[r.pos,r.team,gp(r),r.w,r.d,r.l,gd(r),r.pts]:[r.note||"",r.team,r.rec]).map(v=>el("td",{},String(v??"")))));
   t.append(tb); return el("div",{className:"tblwrap"},t);
 }
 function leagueBlock(L){
