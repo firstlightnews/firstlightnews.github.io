@@ -582,6 +582,10 @@ function renderSports(){
     if(h?.overview){ const box=el("div",{className:"overview"},el("h3",{},"Sports in brief"),...String(h.overview).split(/\n\n+/).map(t=>el("p",{},t))); parts.unshift(box); }
     const now=Date.now(), horizon=now+48*3600e3, rows=[];
     for(const[k,L] of Object.entries(leagues)) for(const g of (L.upcoming||[])){ const t=Date.parse(g.t); if(!isNaN(t)&&t>=now-3*3600e3&&t<=horizon&&!g.dateOnly) rows.push({...g,league:L.name,_t:t}); }
+    const done=[];
+    for(const[k,L] of Object.entries(leagues)) for(const g of (L.results||[])){ const t=Date.parse(g.t); if(!isNaN(t)&&t<=now&&t>=now-30*3600e3) done.push({...g,league:L.name,_t:t}); }
+    done.sort((a,b)=>b._t-a._t);
+    if(done.length) parts.push(el("div",{className:"box"},el("h3",{},"Last night's results"),...done.slice(0,18).map(scoreRow)));
     rows.sort((a,b)=>a._t-b._t);
     if(rows.length) parts.push(el("div",{className:"box"},el("h3",{},"Coming up"),...rows.slice(0,14).map(scoreRow)));
   } else if(sport==="soccer"){
