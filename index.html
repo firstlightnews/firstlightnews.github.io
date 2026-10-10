@@ -126,18 +126,6 @@ article a.t{font-family:var(--f-display);font-size:17px;line-height:1.25}
 article p{margin:0;color:#333}
 footer{font-size:11px;color:#fff;text-shadow:1px 1px 0 #000,0 0 4px #000;padding-top:12px;text-align:center;display:flex;flex-direction:column;gap:6px;align-items:center}footer .badge{text-shadow:none}
 .badge{display:inline-block;font:bold 10px var(--f-mono);color:#000;background:#c0c0c0;border:2px solid;border-color:#fff #404040 #404040 #fff;padding:2px 6px}
-/* cover illustration (inset map in The day in brief) */
-.overview:has(.cover){display:block}
-.cover{float:right;width:42%;max-width:380px;margin:10px 10px 6px 16px;border:2px solid;border-color:#fff #808080 #808080 #fff;outline:1px solid #000;background:#000}
-.cover canvas{display:block;width:100%;aspect-ratio:4/3;height:auto;image-rendering:pixelated;background:#16306e}
-.cover figcaption{padding:4px 7px 5px;color:#fff;font:11px/1.35 var(--f-mono)}
-.cover figcaption .cr{display:block;color:#aaa;font-size:10px;margin-top:2px}
-@media (max-width:600px){.cover{float:none;width:auto;max-width:none;margin:8px 10px 2px}}
-html.modern .cover{width:50%;max-width:none;margin:4px 0 8px 16px;border:0;outline:0;background:none}
-html.modern .cover canvas{image-rendering:auto;background:transparent;border:1px solid #121212;box-sizing:border-box}
-html.modern .cover figcaption{color:#121212;padding:5px 0 0;font:italic 12.5px/1.4 "PT Serif",Georgia,serif}
-html.modern .cover figcaption .cr{color:#555;font:9.5px Georgia,serif;letter-spacing:.1em;text-transform:uppercase;font-style:normal;margin-top:3px}
-@media (max-width:700px){html.modern .cover{float:none;width:auto;margin:6px 0 12px}}
 /* ---- view toggle ---- */
 header{position:relative}
 /* ---- MODERN VIEW ---- */
@@ -552,7 +540,7 @@ function renderBriefing(){
   if(!digest?.items?.length) return;
   $("ticker").textContent=digest.items.map(it=>"+++ "+it.headline).join("   ")+"   +++";
   const ov=$("overview");
-  if(digest.overview){ const paras=String(digest.overview).split(/\n\n+/); ov.replaceChildren(el("h3",{},"The day in brief"),...(coverEl(digest.cover)?[coverEl(digest.cover)]:[]),...paras.map(t=>el("p",{},t))); ov.hidden=false; startCover(); } else ov.hidden=true;
+  if(digest.overview){ const paras=String(digest.overview).split(/\n\n+/); ov.replaceChildren(el("h3",{},"The day in brief"),...paras.map(t=>el("p",{},t))); ov.hidden=false; } else ov.hidden=true;
   const d=new Date(digest.date+"T12:00:00"); $("briefDate").textContent = isNaN(d)?"":d.toLocaleDateString(undefined,{weekday:"short",month:"short",day:"numeric"});
   $("stories").replaceChildren(...digest.items.map((it,i)=>{
     const src=el("div",{className:"srcs"}); for(const s of (it.sources||[])) src.append(el("a",{href:s.url,target:"_blank",rel:"noopener"},s.name));
@@ -574,172 +562,6 @@ function scoreRow(g){
     el("div",{className:"tm"+(hw?" w":"")},el("span",{},g.home),el("span",{className:"num"},done?String(g.hs):"")),
     el("div",{className:"meta"},g.t?el("span",{},(done||g.dateOnly)?fmtWhen(g.t,false):fmtWhen(g.t)):null, g.league?el("span",{className:"lg"},g.league):null, g.label?el("span",{className:"lbl"},g.label):null, done?el("span",{},"Final"):null));
 }
-
-/* ---- cover illustration (drawn, not a photo) ---- */
-let COVER=null;
-function coverEl(c){
-  if(!c||!COVER_KINDS[c.kind]) return null;
-  if(COVER&&COVER.data===c) return COVER.fig;
-  const cv=el("canvas",{"aria-hidden":"true"});
-  const fig=el("figure",{className:"cover"},cv,el("figcaption",{},el("span",{},c.caption||""),el("span",{className:"cr"},"First Light illustration")));
-  COVER={data:c,fig,cv,phase:0,timer:null}; return fig;
-}
-const COVER_KINDS={hurricane:1,flags:1};
-const FLAGS={ua:{n:"Ukraine",c:["#0057B7","#FFD700"]},ru:{n:"Russia",c:["#FFFFFF","#0039A6","#D52B1E"]}};
-/* Gulf of Mexico / Florida inset: simplified coastline (lon,lat) */
-const GULF={lon0:-98.5,lon1:-78.5,lat0:18,lat1:31.6,
- land:[[[-99,17],[-87.9,17],[-87.9,18.2],[-87.5,19.5],[-86.8,20.8],[-87.0,21.5],[-88.2,21.5],[-89.0,21.35],[-90.3,21.1],[-90.5,20.0],[-91.4,18.7],[-92.5,18.6],[-94.5,18.2],[-95.9,18.9],[-96.4,19.9],[-97.2,21.0],[-97.7,22.0],[-97.8,24.0],[-97.2,25.9],[-97.4,27.6],[-96.6,28.4],[-95.0,29.2],[-94.0,29.7],[-93.0,29.75],[-92.0,29.6],[-91.2,29.25],[-90.2,29.1],[-89.4,28.95],[-89.1,29.3],[-89.6,29.8],[-89.4,30.2],[-88.6,30.35],[-88.0,30.25],[-87.5,30.3],[-86.5,30.4],[-85.6,30.1],[-85.3,29.7],[-84.5,29.9],[-84.0,30.05],[-83.4,29.6],[-82.8,29.0],[-82.7,28.0],[-82.6,27.4],[-82.1,26.6],[-81.8,26.0],[-81.2,25.3],[-80.9,25.15],[-80.4,25.2],[-80.15,25.8],[-80.05,26.7],[-80.4,27.6],[-80.6,28.4],[-81.0,29.2],[-81.3,30.0],[-81.4,30.7],[-81.2,31.6],[-81.0,33],[-99,33]],
-  [[-84.95,21.85],[-84.4,22.0],[-83.2,22.5],[-82.0,23.15],[-80.9,23.15],[-79.6,22.7],[-78.4,22.4],[-78.4,21.3],[-79.6,21.6],[-81.0,22.0],[-82.0,22.2],[-83.0,22.0],[-84.3,21.7]]]};
-function gulfProj(W,H){const k=Math.cos(25*Math.PI/180), sx=W/((GULF.lon1-GULF.lon0)*k), sy=H/(GULF.lat1-GULF.lat0), s=Math.max(sx,sy);
-  const cx=W/2-((GULF.lon0+GULF.lon1)/2-GULF.lon0)*k*s, cy=H/2+((GULF.lat0+GULF.lat1)/2-GULF.lat0)*s;
-  return ([lon,lat])=>[cx+(lon-GULF.lon0)*k*s, cy-(lat-GULF.lat0)*s];}
-function landPath(x,P){x.beginPath();for(const poly of GULF.land){poly.forEach((pt,i)=>{const [X,Y]=P(pt);i?x.lineTo(X,Y):x.moveTo(X,Y)});x.closePath();}}
-function stormD(dx,dy,R,phase){
-  const r=Math.hypot(dx,dy)/R; if(r<.06) return 0; const th=Math.atan2(dy,dx);
-  const arm=(Math.cos(2*th-4.6*Math.log(r+.03)+phase)+1)/2;
-  const cdo=Math.exp(-Math.pow(r/.34,4)), wall=Math.exp(-Math.pow((r-.13)/.07,2));
-  const bands=Math.pow(arm,1.8)*Math.exp(-Math.pow(r/1.2,2))*1.1;
-  const base=Math.max(wall,cdo*(.72+.28*arm),bands);
-  return Math.min(1,base>.15?base+.12*Math.sin(dx*.9+dy*.4+phase*.5)*Math.sin(dx*.45-dy*.8)*(r>.3?1:0):base*.6);
-}
-function drawHurricane(cv,x,W,H,print,phase,c){
-  const at=c.at||[-87.6,26.6], to=c.toward||[-87.4,30.3];
-  if(!print){
-    const px=3, w=Math.ceil(W/px), h=Math.ceil(H/px);
-    if(!COVER.mask||COVER.mask.w!==w||COVER.mask.h!==h){ const m=document.createElement("canvas"); m.width=w;m.height=h; const mx=m.getContext("2d"); mx.fillStyle="#fff"; landPath(mx,gulfProj(w,h)); mx.fill();
-      const md=mx.getImageData(0,0,w,h).data, L=new Uint8Array(w*h); for(let i=0;i<w*h;i++) L[i]=md[i*4]>127?1:0; COVER.mask={w,h,L}; }
-    const L=COVER.mask.L, P=gulfProj(w,h), [sx,sy]=P(at), R=gulfProj(w,h)([at[0]+3.2,at[1]])[0]-sx;
-    const off=document.createElement("canvas"); off.width=w; off.height=h; const ox=off.getContext("2d"), img=ox.createImageData(w,h), D=img.data;
-    for(let j=0;j<h;j++)for(let i=0;i<w;i++){ const q=j*w+i, k=q*4, isL=L[q];
-      const edge=isL&&((i>0&&!L[q-1])||(i<w-1&&!L[q+1])||(j>0&&!L[q-w])||(j<h-1&&!L[q+w]));
-      let col=isL?(edge?[206,184,118]:((i+j)%2?[88,140,60]:[76,124,52])):((i+j)%2?[22,48,110]:[27,57,126]);
-      const d=stormD(i-sx,j-sy,R,phase);
-      const lv=d>.78?[255,255,255]:d>.55?[214,222,236]:d>.33?[154,170,202]:(d>.2&&(i+j)%2)?[112,130,170]:null;
-      if(lv) col=lv; D[k]=col[0];D[k+1]=col[1];D[k+2]=col[2];D[k+3]=255; }
-    ox.putImageData(img,0,0);
-    const dpr=Math.min(2,window.devicePixelRatio||1); cv.width=W*dpr; cv.height=H*dpr; x.setTransform(dpr,0,0,dpr,0,0);
-    x.imageSmoothingEnabled=false; x.drawImage(off,0,0,w*px,h*px);
-    const Q=gulfProj(W,H), [ax,ay]=Q(at), [tx,ty]=Q(to);
-    // projected-track arrow
-    x.strokeStyle="#ffde00"; x.fillStyle="#ffde00"; x.lineWidth=2; x.setLineDash([5,4]); x.beginPath(); x.moveTo(ax,ay-R*px*.45); x.lineTo(tx,ty+8); x.stroke(); x.setLineDash([]);
-    x.beginPath(); x.moveTo(tx,ty); x.lineTo(tx-6,ty+9); x.lineTo(tx+6,ty+9); x.closePath(); x.fill();
-    x.font='bold 11px "Courier New",monospace'; x.textAlign="center";
-    const lab=(t,X,Y,c)=>{x.fillStyle="#000";x.fillText(t,X+1,Y+1);x.fillStyle=c;x.fillText(t,X,Y);};
-    const [fx,fy]=Q([-81.55,28.2]); lab("FLA.",fx,fy,"#fff");
-    lab((c.label||"ISAIAS").toUpperCase(),ax,ay+R*px*.62,"#ffde00");
-  } else {
-    const dpr=Math.min(2,window.devicePixelRatio||1); cv.width=W*dpr; cv.height=H*dpr; x.setTransform(dpr,0,0,dpr,0,0); x.clearRect(0,0,W,H);
-    const Q=gulfProj(W,H), [ax,ay]=Q(at), [tx,ty]=Q(to), R=Q([at[0]+3.2,at[1]])[0]-ax;
-    x.strokeStyle=x.fillStyle="#121212";
-    // land: diagonal hatching clipped to coastline
-    x.save(); landPath(x,Q); x.clip(); x.lineWidth=.6; x.beginPath(); for(let d=-H;d<W;d+=3.5){x.moveTo(d,0);x.lineTo(d+H,H);} x.stroke(); x.restore();
-    // coastline + engraver's water lines
-    x.lineWidth=1.1; landPath(x,Q); x.stroke();
-    x.save(); x.globalAlpha=.35; x.lineWidth=.5; for(const o of [3,6]){ x.save(); x.translate(0,o); landPath(x,Q); x.stroke(); x.restore(); } x.restore();
-    // storm: halftone dots
-    const st=3.4;
-    for(let Y=st/2;Y<H;Y+=st)for(let X=st/2+((Math.round(Y/st))%2?st/2:0);X<W;X+=st){ const d=stormD(X-ax,Y-ay,R,.6); if(d<.08) continue;
-      x.beginPath(); x.arc(X,Y,Math.sqrt(d)*st*.6,0,7); x.fill(); }
-    // projected-track arrow
-    x.lineWidth=1.3; x.setLineDash([4,3]); x.beginPath(); x.moveTo(ax,ay-R*.45); x.lineTo(tx,ty+7); x.stroke(); x.setLineDash([]);
-    x.beginPath(); x.moveTo(tx,ty); x.lineTo(tx-5,ty+8); x.lineTo(tx+5,ty+8); x.closePath(); x.fill();
-    const lab=(t,X,Y,f)=>{x.font=f; x.textAlign="center"; x.lineWidth=3; x.strokeStyle="#f8f6f0"; x.strokeText(t,X,Y); x.fillStyle="#121212"; x.fillText(t,X,Y);};
-    const [fx,fy]=Q([-81.55,28.2]); lab("FLORIDA",fx,fy,'italic 11px Georgia,serif');
-    lab((c.label||"Isaias"),ax,ay+R*.7,'bold italic 12px Georgia,serif');
-  }
-}
-function hex(c){return [1,3,5].map(i=>parseInt(c.slice(i,i+2),16));}
-function drawFlags(cv,x,W,H,print,phase,codes){
-  codes=(codes||[]).filter(k=>FLAGS[k]).slice(0,3); const n=codes.length; if(!n) return;
-  const fh=H*.5, fw=fh*1.5, gap=fw*.55, total=n*fw+(n-1)*gap, x0=(W-total)/2, y0=H*.2;
-  if(!print){
-    const px=4, w=Math.ceil(W/px), h=Math.ceil(H/px); cv.width=w; cv.height=h;
-    const img=x.createImageData(w,h), D=img.data;
-    for(let k=0;k<D.length;k+=4){const i=(k/4)%w,j=Math.floor(k/4/w);const g=((i+j)%2)?192:184;D[k]=g;D[k+1]=g;D[k+2]=g+6;D[k+3]=255;}
-    codes.forEach((code,f)=>{const F=FLAGS[code], fx=(x0+f*(fw+gap))/px, fy=y0/px, fwp=fw/px, fhp=fh/px;
-      // pole
-      for(let j=Math.floor(fy-2);j<h-1;j++)for(let i=Math.floor(fx-2);i<Math.floor(fx);i++){const k=(j*w+i)*4;D[k]=D[k+1]=D[k+2]=(i===Math.floor(fx-2))?90:40;}
-      for(let i=0;i<Math.ceil(fwp);i++){const t=i/fwp, off=Math.sin(i*.32-phase)*1.6*t, sh=Math.cos(i*.32-phase)*t;
-        for(let j=0;j<Math.ceil(fhp);j++){const yy=Math.round(fy+j+off), xx=Math.round(fx+i); if(yy<0||yy>=h||xx>=w) continue;
-          const band=Math.min(F.c.length-1,Math.floor(j/fhp*F.c.length)); let [r,g,b]=hex(F.c[band]); const m=1+sh*.18*((i+j)%2?1:.6);
-          const k=(yy*w+xx)*4; D[k]=Math.min(255,r*m);D[k+1]=Math.min(255,g*m);D[k+2]=Math.min(255,b*m);D[k+3]=255;}}
-    });
-    x.putImageData(img,0,0);
-  } else {
-    const dpr=Math.min(2,window.devicePixelRatio||1); cv.width=W*dpr; cv.height=H*dpr; x.setTransform(dpr,0,0,dpr,0,0); x.clearRect(0,0,W,H);
-    x.fillStyle=x.strokeStyle="#121212"; const st=3.6;
-    codes.forEach((code,f)=>{const F=FLAGS[code], fx=x0+f*(fw+gap);
-      x.fillRect(fx-3,y0-4,2,H-y0+4);
-      const yAt=(X)=>Math.sin((X-fx)*.08)*5*((X-fx)/fw);
-      // heraldic hatching (Petra Sancta): red = vertical lines, blue = horizontal, yellow/gold = dots, green = diagonal, black = solid, white = blank
-      const nb=F.c.length;
-      for(let bi=0;bi<nb;bi++){ const [r,g,b]=hex(F.c[bi]), t0=bi/nb*fh, t1=(bi+1)/nb*fh;
-        const kind=(r>200&&g>200&&b>200)?"w":(r>180&&g>150&&b<120)?"y":(r>150&&g<110)?"r":(b>120&&r<90)?"b":(g>100&&r<100)?"g":"k";
-        x.save(); x.beginPath(); for(let X=fx;X<=fx+fw;X+=2) X===fx?x.moveTo(X,y0+t0+yAt(X)):x.lineTo(X,y0+t0+yAt(X)); for(let X=fx+fw;X>=fx;X-=2) x.lineTo(X,y0+t1+yAt(X)); x.closePath(); x.clip();
-        x.lineWidth=.9; x.beginPath();
-        if(kind==="r") for(let X=fx+1.5;X<fx+fw;X+=3.2){x.moveTo(X,y0-10);x.lineTo(X,y0+fh+10);}
-        if(kind==="b") for(let Y=y0-10;Y<y0+fh+10;Y+=3){x.moveTo(fx,Y);x.lineTo(fx+fw,Y);}
-        if(kind==="g") for(let d=-fh;d<fw;d+=3.6){x.moveTo(fx+d,y0-10);x.lineTo(fx+d+fh+20,y0+fh+10);}
-        x.stroke();
-        if(kind==="y") for(let Y=y0+t0-6;Y<y0+t1+6;Y+=3.4)for(let X=fx+1.7+((Math.round(Y/3.4))%2?1.7:0);X<fx+fw;X+=3.4){x.beginPath();x.arc(X,Y,.75,0,7);x.fill();}
-        if(kind==="k") x.fillRect(fx,y0-10,fw,fh+20);
-        x.restore();
-        if(bi>0){x.lineWidth=.8;x.beginPath();for(let X=fx;X<=fx+fw;X+=2) X===fx?x.moveTo(X,y0+t0+yAt(X)):x.lineTo(X,y0+t0+yAt(X));x.stroke();}
-      }
-      x.lineWidth=1; x.beginPath();
-      for(let X=fx;X<=fx+fw;X+=2) X===fx?x.moveTo(X,y0+yAt(X)):x.lineTo(X,y0+yAt(X));
-      for(let X=fx+fw;X>=fx;X-=2) x.lineTo(X,y0+fh+yAt(X)); x.closePath(); x.stroke();
-      x.font='10px Georgia,serif'; x.textAlign="center"; x.fillText(F.n.toUpperCase().split("").join(String.fromCharCode(8202)),fx+fw/2,y0+fh+20);
-    });
-  }
-  if(!print){ /* names under flags, drawn crisp on top */ }
-}
-function drawCover(){
-  if(!COVER) return; const {cv,data}=COVER; const print=document.documentElement.classList.contains("modern");
-  const W=cv.clientWidth, H=cv.clientHeight; if(!W||!H) return;
-  const aspect=W/H, x=cv.getContext("2d");
-  if(data.kind==="flags") return drawFlags(cv,x,W,H,print,COVER.phase,data.flags);
-  if(data.kind==="hurricane") return drawHurricane(cv,x,W,H,print,COVER.phase,data);
-  if(!print){
-    const px=4, w=Math.ceil(W/px), h=Math.ceil(H/px);
-    cv.width=w; cv.height=h;
-    const img=x.createImageData(w,h), D=img.data;
-    for(let j=0;j<h;j++)for(let i=0;i<w;i++){
-      const u=i/h, v=j/h, f=hurricaneField(u,v,aspect,COVER.phase), k=(j*w+i)*4;
-      let c;
-      if(f.land) c=(v>coastY(u)-1.6/h)?[200,178,112]:((i+j)%2?[86,138,58]:[74,122,50]);
-      else c=((i+j)%2)?[22,48,110]:[26,56,124];
-      const lv=f.d>.78?[255,255,255]:f.d>.55?[214,222,236]:f.d>.33?[150,166,198]:f.d>.2&&(i+j)%2?[110,128,168]:null;
-      if(lv) c=lv;
-      D[k]=c[0];D[k+1]=c[1];D[k+2]=c[2];D[k+3]=255;
-    }
-    x.putImageData(img,0,0);
-  } else {
-    const dpr=Math.min(2,window.devicePixelRatio||1); cv.width=W*dpr; cv.height=H*dpr; x.setTransform(dpr,0,0,dpr,0,0);
-    x.clearRect(0,0,W,H); x.fillStyle=x.strokeStyle="#121212";
-    // land: engraved diagonal hatching
-    x.lineWidth=.7; x.beginPath();
-    for(let s0=-H;s0<W;s0+=4){ let on=false,lx=0,ly=0;
-      for(let t=0;t<=H;t+=1){ const X=s0+t, Y=t; if(X<0||X>W) continue; const L=Y<coastY(X/H)*H;
-        if(L&&!on){x.moveTo(X,Y);on=true} else if(!L&&on){x.lineTo(X,Y);on=false} lx=X;ly=Y; }
-      if(on) x.lineTo(lx,ly); }
-    x.stroke();
-    // coastline
-    x.lineWidth=1.2; x.beginPath(); for(let X=0;X<=W;X+=2){const Y=coastY(X/H)*H; X?x.lineTo(X,Y):x.moveTo(X,Y);} x.stroke();
-    // clouds: halftone dots
-    const st=4.2;
-    for(let Y=st/2;Y<H;Y+=st)for(let X=st/2+((Y/st)%2?st/2:0);X<W;X+=st){
-      const f=hurricaneField(X/H,Y/H,aspect,.6); if(f.d<.08) continue;
-      const rad=Math.sqrt(f.d)*st*.62; x.beginPath(); x.arc(X,Y,rad,0,7); x.fill(); }
-  }
-}
-function startCover(){
-  if(!COVER) return; clearInterval(COVER.timer); requestAnimationFrame(drawCover);
-  const still=matchMedia("(prefers-reduced-motion: reduce)").matches;
-  COVER.timer=setInterval(()=>{ if(document.documentElement.classList.contains("modern")||still||document.hidden) return; COVER.phase+=.12; drawCover(); },220);
-}
-new MutationObserver(()=>drawCover()).observe(document.documentElement,{attributes:true,attributeFilter:["class"]});
-addEventListener("resize",()=>drawCover());
 function tableEl(rows,soccer){
   if(!rows?.length) return null;
   const head = soccer ? ["#","Team","GP","W","D","L","GD","Pts"] : ["","Team","Record"];
