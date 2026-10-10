@@ -441,6 +441,9 @@ html.modern .ftile{display:none}
 
 /* phone: compact weather so it fits one line */
 @media(max-width:640px){html:not(.modern) header .weather .wl,html:not(.modern) header .weather .wu{display:none}html:not(.modern) header .weather{font-size:clamp(11.5px,3.4vw,13px);padding:3px 7px;white-space:nowrap}html:not(.modern) header .weather.wrapok{white-space:normal}}
+
+.ud-short{display:none}
+@media(max-width:640px){html:not(.modern) .ud-full{display:none}html:not(.modern) .ud-short{display:inline}}
 /* ===== edition toggle ===== */
 .uitoggle{all:unset;box-sizing:border-box;cursor:pointer;position:absolute;top:14px;right:14px;z-index:2}
 .uitoggle:focus-visible{outline:2px dotted #000;outline-offset:3px}
@@ -688,7 +691,7 @@ function renderReading(){
 }
 function renderRefreshed(){
   const ts=[status?.lastRun,digest?.generatedAt].filter(Boolean).sort().pop();
-  if(ts){ const d=new Date(ts); $("refreshed").textContent=d.toLocaleString(undefined,{month:"short",day:"numeric",hour:"numeric",minute:"2-digit"}); }
+  if(ts){ const d=new Date(ts); $("refreshed").replaceChildren(el("span",{className:"ud-full"},d.toLocaleString(undefined,{month:"short",day:"numeric",hour:"numeric",minute:"2-digit"})),el("span",{className:"ud-short"},d.toLocaleTimeString(undefined,{hour:"numeric",minute:"2-digit"}))); }
 }
 renderReading(); renderSports();
 window.addEventListener("pagehide",()=>store("rd-lastvisit",new Date().toISOString()));
