@@ -691,7 +691,7 @@ function renderReading(){
 }
 function renderRefreshed(){
   const ts=[status?.lastRun,digest?.generatedAt].filter(Boolean).sort().pop();
-  if(ts){ const d=new Date(ts); $("refreshed").replaceChildren(el("span",{className:"ud-full"},d.toLocaleString(undefined,{month:"short",day:"numeric",hour:"numeric",minute:"2-digit"})),el("span",{className:"ud-short"},d.toLocaleTimeString(undefined,{hour:"numeric",minute:"2-digit"}))); }
+  if(ts){ const d=new Date(ts); $("refreshed").replaceChildren(el("span",{className:"ud-full"},d.toLocaleString(undefined,{month:"short",day:"numeric",hour:"numeric",minute:"2-digit",timeZone:"America/New_York"})+" ET"),el("span",{className:"ud-short"},d.toLocaleTimeString(undefined,{hour:"numeric",minute:"2-digit",timeZone:"America/New_York"})+" ET")); }
 }
 renderReading(); renderSports();
 window.addEventListener("pagehide",()=>store("rd-lastvisit",new Date().toISOString()));
