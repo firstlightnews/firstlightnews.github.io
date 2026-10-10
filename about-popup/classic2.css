@@ -1,0 +1,172 @@
+/* ===== round 3: readable classic columns ===== */
+html.modern{--f-body:"PT Serif",Georgia,serif}
+html.modern .overview p,html.modern .story p,html.modern article p,html.modern article a.t,html.modern .brief li,html.modern .score,html.modern td{font-family:"PT Serif",Georgia,serif}
+html.modern .story:first-child p{font-family:"PT Serif",Georgia,serif}
+/* page-style section names */
+html.modern .tab{font-size:0!important;letter-spacing:0}
+html.modern .tab::before{font:bold 11px Georgia,serif;letter-spacing:.14em;text-transform:uppercase}
+html.modern #tab-briefing::before{content:"Page 1 \00B7  Front Page"}
+html.modern #tab-reading::before{content:"Page 2 \00B7  News"}
+html.modern #tab-sports::before{content:"Page 3 \00B7  Sports"}
+/* front page: banner, brief, then flowing columns with vertical rules */
+html.modern #p-briefing{display:block}
+html.modern #stories{display:block;column-count:3;column-gap:30px;column-rule:1px solid #121212}
+html.modern .story{display:block;break-inside:avoid;border:0;padding:0 0 14px;margin:0 0 14px;position:relative}
+html.modern .story::after{content:"";display:block;width:40%;margin:14px auto 0;border-bottom:1px solid #121212}
+html.modern .story:last-child::after{content:none}
+html.modern .story h4,html.modern .story:nth-child(2) h4,html.modern .story:nth-child(3) h4{font-size:19px}
+html.modern .story p{text-align:left;hyphens:manual;font-size:14.5px;line-height:1.55}
+html:not(.modern) .banner{display:none}
+html.modern #stories > .story:first-child{display:none}
+html.modern .banner .story{text-align:center;border:0;border-bottom:3px double #121212;padding:6px 0 16px;margin:0 0 4px}
+html.modern .banner .story::after{content:none}
+html.modern .banner .story .rk{display:none}
+html.modern .banner .story h4{font-size:clamp(30px,5.4vw,52px);line-height:1.04;margin-bottom:8px}
+html.modern .banner .story p{font:italic clamp(16px,2vw,20px)/1.4 "PT Serif",Georgia,serif;text-align:center;max-width:46em;margin:0 auto}
+html.modern .banner .story .srcs{justify-content:center}
+html.modern .overview{display:block;column-count:2;column-gap:30px;column-rule:1px solid #121212;padding:14px 0 18px;margin-bottom:16px;border-bottom:3px double #121212}
+html.modern .overview h3{column-span:all;text-align:center;font:bold 13px Georgia,serif;letter-spacing:.14em;text-transform:uppercase;padding-bottom:10px}
+html.modern .overview p{text-align:left;font-size:15px;line-height:1.6;break-inside:avoid}
+html.modern .overview p+p{break-before:column}
+html.modern .overview p:first-of-type::first-letter{font-family:"Old Standard TT",serif}
+html.modern .turn{display:block;text-align:right;font:italic 13px "PT Serif",Georgia,serif;margin-top:6px;border-top:1px solid #121212;padding-top:8px;cursor:pointer}
+html.modern .turn::after{content:" \203A"}
+html:not(.modern) .turn{display:none}
+@media (max-width:700px){html.modern #stories,html.modern .overview{column-count:1}html.modern .overview p+p{break-before:auto}
+ html.modern #tab-briefing::before{content:"P.1 Front"}html.modern #tab-reading::before{content:"P.2 News"}html.modern #tab-sports::before{content:"P.3 Sports"}}
+/* ===== round 4: fewer lines, uniform sections ===== */
+html.modern #tab-briefing::before{content:"Front Page"}
+html.modern #tab-reading::before{content:"News"}
+html.modern #tab-sports::before{content:"Sports"}
+@media (max-width:700px){html.modern #tab-briefing::before{content:"Front Page"}html.modern #tab-reading::before{content:"News"}html.modern #tab-sports::before{content:"Sports"}}
+html.modern .turn{display:none!important}
+/* one rule style only: a single thin line between major sections; whitespace everywhere else */
+html.modern #stories{column-rule:0;column-gap:40px}
+html.modern .story{padding:0;margin:0 0 26px}
+html.modern .story::after{content:none!important}
+html.modern .overview{column-rule:0;column-gap:40px;border-bottom:1px solid #121212;padding-bottom:22px;margin-bottom:24px}
+html.modern .banner .story{border-bottom:1px solid #121212;padding-bottom:20px;margin-bottom:0}
+/* uniform section heading everywhere */
+html.modern .overview h3,html.modern h3,html.modern .box > h3,html.modern .brief h3{font:bold 13px Georgia,serif;letter-spacing:.14em;text-transform:uppercase;text-align:center;color:#121212;background:none;border:0;padding:0 0 12px}
+/* news + sports: same whitespace rhythm, no row lines */
+html.modern article{border:0;padding:0 0 18px;background:none}
+html.modern article a.t{font-family:"Old Standard TT",Georgia,serif;font-weight:700;font-size:19px;line-height:1.2}
+html.modern article p{font-size:14.5px;line-height:1.55}
+html.modern .day > h3,html.modern .day h3{text-align:left}
+html.modern .box{border:0;padding:0;margin-bottom:8px}
+html.modern .score,html.modern .ser,html.modern .heads a{border:0;padding:5px 0}
+html.modern .heads{border:0;max-height:none}
+html.modern table td,html.modern table th{border:0}
+html.modern .brief ul{padding-left:18px}
+html.modern .src{border:0;padding:0}
+html.modern .grid2{column-gap:40px;row-gap:26px}
+html.modern .panel > *+*{margin-top:4px}
+/* ===== round 5: newspaper agate for sports ===== */
+html.modern #sportBody{gap:18px}
+html.modern .score{display:block;padding:1px 0;font:14px/1.4 "PT Serif",Georgia,serif;break-inside:avoid}
+html.modern .score .tm{display:inline;font-weight:normal}
+html.modern .score .tm span{display:inline;white-space:normal;overflow:visible}
+html.modern .score .tm .num{font:bold 14px "PT Serif",Georgia,serif;margin-left:4px}
+html.modern .score .tm.w span:first-child{font-weight:bold}
+html.modern .score .tm:first-child::after{content:", "}
+html.modern .score:has(.num:empty) .tm:first-child::after{content:" at "}
+html.modern .score .meta{display:inline;font:italic 12px "PT Serif",Georgia,serif;margin-left:6px}
+html.modern .score .meta span{margin-left:0}
+html.modern .score .meta span+span::before{content:" \00B7 "}
+html.modern .score:not(:has(.num:empty)) .meta span:last-child:not(.lg):not(.lbl){display:none}
+html.modern .score .meta .lg{font-weight:normal;font-style:italic}
+html.modern .score .meta .lbl{font:bold 10px Georgia,serif;border:0;padding:0;letter-spacing:.06em}
+/* compact boxes flow into columns */
+html.modern #sportBody > .box:not(:has(.grid2)){display:block;column-count:3;column-gap:36px}
+html.modern .box{display:block}
+html.modern .score .tm{margin:0;gap:0}
+html.modern #sportBody > .box > h3{column-span:all;text-align:left;border-bottom:1px solid #121212;padding-bottom:6px;margin-bottom:8px}
+html.modern .heads{display:block;column-count:2;column-gap:36px}
+html.modern .heads a{display:block;break-inside:avoid;padding:3px 0 6px;font-size:14px;line-height:1.35}
+html.modern .heads small{display:inline;font:italic 11px "PT Serif",Georgia,serif;margin-left:6px}
+html.modern .box > h3{text-align:left;border-bottom:1px solid #121212;padding-bottom:6px;margin-bottom:8px}
+html.modern .brief h3{text-align:left;border-bottom:1px solid #121212;padding-bottom:6px;margin-bottom:8px}
+html.modern .brief ul{column-count:2;column-gap:36px;padding:0 0 0 16px;display:block}
+html.modern .brief li{break-inside:avoid;margin-bottom:6px;font-size:14px;line-height:1.45}
+/* league page: results | coming up | table side by side */
+html.modern .grid2{display:grid;grid-template-columns:1fr 1fr;gap:0 36px}
+html.modern .box .box{margin:0}
+html.modern h2.sec{font-size:22px}
+html.modern table{font:13px "PT Serif",Georgia,serif}
+html.modern td,html.modern th{padding:1px 6px;font-family:"PT Serif",Georgia,serif}
+html.modern th{font:bold 11px Georgia,serif;letter-spacing:.06em}
+@media (max-width:700px){html.modern #sportBody > .box,html.modern .heads,html.modern .brief ul{column-count:1}html.modern .grid2{grid-template-columns:1fr;gap:12px}}
+html.modern #sportBody > .box:has(.heads){column-count:1}
+html.modern .score .meta span+span::before{content:"\00A0\00B7\00A0"}
+html.modern .score .tm:first-child::after{content:",\00A0"}
+html.modern .score:has(.num:empty) .tm:first-child::after{content:"\00A0 at\00A0"}
+html.modern .score .tm span:first-child{margin:0}
+html.modern .brief ul{list-style:none;padding-left:0}
+html.modern .brief li{padding-left:13px;text-indent:-13px}
+html.modern .brief li::before{content:"\2013\00A0";}
+
+/* masthead always one line */
+html.modern header h1{white-space:nowrap;font-size:clamp(28px,6.3vw,70px)}
+@media (max-width:700px){html.modern header h1{font-size:9.6vw;padding-right:0;text-align:center}html.modern .dateline::after{content:none}}
+/* top stories heading + phone fixes */
+html.modern #stories::before{content:"Top Stories";column-span:all;display:block;font:bold 13px Georgia,serif;letter-spacing:.14em;text-transform:uppercase;text-align:center;color:#121212;padding:0 0 14px}
+@media (max-width:700px){
+ html.modern #sportBody > .box:not(:has(.grid2)),html.modern #sportBody > .box,html.modern #stories,html.modern .heads,html.modern .brief ul,html.modern .overview{column-count:1!important}
+ html.modern .score{font-size:15px}
+}
+/* footer matches the folio line */
+html.modern footer{font:12px/1.7 Georgia,serif;letter-spacing:0;text-transform:none;color:#121212;border-top:0;margin-top:28px;padding-top:10px}
+
+/* F mark in footer */
+.fmark{display:block;width:40px;height:40px;margin:0 auto 2px}
+.fm-p{display:none}
+html.modern .fm-o{display:none}html.modern .fm-p{display:block}
+
+/* F tile in original header, bottom-right */
+header{position:relative}
+.ftile{position:absolute;right:16px;bottom:12px;width:48px;height:48px;box-sizing:border-box;background:#fffdf0 url(f-mark-black.png?v=1) center/78% no-repeat;border:2px solid;border-color:#fff #808080 #808080 #fff;outline:1px solid #000;box-shadow:2px 2px 0 #000}
+html.modern .ftile{display:none}
+@media(max-width:640px){.ftile{width:34px;height:34px;right:10px;bottom:12px}html:not(.modern) header .weather{max-width:calc(100% - 46px)}}
+
+/* phone: compact weather so it fits one line */
+@media(max-width:640px){html:not(.modern) header .weather .wl,html:not(.modern) header .weather .wu{display:none}html:not(.modern) header .weather{font-size:clamp(11.5px,3.4vw,13px);padding:3px 7px;white-space:nowrap}html:not(.modern) header .weather.wrapok{white-space:normal}}
+
+.fspin{cursor:pointer;-webkit-tap-highlight-color:transparent}
+.ftile.fspin{z-index:5}
+@keyframes fspin-retro{0%{transform:rotate(0) scale(1)}50%{transform:rotate(180deg) scale(1.7)}100%{transform:rotate(360deg) scale(1)}}
+@keyframes fspin-print{0%{transform:rotateY(0) scale(1)}50%{transform:rotateY(180deg) scale(1.35)}100%{transform:rotateY(360deg) scale(1)}}
+.fspin.spin{animation:fspin-retro .9s steps(12) 1}
+html.modern .fspin.spin{animation:fspin-print 1s cubic-bezier(.4,0,.2,1) 1}
+@media (prefers-reduced-motion:reduce){.fspin.spin{animation-duration:.01s}}
+
+/* About pop-up: Original = 90s dialog window */
+.about{position:fixed;inset:0;z-index:1000;display:flex;align-items:center;justify-content:center;background:rgba(0,0,40,.35);padding:16px}
+.about[hidden]{display:none}
+.about-win{width:min(340px,100%);background:#c0c0c0;border:2px solid;border-color:#fff #404040 #404040 #fff;box-shadow:1px 1px 0 #000,4px 4px 0 rgba(0,0,0,.35);font:13px/1.4 Tahoma,Verdana,sans-serif;color:#000;animation:aboutpop .18s steps(3)}
+@keyframes aboutpop{from{transform:scale(.6);opacity:0}to{transform:none;opacity:1}}
+.about-bar{display:flex;align-items:center;justify-content:space-between;background:linear-gradient(90deg,#000080,#1084d0);color:#fff;font-weight:bold;padding:3px 3px 3px 6px}
+.about-x{width:20px;height:18px;padding:0;font:bold 14px/1 Tahoma,sans-serif;background:#c0c0c0;color:#000;border:2px solid;border-color:#fff #404040 #404040 #fff;cursor:pointer}
+.about-x:active,.about-ok:active{border-color:#404040 #fff #fff #404040}
+.about-body{padding:14px 16px 14px;text-align:center}
+.about-f{width:56px;height:56px;background:#000080;padding:4px;box-sizing:border-box}
+.about-f.fm-p{display:none}
+.about-name{font:italic bold 22px/1.1 Georgia,serif;color:#a00;margin:8px 0 2px}
+.about-tag{font-style:italic;color:#000080}
+.about-ed{font:11px "Courier New",monospace;margin:6px 0 2px}
+.about-list{list-style:none;margin:10px 0 12px;padding:8px 10px;text-align:left;background:#fff;border:2px solid;border-color:#404040 #fff #fff #404040;font-size:12px}
+.about-list li{padding:2px 0}
+.about-list li::before{content:"\25B8  "}
+.about-ok{min-width:80px;padding:4px 10px;font:13px Tahoma,sans-serif;background:#c0c0c0;border:2px solid;border-color:#fff #404040 #404040 #fff;outline:1px solid #000;cursor:pointer}
+/* Print Edition: newspaper notice box */
+html.modern .about{background:rgba(18,18,18,.35)}
+html.modern .about-win{background:#f8f6f0;border:1px solid #121212;outline:3px double #121212;outline-offset:4px;box-shadow:none;font:14px/1.5 "PT Serif",Georgia,serif;animation:none}
+html.modern .about-bar{background:none;color:#121212;border-bottom:1px solid #121212;font:bold 11px Georgia,serif;letter-spacing:.14em;text-transform:uppercase;padding:8px 10px}
+html.modern .about-x{background:none;border:0;font:20px/1 Georgia,serif;color:#121212}
+html.modern .about-f{background:none;padding:0}
+html.modern .about-f.fm-o{display:none}html.modern .about-f.fm-p{display:inline-block}
+html.modern .about-name{font:400 26px "UnifrakturMaguntia","Old Standard TT",Georgia,serif;color:#121212}
+html.modern .about-tag{color:#121212}
+html.modern .about-ed{font:11px Georgia,serif;letter-spacing:.1em;text-transform:uppercase}
+html.modern .about-list{background:none;border:0;border-top:1px solid #121212;border-bottom:1px solid #121212;font-size:13px}
+html.modern .about-list li::before{content:"\2013  "}
+html.modern .about-ok{background:#121212;color:#f8f6f0;border:0;outline:0;font:bold 11px Georgia,serif;letter-spacing:.12em;text-transform:uppercase;padding:7px 14px}

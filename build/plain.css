@@ -1,0 +1,24 @@
+/* ---- PLAIN WHITE overrides ---- */
+html.modern{--desk:#ffffff;--sheet:#ffffff;--line:#e5e5e5;--bar2:#16181d;--muted:#6b6b6b;--link:#16181d}
+html.modern .wrap{max-width:720px;padding-block:8px 40px}
+html.modern header,html.modern .panel{border-radius:0;padding-inline:0}
+html.modern .tabs{padding-inline:0}
+html.modern h1{font-family:var(--f-body);font-size:clamp(26px,5vw,32px);letter-spacing:-.03em}
+html.modern h2.sec{font-family:var(--f-body);font-size:20px}
+html.modern .weather{background:none;padding:0;border-radius:0}
+html.modern .ticker{display:none}
+html.modern .overview,html.modern .brief,html.modern .box,html.modern .src,html.modern .empty{background:none;border:0;border-radius:0;padding:0}
+html.modern .overview p{font-family:var(--f-body);font-size:16px}
+html.modern .story h4,html.modern article a.t{font-family:var(--f-body);font-size:17px}
+html.modern .story .srcs a{color:var(--muted);font-weight:500}
+html.modern .new{background:#16181d}
+html.modern .lbl{background:#f2f2f2;color:var(--ink)}
+html.modern .phase,html.modern #briefDate{color:var(--muted)}
+html.modern .chip{border-radius:4px}
+html.modern .uitoggle{border-radius:4px;top:8px;right:0}
+html.modern a:hover{text-decoration:underline}
+/* Georgia everywhere in simple view */
+html.modern{--f-body:Georgia,"Times New Roman",serif;--f-display:Georgia,"Times New Roman",serif}
+html.modern h1{letter-spacing:-.01em}
+html.modern .tab,html.modern .chip,html.modern .uitoggle,html.modern h3,html.modern th,html.modern .lbl{font-family:Georgia,"Times New Roman",serif}
+html.modern h3{letter-spacing:.06em}

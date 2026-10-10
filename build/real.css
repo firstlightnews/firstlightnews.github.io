@@ -1,0 +1,87 @@
+/* ===== REAL FRONT PAGE ===== */
+html.modern{--desk:#dcdad3;--sheet:#f8f6f0;--ink:#121212;--muted:#555;--line:#121212;--bar2:#121212;
+ --f-body:Georgia,"Times New Roman",serif;--f-display:Georgia,"Times New Roman",serif;--hed:"Old Standard TT",Georgia,serif}
+html.modern body{background:var(--desk);font-size:15px}
+html.modern .wrap{max-width:1000px;background:var(--sheet);box-shadow:0 1px 8px rgba(0,0,0,.18);padding:14px 30px 40px;margin-top:16px}
+/* masthead with ears */
+html.modern header{display:grid;grid-template-columns:170px 1fr 170px;grid-template-areas:"earl title earr" "folio folio folio" "tabs tabs tabs";align-items:center;column-gap:16px;row-gap:0;text-align:center;border:0;padding:30px 0 0;background:none}
+html.modern header h1{grid-area:title;font-family:"UnifrakturMaguntia",serif;font-weight:400;font-size:clamp(40px,7.2vw,70px);letter-spacing:0;line-height:1.05;padding:4px 0 8px;color:#121212}
+html.modern .tagline{grid-area:earl;font:italic 12px/1.35 Georgia,serif;color:#121212;border:1px solid #121212;padding:7px 8px;text-align:center}
+html.modern .tagline::before{content:"\201C"}html.modern .tagline::after{content:"\201D"}
+html.modern .weather{grid-area:earr;display:block;align-self:center;background:none;border:0;border-radius:0;padding:0 0 0 2px;font:11px/1.4 Georgia,serif;text-align:left}
+html.modern .weather::before{content:"TODAY\2019S WEATHER";display:block;font:bold 11px Georgia,serif;letter-spacing:.04em;margin-bottom:1px}
+html.modern .weather b{font-weight:normal;color:#121212;display:block}
+html.modern .weather .muted{color:#121212}
+html.modern .dateline{grid-area:folio;display:flex;justify-content:space-between;align-items:center;border-top:1px solid #121212;border-bottom:3px double #121212;padding:4px 0;margin-top:2px;font:11px Georgia,serif;letter-spacing:.06em;text-transform:uppercase;color:#121212;width:auto}
+html.modern .dateline::before{content:"VOL. " attr(data-vol) ", NO. " attr(data-ed)}
+html.modern .dateline::after{content:"FREE"}
+html.modern .dateline b{font:inherit;color:inherit;letter-spacing:inherit}
+html.modern .tabs{grid-area:tabs;justify-content:center;gap:26px;border:0;padding:6px 0 0;background:none}
+html.modern .tab{font:bold 11px Georgia,serif;letter-spacing:.14em;text-transform:uppercase;color:#777;padding:4px 0;border:0}
+html.modern .tab[aria-selected="true"]{color:#121212;border-bottom:2px solid #121212}
+html.modern .uitoggle{position:absolute;top:0;right:0;font:bold 10px Georgia,serif;letter-spacing:.14em;text-transform:uppercase;background:none;border:0;border-top:1px solid #121212;border-bottom:1px solid #121212;border-radius:0;padding:4px 2px;color:#121212}
+html.modern .uitoggle::before{content:"\25C6\00A0"}
+html.modern .uitoggle:hover{background:#121212;color:#f8f6f0}
+html.modern .ticker{display:none}
+/* front page grid */
+html.modern .panel{background:none;border:0;padding:16px 0 0}
+html.modern #p-briefing{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));column-gap:24px;row-gap:0;grid-auto-flow:row dense}
+html.modern #p-briefing > div:has(> h2.sec){display:none!important}
+html.modern #stories{display:contents}
+html.modern .story{display:block;padding:12px 0 14px;border:0;border-top:1px solid #121212}
+html.modern .story .rk{display:none}
+html.modern .story h4{font-family:var(--hed);font-weight:700;font-size:19px;line-height:1.15;margin-bottom:4px}
+html.modern .story p{font-size:14px;line-height:1.5;color:#222;text-align:justify;hyphens:auto}
+html.modern .story .srcs{font:italic 11px Georgia,serif;color:#555;margin-top:6px;gap:0 8px}
+html.modern .story .srcs a{color:#555;font-weight:normal}
+html.modern .story .srcs::before{content:"Sources:";color:#555}
+/* banner lead */
+html.modern .story:first-child{grid-column:1/-1;order:-2;border-top:0;padding:4px 0 14px;text-align:center;border-bottom:1px solid #121212}
+html.modern .story:first-child h4{font-size:clamp(30px,5.4vw,52px);line-height:1.04;letter-spacing:-.01em;margin-bottom:8px}
+html.modern .story:first-child p{font:italic clamp(16px,2vw,20px)/1.4 Georgia,serif;text-align:center;max-width:46em;margin:0 auto;color:#121212}
+html.modern .story:first-child .srcs{justify-content:center}
+/* day in brief = lead column text */
+html.modern .overview{grid-column:span 2;grid-row:span 2;order:-1;border:0;border-radius:0;background:none;padding:12px 0 14px;border-top:0}
+html.modern .overview h3{font:bold 22px var(--hed);letter-spacing:0;text-transform:none;text-align:left;color:#121212;border:0;padding:0 0 6px;background:none}
+html.modern .overview{display:block;column-count:2;column-gap:22px;column-rule:1px solid #bbb}
+html.modern .overview h3{column-span:all}
+html.modern .overview p{font-size:14.5px;line-height:1.55;text-align:justify;hyphens:auto;padding:4px 0 0}
+html.modern .overview p:first-of-type::first-letter{float:left;font:700 3.6em/.8 var(--hed);padding:4px 6px 0 0}
+html.modern .story:nth-child(2),html.modern .story:nth-child(3){order:-1}
+html.modern .story:nth-child(2) h4,html.modern .story:nth-child(3) h4{font-size:24px}
+/* other tabs keep simple look */
+html.modern .box{border:0;border-top:2px solid #121212;border-radius:0;background:none;padding:8px 0 0}
+html.modern h3{font:bold 12px Georgia,serif;letter-spacing:.08em;text-transform:uppercase;color:#121212;background:none;border:0;padding:0 0 6px;text-align:left}
+html.modern h2.sec{font-family:var(--hed)}
+html.modern footer{color:#555}
+@media (max-width:700px){
+ html.modern .wrap{padding:10px 14px 30px;margin-top:0}
+ html.modern header{grid-template-columns:1fr 1fr;grid-template-areas:"title title" "earl earr" "folio folio" "tabs tabs";row-gap:8px;padding-top:30px}
+ html.modern .weather{text-align:right}
+ html.modern .dateline{font-size:9.5px;letter-spacing:.03em}
+ html.modern .dateline::after{content:none}
+ html.modern #p-briefing{grid-template-columns:1fr}
+ html.modern .overview{grid-column:auto;grid-row:auto}
+ html.modern .overview{column-count:1}html.modern .overview p{text-align:left}
+ html.modern .story p{text-align:left}
+}
+/* print edition: all-black type, newspaper-style controls */
+html.modern{--muted:#121212;--e360:#121212;--nation:#121212;--time:#121212;--mr:#121212;--npr:#121212;--pbs:#121212}
+html.modern *{color:#121212}
+html.modern .tag,html.modern .story .srcs,html.modern .story .srcs a,html.modern .phase,html.modern .src .stat,html.modern .score .meta,html.modern .heads small{color:#121212!important}
+html.modern .dot{display:none}
+html.modern .chip{font:bold 11px Georgia,serif;letter-spacing:.1em;text-transform:uppercase;background:none;color:#121212;border:0;border-bottom:2px solid transparent;border-radius:0;padding:4px 2px}
+html.modern .chip .n{font:inherit;letter-spacing:0;opacity:.7}
+html.modern .chip[aria-pressed="true"],html.modern .chip:active{background:none;color:#121212;border-color:#121212}
+html.modern .chips{gap:4px 18px}
+html.modern .new{background:none;color:#121212;border:1px solid #121212;font:bold 9px Georgia,serif;letter-spacing:.08em;border-radius:0}
+html.modern .lbl{background:none;color:#121212;border:1px solid #121212;border-radius:0;font:bold 9px Georgia,serif}
+html.modern .pill{border-radius:0;color:#121212!important}
+html.modern a,html.modern a:visited{color:#121212}
+html.modern .tab{color:#121212;opacity:.55}html.modern .tab[aria-selected="true"]{opacity:1}
+/* round 2: lighter rules, slogan unboxed */
+html.modern .tagline{border:0;padding:0 4px;font-size:13px}
+html.modern .box{border-top:1px solid #121212}
+html.modern .chip[aria-pressed="true"],html.modern .chip:active{border-bottom-width:1px}
+html.modern .chip{border-bottom-width:1px}
+html.modern .overview,html.modern .brief{border-top:0}

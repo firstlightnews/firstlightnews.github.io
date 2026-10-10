@@ -14,9 +14,6 @@
   gtag('js', new Date());
   gtag('config', 'G-V2P5Z35PRF');
 </script>
-<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&family=PT+Serif:ital,wght@0,400;0,700;1,400&family=UnifrakturMaguntia&display=swap">
-<script>try{if(localStorage.getItem("fln-ui")==="print")document.documentElement.classList.add("modern")}catch(e){}</script>
 <title>First Light News</title>
 <link rel="icon" type="image/png" sizes="32x32" href="favicon-32.png?v=6">
 <link rel="icon" type="image/png" sizes="48x48" href="favicon-48.png?v=6">
@@ -126,332 +123,18 @@ article a.t{font-family:var(--f-display);font-size:17px;line-height:1.25}
 article p{margin:0;color:#333}
 footer{font-size:11px;color:#fff;text-shadow:1px 1px 0 #000,0 0 4px #000;padding-top:12px;text-align:center;display:flex;flex-direction:column;gap:6px;align-items:center}footer .badge{text-shadow:none}
 .badge{display:inline-block;font:bold 10px var(--f-mono);color:#000;background:#c0c0c0;border:2px solid;border-color:#fff #404040 #404040 #fff;padding:2px 6px}
-/* ---- view toggle ---- */
-header{position:relative}
-/* ---- MODERN VIEW ---- */
-html.modern{--desk:#f4f3ef;--sheet:#ffffff;--ink:#16181d;--muted:#666b75;--line:#e6e4de;--link:#16181d;--visited:#16181d;--bar:#16181d;--bar2:#c2410c;--live:#c2410c;
- --f-display:Georgia,"Times New Roman",serif;--f-body:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;--f-mono:ui-monospace,SFMono-Regular,Menlo,monospace}
-html.modern body{font-size:15px;line-height:1.55;-webkit-font-smoothing:antialiased}
-html.modern a{text-decoration:none}html.modern a:hover{text-decoration:underline}
-html.modern .wrap{max-width:860px;padding-inline:16px;padding-block:20px 48px}
-html.modern header{border:0;border-radius:14px 14px 0 0;padding:22px 22px 14px;gap:6px}
-html.modern h1{font-style:normal;font-weight:700;letter-spacing:-.02em;color:var(--ink);text-shadow:none;font-size:clamp(30px,6vw,40px)}
-html.modern .tagline{font-style:normal;font-family:var(--f-body);font-size:14px;color:var(--muted)}
-html.modern .dateline{font-size:13px;color:var(--muted)}
-html.modern .dateline b{font-family:var(--f-body);background:none;color:var(--ink);padding:0;font-weight:600}
-html.modern .weather{background:#f4f3ef;border:0;border-radius:999px;padding:5px 14px;font-size:13px}
-html.modern .weather b{color:var(--ink)}
-html.modern .pxi{display:none}
-html.modern .ticker{background:#fff;color:var(--ink);font:500 13px var(--f-body);border:0;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
-html.modern .ticker span{padding:8px 0}
-html.modern .tabs{border:0;border-bottom:1px solid var(--line);padding:0 22px;gap:22px;background:#fff}
-html.modern .tab{font:600 14px var(--f-body);background:none;border:0;border-radius:0;color:var(--muted);padding:12px 0 10px;border-bottom:2px solid transparent}
-html.modern .tab[aria-selected="true"]{background:none;color:var(--ink);border-bottom-color:var(--ink)}
-html.modern .tab:hover{text-decoration:none;color:var(--ink)}
-html.modern .panel{border:0;border-radius:0 0 14px 14px;padding:22px;gap:20px}
-html.modern h2.sec{font-size:24px;color:var(--ink)}
-html.modern h3{font:700 11px var(--f-body);letter-spacing:.08em;text-transform:uppercase;background:none;color:var(--muted);padding:0 0 8px;border-bottom:1px solid var(--line)}
-html.modern .overview,html.modern .brief{border:1px solid var(--line);border-radius:12px;padding:16px 18px;background:#fbfaf7}
-html.modern .overview h3{background:none}
-html.modern .overview p{padding:10px 0 0;font-size:17px;line-height:1.6}
-html.modern .story{padding-block:16px;border-bottom:1px solid var(--line);grid-template-columns:1.8rem 1fr}
-html.modern .story .rk{color:var(--muted);font-family:var(--f-body);font-weight:600}
-html.modern .story h4{font-size:19px;line-height:1.3}
-html.modern .story p{color:#3a3f48}
-html.modern .story .srcs a{color:var(--bar2);font-weight:600}
-html.modern .chip{font:500 13px var(--f-body);background:#fff;border:1px solid var(--line);border-radius:999px;padding:5px 12px}
-html.modern .chip:active,html.modern .chip[aria-pressed="true"]{background:var(--ink);color:#fff;border-color:var(--ink);font-weight:600}
-html.modern .chips.sub{border-top:1px solid var(--line)}
-html.modern .src{border:1px solid var(--line);border-radius:10px;padding:10px 12px}
-html.modern article{background:none;padding:12px 2px;border-bottom:1px solid var(--line)}
-html.modern article a.t{font-size:18px}
-html.modern article p{color:#3a3f48}
-html.modern .new{border-radius:4px;background:var(--bar2)}
-html.modern .box{border:1px solid var(--line);border-radius:12px;padding:14px;background:#fff}
-html.modern .box > h3{border-bottom:1px solid var(--line)}
-html.modern .heads{border:0;background:none}
-html.modern .heads a{padding:8px 0;border-bottom:1px solid var(--line)}
-html.modern .score,html.modern .ser{background:none;border-bottom:1px solid var(--line);padding:7px 0}
-html.modern .score .num{font-family:var(--f-body)}
-html.modern .phase,html.modern .score .meta,html.modern .heads small,html.modern .src .stat{font-family:var(--f-body)}
-html.modern .lbl{font:600 10px var(--f-body);color:var(--bar2);background:#fdf0e8;border:0;border-radius:4px;padding:1px 5px}
-html.modern .lbl::before{content:none}
-html.modern .pill{border-radius:4px;font-family:var(--f-body)}
-html.modern table{background:none;font-size:13px}
-html.modern th{font:600 11px var(--f-body);background:none;color:var(--muted);border:0;border-bottom:1px solid var(--line)}
-html.modern td{border:0;border-bottom:1px solid var(--line);font-family:var(--f-body)}
-html.modern .empty{border-radius:12px;border-color:var(--line)}
-html.modern footer{color:var(--muted);text-shadow:none}
-html.modern .badge{display:none}
-html.modern ::-webkit-scrollbar{width:8px;height:8px;background:transparent}
-html.modern ::-webkit-scrollbar-track{background:transparent;border:0;box-shadow:none}
-html.modern ::-webkit-scrollbar-thumb{background:#cfccc4;border:0;border-radius:8px;box-shadow:none}
-html.modern ::-webkit-scrollbar-button{display:none;width:0;height:0}
-html.modern ::-webkit-scrollbar-corner{background:transparent}
-@supports (-moz-appearance:none){html.modern,html.modern .heads{scrollbar-color:#cfccc4 transparent;scrollbar-width:thin}}
-/* ---- PLAIN WHITE overrides ---- */
-html.modern{--desk:#ffffff;--sheet:#ffffff;--line:#e5e5e5;--bar2:#16181d;--muted:#6b6b6b;--link:#16181d}
-html.modern .wrap{max-width:720px;padding-block:8px 40px}
-html.modern header,html.modern .panel{border-radius:0;padding-inline:0}
-html.modern .tabs{padding-inline:0}
-html.modern h1{font-family:var(--f-body);font-size:clamp(26px,5vw,32px);letter-spacing:-.03em}
-html.modern h2.sec{font-family:var(--f-body);font-size:20px}
-html.modern .weather{background:none;padding:0;border-radius:0}
-html.modern .ticker{display:none}
-html.modern .overview,html.modern .brief,html.modern .box,html.modern .src,html.modern .empty{background:none;border:0;border-radius:0;padding:0}
-html.modern .overview p{font-family:var(--f-body);font-size:16px}
-html.modern .story h4,html.modern article a.t{font-family:var(--f-body);font-size:17px}
-html.modern .story .srcs a{color:var(--muted);font-weight:500}
-html.modern .new{background:#16181d}
-html.modern .lbl{background:#f2f2f2;color:var(--ink)}
-html.modern .phase,html.modern #briefDate{color:var(--muted)}
-html.modern .chip{border-radius:4px}
-html.modern a:hover{text-decoration:underline}
-/* Georgia everywhere in simple view */
-html.modern{--f-body:Georgia,"Times New Roman",serif;--f-display:Georgia,"Times New Roman",serif}
-html.modern h1{letter-spacing:-.01em}
-html.modern h3{letter-spacing:.06em}
-/* ===== REAL FRONT PAGE ===== */
-html.modern{--desk:#dcdad3;--sheet:#f8f6f0;--ink:#121212;--muted:#555;--line:#121212;--bar2:#121212;
- --f-body:Georgia,"Times New Roman",serif;--f-display:Georgia,"Times New Roman",serif;--hed:"Old Standard TT",Georgia,serif}
-html.modern body{background:var(--desk);font-size:15px}
-html.modern .wrap{max-width:1000px;background:var(--sheet);box-shadow:0 1px 8px rgba(0,0,0,.18);padding:14px 30px 40px;margin-top:16px}
-/* masthead with ears */
-html.modern header{display:grid;grid-template-columns:170px 1fr 170px;grid-template-areas:"earl title earr" "folio folio folio" "tabs tabs tabs";align-items:center;column-gap:16px;row-gap:0;text-align:center;border:0;padding:30px 0 0;background:none}
-html.modern header h1{grid-area:title;font-family:"UnifrakturMaguntia",serif;font-weight:400;font-size:clamp(40px,7.2vw,70px);letter-spacing:0;line-height:1.05;padding:4px 0 8px;color:#121212}
-html.modern .tagline{grid-area:earl;font:italic 12px/1.35 Georgia,serif;color:#121212;border:1px solid #121212;padding:7px 8px;text-align:center}
-html.modern .tagline::before{content:"\201C"}html.modern .tagline::after{content:"\201D"}
-html.modern .weather{grid-area:earr;display:block;align-self:center;background:none;border:0;border-radius:0;padding:0 0 0 2px;font:11px/1.4 Georgia,serif;text-align:left}
-html.modern .weather::before{content:"TODAY\2019S WEATHER";display:block;font:bold 11px Georgia,serif;letter-spacing:.04em;margin-bottom:1px}
-html.modern .weather b{font-weight:normal;color:#121212;display:block}
-html.modern .weather .muted{color:#121212}
-html.modern .dateline{grid-area:folio;display:flex;justify-content:space-between;align-items:center;border-top:1px solid #121212;border-bottom:3px double #121212;padding:4px 0;margin-top:2px;font:11px Georgia,serif;letter-spacing:.06em;text-transform:uppercase;color:#121212;width:auto}
-html.modern .dateline::before{content:"VOL. " attr(data-vol) ", NO. " attr(data-ed)}
-html.modern .dateline::after{content:"FREE"}
-html.modern .dateline b{font:inherit;color:inherit;letter-spacing:inherit}
-html.modern .tabs{grid-area:tabs;justify-content:center;gap:26px;border:0;padding:6px 0 0;background:none}
-html.modern .tab{font:bold 11px Georgia,serif;letter-spacing:.14em;text-transform:uppercase;color:#777;padding:4px 0;border:0}
-html.modern .tab[aria-selected="true"]{color:#121212;border-bottom:2px solid #121212}
-html.modern .ticker{display:none}
-/* front page grid */
-html.modern .panel{background:none;border:0;padding:16px 0 0}
-html.modern #p-briefing{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));column-gap:24px;row-gap:0;grid-auto-flow:row dense}
-html.modern #p-briefing > div:has(> h2.sec){display:none!important}
-html.modern #stories{display:contents}
-html.modern .story{display:block;padding:12px 0 14px;border:0;border-top:1px solid #121212}
-html.modern .story .rk{display:none}
-html.modern .story h4{font-family:var(--hed);font-weight:700;font-size:19px;line-height:1.15;margin-bottom:4px}
-html.modern .story p{font-size:14px;line-height:1.5;color:#222;text-align:justify;hyphens:auto}
-html.modern .story .srcs{font:italic 11px Georgia,serif;color:#555;margin-top:6px;gap:0 8px}
-html.modern .story .srcs a{color:#555;font-weight:normal}
-html.modern .story .srcs::before{content:"Sources:";color:#555}
-/* banner lead */
-html.modern .story:first-child{grid-column:1/-1;order:-2;border-top:0;padding:4px 0 14px;text-align:center;border-bottom:1px solid #121212}
-html.modern .story:first-child h4{font-size:clamp(30px,5.4vw,52px);line-height:1.04;letter-spacing:-.01em;margin-bottom:8px}
-html.modern .story:first-child p{font:italic clamp(16px,2vw,20px)/1.4 Georgia,serif;text-align:center;max-width:46em;margin:0 auto;color:#121212}
-html.modern .story:first-child .srcs{justify-content:center}
-/* day in brief = lead column text */
-html.modern .overview{grid-column:span 2;grid-row:span 2;order:-1;border:0;border-radius:0;background:none;padding:12px 0 14px;border-top:0}
-html.modern .overview h3{font:bold 22px var(--hed);letter-spacing:0;text-transform:none;text-align:left;color:#121212;border:0;padding:0 0 6px;background:none}
-html.modern .overview{display:block;column-count:2;column-gap:22px;column-rule:1px solid #bbb}
-html.modern .overview h3{column-span:all}
-html.modern .overview p{font-size:14.5px;line-height:1.55;text-align:justify;hyphens:auto;padding:4px 0 0}
-html.modern .overview p:first-of-type::first-letter{float:left;font:700 3.6em/.8 var(--hed);padding:4px 6px 0 0}
-html.modern .story:nth-child(2),html.modern .story:nth-child(3){order:-1}
-html.modern .story:nth-child(2) h4,html.modern .story:nth-child(3) h4{font-size:24px}
-/* other tabs keep simple look */
-html.modern .box{border:0;border-top:2px solid #121212;border-radius:0;background:none;padding:8px 0 0}
-html.modern h3{font:bold 12px Georgia,serif;letter-spacing:.08em;text-transform:uppercase;color:#121212;background:none;border:0;padding:0 0 6px;text-align:left}
-html.modern h2.sec{font-family:var(--hed)}
-html.modern footer{color:#555}
-@media (max-width:700px){
- html.modern .wrap{padding:10px 14px 30px;margin-top:0}
- html.modern header{grid-template-columns:1fr 1fr;grid-template-areas:"title title" "earl earr" "folio folio" "tabs tabs";row-gap:8px;padding-top:30px}
- html.modern .weather{text-align:right}
- html.modern .dateline{font-size:9.5px;letter-spacing:.03em}
- html.modern .dateline::after{content:none}
- html.modern #p-briefing{grid-template-columns:1fr}
- html.modern .overview{grid-column:auto;grid-row:auto}
- html.modern .overview{column-count:1}html.modern .overview p{text-align:left}
- html.modern .story p{text-align:left}
-}
-/* print edition: all-black type, newspaper-style controls */
-html.modern{--muted:#121212;--e360:#121212;--nation:#121212;--time:#121212;--mr:#121212;--npr:#121212;--pbs:#121212}
-html.modern *{color:#121212}
-html.modern .tag,html.modern .story .srcs,html.modern .story .srcs a,html.modern .phase,html.modern .src .stat,html.modern .score .meta,html.modern .heads small{color:#121212!important}
-html.modern .dot{display:none}
-html.modern .chip{font:bold 11px Georgia,serif;letter-spacing:.1em;text-transform:uppercase;background:none;color:#121212;border:0;border-bottom:2px solid transparent;border-radius:0;padding:4px 2px}
-html.modern .chip .n{font:inherit;letter-spacing:0;opacity:.7}
-html.modern .chip[aria-pressed="true"],html.modern .chip:active{background:none;color:#121212;border-color:#121212}
-html.modern .chips{gap:4px 18px}
-html.modern .new{background:none;color:#121212;border:1px solid #121212;font:bold 9px Georgia,serif;letter-spacing:.08em;border-radius:0}
-html.modern .lbl{background:none;color:#121212;border:1px solid #121212;border-radius:0;font:bold 9px Georgia,serif}
-html.modern .pill{border-radius:0;color:#121212!important}
-html.modern a,html.modern a:visited{color:#121212}
-html.modern .tab{color:#121212;opacity:.55}html.modern .tab[aria-selected="true"]{opacity:1}
-/* round 2: lighter rules, slogan unboxed */
-html.modern .tagline{border:0;padding:0 4px;font-size:13px}
-html.modern .box{border-top:1px solid #121212}
-html.modern .chip[aria-pressed="true"],html.modern .chip:active{border-bottom-width:1px}
-html.modern .chip{border-bottom-width:1px}
-html.modern .overview,html.modern .brief{border-top:0}
-/* ===== round 3: readable classic columns ===== */
-html.modern{--f-body:"PT Serif",Georgia,serif}
-html.modern .overview p,html.modern .story p,html.modern article p,html.modern article a.t,html.modern .brief li,html.modern .score,html.modern td{font-family:"PT Serif",Georgia,serif}
-html.modern .story:first-child p{font-family:"PT Serif",Georgia,serif}
-/* page-style section names */
-html.modern .tab{font-size:0!important;letter-spacing:0}
-html.modern .tab::before{font:bold 11px Georgia,serif;letter-spacing:.14em;text-transform:uppercase}
-html.modern #tab-briefing::before{content:"Page 1 \00B7  Front Page"}
-html.modern #tab-reading::before{content:"Page 2 \00B7  News"}
-html.modern #tab-sports::before{content:"Page 3 \00B7  Sports"}
-/* front page: banner, brief, then flowing columns with vertical rules */
-html.modern #p-briefing{display:block}
-html.modern #stories{display:block;column-count:3;column-gap:30px;column-rule:1px solid #121212}
-html.modern .story{display:block;break-inside:avoid;border:0;padding:0 0 14px;margin:0 0 14px;position:relative}
-html.modern .story::after{content:"";display:block;width:40%;margin:14px auto 0;border-bottom:1px solid #121212}
-html.modern .story:last-child::after{content:none}
-html.modern .story h4,html.modern .story:nth-child(2) h4,html.modern .story:nth-child(3) h4{font-size:19px}
-html.modern .story p{text-align:left;hyphens:manual;font-size:14.5px;line-height:1.55}
-html:not(.modern) .banner{display:none}
-html.modern #stories > .story:first-child{display:none}
-html.modern .banner .story{text-align:center;border:0;border-bottom:3px double #121212;padding:6px 0 16px;margin:0 0 4px}
-html.modern .banner .story::after{content:none}
-html.modern .banner .story .rk{display:none}
-html.modern .banner .story h4{font-size:clamp(30px,5.4vw,52px);line-height:1.04;margin-bottom:8px}
-html.modern .banner .story p{font:italic clamp(16px,2vw,20px)/1.4 "PT Serif",Georgia,serif;text-align:center;max-width:46em;margin:0 auto}
-html.modern .banner .story .srcs{justify-content:center}
-html.modern .overview{display:block;column-count:2;column-gap:30px;column-rule:1px solid #121212;padding:14px 0 18px;margin-bottom:16px;border-bottom:3px double #121212}
-html.modern .overview h3{column-span:all;text-align:center;font:bold 13px Georgia,serif;letter-spacing:.14em;text-transform:uppercase;padding-bottom:10px}
-html.modern .overview p{text-align:left;font-size:15px;line-height:1.6;break-inside:avoid}
-html.modern .overview p+p{break-before:column}
-html.modern .overview p:first-of-type::first-letter{font-family:"Old Standard TT",serif}
-html.modern .turn{display:block;text-align:right;font:italic 13px "PT Serif",Georgia,serif;margin-top:6px;border-top:1px solid #121212;padding-top:8px;cursor:pointer}
-html.modern .turn::after{content:" \203A"}
-html:not(.modern) .turn{display:none}
-@media (max-width:700px){html.modern #stories,html.modern .overview{column-count:1}html.modern .overview p+p{break-before:auto}
- html.modern #tab-briefing::before{content:"P.1 Front"}html.modern #tab-reading::before{content:"P.2 News"}html.modern #tab-sports::before{content:"P.3 Sports"}}
-/* ===== round 4: fewer lines, uniform sections ===== */
-html.modern #tab-briefing::before{content:"Front Page"}
-html.modern #tab-reading::before{content:"News"}
-html.modern #tab-sports::before{content:"Sports"}
-@media (max-width:700px){html.modern #tab-briefing::before{content:"Front Page"}html.modern #tab-reading::before{content:"News"}html.modern #tab-sports::before{content:"Sports"}}
-html.modern .turn{display:none!important}
-/* one rule style only: a single thin line between major sections; whitespace everywhere else */
-html.modern #stories{column-rule:0;column-gap:40px}
-html.modern .story{padding:0;margin:0 0 26px}
-html.modern .story::after{content:none!important}
-html.modern .overview{column-rule:0;column-gap:40px;border-bottom:1px solid #121212;padding-bottom:22px;margin-bottom:24px}
-html.modern .banner .story{border-bottom:1px solid #121212;padding-bottom:20px;margin-bottom:0}
-/* uniform section heading everywhere */
-html.modern .overview h3,html.modern h3,html.modern .box > h3,html.modern .brief h3{font:bold 13px Georgia,serif;letter-spacing:.14em;text-transform:uppercase;text-align:center;color:#121212;background:none;border:0;padding:0 0 12px}
-/* news + sports: same whitespace rhythm, no row lines */
-html.modern article{border:0;padding:0 0 18px;background:none}
-html.modern article a.t{font-family:"Old Standard TT",Georgia,serif;font-weight:700;font-size:19px;line-height:1.2}
-html.modern article p{font-size:14.5px;line-height:1.55}
-html.modern .day > h3,html.modern .day h3{text-align:left}
-html.modern .box{border:0;padding:0;margin-bottom:8px}
-html.modern .score,html.modern .ser,html.modern .heads a{border:0;padding:5px 0}
-html.modern .heads{border:0;max-height:none}
-html.modern table td,html.modern table th{border:0}
-html.modern .brief ul{padding-left:18px}
-html.modern .src{border:0;padding:0}
-html.modern .grid2{column-gap:40px;row-gap:26px}
-html.modern .panel > *+*{margin-top:4px}
-/* ===== round 5: newspaper agate for sports ===== */
-html.modern #sportBody{gap:18px}
-html.modern .score{display:block;padding:1px 0;font:14px/1.4 "PT Serif",Georgia,serif;break-inside:avoid}
-html.modern .score .tm{display:inline;font-weight:normal}
-html.modern .score .tm span{display:inline;white-space:normal;overflow:visible}
-html.modern .score .tm .num{font:bold 14px "PT Serif",Georgia,serif;margin-left:4px}
-html.modern .score .tm.w span:first-child{font-weight:bold}
-html.modern .score .tm:first-child::after{content:", "}
-html.modern .score:has(.num:empty) .tm:first-child::after{content:" at "}
-html.modern .score .meta{display:inline;font:italic 12px "PT Serif",Georgia,serif;margin-left:6px}
-html.modern .score .meta span{margin-left:0}
-html.modern .score .meta span+span::before{content:" \00B7 "}
-html.modern .score:not(:has(.num:empty)) .meta span:last-child:not(.lg):not(.lbl){display:none}
-html.modern .score .meta .lg{font-weight:normal;font-style:italic}
-html.modern .score .meta .lbl{font:bold 10px Georgia,serif;border:0;padding:0;letter-spacing:.06em}
-/* compact boxes flow into columns */
-html.modern #sportBody > .box:not(:has(.grid2)){display:block;column-count:3;column-gap:36px}
-html.modern .box{display:block}
-html.modern .score .tm{margin:0;gap:0}
-html.modern #sportBody > .box > h3{column-span:all;text-align:left;border-bottom:1px solid #121212;padding-bottom:6px;margin-bottom:8px}
-html.modern .heads{display:block;column-count:2;column-gap:36px}
-html.modern .heads a{display:block;break-inside:avoid;padding:3px 0 6px;font-size:14px;line-height:1.35}
-html.modern .heads small{display:inline;font:italic 11px "PT Serif",Georgia,serif;margin-left:6px}
-html.modern .box > h3{text-align:left;border-bottom:1px solid #121212;padding-bottom:6px;margin-bottom:8px}
-html.modern .brief h3{text-align:left;border-bottom:1px solid #121212;padding-bottom:6px;margin-bottom:8px}
-html.modern .brief ul{column-count:2;column-gap:36px;padding:0 0 0 16px;display:block}
-html.modern .brief li{break-inside:avoid;margin-bottom:6px;font-size:14px;line-height:1.45}
-/* league page: results | coming up | table side by side */
-html.modern .grid2{display:grid;grid-template-columns:1fr 1fr;gap:0 36px}
-html.modern .box .box{margin:0}
-html.modern h2.sec{font-size:22px}
-html.modern table{font:13px "PT Serif",Georgia,serif}
-html.modern td,html.modern th{padding:1px 6px;font-family:"PT Serif",Georgia,serif}
-html.modern th{font:bold 11px Georgia,serif;letter-spacing:.06em}
-@media (max-width:700px){html.modern #sportBody > .box,html.modern .heads,html.modern .brief ul{column-count:1}html.modern .grid2{grid-template-columns:1fr;gap:12px}}
-html.modern #sportBody > .box:has(.heads){column-count:1}
-html.modern .score .meta span+span::before{content:"\00A0\00B7\00A0"}
-html.modern .score .tm:first-child::after{content:",\00A0"}
-html.modern .score:has(.num:empty) .tm:first-child::after{content:"\00A0 at\00A0"}
-html.modern .score .tm span:first-child{margin:0}
-html.modern .brief ul{list-style:none;padding-left:0}
-html.modern .brief li{padding-left:13px;text-indent:-13px}
-html.modern .brief li::before{content:"\2013\00A0";}
-
-/* masthead always one line */
-html.modern header h1{white-space:nowrap;font-size:clamp(28px,6.3vw,70px)}
-@media (max-width:700px){html.modern header h1{font-size:9.6vw;padding-right:0;text-align:center}html.modern .dateline::after{content:none}}
-/* top stories heading + phone fixes */
-html.modern #stories::before{content:"Top Stories";column-span:all;display:block;font:bold 13px Georgia,serif;letter-spacing:.14em;text-transform:uppercase;text-align:center;color:#121212;padding:0 0 14px}
-@media (max-width:700px){
- html.modern #sportBody > .box:not(:has(.grid2)),html.modern #sportBody > .box,html.modern #stories,html.modern .heads,html.modern .brief ul,html.modern .overview{column-count:1!important}
- html.modern .score{font-size:15px}
-}
-/* footer matches the folio line */
-html.modern footer{font:12px/1.7 Georgia,serif;letter-spacing:0;text-transform:none;color:#121212;border-top:0;margin-top:28px;padding-top:10px}
-
-/* F mark in footer */
-.fmark{display:block;width:40px;height:40px;margin:0 auto 2px}
-.fm-p{display:none}
-html.modern .fm-o{display:none}html.modern .fm-p{display:block}
-
-/* F tile in original header, bottom-right */
-header{position:relative}
-.ftile{position:absolute;right:16px;bottom:12px;width:48px;height:48px;box-sizing:border-box;background:#fffdf0 url(f-mark-black.png?v=1) center/78% no-repeat;border:2px solid;border-color:#fff #808080 #808080 #fff;outline:1px solid #000;box-shadow:2px 2px 0 #000}
-html.modern .ftile{display:none}
-@media(max-width:640px){.ftile{width:34px;height:34px;right:10px;bottom:12px}html:not(.modern) header .weather{max-width:calc(100% - 46px)}}
-
-/* phone: compact weather so it fits one line */
-@media(max-width:640px){html:not(.modern) header .weather .wl,html:not(.modern) header .weather .wu{display:none}html:not(.modern) header .weather{font-size:clamp(11.5px,3.4vw,13px);padding:3px 7px;white-space:nowrap}html:not(.modern) header .weather.wrapok{white-space:normal}}
-/* ===== edition toggle ===== */
-.uitoggle{all:unset;box-sizing:border-box;cursor:pointer;position:absolute;top:14px;right:14px;z-index:2}
-.uitoggle:focus-visible{outline:2px dotted #000;outline-offset:3px}
-.uitoggle .tg-print{display:none}
-.uitoggle .tg-retro{position:relative;display:flex;align-items:center;gap:8px;font:bold 13px Verdana,Tahoma,sans-serif;color:#000;background:#d4d0c8;border:2px solid;border-color:#fff #808080 #808080 #fff;padding:4px 12px 4px 8px;box-shadow:1px 1px 0 #000}
-.uitoggle:active .tg-retro{border-color:#808080 #fff #fff #808080}
-.uitoggle .tg-retro svg{width:32px;height:32px;flex:none}
-.uitoggle .new{position:absolute;top:-13px;left:-15px;font:bold 11px Verdana,sans-serif;color:#ff0;background:#e00000;border:1px solid #000;padding:1px 4px;transform:rotate(-12deg);animation:fln-blink 1s steps(1) infinite}
-@keyframes fln-blink{50%{visibility:hidden}}
-@media (prefers-reduced-motion:reduce){.uitoggle .new{animation:none}}
-@media (max-width:640px){.uitoggle{top:16px;right:10px}.uitoggle .tg-retro{font-size:10px;gap:4px;padding:1px 6px 1px 4px}.uitoggle .tg-retro svg{width:16px;height:16px}.uitoggle .new{font-size:8px;top:-9px;left:-10px;padding:0 3px}}
-html.modern .uitoggle{position:relative;grid-area:folio;justify-self:end;align-self:center;top:12px;right:0;left:auto;width:172px;height:76px;margin:-34px 0;z-index:3;transform:rotate(-8deg);mix-blend-mode:multiply;opacity:.95}
-html.modern .uitoggle::before{content:none}
-html.modern .dateline::after{content:"FREE"}@media (max-width:700px){html.modern .dateline{padding-right:0}}
-html.modern .uitoggle:hover{transform:rotate(-8deg) scale(1.05)}
-html.modern .uitoggle .tg-retro{display:none}
-html.modern .uitoggle .tg-print{display:block;width:100%;height:100%}
-@media (max-width:700px){html.modern .uitoggle{grid-area:tabs;width:88px;height:40px;margin:-6px 0 -10px;right:-4px}html.modern .tabs{justify-content:flex-start;gap:20px}}
-@media (max-width:700px){html.modern header .dateline::after{content:none}}
-@media (max-width:700px){
- html.modern .tabs{justify-content:center;gap:24px;padding-top:0;margin-top:0}
- html.modern header{padding-top:40px}
- html.modern .uitoggle{position:absolute;grid-area:auto;top:-4px;right:-8px;margin:0;width:90px;height:40px;transform:rotate(8deg)}
- html.modern .uitoggle:hover{transform:rotate(8deg) scale(1.05)}
-}
+/* cover illustration (inset map in The day in brief) */
+.overview:has(.cover){display:block}
+.cover{float:right;width:42%;max-width:380px;margin:10px 10px 6px 16px;border:2px solid;border-color:#fff #808080 #808080 #fff;outline:1px solid #000;background:#000}
+.cover canvas{display:block;width:100%;aspect-ratio:4/3;height:auto;image-rendering:pixelated;background:#16306e}
+.cover figcaption{padding:4px 7px 5px;color:#fff;font:11px/1.35 var(--f-mono)}
+.cover figcaption .cr{display:block;color:#aaa;font-size:10px;margin-top:2px}
+@media (max-width:600px){.cover{float:none;width:auto;max-width:none;margin:8px 10px 2px}}
+html.modern .cover{width:50%;max-width:none;margin:4px 0 8px 16px;border:0;outline:0;background:none}
+html.modern .cover canvas{image-rendering:auto;background:transparent;border:1px solid #121212;box-sizing:border-box}
+html.modern .cover figcaption{color:#121212;padding:5px 0 0;font:italic 12.5px/1.4 "PT Serif",Georgia,serif}
+html.modern .cover figcaption .cr{color:#555;font:9.5px Georgia,serif;letter-spacing:.1em;text-transform:uppercase;font-style:normal;margin-top:3px}
+@media (max-width:700px){html.modern .cover{float:none;width:auto;margin:6px 0 12px}}
 </style>
 </head>
 <body>
@@ -459,7 +142,6 @@ html.modern .uitoggle .tg-print{display:block;width:100%;height:100%}
 
 <div class="wrap">
   <header>
-    <button class="uitoggle" id="uiToggle" type="button" aria-label="Read the print edition"><span class="tg-retro"><span class="new">NEW!</span><svg viewBox="0 0 16 16" shape-rendering="crispEdges" style="image-rendering:pixelated;flex:none"><rect x="1" y="2" width="13" height="12" fill="#000"/><rect x="2" y="3" width="11" height="10" fill="#fff"/><rect x="14" y="3" width="1" height="12" fill="#000"/><rect x="2" y="14" width="13" height="1" fill="#000"/><rect x="3" y="4" width="9" height="2" fill="#b3001b"/><rect x="3" y="7" width="9" height="1" fill="#808080"/><rect x="3" y="9" width="4" height="1" fill="#808080"/><rect x="8" y="9" width="4" height="1" fill="#808080"/><rect x="3" y="11" width="4" height="1" fill="#808080"/><rect x="8" y="11" width="4" height="1" fill="#808080"/></svg><span>Print Edition</span></span><span class="tg-print"><svg viewBox="-6 -6 232 108" width="100%" height="100%" aria-hidden="true"><defs><filter id="fln-ink"><feTurbulence type="fractalNoise" baseFrequency=".9" numOctaves="2" seed="3"/><feColorMatrix values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 -2.2 1.6"/><feComposite in="SourceGraphic" operator="in"/></filter></defs><g filter="url(#fln-ink)" fill="none" stroke="#c4161c"><rect x="5" y="5" width="210" height="86" rx="6" stroke-width="5"/><rect x="13" y="13" width="194" height="70" rx="3" stroke-width="2"/><text x="110" y="42" text-anchor="middle" font-family="Georgia,serif" font-weight="bold" font-size="15" letter-spacing="3" fill="#c4161c" stroke="none">NOW AVAILABLE</text><text x="110" y="74" text-anchor="middle" font-family="Georgia,serif" font-weight="bold" font-size="32" textLength="176" lengthAdjust="spacingAndGlyphs" fill="#c4161c" stroke="none">ONLINE</text></g></svg></span></button>
     <h1>First Light News</h1>
     <div class="tagline">Your daily news, delivered at first light!</div>
     <div class="dateline"><span id="today"></span><span>Updated <b id="refreshed">—</b></span></div>
@@ -479,17 +161,14 @@ html.modern .uitoggle .tg-print{display:block;width:100%;height:100%}
     <div style="display:flex;justify-content:space-between;align-items:baseline;gap:12px;flex-wrap:wrap">
       <h2 class="sec">Today's top stories</h2><span class="phase" id="briefDate"></span>
     </div>
-    <div class="banner" id="banner" aria-hidden="true"></div>
     <div class="overview" id="overview" hidden></div>
-    <div id="stories" data-x><div class="empty"><b>The morning briefing appears here.</b><br>Each day's ten most important stories, summarized in two sentences with links to the full reporting.</div></div>
-    <a class="turn" data-to="reading" role="button" tabindex="0">Continued on Page 2</a>
+    <div id="stories"><div class="empty"><b>The morning briefing appears here.</b><br>Each day's ten most important stories, summarized in two sentences with links to the full reporting.</div></div>
   </section>
 
   <section class="panel" id="p-reading" role="tabpanel" aria-labelledby="tab-reading" hidden>
     <div class="chips" id="filters" role="group" aria-label="Filter by publication"></div>
     <div class="sources" id="sources" aria-label="Publications"></div>
     <div id="feed"><div class="empty" id="empty"><b>Waiting for the first delivery.</b><br>New articles from NPR, PBS NewsHour, TIME, Yale e360 and The Nation appear here each morning.</div></div>
-    <a class="turn" data-to="sports" role="button" tabindex="0">Sports on Page 3</a>
   </section>
 
   <section class="panel" id="p-sports" role="tabpanel" aria-labelledby="tab-sports" hidden>
@@ -505,15 +184,6 @@ const $ = id => document.getElementById(id);
 const EMPTY = $("empty");
 function el(tag, attrs={}, ...kids){ const n=document.createElement(tag); for(const[k,v] of Object.entries(attrs)){ if(k==="style") n.setAttribute("style",v); else if(k in n) n[k]=v; else n.setAttribute(k,v);} for(const k of kids) if(k!=null&&k!==false) n.append(k); return n; }
 function store(k,v){ try{ if(v===undefined) return localStorage.getItem(k); localStorage.setItem(k,v);}catch(e){ return null; } }
-/* ---------- edition toggle ---------- */
-(function(){const b=$("uiToggle"),h=document.documentElement;
- const ed=()=>{const L=Date.UTC(2026,9,9),d=new Date(new Date().toLocaleString("en-US",{timeZone:"America/New_York"}));return Math.max(1,Math.round((Date.UTC(d.getFullYear(),d.getMonth(),d.getDate())-L)/864e5)+1)};
- const roman=n=>{const m=[[1000,"M"],[900,"CM"],[500,"D"],[400,"CD"],[100,"C"],[90,"XC"],[50,"L"],[40,"XL"],[10,"X"],[9,"IX"],[5,"V"],[4,"IV"],[1,"I"]];let r="";for(const[v,s]of m)while(n>=v){r+=s;n-=v}return r};
- const vol=()=>{const d=new Date(new Date().toLocaleString("en-US",{timeZone:"America/New_York"}));let y=d.getFullYear()-2026;if(d.getMonth()<9||(d.getMonth()===9&&d.getDate()<9))y--;return roman(Math.max(1,y+1))};
- const dl=document.querySelector(".dateline");dl.setAttribute("data-vol",vol());dl.setAttribute("data-ed",ed());
- window.setEdition=(e)=>{if(e&&e.no)dl.setAttribute("data-ed",String(e.no));};
- const sync=()=>{const m=h.classList.contains("modern");b.setAttribute("aria-label",m?"Back to the original online edition":"Read the print edition");};
- b.addEventListener("click",()=>{h.classList.toggle("modern");store("fln-ui",h.classList.contains("modern")?"print":"original");sync();window.scrollTo(0,0);});sync();})();
 $("today").textContent = new Date().toLocaleDateString(undefined,{weekday:"long",month:"long",day:"numeric",year:"numeric"});
 
 /* ---------- tabs ---------- */
@@ -540,7 +210,7 @@ function renderBriefing(){
   if(!digest?.items?.length) return;
   $("ticker").textContent=digest.items.map(it=>"+++ "+it.headline).join("   ")+"   +++";
   const ov=$("overview");
-  if(digest.overview){ const paras=String(digest.overview).split(/\n\n+/); ov.replaceChildren(el("h3",{},"The day in brief"),...paras.map(t=>el("p",{},t))); ov.hidden=false; } else ov.hidden=true;
+  if(digest.overview){ const paras=String(digest.overview).split(/\n\n+/); ov.replaceChildren(el("h3",{},"The day in brief"),...(coverEl(digest.cover)?[coverEl(digest.cover)]:[]),...paras.map(t=>el("p",{},t))); ov.hidden=false; startCover(); } else ov.hidden=true;
   const d=new Date(digest.date+"T12:00:00"); $("briefDate").textContent = isNaN(d)?"":d.toLocaleDateString(undefined,{weekday:"short",month:"short",day:"numeric"});
   $("stories").replaceChildren(...digest.items.map((it,i)=>{
     const src=el("div",{className:"srcs"}); for(const s of (it.sources||[])) src.append(el("a",{href:s.url,target:"_blank",rel:"noopener"},s.name));
@@ -562,6 +232,172 @@ function scoreRow(g){
     el("div",{className:"tm"+(hw?" w":"")},el("span",{},g.home),el("span",{className:"num"},done?String(g.hs):"")),
     el("div",{className:"meta"},g.t?el("span",{},(done||g.dateOnly)?fmtWhen(g.t,false):fmtWhen(g.t)):null, g.league?el("span",{className:"lg"},g.league):null, g.label?el("span",{className:"lbl"},g.label):null, done?el("span",{},"Final"):null));
 }
+
+/* ---- cover illustration (drawn, not a photo) ---- */
+let COVER=null;
+function coverEl(c){
+  if(!c||!COVER_KINDS[c.kind]) return null;
+  if(COVER&&COVER.data===c) return COVER.fig;
+  const cv=el("canvas",{"aria-hidden":"true"});
+  const fig=el("figure",{className:"cover"},cv,el("figcaption",{},el("span",{},c.caption||""),el("span",{className:"cr"},"First Light illustration")));
+  COVER={data:c,fig,cv,phase:0,timer:null}; return fig;
+}
+const COVER_KINDS={hurricane:1,flags:1};
+const FLAGS={ua:{n:"Ukraine",c:["#0057B7","#FFD700"]},ru:{n:"Russia",c:["#FFFFFF","#0039A6","#D52B1E"]}};
+/* Gulf of Mexico / Florida inset: simplified coastline (lon,lat) */
+const GULF={lon0:-98.5,lon1:-78.5,lat0:18,lat1:31.6,
+ land:[[[-99,17],[-87.9,17],[-87.9,18.2],[-87.5,19.5],[-86.8,20.8],[-87.0,21.5],[-88.2,21.5],[-89.0,21.35],[-90.3,21.1],[-90.5,20.0],[-91.4,18.7],[-92.5,18.6],[-94.5,18.2],[-95.9,18.9],[-96.4,19.9],[-97.2,21.0],[-97.7,22.0],[-97.8,24.0],[-97.2,25.9],[-97.4,27.6],[-96.6,28.4],[-95.0,29.2],[-94.0,29.7],[-93.0,29.75],[-92.0,29.6],[-91.2,29.25],[-90.2,29.1],[-89.4,28.95],[-89.1,29.3],[-89.6,29.8],[-89.4,30.2],[-88.6,30.35],[-88.0,30.25],[-87.5,30.3],[-86.5,30.4],[-85.6,30.1],[-85.3,29.7],[-84.5,29.9],[-84.0,30.05],[-83.4,29.6],[-82.8,29.0],[-82.7,28.0],[-82.6,27.4],[-82.1,26.6],[-81.8,26.0],[-81.2,25.3],[-80.9,25.15],[-80.4,25.2],[-80.15,25.8],[-80.05,26.7],[-80.4,27.6],[-80.6,28.4],[-81.0,29.2],[-81.3,30.0],[-81.4,30.7],[-81.2,31.6],[-81.0,33],[-99,33]],
+  [[-84.95,21.85],[-84.4,22.0],[-83.2,22.5],[-82.0,23.15],[-80.9,23.15],[-79.6,22.7],[-78.4,22.4],[-78.4,21.3],[-79.6,21.6],[-81.0,22.0],[-82.0,22.2],[-83.0,22.0],[-84.3,21.7]]]};
+function gulfProj(W,H){const k=Math.cos(25*Math.PI/180), sx=W/((GULF.lon1-GULF.lon0)*k), sy=H/(GULF.lat1-GULF.lat0), s=Math.max(sx,sy);
+  const cx=W/2-((GULF.lon0+GULF.lon1)/2-GULF.lon0)*k*s, cy=H/2+((GULF.lat0+GULF.lat1)/2-GULF.lat0)*s;
+  return ([lon,lat])=>[cx+(lon-GULF.lon0)*k*s, cy-(lat-GULF.lat0)*s];}
+function landPath(x,P){x.beginPath();for(const poly of GULF.land){poly.forEach((pt,i)=>{const [X,Y]=P(pt);i?x.lineTo(X,Y):x.moveTo(X,Y)});x.closePath();}}
+function stormD(dx,dy,R,phase){
+  const r=Math.hypot(dx,dy)/R; if(r<.06) return 0; const th=Math.atan2(dy,dx);
+  const arm=(Math.cos(2*th-4.6*Math.log(r+.03)+phase)+1)/2;
+  const cdo=Math.exp(-Math.pow(r/.34,4)), wall=Math.exp(-Math.pow((r-.13)/.07,2));
+  const bands=Math.pow(arm,1.8)*Math.exp(-Math.pow(r/1.2,2))*1.1;
+  const base=Math.max(wall,cdo*(.72+.28*arm),bands);
+  return Math.min(1,base>.15?base+.12*Math.sin(dx*.9+dy*.4+phase*.5)*Math.sin(dx*.45-dy*.8)*(r>.3?1:0):base*.6);
+}
+function drawHurricane(cv,x,W,H,print,phase,c){
+  const at=c.at||[-87.6,26.6], to=c.toward||[-87.4,30.3];
+  if(!print){
+    const px=3, w=Math.ceil(W/px), h=Math.ceil(H/px);
+    if(!COVER.mask||COVER.mask.w!==w||COVER.mask.h!==h){ const m=document.createElement("canvas"); m.width=w;m.height=h; const mx=m.getContext("2d"); mx.fillStyle="#fff"; landPath(mx,gulfProj(w,h)); mx.fill();
+      const md=mx.getImageData(0,0,w,h).data, L=new Uint8Array(w*h); for(let i=0;i<w*h;i++) L[i]=md[i*4]>127?1:0; COVER.mask={w,h,L}; }
+    const L=COVER.mask.L, P=gulfProj(w,h), [sx,sy]=P(at), R=gulfProj(w,h)([at[0]+3.2,at[1]])[0]-sx;
+    const off=document.createElement("canvas"); off.width=w; off.height=h; const ox=off.getContext("2d"), img=ox.createImageData(w,h), D=img.data;
+    for(let j=0;j<h;j++)for(let i=0;i<w;i++){ const q=j*w+i, k=q*4, isL=L[q];
+      const edge=isL&&((i>0&&!L[q-1])||(i<w-1&&!L[q+1])||(j>0&&!L[q-w])||(j<h-1&&!L[q+w]));
+      let col=isL?(edge?[206,184,118]:((i+j)%2?[88,140,60]:[76,124,52])):((i+j)%2?[22,48,110]:[27,57,126]);
+      const d=stormD(i-sx,j-sy,R,phase);
+      const lv=d>.78?[255,255,255]:d>.55?[214,222,236]:d>.33?[154,170,202]:(d>.2&&(i+j)%2)?[112,130,170]:null;
+      if(lv) col=lv; D[k]=col[0];D[k+1]=col[1];D[k+2]=col[2];D[k+3]=255; }
+    ox.putImageData(img,0,0);
+    const dpr=Math.min(2,window.devicePixelRatio||1); cv.width=W*dpr; cv.height=H*dpr; x.setTransform(dpr,0,0,dpr,0,0);
+    x.imageSmoothingEnabled=false; x.drawImage(off,0,0,w*px,h*px);
+    const Q=gulfProj(W,H), [ax,ay]=Q(at), [tx,ty]=Q(to);
+    // projected-track arrow
+    x.strokeStyle="#ffde00"; x.fillStyle="#ffde00"; x.lineWidth=2; x.setLineDash([5,4]); x.beginPath(); x.moveTo(ax,ay-R*px*.45); x.lineTo(tx,ty+8); x.stroke(); x.setLineDash([]);
+    x.beginPath(); x.moveTo(tx,ty); x.lineTo(tx-6,ty+9); x.lineTo(tx+6,ty+9); x.closePath(); x.fill();
+    x.font='bold 11px "Courier New",monospace'; x.textAlign="center";
+    const lab=(t,X,Y,c)=>{x.fillStyle="#000";x.fillText(t,X+1,Y+1);x.fillStyle=c;x.fillText(t,X,Y);};
+    const [fx,fy]=Q([-81.55,28.2]); lab("FLA.",fx,fy,"#fff");
+    lab((c.label||"ISAIAS").toUpperCase(),ax,ay+R*px*.62,"#ffde00");
+  } else {
+    const dpr=Math.min(2,window.devicePixelRatio||1); cv.width=W*dpr; cv.height=H*dpr; x.setTransform(dpr,0,0,dpr,0,0); x.clearRect(0,0,W,H);
+    const Q=gulfProj(W,H), [ax,ay]=Q(at), [tx,ty]=Q(to), R=Q([at[0]+3.2,at[1]])[0]-ax;
+    x.strokeStyle=x.fillStyle="#121212";
+    // land: diagonal hatching clipped to coastline
+    x.save(); landPath(x,Q); x.clip(); x.lineWidth=.6; x.beginPath(); for(let d=-H;d<W;d+=3.5){x.moveTo(d,0);x.lineTo(d+H,H);} x.stroke(); x.restore();
+    // coastline + engraver's water lines
+    x.lineWidth=1.1; landPath(x,Q); x.stroke();
+    x.save(); x.globalAlpha=.35; x.lineWidth=.5; for(const o of [3,6]){ x.save(); x.translate(0,o); landPath(x,Q); x.stroke(); x.restore(); } x.restore();
+    // storm: halftone dots
+    const st=3.4;
+    for(let Y=st/2;Y<H;Y+=st)for(let X=st/2+((Math.round(Y/st))%2?st/2:0);X<W;X+=st){ const d=stormD(X-ax,Y-ay,R,.6); if(d<.08) continue;
+      x.beginPath(); x.arc(X,Y,Math.sqrt(d)*st*.6,0,7); x.fill(); }
+    // projected-track arrow
+    x.lineWidth=1.3; x.setLineDash([4,3]); x.beginPath(); x.moveTo(ax,ay-R*.45); x.lineTo(tx,ty+7); x.stroke(); x.setLineDash([]);
+    x.beginPath(); x.moveTo(tx,ty); x.lineTo(tx-5,ty+8); x.lineTo(tx+5,ty+8); x.closePath(); x.fill();
+    const lab=(t,X,Y,f)=>{x.font=f; x.textAlign="center"; x.lineWidth=3; x.strokeStyle="#f8f6f0"; x.strokeText(t,X,Y); x.fillStyle="#121212"; x.fillText(t,X,Y);};
+    const [fx,fy]=Q([-81.55,28.2]); lab("FLORIDA",fx,fy,'italic 11px Georgia,serif');
+    lab((c.label||"Isaias"),ax,ay+R*.7,'bold italic 12px Georgia,serif');
+  }
+}
+function hex(c){return [1,3,5].map(i=>parseInt(c.slice(i,i+2),16));}
+function drawFlags(cv,x,W,H,print,phase,codes){
+  codes=(codes||[]).filter(k=>FLAGS[k]).slice(0,3); const n=codes.length; if(!n) return;
+  const fh=H*.5, fw=fh*1.5, gap=fw*.55, total=n*fw+(n-1)*gap, x0=(W-total)/2, y0=H*.2;
+  if(!print){
+    const px=4, w=Math.ceil(W/px), h=Math.ceil(H/px); cv.width=w; cv.height=h;
+    const img=x.createImageData(w,h), D=img.data;
+    for(let k=0;k<D.length;k+=4){const i=(k/4)%w,j=Math.floor(k/4/w);const g=((i+j)%2)?192:184;D[k]=g;D[k+1]=g;D[k+2]=g+6;D[k+3]=255;}
+    codes.forEach((code,f)=>{const F=FLAGS[code], fx=(x0+f*(fw+gap))/px, fy=y0/px, fwp=fw/px, fhp=fh/px;
+      // pole
+      for(let j=Math.floor(fy-2);j<h-1;j++)for(let i=Math.floor(fx-2);i<Math.floor(fx);i++){const k=(j*w+i)*4;D[k]=D[k+1]=D[k+2]=(i===Math.floor(fx-2))?90:40;}
+      for(let i=0;i<Math.ceil(fwp);i++){const t=i/fwp, off=Math.sin(i*.32-phase)*1.6*t, sh=Math.cos(i*.32-phase)*t;
+        for(let j=0;j<Math.ceil(fhp);j++){const yy=Math.round(fy+j+off), xx=Math.round(fx+i); if(yy<0||yy>=h||xx>=w) continue;
+          const band=Math.min(F.c.length-1,Math.floor(j/fhp*F.c.length)); let [r,g,b]=hex(F.c[band]); const m=1+sh*.18*((i+j)%2?1:.6);
+          const k=(yy*w+xx)*4; D[k]=Math.min(255,r*m);D[k+1]=Math.min(255,g*m);D[k+2]=Math.min(255,b*m);D[k+3]=255;}}
+    });
+    x.putImageData(img,0,0);
+  } else {
+    const dpr=Math.min(2,window.devicePixelRatio||1); cv.width=W*dpr; cv.height=H*dpr; x.setTransform(dpr,0,0,dpr,0,0); x.clearRect(0,0,W,H);
+    x.fillStyle=x.strokeStyle="#121212"; const st=3.6;
+    codes.forEach((code,f)=>{const F=FLAGS[code], fx=x0+f*(fw+gap);
+      x.fillRect(fx-3,y0-4,2,H-y0+4);
+      const yAt=(X)=>Math.sin((X-fx)*.08)*5*((X-fx)/fw);
+      // heraldic hatching (Petra Sancta): red = vertical lines, blue = horizontal, yellow/gold = dots, green = diagonal, black = solid, white = blank
+      const nb=F.c.length;
+      for(let bi=0;bi<nb;bi++){ const [r,g,b]=hex(F.c[bi]), t0=bi/nb*fh, t1=(bi+1)/nb*fh;
+        const kind=(r>200&&g>200&&b>200)?"w":(r>180&&g>150&&b<120)?"y":(r>150&&g<110)?"r":(b>120&&r<90)?"b":(g>100&&r<100)?"g":"k";
+        x.save(); x.beginPath(); for(let X=fx;X<=fx+fw;X+=2) X===fx?x.moveTo(X,y0+t0+yAt(X)):x.lineTo(X,y0+t0+yAt(X)); for(let X=fx+fw;X>=fx;X-=2) x.lineTo(X,y0+t1+yAt(X)); x.closePath(); x.clip();
+        x.lineWidth=.9; x.beginPath();
+        if(kind==="r") for(let X=fx+1.5;X<fx+fw;X+=3.2){x.moveTo(X,y0-10);x.lineTo(X,y0+fh+10);}
+        if(kind==="b") for(let Y=y0-10;Y<y0+fh+10;Y+=3){x.moveTo(fx,Y);x.lineTo(fx+fw,Y);}
+        if(kind==="g") for(let d=-fh;d<fw;d+=3.6){x.moveTo(fx+d,y0-10);x.lineTo(fx+d+fh+20,y0+fh+10);}
+        x.stroke();
+        if(kind==="y") for(let Y=y0+t0-6;Y<y0+t1+6;Y+=3.4)for(let X=fx+1.7+((Math.round(Y/3.4))%2?1.7:0);X<fx+fw;X+=3.4){x.beginPath();x.arc(X,Y,.75,0,7);x.fill();}
+        if(kind==="k") x.fillRect(fx,y0-10,fw,fh+20);
+        x.restore();
+        if(bi>0){x.lineWidth=.8;x.beginPath();for(let X=fx;X<=fx+fw;X+=2) X===fx?x.moveTo(X,y0+t0+yAt(X)):x.lineTo(X,y0+t0+yAt(X));x.stroke();}
+      }
+      x.lineWidth=1; x.beginPath();
+      for(let X=fx;X<=fx+fw;X+=2) X===fx?x.moveTo(X,y0+yAt(X)):x.lineTo(X,y0+yAt(X));
+      for(let X=fx+fw;X>=fx;X-=2) x.lineTo(X,y0+fh+yAt(X)); x.closePath(); x.stroke();
+      x.font='10px Georgia,serif'; x.textAlign="center"; x.fillText(F.n.toUpperCase().split("").join(String.fromCharCode(8202)),fx+fw/2,y0+fh+20);
+    });
+  }
+  if(!print){ /* names under flags, drawn crisp on top */ }
+}
+function drawCover(){
+  if(!COVER) return; const {cv,data}=COVER; const print=document.documentElement.classList.contains("modern");
+  const W=cv.clientWidth, H=cv.clientHeight; if(!W||!H) return;
+  const aspect=W/H, x=cv.getContext("2d");
+  if(data.kind==="flags") return drawFlags(cv,x,W,H,print,COVER.phase,data.flags);
+  if(data.kind==="hurricane") return drawHurricane(cv,x,W,H,print,COVER.phase,data);
+  if(!print){
+    const px=4, w=Math.ceil(W/px), h=Math.ceil(H/px);
+    cv.width=w; cv.height=h;
+    const img=x.createImageData(w,h), D=img.data;
+    for(let j=0;j<h;j++)for(let i=0;i<w;i++){
+      const u=i/h, v=j/h, f=hurricaneField(u,v,aspect,COVER.phase), k=(j*w+i)*4;
+      let c;
+      if(f.land) c=(v>coastY(u)-1.6/h)?[200,178,112]:((i+j)%2?[86,138,58]:[74,122,50]);
+      else c=((i+j)%2)?[22,48,110]:[26,56,124];
+      const lv=f.d>.78?[255,255,255]:f.d>.55?[214,222,236]:f.d>.33?[150,166,198]:f.d>.2&&(i+j)%2?[110,128,168]:null;
+      if(lv) c=lv;
+      D[k]=c[0];D[k+1]=c[1];D[k+2]=c[2];D[k+3]=255;
+    }
+    x.putImageData(img,0,0);
+  } else {
+    const dpr=Math.min(2,window.devicePixelRatio||1); cv.width=W*dpr; cv.height=H*dpr; x.setTransform(dpr,0,0,dpr,0,0);
+    x.clearRect(0,0,W,H); x.fillStyle=x.strokeStyle="#121212";
+    // land: engraved diagonal hatching
+    x.lineWidth=.7; x.beginPath();
+    for(let s0=-H;s0<W;s0+=4){ let on=false,lx=0,ly=0;
+      for(let t=0;t<=H;t+=1){ const X=s0+t, Y=t; if(X<0||X>W) continue; const L=Y<coastY(X/H)*H;
+        if(L&&!on){x.moveTo(X,Y);on=true} else if(!L&&on){x.lineTo(X,Y);on=false} lx=X;ly=Y; }
+      if(on) x.lineTo(lx,ly); }
+    x.stroke();
+    // coastline
+    x.lineWidth=1.2; x.beginPath(); for(let X=0;X<=W;X+=2){const Y=coastY(X/H)*H; X?x.lineTo(X,Y):x.moveTo(X,Y);} x.stroke();
+    // clouds: halftone dots
+    const st=4.2;
+    for(let Y=st/2;Y<H;Y+=st)for(let X=st/2+((Y/st)%2?st/2:0);X<W;X+=st){
+      const f=hurricaneField(X/H,Y/H,aspect,.6); if(f.d<.08) continue;
+      const rad=Math.sqrt(f.d)*st*.62; x.beginPath(); x.arc(X,Y,rad,0,7); x.fill(); }
+  }
+}
+function startCover(){
+  if(!COVER) return; clearInterval(COVER.timer); requestAnimationFrame(drawCover);
+  const still=matchMedia("(prefers-reduced-motion: reduce)").matches;
+  COVER.timer=setInterval(()=>{ if(document.documentElement.classList.contains("modern")||still||document.hidden) return; COVER.phase+=.12; drawCover(); },220);
+}
+new MutationObserver(()=>drawCover()).observe(document.documentElement,{attributes:true,attributeFilter:["class"]});
+addEventListener("resize",()=>drawCover());
 function tableEl(rows,soccer){
   if(!rows?.length) return null;
   const head = soccer ? ["#","Team","GP","W","D","L","GD","Pts"] : ["","Team","Record"];
@@ -697,8 +533,6 @@ window.addEventListener("pagehide",()=>store("rd-lastvisit",new Date().toISOStri
  function step(t){ if(last!==null){ x-=speed*Math.min(t-last,100)/1000; if(x< -el.offsetWidth) x=box.clientWidth; } last=t;
   el.style.webkitTransform=el.style.transform="translate3d("+x.toFixed(1)+"px,0,0)"; requestAnimationFrame(step); }
  requestAnimationFrame(step);})();
-(function(){const st=$("stories"),bn=$("banner");const sync=()=>{const f=st.querySelector(".story");bn.replaceChildren(f?f.cloneNode(true):"");};new MutationObserver(sync).observe(st,{childList:true});sync();})();
-document.querySelectorAll(".turn").forEach(a=>a.addEventListener("click",()=>{showTab(a.dataset.to);window.scrollTo(0,0);}));
 </script>
 
 </body>

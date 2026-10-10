@@ -1,0 +1,390 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="robots" content="noindex,nofollow">
+<style>:root{padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}body{margin:0}img{max-width:100%}[hidden]{display:none!important}.pxi{display:inline-block;width:32px;height:32px;vertical-align:middle;margin-right:6px;image-rendering:pixelated}@keyframes pxf2{0%{visibility:visible}50%,100%{visibility:hidden}}@keyframes pxf3{0%{visibility:visible}33.33%,100%{visibility:hidden}}@media (prefers-reduced-motion:reduce){.pxi g{animation:none!important;visibility:hidden}.pxi g:first-child{visibility:visible}}.pxi.r{width:16px;height:16px;margin:0 0 0 5px;position:relative;top:-1px}
+</style>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-V2P5Z35PRF"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-V2P5Z35PRF');
+</script>
+<title>First Light News</title>
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32.png?v=6">
+<link rel="icon" type="image/png" sizes="48x48" href="favicon-48.png?v=6">
+<link rel="icon" type="image/png" sizes="512x512" href="icon-512.png?v=6">
+<link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png?v=7">
+<style>
+/* Layout: late-90s web portal; navy desktop, cream content sheet, folder tabs, beveled gray buttons, boxed sections with colored title bars */
+:root{
+  --desk:#10206b; --sheet:#fffbe6; --panel:#ffffff; --ink:#000000; --muted:#555555; --line:#b9b28f;
+  --link:#0000ee; --visited:#551a8b; --bar:#1f3fa8; --bar2:#8a1c1c; --btn:#d4d0c8; --btnhi:#ffffff; --btnlo:#808080; --tab:#e9dfb4; --sun:#ffcc00; --live:#b00000;
+  --f-display:"Times New Roman",Times,serif;
+  --f-body:Verdana,Tahoma,Geneva,"DejaVu Sans",sans-serif;
+  --f-mono:"Courier New",Courier,monospace;
+  --e360:#006600; --nation:#990000; --time:#cc0000; --mr:#660099; --npr:#003399; --pbs:#2638c4;
+  color-scheme:light;
+}
+*{box-sizing:border-box}
+body{background:var(--desk);color:var(--ink);font-family:var(--f-body);font-size:13px;line-height:1.45}
+a{color:var(--link)} a:visited{color:var(--visited)}
+.wrap{max-width:820px;margin:0 auto;padding-inline:12px;padding-block:14px 40px;display:flex;flex-direction:column;gap:0}
+/* masthead */
+header{background:var(--sheet);border:2px solid #000;border-bottom:0;padding:14px 16px 10px;display:flex;flex-direction:column;gap:6px}
+h1{font-family:var(--f-display);font-style:italic;font-weight:bold;font-size:clamp(32px,7vw,46px);line-height:1;margin:0;color:#b3001b;text-shadow:2px 2px 0 #f2c200,3px 3px 0 #000}
+.tagline{font-family:var(--f-display);font-style:italic;font-size:16px;color:var(--bar)}
+.dateline{font-size:11px;color:var(--ink);display:flex;flex-wrap:wrap;gap:4px 14px}
+.dateline b{font-family:var(--f-mono);background:#000;color:#39ff14;padding:0 4px;font-weight:normal}
+.weather{display:inline-flex;flex-wrap:wrap;gap:4px 12px;font-size:12px;background:#fff;border:2px inset var(--btn);padding:3px 8px;align-self:flex-start}
+.weather b{color:var(--bar)}
+.ticker{background:#000;color:#ffff66;font-family:var(--f-mono);font-size:12px;white-space:nowrap;overflow:hidden;border:2px solid #000;border-top:0;border-bottom:0}
+.ticker span{display:inline-block;padding:4px 0;will-change:transform;-webkit-transform:translate3d(100vw,0,0);transform:translate3d(100vw,0,0)}
+/* folder tabs */
+.tabs{display:flex;gap:4px;background:var(--sheet);border-left:2px solid #000;border-right:2px solid #000;padding:8px 10px 0;border-bottom:3px solid var(--bar);overflow-x:auto}
+.tab{font:bold 13px var(--f-body);background:var(--tab);color:#000;border:1px solid #7a7350;border-bottom:0;border-radius:8px 8px 0 0;padding:6px 14px;cursor:pointer;white-space:nowrap}
+.tab[aria-selected="true"]{background:var(--bar);color:#fff}
+.tab:hover{text-decoration:underline}
+/* content sheet */
+.panel{background:var(--sheet);border:2px solid #000;border-top:0;padding:14px;display:flex;flex-direction:column;gap:14px}
+h2.sec{font-family:var(--f-display);font-size:20px;margin:0;color:var(--bar)}
+h3{font:bold 12px var(--f-body);background:var(--bar);color:#fff;margin:0;padding:3px 8px}
+.muted{color:var(--muted)}
+.empty{background:#fff;border:1px solid var(--line);padding:14px;color:var(--muted)}
+.empty b{color:var(--ink)}
+:focus-visible{outline:2px dotted #000;outline-offset:2px}
+/* beveled buttons */
+.chips{display:flex;flex-wrap:wrap;gap:6px}
+.chip{font:12px var(--f-body);background:var(--btn);color:#000;border:2px solid;border-color:var(--btnhi) var(--btnlo) var(--btnlo) var(--btnhi);border-radius:0;padding:3px 10px;cursor:pointer;display:inline-flex;gap:6px;align-items:center}
+.chip:active,.chip[aria-pressed="true"]{border-color:var(--btnlo) var(--btnhi) var(--btnhi) var(--btnlo);background:#c0bbb0;font-weight:bold}
+.chip .n{font-family:var(--f-mono);font-size:11px}
+.chip .ic{font-family:"Apple Color Emoji","Segoe UI Emoji","Noto Color Emoji",sans-serif;font-size:13px;line-height:1}
+.chips.sub{padding-top:10px;border-top:1px dashed var(--line);margin-bottom:6px}
+#sportBody{display:flex;flex-direction:column;gap:14px}
+.dot{width:8px;height:8px;background:var(--c,#000);border:1px solid #000}
+/* briefing */
+.overview{background:#fff;border:1px solid #000;display:flex;flex-direction:column;gap:0}
+.overview h3{background:var(--bar2)}
+.overview p{margin:0;padding:8px 10px 0;font-family:var(--f-display);font-size:16px;line-height:1.45}
+.overview p:last-child{padding-bottom:10px}
+.story{display:grid;grid-template-columns:1.6rem 1fr;gap:2px 8px;padding-block:10px;border-bottom:1px dashed var(--line)}
+.story .rk{font:bold 16px var(--f-display);color:var(--bar2)}
+.story h4{font-family:var(--f-display);font-size:18px;margin:0}
+.story p{margin:3px 0 0}
+.story .srcs{display:flex;flex-wrap:wrap;gap:4px 12px;font-size:11px;margin-top:4px}
+.story > div{min-width:0}
+/* sports */
+.brief{background:#fff;border:1px solid #000;display:flex;flex-direction:column}
+.brief ul{margin:0;padding:8px 10px 8px 28px;display:flex;flex-direction:column;gap:4px}
+.grid2{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:12px}
+.box{display:flex;flex-direction:column;gap:0;min-width:0}
+.box > h3{margin-bottom:0}.box > .heads{margin-top:0}
+.phase{font:11px var(--f-mono);color:var(--bar2)}
+.score{display:grid;grid-template-columns:1fr;padding:5px 6px;border-bottom:1px dotted var(--line);background:#fff;font-variant-numeric:tabular-nums}
+.score .tm{display:flex;justify-content:space-between;gap:8px;min-width:0}
+.score .tm span:first-child{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.score .tm.w{font-weight:bold}
+.score .num{font-family:var(--f-mono);font-weight:bold}
+.score .meta{font:10px var(--f-mono);color:var(--muted);display:flex;gap:8px;flex-wrap:wrap}
+.lbl{display:inline-block;font:bold 9px var(--f-body);letter-spacing:.03em;text-transform:uppercase;color:#b00000;background:#ffde3b;border:1px solid #b00000;padding:0 3px;line-height:12px;box-shadow:none;vertical-align:1px}
+.lbl::before{content:"\2605"; margin-right:2px}
+.lg{color:var(--bar);font-weight:bold}
+.score .meta{align-items:center}
+.series{display:flex;flex-direction:column}
+.ser{display:flex;gap:8px;align-items:baseline;padding:5px 6px;border-bottom:1px dotted var(--line);background:#fff}
+.pill{font:bold 10px var(--f-mono);padding:1px 4px;border:1px solid currentColor;flex:none}
+.pill.final{color:var(--muted)} .pill.live{color:var(--live)}
+table{width:100%;border-collapse:collapse;font-size:12px;background:#fff;font-variant-numeric:tabular-nums}
+th{font:bold 11px var(--f-body);background:var(--btn);text-align:right;padding:3px 6px;border:1px solid var(--btnlo)}
+th:nth-child(2),td:nth-child(2){text-align:left}
+td{padding:3px 6px;border:1px solid #ccc;text-align:right;font-family:var(--f-mono)}
+td:nth-child(2){font-family:var(--f-body)}
+.tblwrap{overflow-x:auto}
+.heads{display:flex;flex-direction:column;background:#fff;max-height:250px;overflow-y:auto;-webkit-overflow-scrolling:touch;border:1px solid #000;border-top:0}::-webkit-scrollbar{width:16px;height:16px;background:#c0c0c0}::-webkit-scrollbar-track{background:#c0c0c0 url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%222%22%20height%3D%222%22%3E%3Crect%20width%3D%222%22%20height%3D%222%22%20fill%3D%22%23c0c0c0%22/%3E%3Crect%20width%3D%221%22%20height%3D%221%22%20fill%3D%22%23fff%22/%3E%3Crect%20x%3D%221%22%20y%3D%221%22%20width%3D%221%22%20height%3D%221%22%20fill%3D%22%23fff%22/%3E%3C/svg%3E") repeat}::-webkit-scrollbar-thumb{background-color:#c0c0c0;border-style:solid;border-width:1px 2px 2px 1px;border-color:#dfdfdf #000 #000 #dfdfdf;box-shadow:inset 1px 1px 0 #fff,inset -1px -1px 0 #808080;min-height:24px}::-webkit-scrollbar-corner{background:#c0c0c0}::-webkit-scrollbar-button{display:block;width:16px;height:16px;background-color:#c0c0c0;border-style:solid;border-width:1px 2px 2px 1px;border-color:#dfdfdf #000 #000 #dfdfdf;box-shadow:inset 1px 1px 0 #fff,inset -1px -1px 0 #808080;background-repeat:no-repeat;background-position:center}::-webkit-scrollbar-button:vertical:start:increment,::-webkit-scrollbar-button:vertical:end:decrement,::-webkit-scrollbar-button:horizontal:start:increment,::-webkit-scrollbar-button:horizontal:end:decrement{display:none}::-webkit-scrollbar-button:vertical:start:decrement{background-image:url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%2212%22%20height%3D%2212%22%3E%3Cpath%20d%3D%22M6%203l4%205H2z%22%20fill%3D%22%23000%22/%3E%3C/svg%3E")}::-webkit-scrollbar-button:vertical:end:increment{background-image:url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%2212%22%20height%3D%2212%22%3E%3Cpath%20d%3D%22M6%209l4-5H2z%22%20fill%3D%22%23000%22/%3E%3C/svg%3E")}::-webkit-scrollbar-button:horizontal:start:decrement{background-image:url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%2212%22%20height%3D%2212%22%3E%3Cpath%20d%3D%22M3%206l5-4v8z%22%20fill%3D%22%23000%22/%3E%3C/svg%3E")}::-webkit-scrollbar-button:horizontal:end:increment{background-image:url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%2212%22%20height%3D%2212%22%3E%3Cpath%20d%3D%22M9%206l-5-4v8z%22%20fill%3D%22%23000%22/%3E%3C/svg%3E")}::-webkit-scrollbar-button:active{border-color:#000 #dfdfdf #dfdfdf #000;box-shadow:inset 1px 1px 0 #808080}@supports (-moz-appearance:none){html,.heads{scrollbar-color:#d4d0c8 #e8e8e8;scrollbar-width:auto}}
+.heads a{display:block;padding:5px 10px;border-bottom:1px dotted var(--line)}
+.heads small{display:block;font:10px var(--f-mono);color:var(--muted)}
+/* reading list */
+.sources{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:6px}
+.src{background:#fff;border:2px solid;border-color:var(--btnhi) var(--btnlo) var(--btnlo) var(--btnhi);padding:6px 8px;display:flex;flex-direction:column;gap:1px;min-width:0}
+.src .name{font-weight:bold;font-size:12px;display:flex;align-items:center;gap:6px}
+.src .access{font-size:11px;color:var(--muted)}
+.src .stat{font:10px var(--f-mono);color:var(--muted)}
+.src .stat.warn{color:var(--live)}
+.day{display:flex;flex-direction:column}
+article{display:grid;gap:2px;padding:8px 6px;border-bottom:1px dotted var(--line);min-width:0;background:#fff}
+.meta{display:flex;flex-wrap:wrap;align-items:center;gap:4px 10px;font-size:11px;color:var(--muted)}
+.tag{font:bold 10px var(--f-body);text-transform:uppercase;color:var(--c)}
+.new{font:bold 10px var(--f-mono);color:#fff;background:var(--live);padding:0 4px}
+article a.t{font-family:var(--f-display);font-size:17px;line-height:1.25}
+article p{margin:0;color:#333}
+footer{font-size:11px;color:#fff;text-shadow:1px 1px 0 #000,0 0 4px #000;padding-top:12px;text-align:center;display:flex;flex-direction:column;gap:6px;align-items:center}footer .badge{text-shadow:none}
+.badge{display:inline-block;font:bold 10px var(--f-mono);color:#000;background:#c0c0c0;border:2px solid;border-color:#fff #404040 #404040 #fff;padding:2px 6px}
+</style>
+</head>
+<body>
+
+
+<div class="wrap">
+  <header>
+    <h1>First Light News</h1>
+    <div class="tagline">Your daily news, delivered at first light!</div>
+    <div class="dateline"><span id="today"></span><span>Updated <b id="refreshed">—</b></span></div>
+    <div class="weather" id="weather"></div>
+    <span class="ftile fspin"></span>
+  </header>
+
+  <div class="ticker" aria-hidden="true"><span id="ticker">Loading today's headlines...</span></div>
+
+  <nav class="tabs" role="tablist" aria-label="Sections">
+    <button class="tab" role="tab" id="tab-briefing" data-tab="briefing">Briefing</button>
+    <button class="tab" role="tab" id="tab-reading" data-tab="reading">News</button>
+    <button class="tab" role="tab" id="tab-sports" data-tab="sports">Sports</button>
+  </nav>
+
+  <section class="panel" id="p-briefing" role="tabpanel" aria-labelledby="tab-briefing">
+    <div style="display:flex;justify-content:space-between;align-items:baseline;gap:12px;flex-wrap:wrap">
+      <h2 class="sec">Today's top stories</h2><span class="phase" id="briefDate"></span>
+    </div>
+    <div class="overview" id="overview" hidden></div>
+    <div id="stories"><div class="empty"><b>The morning briefing appears here.</b><br>Each day's ten most important stories, summarized in two sentences with links to the full reporting.</div></div>
+  </section>
+
+  <section class="panel" id="p-reading" role="tabpanel" aria-labelledby="tab-reading" hidden>
+    <div class="chips" id="filters" role="group" aria-label="Filter by publication"></div>
+    <div class="sources" id="sources" aria-label="Publications"></div>
+    <div id="feed"><div class="empty" id="empty"><b>Waiting for the first delivery.</b><br>New articles from NPR, PBS NewsHour, TIME, Yale e360 and The Nation appear here each morning.</div></div>
+  </section>
+
+  <section class="panel" id="p-sports" role="tabpanel" aria-labelledby="tab-sports" hidden>
+    <div class="chips" id="sportChips" role="group" aria-label="Sport"></div>
+    <div id="sportBody"><div class="empty"><b>Scores and storylines appear here.</b><br>Soccer by country (plus European cups and national teams), MLB, NFL and NBA.</div></div>
+  </section>
+
+<div id="aboutDlg" class="about" hidden role="dialog" aria-modal="true" aria-labelledby="aboutTitle">
+  <div class="about-win">
+    <div class="about-bar"><span id="aboutTitle">About First Light News</span><button type="button" class="about-x" aria-label="Close">&times;</button></div>
+    <div class="about-body">
+      <img class="about-f fm-o" src="f-mark-cream.png?v=1" alt="" width="56" height="56"><img class="about-f fm-p" src="f-mark-black.png?v=1" alt="" width="56" height="56">
+      <div class="about-name">First Light News</div>
+      <div class="about-tag">Your daily news, delivered at first light!</div>
+      <div class="about-ed" id="aboutEd"></div>
+      <ul class="about-list">
+        <li>Fresh edition every morning by 7:30 AM ET</li>
+        <li>News from NPR, PBS NewsHour, TIME, Yale e360 and The Nation</li>
+        <li>Scores and tables for soccer, MLB, NFL and NBA</li>
+        <li>Est. 2026 &middot; Baltimore, MD</li>
+      </ul>
+      <button type="button" class="about-ok">OK</button>
+    </div>
+  </div>
+</div>
+  <footer><img class="fmark fm-o fspin" src="f-mark-cream.png?v=1" alt="" width="40" height="40"><img class="fmark fm-p fspin" src="f-mark-black.png?v=1" alt="" width="40" height="40"><span>&copy; 2026 First Light News &middot; Baltimore, MD<br>Updated daily by 7:30 AM ET</span><span class="badge">BEST VIEWED AT 800×600</span></footer>
+</div>
+
+<script>
+const $ = id => document.getElementById(id);
+const EMPTY = $("empty");
+function el(tag, attrs={}, ...kids){ const n=document.createElement(tag); for(const[k,v] of Object.entries(attrs)){ if(k==="style") n.setAttribute("style",v); else if(k in n) n[k]=v; else n.setAttribute(k,v);} for(const k of kids) if(k!=null&&k!==false) n.append(k); return n; }
+function store(k,v){ try{ if(v===undefined) return localStorage.getItem(k); localStorage.setItem(k,v);}catch(e){ return null; } }
+$("today").textContent = new Date().toLocaleDateString(undefined,{weekday:"long",month:"long",day:"numeric",year:"numeric"});
+
+/* ---------- tabs ---------- */
+const TABS=["briefing","reading","sports"];
+let tab = (location.hash||"").slice(1); if(!TABS.includes(tab)) tab = store("rd-tab") || "briefing"; if(!TABS.includes(tab)) tab="briefing";
+(function(){ const dlg=document.getElementById("aboutDlg"); if(!dlg) return; let last=null;
+  const open=()=>{ const dl=document.querySelector(".dateline"); const v=dl?.getAttribute("data-vol"), n=dl?.getAttribute("data-ed");
+    document.getElementById("aboutEd").textContent=(v&&n)?`Vol. ${v}, No. ${n}`:""; last=document.activeElement; dlg.hidden=false; dlg.querySelector(".about-ok").focus(); };
+  const close=()=>{ dlg.hidden=true; last?.focus?.(); };
+  dlg.addEventListener("click",e=>{ if(e.target===dlg||e.target.closest(".about-x,.about-ok")) close(); });
+  addEventListener("keydown",e=>{ if(e.key==="Escape"&&!dlg.hidden) close(); });
+  document.querySelectorAll(".fspin").forEach(f=>{ f.setAttribute("role","button"); f.setAttribute("tabindex","0"); f.setAttribute("aria-label","About First Light News");
+    const go=()=>{ if(f.classList.contains("spin")) return; f.classList.add("spin"); };
+    f.addEventListener("click",go); f.addEventListener("keydown",e=>{ if(e.key==="Enter"||e.key===" "){e.preventDefault();go();} });
+    f.addEventListener("animationend",()=>{ f.classList.remove("spin"); open(); }); });
+})();
+function showTab(t){ tab=t; store("rd-tab",t);
+  for(const x of TABS){ $("p-"+x).hidden = x!==t; $("tab-"+x).setAttribute("aria-selected",String(x===t)); } }
+document.querySelectorAll(".tab").forEach(b=>b.addEventListener("click",()=>showTab(b.dataset.tab)));
+showTab(tab);
+
+/* ---------- weather ---------- */
+let weather=null;
+const PXI={"sun": "<svg class=\"pxi\" viewBox=\"0 0 16 16\" shape-rendering=\"crispEdges\" aria-hidden=\"true\"><g style=\"animation:pxf2 1.2s steps(1) infinite;animation-delay:-1.20s\"><rect x=\"8\" y=\"0\" width=\"1\" height=\"1\" fill=\"#ff9900\"/><rect x=\"8\" y=\"1\" width=\"1\" height=\"1\" fill=\"#ff9900\"/><rect x=\"2\" y=\"2\" width=\"1\" height=\"1\" fill=\"#ff9900\"/><rect x=\"13\" y=\"2\" width=\"1\" height=\"1\" fill=\"#ff9900\"/><rect x=\"3\" y=\"3\" width=\"1\" height=\"1\" fill=\"#ff9900\"/><rect x=\"7\" y=\"3\" width=\"2\" height=\"1\" fill=\"#ff9900\"/><rect x=\"12\" y=\"3\" width=\"1\" height=\"1\" fill=\"#ff9900\"/><rect x=\"5\" y=\"4\" width=\"2\" height=\"1\" fill=\"#ff9900\"/><rect x=\"7\" y=\"4\" width=\"2\" height=\"1\" fill=\"#ffff00\"/><rect x=\"9\" y=\"4\" width=\"2\" height=\"1\" fill=\"#ff9900\"/><rect x=\"4\" y=\"5\" width=\"1\" height=\"1\" fill=\"#ff9900\"/><rect x=\"5\" y=\"5\" width=\"6\" height=\"1\" fill=\"#ffff00\"/><rect x=\"11\" y=\"5\" width=\"1\" height=\"1\" fill=\"#ff9900\"/><rect x=\"4\" y=\"6\" width=\"1\" height=\"1\" fill=\"#ff9900\"/><rect x=\"5\" y=\"6\" width=\"6\" height=\"1\" fill=\"#ffff00\"/><rect x=\"11\" y=\"6\" width=\"1\" height=\"1\" fill=\"#ff9900\"/><rect x=\"3\" y=\"7\" width=\"1\" height=\"1\" fill=\"#ff9900\"/><rect x=\"4\" y=\"7\" width=\"8\" height=\"1\" fill=\"#ffff00\"/><rect x=\"12\" y=\"7\" width=\"1\" height=\"1\" fill=\"#ff9900\"/><rect x=\"0\" y=\"8\" width=\"2\" height=\"1\" fill=\"#ff9900\"/><rect x=\"3\" y=\"8\" width=\"1\" height=\"1\" fill=\"#ff9900\"/><rect x=\"4\" y=\"8\" width=\"8\" height=\"1\" fill=\"#ffff00\"/><rect x=\"12\" y=\"8\" width=\"1\" height=\"1\" fill=\"#ff9900\"/><rect x=\"14\" y=\"8\" width=\"2\" height=\"1\" fill=\"#ff9900\"/><rect x=\"4\" y=\"9\" width=\"1\" height=\"1\" fill=\"#ff9900\"/><rect x=\"5\" y=\"9\" width=\"6\" height=\"1\" fill=\"#ffff00\"/><rect x=\"11\" y=\"9\" width=\"1\" height=\"1\" fill=\"#ff9900\"/><rect x=\"4\" y=\"10\" width=\"1\" height=\"1\" fill=\"#ff9900\"/><rect x=\"5\" y=\"10\" width=\"6\" height=\"1\" fill=\"#ffff00\"/><rect x=\"11\" y=\"10\" width=\"1\" height=\"1\" fill=\"#ff9900\"/><rect x=\"5\" y=\"11\" width=\"2\" height=\"1\" fill=\"#ff9900\"/><rect x=\"7\" y=\"11\" width=\"2\" height=\"1\" fill=\"#ffff00\"/><rect x=\"9\" y=\"11\" width=\"2\" height=\"1\" fill=\"#ff9900\"/><rect x=\"3\" y=\"12\" width=\"1\" height=\"1\" fill=\"#ff9900\"/><rect x=\"7\" y=\"12\" width=\"2\" height=\"1\" fill=\"#ff9900\"/><rect x=\"12\" y=\"12\" width=\"1\" height=\"1\" fill=\"#ff9900\"/><rect x=\"2\" y=\"13\" width=\"1\" height=\"1\" fill=\"#ff9900\"/><rect x=\"13\" y=\"13\" width=\"1\" height=\"1\" fill=\"#ff9900\"/><rect x=\"8\" y=\"14\" width=\"1\" height=\"1\" fill=\"#ff9900\"/><rect x=\"8\" y=\"15\" width=\"1\" height=\"1\" fill=\"#ff9900\"/></g><g style=\"animation:pxf2 1.2s steps(1) infinite;animation-delay:-0.60s\"><rect x=\"8\" y=\"1\" width=\"1\" height=\"1\" fill=\"#ff9900\"/><rect x=\"3\" y=\"3\" width=\"1\" height=\"1\" fill=\"#ff9900\"/><rect x=\"7\" y=\"3\" width=\"2\" height=\"1\" fill=\"#ff9900\"/><rect x=\"12\" y=\"3\" width=\"1\" height=\"1\" fill=\"#ff9900\"/><rect x=\"5\" y=\"4\" width=\"2\" height=\"1\" fill=\"#ff9900\"/><rect x=\"7\" y=\"4\" width=\"2\" height=\"1\" fill=\"#ffff00\"/><rect x=\"9\" y=\"4\" width=\"2\" height=\"1\" fill=\"#ff9900\"/><rect x=\"4\" y=\"5\" width=\"1\" height=\"1\" fill=\"#ff9900\"/><rect x=\"5\" y=\"5\" width=\"6\" height=\"1\" fill=\"#ffff00\"/><rect x=\"11\" y=\"5\" width=\"1\" height=\"1\" fill=\"#ff9900\"/><rect x=\"4\" y=\"6\" width=\"1\" height=\"1\" fill=\"#ff9900\"/><rect x=\"5\" y=\"6\" width=\"6\" height=\"1\" fill=\"#ffff00\"/><rect x=\"11\" y=\"6\" width=\"1\" height=\"1\" fill=\"#ff9900\"/><rect x=\"3\" y=\"7\" width=\"1\" height=\"1\" fill=\"#ff9900\"/><rect x=\"4\" y=\"7\" width=\"8\" height=\"1\" fill=\"#ffff00\"/><rect x=\"12\" y=\"7\" width=\"1\" height=\"1\" fill=\"#ff9900\"/><rect x=\"1\" y=\"8\" width=\"1\" height=\"1\" fill=\"#ff9900\"/><rect x=\"3\" y=\"8\" width=\"1\" height=\"1\" fill=\"#ff9900\"/><rect x=\"4\" y=\"8\" width=\"8\" height=\"1\" fill=\"#ffff00\"/><rect x=\"12\" y=\"8\" width=\"1\" height=\"1\" fill=\"#ff9900\"/><rect x=\"14\" y=\"8\" width=\"1\" height=\"1\" fill=\"#ff9900\"/><rect x=\"4\" y=\"9\" width=\"1\" height=\"1\" fill=\"#ff9900\"/><rect x=\"5\" y=\"9\" width=\"6\" height=\"1\" fill=\"#ffff00\"/><rect x=\"11\" y=\"9\" width=\"1\" height=\"1\" fill=\"#ff9900\"/><rect x=\"4\" y=\"10\" width=\"1\" height=\"1\" fill=\"#ff9900\"/><rect x=\"5\" y=\"10\" width=\"6\" height=\"1\" fill=\"#ffff00\"/><rect x=\"11\" y=\"10\" width=\"1\" height=\"1\" fill=\"#ff9900\"/><rect x=\"5\" y=\"11\" width=\"2\" height=\"1\" fill=\"#ff9900\"/><rect x=\"7\" y=\"11\" width=\"2\" height=\"1\" fill=\"#ffff00\"/><rect x=\"9\" y=\"11\" width=\"2\" height=\"1\" fill=\"#ff9900\"/><rect x=\"3\" y=\"12\" width=\"1\" height=\"1\" fill=\"#ff9900\"/><rect x=\"7\" y=\"12\" width=\"2\" height=\"1\" fill=\"#ff9900\"/><rect x=\"12\" y=\"12\" width=\"1\" height=\"1\" fill=\"#ff9900\"/><rect x=\"8\" y=\"14\" width=\"1\" height=\"1\" fill=\"#ff9900\"/></g></svg>", "partly": "<svg class=\"pxi\" viewBox=\"0 0 16 16\" shape-rendering=\"crispEdges\" aria-hidden=\"true\"><g style=\"animation:pxf2 1.2s steps(1) infinite;animation-delay:-1.20s\"><rect x=\"6\" y=\"0\" width=\"1\" height=\"1\" fill=\"#ff9900\"/><rect x=\"1\" y=\"1\" width=\"1\" height=\"1\" fill=\"#ff9900\"/><rect x=\"10\" y=\"1\" width=\"1\" height=\"1\" fill=\"#ff9900\"/><rect x=\"2\" y=\"2\" width=\"1\" height=\"1\" fill=\"#ff9900\"/><rect x=\"9\" y=\"2\" width=\"1\" height=\"1\" fill=\"#ff9900\"/><rect x=\"4\" y=\"3\" width=\"4\" height=\"1\" fill=\"#ff9900\"/><rect x=\"3\" y=\"4\" width=\"1\" height=\"1\" fill=\"#ff9900\"/><rect x=\"4\" y=\"4\" width=\"4\" height=\"1\" fill=\"#ffff00\"/><rect x=\"8\" y=\"4\" width=\"1\" height=\"1\" fill=\"#ff9900\"/><rect x=\"3\" y=\"5\" width=\"1\" height=\"1\" fill=\"#ff9900\"/><rect x=\"4\" y=\"5\" width=\"4\" height=\"1\" fill=\"#ffff00\"/><rect x=\"8\" y=\"5\" width=\"1\" height=\"1\" fill=\"#ff9900\"/><rect x=\"0\" y=\"6\" width=\"1\" height=\"1\" fill=\"#ff9900\"/><rect x=\"3\" y=\"6\" width=\"1\" height=\"1\" fill=\"#ff9900\"/><rect x=\"4\" y=\"6\" width=\"4\" height=\"1\" fill=\"#ffff00\"/><rect x=\"8\" y=\"6\" width=\"1\" height=\"1\" fill=\"#ff9900\"/><rect x=\"11\" y=\"6\" width=\"2\" height=\"1\" fill=\"#ff9900\"/><rect x=\"3\" y=\"7\" width=\"1\" height=\"1\" fill=\"#ff9900\"/><rect x=\"4\" y=\"7\" width=\"4\" height=\"1\" fill=\"#ffff00\"/><rect x=\"8\" y=\"7\" width=\"1\" height=\"1\" fill=\"#ff9900\"/><rect x=\"4\" y=\"8\" width=\"2\" height=\"1\" fill=\"#ff9900\"/><rect x=\"6\" y=\"8\" width=\"4\" height=\"1\" fill=\"#000000\"/><rect x=\"2\" y=\"9\" width=\"1\" height=\"1\" fill=\"#ff9900\"/><rect x=\"5\" y=\"9\" width=\"1\" height=\"1\" fill=\"#000000\"/><rect x=\"6\" y=\"9\" width=\"4\" height=\"1\" fill=\"#ffffff\"/><rect x=\"10\" y=\"9\" width=\"1\" height=\"1\" fill=\"#000000\"/><rect x=\"12\" y=\"9\" width=\"2\" height=\"1\" fill=\"#000000\"/><rect x=\"1\" y=\"10\" width=\"1\" height=\"1\" fill=\"#ff9900\"/><rect x=\"3\" y=\"10\" width=\"2\" height=\"1\" fill=\"#000000\"/><rect x=\"5\" y=\"10\" width=\"6\" height=\"1\" fill=\"#ffffff\"/><rect x=\"11\" y=\"10\" width=\"1\" height=\"1\" fill=\"#000000\"/><rect x=\"12\" y=\"10\" width=\"2\" height=\"1\" fill=\"#ffffff\"/><rect x=\"14\" y=\"10\" width=\"1\" height=\"1\" fill=\"#000000\"/><rect x=\"2\" y=\"11\" width=\"1\" height=\"1\" fill=\"#000000\"/><rect x=\"3\" y=\"11\" width=\"12\" height=\"1\" fill=\"#ffffff\"/><rect x=\"15\" y=\"11\" width=\"1\" height=\"1\" fill=\"#000000\"/><rect x=\"2\" y=\"12\" width=\"1\" height=\"1\" fill=\"#000000\"/><rect x=\"3\" y=\"12\" width=\"12\" height=\"1\" fill=\"#ffffff\"/><rect x=\"15\" y=\"12\" width=\"1\" height=\"1\" fill=\"#000000\"/><rect x=\"2\" y=\"13\" width=\"1\" height=\"1\" fill=\"#000000\"/><rect x=\"3\" y=\"13\" width=\"2\" height=\"1\" fill=\"#c0c0c0\"/><rect x=\"5\" y=\"13\" width=\"8\" height=\"1\" fill=\"#ffffff\"/><rect x=\"13\" y=\"13\" width=\"2\" height=\"1\" fill=\"#c0c0c0\"/><rect x=\"15\" y=\"13\" width=\"1\" height=\"1\" fill=\"#000000\"/><rect x=\"3\" y=\"14\" width=\"12\" height=\"1\" fill=\"#000000\"/></g><g style=\"animation:pxf2 1.2s steps(1) infinite;animation-delay:-0.60s\"><rect x=\"6\" y=\"0\" width=\"1\" height=\"1\" fill=\"#ff9900\"/><rect x=\"2\" y=\"2\" width=\"1\" height=\"1\" fill=\"#ff9900\"/><rect x=\"9\" y=\"2\" width=\"1\" height=\"1\" fill=\"#ff9900\"/><rect x=\"4\" y=\"3\" width=\"4\" height=\"1\" fill=\"#ff9900\"/><rect x=\"3\" y=\"4\" width=\"1\" height=\"1\" fill=\"#ff9900\"/><rect x=\"4\" y=\"4\" width=\"4\" height=\"1\" fill=\"#ffff00\"/><rect x=\"8\" y=\"4\" width=\"1\" height=\"1\" fill=\"#ff9900\"/><rect x=\"3\" y=\"5\" width=\"1\" height=\"1\" fill=\"#ff9900\"/><rect x=\"4\" y=\"5\" width=\"4\" height=\"1\" fill=\"#ffff00\"/><rect x=\"8\" y=\"5\" width=\"1\" height=\"1\" fill=\"#ff9900\"/><rect x=\"0\" y=\"6\" width=\"1\" height=\"1\" fill=\"#ff9900\"/><rect x=\"3\" y=\"6\" width=\"1\" height=\"1\" fill=\"#ff9900\"/><rect x=\"4\" y=\"6\" width=\"4\" height=\"1\" fill=\"#ffff00\"/><rect x=\"8\" y=\"6\" width=\"1\" height=\"1\" fill=\"#ff9900\"/><rect x=\"11\" y=\"6\" width=\"1\" height=\"1\" fill=\"#ff9900\"/><rect x=\"3\" y=\"7\" width=\"1\" height=\"1\" fill=\"#ff9900\"/><rect x=\"4\" y=\"7\" width=\"4\" height=\"1\" fill=\"#ffff00\"/><rect x=\"8\" y=\"7\" width=\"1\" height=\"1\" fill=\"#ff9900\"/><rect x=\"4\" y=\"8\" width=\"2\" height=\"1\" fill=\"#ff9900\"/><rect x=\"6\" y=\"8\" width=\"4\" height=\"1\" fill=\"#000000\"/><rect x=\"2\" y=\"9\" width=\"1\" height=\"1\" fill=\"#ff9900\"/><rect x=\"5\" y=\"9\" width=\"1\" height=\"1\" fill=\"#000000\"/><rect x=\"6\" y=\"9\" width=\"4\" height=\"1\" fill=\"#ffffff\"/><rect x=\"10\" y=\"9\" width=\"1\" height=\"1\" fill=\"#000000\"/><rect x=\"12\" y=\"9\" width=\"2\" height=\"1\" fill=\"#000000\"/><rect x=\"3\" y=\"10\" width=\"2\" height=\"1\" fill=\"#000000\"/><rect x=\"5\" y=\"10\" width=\"6\" height=\"1\" fill=\"#ffffff\"/><rect x=\"11\" y=\"10\" width=\"1\" height=\"1\" fill=\"#000000\"/><rect x=\"12\" y=\"10\" width=\"2\" height=\"1\" fill=\"#ffffff\"/><rect x=\"14\" y=\"10\" width=\"1\" height=\"1\" fill=\"#000000\"/><rect x=\"2\" y=\"11\" width=\"1\" height=\"1\" fill=\"#000000\"/><rect x=\"3\" y=\"11\" width=\"12\" height=\"1\" fill=\"#ffffff\"/><rect x=\"15\" y=\"11\" width=\"1\" height=\"1\" fill=\"#000000\"/><rect x=\"2\" y=\"12\" width=\"1\" height=\"1\" fill=\"#000000\"/><rect x=\"3\" y=\"12\" width=\"12\" height=\"1\" fill=\"#ffffff\"/><rect x=\"15\" y=\"12\" width=\"1\" height=\"1\" fill=\"#000000\"/><rect x=\"2\" y=\"13\" width=\"1\" height=\"1\" fill=\"#000000\"/><rect x=\"3\" y=\"13\" width=\"2\" height=\"1\" fill=\"#c0c0c0\"/><rect x=\"5\" y=\"13\" width=\"8\" height=\"1\" fill=\"#ffffff\"/><rect x=\"13\" y=\"13\" width=\"2\" height=\"1\" fill=\"#c0c0c0\"/><rect x=\"15\" y=\"13\" width=\"1\" height=\"1\" fill=\"#000000\"/><rect x=\"3\" y=\"14\" width=\"12\" height=\"1\" fill=\"#000000\"/></g></svg>", "cloud": "<svg class=\"pxi\" viewBox=\"0 0 16 16\" shape-rendering=\"crispEdges\" aria-hidden=\"true\"><g style=\"animation:pxf2 1.6s steps(1) infinite;animation-delay:-1.60s\"><rect x=\"5\" y=\"5\" width=\"4\" height=\"1\" fill=\"#000000\"/><rect x=\"4\" y=\"6\" width=\"1\" height=\"1\" fill=\"#000000\"/><rect x=\"5\" y=\"6\" width=\"4\" height=\"1\" fill=\"#ffffff\"/><rect x=\"9\" y=\"6\" width=\"1\" height=\"1\" fill=\"#000000\"/><rect x=\"11\" y=\"6\" width=\"2\" height=\"1\" fill=\"#000000\"/><rect x=\"2\" y=\"7\" width=\"2\" height=\"1\" fill=\"#000000\"/><rect x=\"4\" y=\"7\" width=\"6\" height=\"1\" fill=\"#ffffff\"/><rect x=\"10\" y=\"7\" width=\"1\" height=\"1\" fill=\"#000000\"/><rect x=\"11\" y=\"7\" width=\"2\" height=\"1\" fill=\"#ffffff\"/><rect x=\"13\" y=\"7\" width=\"1\" height=\"1\" fill=\"#000000\"/><rect x=\"1\" y=\"8\" width=\"1\" height=\"1\" fill=\"#000000\"/><rect x=\"2\" y=\"8\" width=\"12\" height=\"1\" fill=\"#ffffff\"/><rect x=\"14\" y=\"8\" width=\"1\" height=\"1\" fill=\"#000000\"/><rect x=\"1\" y=\"9\" width=\"1\" height=\"1\" fill=\"#000000\"/><rect x=\"2\" y=\"9\" width=\"12\" height=\"1\" fill=\"#ffffff\"/><rect x=\"14\" y=\"9\" width=\"1\" height=\"1\" fill=\"#000000\"/><rect x=\"1\" y=\"10\" width=\"1\" height=\"1\" fill=\"#000000\"/><rect x=\"2\" y=\"10\" width=\"2\" height=\"1\" fill=\"#c0c0c0\"/><rect x=\"4\" y=\"10\" width=\"8\" height=\"1\" fill=\"#ffffff\"/><rect x=\"12\" y=\"10\" width=\"2\" height=\"1\" fill=\"#c0c0c0\"/><rect x=\"14\" y=\"10\" width=\"1\" height=\"1\" fill=\"#000000\"/><rect x=\"2\" y=\"11\" width=\"12\" height=\"1\" fill=\"#000000\"/></g><g style=\"animation:pxf2 1.6s steps(1) infinite;animation-delay:-0.80s\"><rect x=\"6\" y=\"5\" width=\"4\" height=\"1\" fill=\"#000000\"/><rect x=\"5\" y=\"6\" width=\"1\" height=\"1\" fill=\"#000000\"/><rect x=\"6\" y=\"6\" width=\"4\" height=\"1\" fill=\"#ffffff\"/><rect x=\"10\" y=\"6\" width=\"1\" height=\"1\" fill=\"#000000\"/><rect x=\"12\" y=\"6\" width=\"2\" height=\"1\" fill=\"#000000\"/><rect x=\"3\" y=\"7\" width=\"2\" height=\"1\" fill=\"#000000\"/><rect x=\"5\" y=\"7\" width=\"6\" height=\"1\" fill=\"#ffffff\"/><rect x=\"11\" y=\"7\" width=\"1\" height=\"1\" fill=\"#000000\"/><rect x=\"12\" y=\"7\" width=\"2\" height=\"1\" fill=\"#ffffff\"/><rect x=\"14\" y=\"7\" width=\"1\" height=\"1\" fill=\"#000000\"/><rect x=\"2\" y=\"8\" width=\"1\" height=\"1\" fill=\"#000000\"/><rect x=\"3\" y=\"8\" width=\"12\" height=\"1\" fill=\"#ffffff\"/><rect x=\"15\" y=\"8\" width=\"1\" height=\"1\" fill=\"#000000\"/><rect x=\"2\" y=\"9\" width=\"1\" height=\"1\" fill=\"#000000\"/><rect x=\"3\" y=\"9\" width=\"12\" height=\"1\" fill=\"#ffffff\"/><rect x=\"15\" y=\"9\" width=\"1\" height=\"1\" fill=\"#000000\"/><rect x=\"2\" y=\"10\" width=\"1\" height=\"1\" fill=\"#000000\"/><rect x=\"3\" y=\"10\" width=\"2\" height=\"1\" fill=\"#c0c0c0\"/><rect x=\"5\" y=\"10\" width=\"8\" height=\"1\" fill=\"#ffffff\"/><rect x=\"13\" y=\"10\" width=\"2\" height=\"1\" fill=\"#c0c0c0\"/><rect x=\"15\" y=\"10\" width=\"1\" height=\"1\" fill=\"#000000\"/><rect x=\"3\" y=\"11\" width=\"12\" height=\"1\" fill=\"#000000\"/></g></svg>", "rain": "<svg class=\"pxi\" viewBox=\"0 0 16 16\" shape-rendering=\"crispEdges\" aria-hidden=\"true\"><g style=\"animation:pxf3 0.9s steps(1) infinite;animation-delay:-0.90s\"><rect x=\"5\" y=\"1\" width=\"4\" height=\"1\" fill=\"#000000\"/><rect x=\"4\" y=\"2\" width=\"1\" height=\"1\" fill=\"#000000\"/><rect x=\"5\" y=\"2\" width=\"4\" height=\"1\" fill=\"#ffffff\"/><rect x=\"9\" y=\"2\" width=\"1\" height=\"1\" fill=\"#000000\"/><rect x=\"11\" y=\"2\" width=\"2\" height=\"1\" fill=\"#000000\"/><rect x=\"2\" y=\"3\" width=\"2\" height=\"1\" fill=\"#000000\"/><rect x=\"4\" y=\"3\" width=\"6\" height=\"1\" fill=\"#ffffff\"/><rect x=\"10\" y=\"3\" width=\"1\" height=\"1\" fill=\"#000000\"/><rect x=\"11\" y=\"3\" width=\"2\" height=\"1\" fill=\"#ffffff\"/><rect x=\"13\" y=\"3\" width=\"1\" height=\"1\" fill=\"#000000\"/><rect x=\"1\" y=\"4\" width=\"1\" height=\"1\" fill=\"#000000\"/><rect x=\"2\" y=\"4\" width=\"12\" height=\"1\" fill=\"#ffffff\"/><rect x=\"14\" y=\"4\" width=\"1\" height=\"1\" fill=\"#000000\"/><rect x=\"1\" y=\"5\" width=\"1\" height=\"1\" fill=\"#000000\"/><rect x=\"2\" y=\"5\" width=\"12\" height=\"1\" fill=\"#ffffff\"/><rect x=\"14\" y=\"5\" width=\"1\" height=\"1\" fill=\"#000000\"/><rect x=\"1\" y=\"6\" width=\"1\" height=\"1\" fill=\"#000000\"/><rect x=\"2\" y=\"6\" width=\"2\" height=\"1\" fill=\"#c0c0c0\"/><rect x=\"4\" y=\"6\" width=\"8\" height=\"1\" fill=\"#ffffff\"/><rect x=\"12\" y=\"6\" width=\"2\" height=\"1\" fill=\"#c0c0c0\"/><rect x=\"14\" y=\"6\" width=\"1\" height=\"1\" fill=\"#000000\"/><rect x=\"2\" y=\"7\" width=\"12\" height=\"1\" fill=\"#000000\"/><rect x=\"3\" y=\"9\" width=\"1\" height=\"1\" fill=\"#0055ff\"/><rect x=\"3\" y=\"10\" width=\"1\" height=\"1\" fill=\"#0055ff\"/><rect x=\"7\" y=\"11\" width=\"1\" height=\"1\" fill=\"#0055ff\"/><rect x=\"7\" y=\"12\" width=\"1\" height=\"1\" fill=\"#0055ff\"/><rect x=\"11\" y=\"13\" width=\"1\" height=\"1\" fill=\"#0055ff\"/><rect x=\"11\" y=\"14\" width=\"1\" height=\"1\" fill=\"#0055ff\"/></g><g style=\"animation:pxf3 0.9s steps(1) infinite;animation-delay:-0.60s\"><rect x=\"5\" y=\"1\" width=\"4\" height=\"1\" fill=\"#000000\"/><rect x=\"4\" y=\"2\" width=\"1\" height=\"1\" fill=\"#000000\"/><rect x=\"5\" y=\"2\" width=\"4\" height=\"1\" fill=\"#ffffff\"/><rect x=\"9\" y=\"2\" width=\"1\" height=\"1\" fill=\"#000000\"/><rect x=\"11\" y=\"2\" width=\"2\" height=\"1\" fill=\"#000000\"/><rect x=\"2\" y=\"3\" width=\"2\" height=\"1\" fill=\"#000000\"/><rect x=\"4\" y=\"3\" width=\"6\" height=\"1\" fill=\"#ffffff\"/><rect x=\"10\" y=\"3\" width=\"1\" height=\"1\" fill=\"#000000\"/><rect x=\"11\" y=\"3\" width=\"2\" height=\"1\" fill=\"#ffffff\"/><rect x=\"13\" y=\"3\" width=\"1\" height=\"1\" fill=\"#000000\"/><rect x=\"1\" y=\"4\" width=\"1\" height=\"1\" fill=\"#000000\"/><rect x=\"2\" y=\"4\" width=\"12\" height=\"1\" fill=\"#ffffff\"/><rect x=\"14\" y=\"4\" width=\"1\" height=\"1\" fill=\"#000000\"/><rect x=\"1\" y=\"5\" width=\"1\" height=\"1\" fill=\"#000000\"/><rect x=\"2\" y=\"5\" width=\"12\" height=\"1\" fill=\"#ffffff\"/><rect x=\"14\" y=\"5\" width=\"1\" height=\"1\" fill=\"#000000\"/><rect x=\"1\" y=\"6\" width=\"1\" height=\"1\" fill=\"#000000\"/><rect x=\"2\" y=\"6\" width=\"2\" height=\"1\" fill=\"#c0c0c0\"/><rect x=\"4\" y=\"6\" width=\"8\" height=\"1\" fill=\"#ffffff\"/><rect x=\"12\" y=\"6\" width=\"2\" height=\"1\" fill=\"#c0c0c0\"/><rect x=\"14\" y=\"6\" width=\"1\" height=\"1\" fill=\"#000000\"/><rect x=\"2\" y=\"7\" width=\"12\" height=\"1\" fill=\"#000000\"/><rect x=\"11\" y=\"9\" width=\"1\" height=\"1\" fill=\"#0055ff\"/><rect x=\"11\" y=\"10\" width=\"1\" height=\"1\" fill=\"#0055ff\"/><rect x=\"3\" y=\"11\" width=\"1\" height=\"1\" fill=\"#0055ff\"/><rect x=\"3\" y=\"12\" width=\"1\" height=\"1\" fill=\"#0055ff\"/><rect x=\"7\" y=\"13\" width=\"1\" height=\"1\" fill=\"#0055ff\"/><rect x=\"7\" y=\"14\" width=\"1\" height=\"1\" fill=\"#0055ff\"/></g><g style=\"animation:pxf3 0.9s steps(1) infinite;animation-delay:-0.30s\"><rect x=\"5\" y=\"1\" width=\"4\" height=\"1\" fill=\"#000000\"/><rect x=\"4\" y=\"2\" width=\"1\" height=\"1\" fill=\"#000000\"/><rect x=\"5\" y=\"2\" width=\"4\" height=\"1\" fill=\"#ffffff\"/><rect x=\"9\" y=\"2\" width=\"1\" height=\"1\" fill=\"#000000\"/><rect x=\"11\" y=\"2\" width=\"2\" height=\"1\" fill=\"#000000\"/><rect x=\"2\" y=\"3\" width=\"2\" height=\"1\" fill=\"#000000\"/><rect x=\"4\" y=\"3\" width=\"6\" height=\"1\" fill=\"#ffffff\"/><rect x=\"10\" y=\"3\" width=\"1\" height=\"1\" fill=\"#000000\"/><rect x=\"11\" y=\"3\" width=\"2\" height=\"1\" fill=\"#ffffff\"/><rect x=\"13\" y=\"3\" width=\"1\" height=\"1\" fill=\"#000000\"/><rect x=\"1\" y=\"4\" width=\"1\" height=\"1\" fill=\"#000000\"/><rect x=\"2\" y=\"4\" width=\"12\" height=\"1\" fill=\"#ffffff\"/><rect x=\"14\" y=\"4\" width=\"1\" height=\"1\" fill=\"#000000\"/><rect x=\"1\" y=\"5\" width=\"1\" height=\"1\" fill=\"#000000\"/><rect x=\"2\" y=\"5\" width=\"12\" height=\"1\" fill=\"#ffffff\"/><rect x=\"14\" y=\"5\" width=\"1\" height=\"1\" fill=\"#000000\"/><rect x=\"1\" y=\"6\" width=\"1\" height=\"1\" fill=\"#000000\"/><rect x=\"2\" y=\"6\" width=\"2\" height=\"1\" fill=\"#c0c0c0\"/><rect x=\"4\" y=\"6\" width=\"8\" height=\"1\" fill=\"#ffffff\"/><rect x=\"12\" y=\"6\" width=\"2\" height=\"1\" fill=\"#c0c0c0\"/><rect x=\"14\" y=\"6\" width=\"1\" height=\"1\" fill=\"#000000\"/><rect x=\"2\" y=\"7\" width=\"12\" height=\"1\" fill=\"#000000\"/><rect x=\"7\" y=\"9\" width=\"1\" height=\"1\" fill=\"#0055ff\"/><rect x=\"7\" y=\"10\" width=\"1\" height=\"1\" fill=\"#0055ff\"/><rect x=\"11\" y=\"11\" width=\"1\" height=\"1\" fill=\"#0055ff\"/><rect x=\"11\" y=\"12\" width=\"1\" height=\"1\" fill=\"#0055ff\"/><rect x=\"3\" y=\"13\" width=\"1\" height=\"1\" fill=\"#0055ff\"/><rect x=\"3\" y=\"14\" width=\"1\" height=\"1\" fill=\"#0055ff\"/></g></svg>", "storm": "<svg class=\"pxi\" viewBox=\"0 0 16 16\" shape-rendering=\"crispEdges\" aria-hidden=\"true\"><g style=\"animation:pxf3 1.8s steps(1) infinite;animation-delay:-1.80s\"><rect x=\"5\" y=\"0\" width=\"4\" height=\"1\" fill=\"#000000\"/><rect x=\"4\" y=\"1\" width=\"1\" height=\"1\" fill=\"#000000\"/><rect x=\"5\" y=\"1\" width=\"4\" height=\"1\" fill=\"#606070\"/><rect x=\"9\" y=\"1\" width=\"1\" height=\"1\" fill=\"#000000\"/><rect x=\"11\" y=\"1\" width=\"2\" height=\"1\" fill=\"#000000\"/><rect x=\"2\" y=\"2\" width=\"2\" height=\"1\" fill=\"#000000\"/><rect x=\"4\" y=\"2\" width=\"6\" height=\"1\" fill=\"#606070\"/><rect x=\"10\" y=\"2\" width=\"1\" height=\"1\" fill=\"#000000\"/><rect x=\"11\" y=\"2\" width=\"2\" height=\"1\" fill=\"#606070\"/><rect x=\"13\" y=\"2\" width=\"1\" height=\"1\" fill=\"#000000\"/><rect x=\"1\" y=\"3\" width=\"1\" height=\"1\" fill=\"#000000\"/><rect x=\"2\" y=\"3\" width=\"12\" height=\"1\" fill=\"#606070\"/><rect x=\"14\" y=\"3\" width=\"1\" height=\"1\" fill=\"#000000\"/><rect x=\"1\" y=\"4\" width=\"1\" height=\"1\" fill=\"#000000\"/><rect x=\"2\" y=\"4\" width=\"12\" height=\"1\" fill=\"#606070\"/><rect x=\"14\" y=\"4\" width=\"1\" height=\"1\" fill=\"#000000\"/><rect x=\"1\" y=\"5\" width=\"1\" height=\"1\" fill=\"#000000\"/><rect x=\"2\" y=\"5\" width=\"2\" height=\"1\" fill=\"#c0c0c0\"/><rect x=\"4\" y=\"5\" width=\"8\" height=\"1\" fill=\"#606070\"/><rect x=\"12\" y=\"5\" width=\"2\" height=\"1\" fill=\"#c0c0c0\"/><rect x=\"14\" y=\"5\" width=\"1\" height=\"1\" fill=\"#000000\"/><rect x=\"2\" y=\"6\" width=\"12\" height=\"1\" fill=\"#000000\"/></g><g style=\"animation:pxf3 1.8s steps(1) infinite;animation-delay:-1.20s\"><rect x=\"5\" y=\"0\" width=\"4\" height=\"1\" fill=\"#000000\"/><rect x=\"4\" y=\"1\" width=\"1\" height=\"1\" fill=\"#000000\"/><rect x=\"5\" y=\"1\" width=\"4\" height=\"1\" fill=\"#606070\"/><rect x=\"9\" y=\"1\" width=\"1\" height=\"1\" fill=\"#000000\"/><rect x=\"11\" y=\"1\" width=\"2\" height=\"1\" fill=\"#000000\"/><rect x=\"2\" y=\"2\" width=\"2\" height=\"1\" fill=\"#000000\"/><rect x=\"4\" y=\"2\" width=\"6\" height=\"1\" fill=\"#606070\"/><rect x=\"10\" y=\"2\" width=\"1\" height=\"1\" fill=\"#000000\"/><rect x=\"11\" y=\"2\" width=\"2\" height=\"1\" fill=\"#606070\"/><rect x=\"13\" y=\"2\" width=\"1\" height=\"1\" fill=\"#000000\"/><rect x=\"1\" y=\"3\" width=\"1\" height=\"1\" fill=\"#000000\"/><rect x=\"2\" y=\"3\" width=\"12\" height=\"1\" fill=\"#606070\"/><rect x=\"14\" y=\"3\" width=\"1\" height=\"1\" fill=\"#000000\"/><rect x=\"1\" y=\"4\" width=\"1\" height=\"1\" fill=\"#000000\"/><rect x=\"2\" y=\"4\" width=\"12\" height=\"1\" fill=\"#606070\"/><rect x=\"14\" y=\"4\" width=\"1\" height=\"1\" fill=\"#000000\"/><rect x=\"1\" y=\"5\" width=\"1\" height=\"1\" fill=\"#000000\"/><rect x=\"2\" y=\"5\" width=\"2\" height=\"1\" fill=\"#c0c0c0\"/><rect x=\"4\" y=\"5\" width=\"8\" height=\"1\" fill=\"#606070\"/><rect x=\"12\" y=\"5\" width=\"2\" height=\"1\" fill=\"#c0c0c0\"/><rect x=\"14\" y=\"5\" width=\"1\" height=\"1\" fill=\"#000000\"/><rect x=\"2\" y=\"6\" width=\"12\" height=\"1\" fill=\"#000000\"/><rect x=\"8\" y=\"7\" width=\"4\" height=\"1\" fill=\"#000000\"/><rect x=\"7\" y=\"8\" width=\"1\" height=\"1\" fill=\"#000000\"/><rect x=\"8\" y=\"8\" width=\"2\" height=\"1\" fill=\"#ffff00\"/><rect x=\"10\" y=\"8\" width=\"1\" height=\"1\" fill=\"#000000\"/><rect x=\"6\" y=\"9\" width=\"1\" height=\"1\" fill=\"#000000\"/><rect x=\"7\" y=\"9\" width=\"2\" height=\"1\" fill=\"#ffff00\"/><rect x=\"9\" y=\"9\" width=\"1\" height=\"1\" fill=\"#000000\"/><rect x=\"5\" y=\"10\" width=\"1\" height=\"1\" fill=\"#000000\"/><rect x=\"6\" y=\"10\" width=\"5\" height=\"1\" fill=\"#ffff00\"/><rect x=\"11\" y=\"10\" width=\"1\" height=\"1\" fill=\"#000000\"/><rect x=\"5\" y=\"11\" width=\"3\" height=\"1\" fill=\"#000000\"/><rect x=\"8\" y=\"11\" width=\"2\" height=\"1\" fill=\"#ffff00\"/><rect x=\"10\" y=\"11\" width=\"1\" height=\"1\" fill=\"#000000\"/><rect x=\"7\" y=\"12\" width=\"1\" height=\"1\" fill=\"#000000\"/><rect x=\"8\" y=\"12\" width=\"1\" height=\"1\" fill=\"#ffff00\"/><rect x=\"9\" y=\"12\" width=\"1\" height=\"1\" fill=\"#000000\"/><rect x=\"6\" y=\"13\" width=\"1\" height=\"1\" fill=\"#000000\"/><rect x=\"7\" y=\"13\" width=\"1\" height=\"1\" fill=\"#ffff00\"/><rect x=\"8\" y=\"13\" width=\"1\" height=\"1\" fill=\"#000000\"/><rect x=\"6\" y=\"14\" width=\"2\" height=\"1\" fill=\"#000000\"/></g><g style=\"animation:pxf3 1.8s steps(1) infinite;animation-delay:-0.60s\"><rect x=\"5\" y=\"0\" width=\"4\" height=\"1\" fill=\"#000000\"/><rect x=\"4\" y=\"1\" width=\"1\" height=\"1\" fill=\"#000000\"/><rect x=\"5\" y=\"1\" width=\"4\" height=\"1\" fill=\"#606070\"/><rect x=\"9\" y=\"1\" width=\"1\" height=\"1\" fill=\"#000000\"/><rect x=\"11\" y=\"1\" width=\"2\" height=\"1\" fill=\"#000000\"/><rect x=\"2\" y=\"2\" width=\"2\" height=\"1\" fill=\"#000000\"/><rect x=\"4\" y=\"2\" width=\"6\" height=\"1\" fill=\"#606070\"/><rect x=\"10\" y=\"2\" width=\"1\" height=\"1\" fill=\"#000000\"/><rect x=\"11\" y=\"2\" width=\"2\" height=\"1\" fill=\"#606070\"/><rect x=\"13\" y=\"2\" width=\"1\" height=\"1\" fill=\"#000000\"/><rect x=\"1\" y=\"3\" width=\"1\" height=\"1\" fill=\"#000000\"/><rect x=\"2\" y=\"3\" width=\"12\" height=\"1\" fill=\"#606070\"/><rect x=\"14\" y=\"3\" width=\"1\" height=\"1\" fill=\"#000000\"/><rect x=\"1\" y=\"4\" width=\"1\" height=\"1\" fill=\"#000000\"/><rect x=\"2\" y=\"4\" width=\"12\" height=\"1\" fill=\"#606070\"/><rect x=\"14\" y=\"4\" width=\"1\" height=\"1\" fill=\"#000000\"/><rect x=\"1\" y=\"5\" width=\"1\" height=\"1\" fill=\"#000000\"/><rect x=\"2\" y=\"5\" width=\"2\" height=\"1\" fill=\"#c0c0c0\"/><rect x=\"4\" y=\"5\" width=\"8\" height=\"1\" fill=\"#606070\"/><rect x=\"12\" y=\"5\" width=\"2\" height=\"1\" fill=\"#c0c0c0\"/><rect x=\"14\" y=\"5\" width=\"1\" height=\"1\" fill=\"#000000\"/><rect x=\"2\" y=\"6\" width=\"12\" height=\"1\" fill=\"#000000\"/></g></svg>", "snow": "<svg class=\"pxi\" viewBox=\"0 0 16 16\" shape-rendering=\"crispEdges\" aria-hidden=\"true\"><g style=\"animation:pxf3 1.5s steps(1) infinite;animation-delay:-1.50s\"><rect x=\"5\" y=\"0\" width=\"4\" height=\"1\" fill=\"#000000\"/><rect x=\"4\" y=\"1\" width=\"1\" height=\"1\" fill=\"#000000\"/><rect x=\"5\" y=\"1\" width=\"4\" height=\"1\" fill=\"#ffffff\"/><rect x=\"9\" y=\"1\" width=\"1\" height=\"1\" fill=\"#000000\"/><rect x=\"11\" y=\"1\" width=\"2\" height=\"1\" fill=\"#000000\"/><rect x=\"2\" y=\"2\" width=\"2\" height=\"1\" fill=\"#000000\"/><rect x=\"4\" y=\"2\" width=\"6\" height=\"1\" fill=\"#ffffff\"/><rect x=\"10\" y=\"2\" width=\"1\" height=\"1\" fill=\"#000000\"/><rect x=\"11\" y=\"2\" width=\"2\" height=\"1\" fill=\"#ffffff\"/><rect x=\"13\" y=\"2\" width=\"1\" height=\"1\" fill=\"#000000\"/><rect x=\"1\" y=\"3\" width=\"1\" height=\"1\" fill=\"#000000\"/><rect x=\"2\" y=\"3\" width=\"12\" height=\"1\" fill=\"#ffffff\"/><rect x=\"14\" y=\"3\" width=\"1\" height=\"1\" fill=\"#000000\"/><rect x=\"1\" y=\"4\" width=\"1\" height=\"1\" fill=\"#000000\"/><rect x=\"2\" y=\"4\" width=\"12\" height=\"1\" fill=\"#ffffff\"/><rect x=\"14\" y=\"4\" width=\"1\" height=\"1\" fill=\"#000000\"/><rect x=\"1\" y=\"5\" width=\"1\" height=\"1\" fill=\"#000000\"/><rect x=\"2\" y=\"5\" width=\"2\" height=\"1\" fill=\"#c0c0c0\"/><rect x=\"4\" y=\"5\" width=\"8\" height=\"1\" fill=\"#ffffff\"/><rect x=\"12\" y=\"5\" width=\"2\" height=\"1\" fill=\"#c0c0c0\"/><rect x=\"14\" y=\"5\" width=\"1\" height=\"1\" fill=\"#000000\"/><rect x=\"2\" y=\"6\" width=\"12\" height=\"1\" fill=\"#000000\"/><rect x=\"3\" y=\"8\" width=\"1\" height=\"1\" fill=\"#8ec9ff\"/><rect x=\"2\" y=\"9\" width=\"1\" height=\"1\" fill=\"#8ec9ff\"/><rect x=\"3\" y=\"9\" width=\"1\" height=\"1\" fill=\"#ffffff\"/><rect x=\"4\" y=\"9\" width=\"1\" height=\"1\" fill=\"#8ec9ff\"/><rect x=\"3\" y=\"10\" width=\"1\" height=\"1\" fill=\"#8ec9ff\"/><rect x=\"8\" y=\"10\" width=\"1\" height=\"1\" fill=\"#8ec9ff\"/><rect x=\"7\" y=\"11\" width=\"1\" height=\"1\" fill=\"#8ec9ff\"/><rect x=\"8\" y=\"11\" width=\"1\" height=\"1\" fill=\"#ffffff\"/><rect x=\"9\" y=\"11\" width=\"1\" height=\"1\" fill=\"#8ec9ff\"/><rect x=\"8\" y=\"12\" width=\"1\" height=\"1\" fill=\"#8ec9ff\"/><rect x=\"12\" y=\"12\" width=\"1\" height=\"1\" fill=\"#8ec9ff\"/><rect x=\"11\" y=\"13\" width=\"1\" height=\"1\" fill=\"#8ec9ff\"/><rect x=\"12\" y=\"13\" width=\"1\" height=\"1\" fill=\"#ffffff\"/><rect x=\"13\" y=\"13\" width=\"1\" height=\"1\" fill=\"#8ec9ff\"/><rect x=\"12\" y=\"14\" width=\"1\" height=\"1\" fill=\"#8ec9ff\"/></g><g style=\"animation:pxf3 1.5s steps(1) infinite;animation-delay:-1.00s\"><rect x=\"5\" y=\"0\" width=\"4\" height=\"1\" fill=\"#000000\"/><rect x=\"4\" y=\"1\" width=\"1\" height=\"1\" fill=\"#000000\"/><rect x=\"5\" y=\"1\" width=\"4\" height=\"1\" fill=\"#ffffff\"/><rect x=\"9\" y=\"1\" width=\"1\" height=\"1\" fill=\"#000000\"/><rect x=\"11\" y=\"1\" width=\"2\" height=\"1\" fill=\"#000000\"/><rect x=\"2\" y=\"2\" width=\"2\" height=\"1\" fill=\"#000000\"/><rect x=\"4\" y=\"2\" width=\"6\" height=\"1\" fill=\"#ffffff\"/><rect x=\"10\" y=\"2\" width=\"1\" height=\"1\" fill=\"#000000\"/><rect x=\"11\" y=\"2\" width=\"2\" height=\"1\" fill=\"#ffffff\"/><rect x=\"13\" y=\"2\" width=\"1\" height=\"1\" fill=\"#000000\"/><rect x=\"1\" y=\"3\" width=\"1\" height=\"1\" fill=\"#000000\"/><rect x=\"2\" y=\"3\" width=\"12\" height=\"1\" fill=\"#ffffff\"/><rect x=\"14\" y=\"3\" width=\"1\" height=\"1\" fill=\"#000000\"/><rect x=\"1\" y=\"4\" width=\"1\" height=\"1\" fill=\"#000000\"/><rect x=\"2\" y=\"4\" width=\"12\" height=\"1\" fill=\"#ffffff\"/><rect x=\"14\" y=\"4\" width=\"1\" height=\"1\" fill=\"#000000\"/><rect x=\"1\" y=\"5\" width=\"1\" height=\"1\" fill=\"#000000\"/><rect x=\"2\" y=\"5\" width=\"2\" height=\"1\" fill=\"#c0c0c0\"/><rect x=\"4\" y=\"5\" width=\"8\" height=\"1\" fill=\"#ffffff\"/><rect x=\"12\" y=\"5\" width=\"2\" height=\"1\" fill=\"#c0c0c0\"/><rect x=\"14\" y=\"5\" width=\"1\" height=\"1\" fill=\"#000000\"/><rect x=\"2\" y=\"6\" width=\"12\" height=\"1\" fill=\"#000000\"/><rect x=\"12\" y=\"8\" width=\"1\" height=\"1\" fill=\"#8ec9ff\"/><rect x=\"11\" y=\"9\" width=\"1\" height=\"1\" fill=\"#8ec9ff\"/><rect x=\"12\" y=\"9\" width=\"1\" height=\"1\" fill=\"#ffffff\"/><rect x=\"13\" y=\"9\" width=\"1\" height=\"1\" fill=\"#8ec9ff\"/><rect x=\"3\" y=\"10\" width=\"1\" height=\"1\" fill=\"#8ec9ff\"/><rect x=\"12\" y=\"10\" width=\"1\" height=\"1\" fill=\"#8ec9ff\"/><rect x=\"2\" y=\"11\" width=\"1\" height=\"1\" fill=\"#8ec9ff\"/><rect x=\"3\" y=\"11\" width=\"1\" height=\"1\" fill=\"#ffffff\"/><rect x=\"4\" y=\"11\" width=\"1\" height=\"1\" fill=\"#8ec9ff\"/><rect x=\"3\" y=\"12\" width=\"1\" height=\"1\" fill=\"#8ec9ff\"/><rect x=\"8\" y=\"12\" width=\"1\" height=\"1\" fill=\"#8ec9ff\"/><rect x=\"7\" y=\"13\" width=\"1\" height=\"1\" fill=\"#8ec9ff\"/><rect x=\"8\" y=\"13\" width=\"1\" height=\"1\" fill=\"#ffffff\"/><rect x=\"9\" y=\"13\" width=\"1\" height=\"1\" fill=\"#8ec9ff\"/><rect x=\"8\" y=\"14\" width=\"1\" height=\"1\" fill=\"#8ec9ff\"/></g><g style=\"animation:pxf3 1.5s steps(1) infinite;animation-delay:-0.50s\"><rect x=\"5\" y=\"0\" width=\"4\" height=\"1\" fill=\"#000000\"/><rect x=\"4\" y=\"1\" width=\"1\" height=\"1\" fill=\"#000000\"/><rect x=\"5\" y=\"1\" width=\"4\" height=\"1\" fill=\"#ffffff\"/><rect x=\"9\" y=\"1\" width=\"1\" height=\"1\" fill=\"#000000\"/><rect x=\"11\" y=\"1\" width=\"2\" height=\"1\" fill=\"#000000\"/><rect x=\"2\" y=\"2\" width=\"2\" height=\"1\" fill=\"#000000\"/><rect x=\"4\" y=\"2\" width=\"6\" height=\"1\" fill=\"#ffffff\"/><rect x=\"10\" y=\"2\" width=\"1\" height=\"1\" fill=\"#000000\"/><rect x=\"11\" y=\"2\" width=\"2\" height=\"1\" fill=\"#ffffff\"/><rect x=\"13\" y=\"2\" width=\"1\" height=\"1\" fill=\"#000000\"/><rect x=\"1\" y=\"3\" width=\"1\" height=\"1\" fill=\"#000000\"/><rect x=\"2\" y=\"3\" width=\"12\" height=\"1\" fill=\"#ffffff\"/><rect x=\"14\" y=\"3\" width=\"1\" height=\"1\" fill=\"#000000\"/><rect x=\"1\" y=\"4\" width=\"1\" height=\"1\" fill=\"#000000\"/><rect x=\"2\" y=\"4\" width=\"12\" height=\"1\" fill=\"#ffffff\"/><rect x=\"14\" y=\"4\" width=\"1\" height=\"1\" fill=\"#000000\"/><rect x=\"1\" y=\"5\" width=\"1\" height=\"1\" fill=\"#000000\"/><rect x=\"2\" y=\"5\" width=\"2\" height=\"1\" fill=\"#c0c0c0\"/><rect x=\"4\" y=\"5\" width=\"8\" height=\"1\" fill=\"#ffffff\"/><rect x=\"12\" y=\"5\" width=\"2\" height=\"1\" fill=\"#c0c0c0\"/><rect x=\"14\" y=\"5\" width=\"1\" height=\"1\" fill=\"#000000\"/><rect x=\"2\" y=\"6\" width=\"12\" height=\"1\" fill=\"#000000\"/><rect x=\"8\" y=\"8\" width=\"1\" height=\"1\" fill=\"#8ec9ff\"/><rect x=\"7\" y=\"9\" width=\"1\" height=\"1\" fill=\"#8ec9ff\"/><rect x=\"8\" y=\"9\" width=\"1\" height=\"1\" fill=\"#ffffff\"/><rect x=\"9\" y=\"9\" width=\"1\" height=\"1\" fill=\"#8ec9ff\"/><rect x=\"8\" y=\"10\" width=\"1\" height=\"1\" fill=\"#8ec9ff\"/><rect x=\"12\" y=\"10\" width=\"1\" height=\"1\" fill=\"#8ec9ff\"/><rect x=\"11\" y=\"11\" width=\"1\" height=\"1\" fill=\"#8ec9ff\"/><rect x=\"12\" y=\"11\" width=\"1\" height=\"1\" fill=\"#ffffff\"/><rect x=\"13\" y=\"11\" width=\"1\" height=\"1\" fill=\"#8ec9ff\"/><rect x=\"3\" y=\"12\" width=\"1\" height=\"1\" fill=\"#8ec9ff\"/><rect x=\"12\" y=\"12\" width=\"1\" height=\"1\" fill=\"#8ec9ff\"/><rect x=\"2\" y=\"13\" width=\"1\" height=\"1\" fill=\"#8ec9ff\"/><rect x=\"3\" y=\"13\" width=\"1\" height=\"1\" fill=\"#ffffff\"/><rect x=\"4\" y=\"13\" width=\"1\" height=\"1\" fill=\"#8ec9ff\"/><rect x=\"3\" y=\"14\" width=\"1\" height=\"1\" fill=\"#8ec9ff\"/></g></svg>", "fog": "<svg class=\"pxi\" viewBox=\"0 0 16 16\" shape-rendering=\"crispEdges\" aria-hidden=\"true\"><g style=\"animation:pxf2 1.6s steps(1) infinite;animation-delay:-1.60s\"><rect x=\"1\" y=\"4\" width=\"12\" height=\"1\" fill=\"#808080\"/><rect x=\"1\" y=\"5\" width=\"12\" height=\"1\" fill=\"#c0c0c0\"/><rect x=\"3\" y=\"8\" width=\"11\" height=\"1\" fill=\"#808080\"/><rect x=\"3\" y=\"9\" width=\"11\" height=\"1\" fill=\"#c0c0c0\"/><rect x=\"1\" y=\"12\" width=\"13\" height=\"1\" fill=\"#808080\"/><rect x=\"1\" y=\"13\" width=\"13\" height=\"1\" fill=\"#c0c0c0\"/></g><g style=\"animation:pxf2 1.6s steps(1) infinite;animation-delay:-0.80s\"><rect x=\"2\" y=\"4\" width=\"12\" height=\"1\" fill=\"#808080\"/><rect x=\"2\" y=\"5\" width=\"12\" height=\"1\" fill=\"#c0c0c0\"/><rect x=\"2\" y=\"8\" width=\"11\" height=\"1\" fill=\"#808080\"/><rect x=\"2\" y=\"9\" width=\"11\" height=\"1\" fill=\"#c0c0c0\"/><rect x=\"2\" y=\"12\" width=\"13\" height=\"1\" fill=\"#808080\"/><rect x=\"2\" y=\"13\" width=\"13\" height=\"1\" fill=\"#c0c0c0\"/></g></svg>"};
+function wxSVG(cond){const c=String(cond||"").toLowerCase();const k=/thunder|storm/.test(c)?"storm":/snow|flurr|sleet/.test(c)?"snow":/rain|shower|drizzle/.test(c)?"rain":/fog|mist|haze|smoke/.test(c)?"fog":/partly|mostly sunny|few clouds|intervals/.test(c)?"partly":/cloud|overcast/.test(c)?"cloud":"sun";return PXI[k];}
+function renderWeather(){
+  const w=$("weather"); if(!weather?.cities?.length){ w.replaceChildren(); return; }
+  w.replaceChildren(...weather.cities.map(c=>el("span",{},el("b",{},c.name==="Baltimore"?el("span",{},"Baltimore",el("span",{className:"wl"},", MD")):c.name,": "),el("span",{className:"wxt"},el("span",{className:"wl"},"High "),`${c.hi}°`,el("span",{className:"wu"},"F"),' / ',el("span",{className:"wl"},"Low "),`${c.lo}°F`),c.cond?el("span",{className:"muted"}," · "+c.cond+(c.rain!=null&&c.rain>=20?`, ${c.rain}% rain`:"")):null,Object.assign(document.createElement("span"),{innerHTML:wxSVG(c.cond).replace('class="pxi"','class="pxi r"')}))));
+  const wxfit=()=>{w.classList.remove("wrapok");if(w.scrollWidth>w.clientWidth+1)w.classList.add("wrapok");};wxfit();addEventListener("resize",wxfit);
+}
+
+/* ---------- briefing ---------- */
+let digest=null;
+function renderBriefing(){
+  if(!digest?.items?.length) return;
+  $("ticker").textContent=digest.items.map(it=>"+++ "+it.headline).join("   ")+"   +++";
+  const ov=$("overview");
+  if(digest.overview){ const paras=String(digest.overview).split(/\n\n+/); ov.replaceChildren(el("h3",{},"The day in brief"),...paras.map(t=>el("p",{},t))); ov.hidden=false; } else ov.hidden=true;
+  const d=new Date(digest.date+"T12:00:00"); $("briefDate").textContent = isNaN(d)?"":d.toLocaleDateString(undefined,{weekday:"short",month:"short",day:"numeric"});
+  $("stories").replaceChildren(...digest.items.map((it,i)=>{
+    const src=el("div",{className:"srcs"}); for(const s of (it.sources||[])) src.append(el("a",{href:s.url,target:"_blank",rel:"noopener"},s.name));
+    return el("div",{className:"story"},el("span",{className:"rk"},String(i+1)),el("div",{},el("h4",{},it.sources?.[0]?el("a",{href:it.sources[0].url,target:"_blank",rel:"noopener"},it.headline):it.headline),el("p",{},it.summary),src));
+  }));
+}
+
+/* ---------- sports ---------- */
+const SPORTS=[{k:"home",name:"Home"},{k:"soccer",name:"Soccer",ic:"⚽"},{k:"mlb",name:"MLB",ic:"⚾"},{k:"nfl",name:"NFL",ic:"🏈"},{k:"nba",name:"NBA",ic:"🏀"}];
+let sport = store("rd-sport")||"home", league = store("rd-league")||"epl", country = store("rd-country")||"eng";
+const COUNTRIES=[{k:"eng",name:"England",ic:"🏴󠁧󠁢󠁥󠁮󠁧󠁿"},{k:"esp",name:"Spain",ic:"🇪🇸"},{k:"ger",name:"Germany",ic:"🇩🇪"},{k:"fra",name:"France",ic:"🇫🇷"},{k:"kor",name:"South Korea",ic:"🇰🇷"},{k:"usa",name:"USA",ic:"🇺🇸"},{k:"eur",name:"European cups",ic:"🏆"},{k:"intl",name:"International",ic:"🌍"}];
+let leagues={}, snews={};
+function fmtWhen(iso,withTime=true){ const d=new Date(iso); if(isNaN(d)) return ""; const o={weekday:"short",month:"short",day:"numeric"}; if(withTime){o.hour="numeric";o.minute="2-digit";} return d.toLocaleString("en-US",o); }
+function scoreRow(g){
+  const done = g.hs!=null;
+  const hw = done && g.hs>g.as, aw = done && g.as>g.hs;
+  return el("div",{className:"score"},
+    el("div",{className:"tm"+(aw?" w":"")},el("span",{},g.away),el("span",{className:"num"},done?String(g.as):"")),
+    el("div",{className:"tm"+(hw?" w":"")},el("span",{},g.home),el("span",{className:"num"},done?String(g.hs):"")),
+    el("div",{className:"meta"},g.t?el("span",{},(done||g.dateOnly)?fmtWhen(g.t,false):fmtWhen(g.t)):null, g.league?el("span",{className:"lg"},g.league):null, g.label?el("span",{className:"lbl"},g.label):null, done?el("span",{},"Final"):null));
+}
+function tableEl(rows,soccer){
+  if(!rows?.length) return null;
+  const head = soccer ? ["#","Team","GP","W","D","L","GD","Pts"] : ["","Team","Record"];
+  const gp=r=>r.gp??((+r.w||0)+(+r.d||0)+(+r.l||0));
+  const gd=r=>r.gd==null?"–":(r.gd>0?"+"+r.gd:r.gd<0?"−"+Math.abs(r.gd):"0");
+  const t=el("table",{},el("thead",{},el("tr",{},...head.map(h=>el("th",{},h)))));
+  const tb=el("tbody");
+  for(const r of rows) tb.append(el("tr",{},...(soccer?[r.pos,r.team,gp(r),r.w,r.d,r.l,gd(r),r.pts]:[r.note||"",r.team,r.rec]).map(v=>el("td",{},String(v??"")))));
+  t.append(tb); return el("div",{className:"tblwrap"},t);
+}
+function leagueBlock(L){
+  const soccer=L.group==="soccer";
+  const left=el("div",{className:"box"});
+  if(L.series?.length){ left.append(el("h3",{},"Series"), el("div",{className:"series"},...L.series.map(s=>el("div",{className:"ser"},el("span",{className:"pill "+(s.status==="live"?"live":"final")},s.round),el("span",{},s.text))))); }
+  if(L.results?.length){ left.append(el("h3",{style:L.series?.length?"margin-top:10px":""},"Latest results"), ...L.results.map(scoreRow)); }
+  const right=el("div",{className:"box"});
+  if(L.upcoming?.length){ right.append(el("h3",{},"Coming up"), ...L.upcoming.map(scoreRow)); }
+  const tb=tableEl(L.table,soccer);
+  if(tb){ right.append(el("h3",{style:"margin-top:10px"},soccer?"Top of the table":"Division leaders"), tb); }
+  return el("div",{className:"box"},
+    el("div",{style:"display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap;align-items:baseline"},el("h2",{className:"sec"},L.name),L.phase?el("span",{className:"phase"},L.phase):null),
+    L.note?el("p",{className:"muted",style:"margin:0;max-width:65ch"},L.note):null,
+    (left.childNodes.length||right.childNodes.length)?el("div",{className:"grid2"},left,right):null);
+}
+function newsBlocks(key){
+  const n=snews[key]; const out=[];
+  if(n?.brief?.length) out.push(el("div",{className:"brief"},el("h3",{},"What to know"),el("ul",{},...n.brief.map(b=>el("li",{},b)))));
+  if(n?.headlines?.length) out.push(el("div",{className:"box"},el("h3",{},"Headlines"),el("div",{className:"heads"},...n.headlines.map(h=>el("a",{href:h.url,target:"_blank",rel:"noopener"},h.title,el("small",{},h.source||""))))));
+  return out;
+}
+function renderSports(){
+  const chips=$("sportChips"); chips.replaceChildren();
+  for(const s of SPORTS){ const b=el("button",{className:"chip",type:"button"},s.name); b.setAttribute("aria-pressed",String(sport===s.k)); b.addEventListener("click",()=>{sport=s.k;store("rd-sport",s.k);renderSports();}); chips.append(b); }
+  const body=$("sportBody");
+  if(!Object.keys(leagues).length && !Object.keys(snews).length) return;
+  const parts=[...newsBlocks(sport)];
+  if(sport==="home"){
+    const h=snews.home;
+    if(h?.overview){ const box=el("div",{className:"overview"},el("h3",{},"Sports in brief"),...String(h.overview).split(/\n\n+/).map(t=>el("p",{},t))); parts.unshift(box); }
+    const now=Date.now(), horizon=now+48*3600e3, rows=[];
+    for(const[k,L] of Object.entries(leagues)) for(const g of (L.upcoming||[])){ const t=Date.parse(g.t); if(!isNaN(t)&&t>=now-3*3600e3&&t<=horizon&&!g.dateOnly) rows.push({...g,league:L.name,_t:t}); }
+    const done=[];
+    for(const[k,L] of Object.entries(leagues)) for(const g of (L.results||[])){ const t=Date.parse(g.t); if(!isNaN(t)&&t<=now&&t>=now-30*3600e3) done.push({...g,league:L.name,_t:t}); }
+    done.sort((a,b)=>b._t-a._t);
+    if(done.length) parts.push(el("div",{className:"box"},el("h3",{},"Last night's results"),...done.slice(0,18).map(scoreRow)));
+    rows.sort((a,b)=>a._t-b._t);
+    if(rows.length) parts.push(el("div",{className:"box"},el("h3",{},"Coming up"),...rows.slice(0,14).map(scoreRow)));
+  } else if(sport==="soccer"){
+    const ls=Object.entries(leagues).filter(([k,v])=>v.group==="soccer");
+    const present=COUNTRIES.filter(c=>ls.some(([k,v])=>v.country===c.k));
+    if(present.length){
+      if(!present.some(c=>c.k===country)) country=present[0].k;
+      const cc=el("div",{className:"chips",role:"group","aria-label":"Country"});
+      for(const c of present){ const b=el("button",{className:"chip",type:"button"},c.name); b.setAttribute("aria-pressed",String(country===c.k)); b.addEventListener("click",()=>{country=c.k;store("rd-country",c.k);renderSports();}); cc.append(b); }
+      const inC=ls.filter(([k,v])=>v.country===country).sort((a,b)=>(a[1].order||9)-(b[1].order||9));
+      if(!inC.some(([k])=>k===league)) league=inC[0][0];
+      parts.push(cc);
+      if(inC.length>1){
+        const lc=el("div",{className:"chips sub",role:"group","aria-label":"Competition"});
+        for(const[k,v] of inC){ const b=el("button",{className:"chip",type:"button"},v.name); b.setAttribute("aria-pressed",String(league===k)); b.addEventListener("click",()=>{league=k;store("rd-league",k);renderSports();}); lc.append(b); }
+        parts.push(lc);
+      }
+      parts.push(leagueBlock(leagues[league]));
+    }
+  } else if(leagues[sport]) parts.push(leagueBlock(leagues[sport]));
+  body.replaceChildren(...(parts.length?parts:[el("div",{className:"empty"},"Nothing here yet. It fills in on the next morning refresh.")]));
+}
+
+/* ---------- reading list ---------- */
+const SOURCES = {
+  npr:    {name:"NPR",            access:"Free, no paywall",               c:"--npr",    home:"https://www.npr.org"},
+  pbs:    {name:"PBS NewsHour",   access:"",                               c:"--pbs",    home:"https://www.pbs.org/newshour"},
+  time:   {name:"TIME",           access:"Free online since 2023",         c:"--time",   home:"https://time.com"},
+  e360:   {name:"Yale e360",      access:"Free, no paywall",               c:"--e360",   home:"https://e360.yale.edu"},
+  nation: {name:"The Nation",     access:"",                               c:"--nation", home:"https://www.thenation.com"},
+};
+let articles=[], status=null, filter=store("rd-filter")||"all", lastVisit=store("rd-lastvisit");
+if(!["all","npr","pbs","time","e360","nation"].includes(filter)) filter="all";
+function dayKey(iso){ const d=new Date(iso); return isNaN(d)?"Undated":d.toLocaleDateString(undefined,{weekday:"long",month:"short",day:"numeric"}); }
+function renderReading(){
+  const f=$("filters"); f.replaceChildren();
+  const counts={all:0}; for(const a of articles){ if(!SOURCES[a.source]) continue; counts.all++; counts[a.source]=(counts[a.source]||0)+1; }
+  const mk=(key,label,c)=>{ const b=el("button",{className:"chip",type:"button"}); b.setAttribute("aria-pressed",String(filter===key));
+    if(c){ const d=el("span",{className:"dot"}); d.style.setProperty("--c",`var(${c})`); b.append(d); }
+    b.append(label, el("span",{className:"n"},String(counts[key]||0)));
+    b.addEventListener("click",()=>{ filter=key; store("rd-filter",key); renderReading(); }); return b; };
+  f.append(mk("all","All")); for(const[k,s] of Object.entries(SOURCES)) if(!s.linkOnly) f.append(mk(k,s.name,s.c));
+  const box=$("sources"); box.replaceChildren();
+  for(const[k,s] of Object.entries(SOURCES)){
+    const st=status?.sources?.[k]; const d=el("span",{className:"dot"}); d.style.setProperty("--c",`var(${s.c})`);
+    let t="Not checked yet", warn=false; if(s.linkOnly) t="Open site"; else if(st){ if(st.ok===false){t="Last check failed";warn=true;} else { const n=articles.filter(a=>a.source===k&&Date.now()-Date.parse(a.published)<864e5).length; t = n>0?`${n} new today`:"Nothing new today"; } }
+    box.append(el("div",{className:"src"},el("a",{href:s.home,target:"_blank",rel:"noopener",className:"name"},d,s.name),el("span",{className:"stat"+(warn?" warn":"")},t)));
+  }
+  const feed=$("feed"); const list=articles.filter(a=>SOURCES[a.source]&&(filter==="all"||a.source===filter));
+  if(!list.length){ feed.replaceChildren(articles.length?el("div",{className:"empty"},"No articles from this publication yet."):EMPTY); return; }
+  const groups=new Map(); for(const a of list){ const k=dayKey(a.published); if(!groups.has(k)) groups.set(k,[]); groups.get(k).push(a); }
+  const out=[];
+  for(const[k,items] of groups){
+    const sec=el("section",{className:"day"},el("h3",{},k));
+    for(const a of items){
+      const s=SOURCES[a.source]||{name:a.source,c:"--muted"};
+      const tag=el("span",{className:"tag"},s.name); tag.style.setProperty("--c",`var(${s.c})`); tag.style.setProperty("--cb",`var(${s.c}-bg, var(--line))`);
+      const meta=el("div",{className:"meta"},tag);
+      const d=new Date(a.published); if(!a.dateOnly && !isNaN(d)) meta.append(el("span",{},d.toLocaleTimeString(undefined,{hour:"numeric",minute:"2-digit"})));
+      sec.append(el("article",{},meta,el("a",{className:"t",href:a.url,target:"_blank",rel:"noopener"},a.title||a.url),a.summary?el("p",{},a.summary):null));
+    }
+    out.push(sec);
+  }
+  feed.replaceChildren(...out);
+}
+function renderRefreshed(){
+  const ts=[status?.lastRun,digest?.generatedAt].filter(Boolean).sort().pop();
+  if(ts){ const d=new Date(ts); $("refreshed").textContent=d.toLocaleString(undefined,{month:"short",day:"numeric",hour:"numeric",minute:"2-digit"}); }
+}
+renderReading(); renderSports();
+window.addEventListener("pagehide",()=>store("rd-lastvisit",new Date().toISOString()));
+
+(async()=>{
+  try{
+    const r=await fetch("data.json?v="+Date.now(),{cache:"no-store"}); if(!r.ok) throw new Error(r.status);
+    const d=await r.json();
+    if(window.setEdition)setEdition(d.edition);weather=d.weather||null; digest=d.digest||null; status=d.status||null; leagues=d.sports||{}; snews=d.sportsnews||{};
+    articles=(d.articles||[]).slice().sort((x,y)=>String(y.published).localeCompare(String(x.published)));
+    renderWeather(); renderBriefing(); renderSports(); renderReading(); renderRefreshed();
+  }catch(e){
+    const m="<b>Couldn't load today's edition.</b><br>Refresh the page in a minute.";
+    EMPTY.innerHTML=m; $("stories").firstElementChild.innerHTML=m;
+  }
+})();
+
+/* ---------- ticker (JS-driven so it runs on iPhone/iPad Safari) ---------- */
+(function(){const el=document.getElementById("ticker"); if(!el) return; const box=el.parentElement; const speed=70; let x=box.clientWidth, last=null;
+ function step(t){ if(last!==null){ x-=speed*Math.min(t-last,100)/1000; if(x< -el.offsetWidth) x=box.clientWidth; } last=t;
+  el.style.webkitTransform=el.style.transform="translate3d("+x.toFixed(1)+"px,0,0)"; requestAnimationFrame(step); }
+ requestAnimationFrame(step);})();
+</script>
+
+</body>
+</html>
