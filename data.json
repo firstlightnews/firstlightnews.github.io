@@ -132,12 +132,6 @@
     "ok": true,
     "stale": false
    },
-   "nation": {
-    "newCount": 3,
-    "newest": "2026-10-31T09:30:00Z",
-    "ok": true,
-    "stale": true
-   },
    "npr": {
     "newCount": 9,
     "newest": "2026-11-01T09:00:00Z",
@@ -3236,15 +3230,6 @@
    "url": "https://time.com/article/2026/10/31/americans-lost-nearly-18-billion-last-year-to-cyberscams-is-washington-doing-enough-to-help-them-get-it-back-/"
   },
   {
-   "id": "nation-0fa0b5090a16",
-   "added": "2026-11-01T12:10:00Z",
-   "published": "2026-10-31T09:30:00Z",
-   "source": "nation",
-   "summary": "The new women's pro baseball circuit pairs a DIY, punk-style energy with a civic sense of belonging.",
-   "title": "The Punk-Rock Appeal of the Women's Pro Baseball League",
-   "url": "https://www.thenation.com/article/society/the-womens-pro-baseball-league-punk-rock/"
-  },
-  {
    "id": "npr-10e9dc9d6d91",
    "added": "2026-10-31T11:05:00Z",
    "published": "2026-10-31T09:00:00Z",
@@ -3362,15 +3347,6 @@
    "url": "https://time.com/article/2026/10/30/democrats-midterms-corporate-climate-action/"
   },
   {
-   "id": "nation-8a9bb037eab4",
-   "added": "2026-11-01T12:10:00Z",
-   "published": "2026-10-30T19:44:12Z",
-   "source": "nation",
-   "summary": "An article on Iowa's midterm races argues grassroots organizing gives Democrats a chance.",
-   "title": "Eyes on Iowa",
-   "url": "https://www.thenation.com/article/politics/iowa-midterm-elections-2026-democrats-grassroots-organizing/"
-  },
-  {
    "id": "pbs-8f278f779948",
    "added": "2026-10-31T11:05:00Z",
    "published": "2026-10-30T16:53:35Z",
@@ -3423,15 +3399,6 @@
    "summary": "Crypto exchange Binance is investigating a potential security issue it says affected roughly $6.3 billion.",
    "title": "Binance flags 'potential security issue,' says approximately $6.3 billion impacted",
    "url": "https://www.pbs.org/newshour/economy/binance-flags-potential-security-issue-says-approximately-6-3-billion-impacted"
-  },
-  {
-   "id": "nation-9efca5b4ed3f",
-   "added": "2026-11-01T12:10:00Z",
-   "published": "2026-10-30T14:16:07Z",
-   "source": "nation",
-   "summary": "Former tenants have filed a class-action lawsuit against corporate landlord American Landmark over its business model.",
-   "title": "The Eviction Kings Are Being Sued",
-   "url": "https://www.thenation.com/article/society/american-landmark-class-action-lawsuit/"
   },
   {
    "id": "pbs-4799a89956c1",
@@ -3495,42 +3462,6 @@
    "summary": "Planet Money examines two notable items among the 94 pages of risk factors in Anthropic's S-1 filing.",
    "title": "The two most interesting risks to Anthropic",
    "url": "https://www.npr.org/sections/planet-money/2026/10/30/nx-s1-6022515/the-two-most-interesting-risks-to-anthropic"
-  },
-  {
-   "id": "nation-445b48f7a9d2",
-   "added": "2026-10-31T11:05:00Z",
-   "published": "2026-10-30T09:00:00Z",
-   "source": "nation",
-   "summary": "Sasha Abramsky argues the midterms give voters a rare chance to change the direction of American democracy.",
-   "title": "There Is No Moral Margin for Error on Tuesday",
-   "url": "https://www.thenation.com/article/politics/midterms-trump-opportunity/"
-  },
-  {
-   "id": "nation-654e314ee7ea",
-   "added": "2026-10-31T11:05:00Z",
-   "published": "2026-10-30T09:00:00Z",
-   "source": "nation",
-   "summary": "Ivana Nikolić Hughes argues Serbia's student movement shows a nonviolent, collective route to defending democracy.",
-   "title": "How the Serbian Student Movement Is a Victory for Organizing Power",
-   "url": "https://www.thenation.com/article/world/serbia-student-movement-election-vucic-democracy/"
-  },
-  {
-   "id": "nation-b1a32c2903a3",
-   "added": "2026-10-31T11:05:00Z",
-   "published": "2026-10-30T09:00:00Z",
-   "source": "nation",
-   "summary": "Massachusetts ballot Question 8 would repeal recreational marijuana and dismantle the framework for social equity cannabis businesses.",
-   "title": "Massachusetts May Be the First State to Repeal Recreational Weed",
-   "url": "https://www.thenation.com/article/politics/massachusetts-recreational-weed-ballot-question-8-social-equity-program/"
-  },
-  {
-   "id": "nation-d27717b77706",
-   "added": "2026-10-31T11:05:00Z",
-   "published": "2026-10-30T09:00:00Z",
-   "source": "nation",
-   "summary": "Local progressive groups are running a large ground game for Democrat Cait Conley against Rep. Mike Lawler in New York's 17th District.",
-   "title": "Will the Progressive Insurgency in NY-17 Oust MAGA Loyalist Mike Lawler?",
-   "url": "https://www.thenation.com/article/politics/ny-17-lawler-conley-congress-election/"
   },
   {
    "id": "npr-30927e59f61d",

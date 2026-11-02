@@ -516,7 +516,7 @@ html.modern .uitoggle .tg-print{display:block;width:100%;height:100%}
   <section class="panel" id="p-reading" role="tabpanel" aria-labelledby="tab-reading" hidden>
     <div class="chips" id="filters" role="group" aria-label="Filter by publication"></div>
     <div class="sources" id="sources" aria-label="Publications"></div>
-    <div id="feed"><div class="empty" id="empty"><b>Waiting for the first delivery.</b><br>New articles from NPR, PBS NewsHour, TIME, Yale e360 and The Nation appear here each morning.</div></div>
+    <div id="feed"><div class="empty" id="empty"><b>Waiting for the first delivery.</b><br>New articles from NPR, PBS NewsHour, TIME and Yale e360 appear here each morning.</div></div>
     <a class="turn" data-to="sports" role="button" tabindex="0">Sports on Page 3</a>
   </section>
 
@@ -665,10 +665,9 @@ const SOURCES = {
   pbs:    {name:"PBS NewsHour",   access:"",                               c:"--pbs",    home:"https://www.pbs.org/newshour"},
   time:   {name:"TIME",           access:"Free online since 2023",         c:"--time",   home:"https://time.com"},
   e360:   {name:"Yale e360",      access:"Free, no paywall",               c:"--e360",   home:"https://e360.yale.edu"},
-  nation: {name:"The Nation",     access:"",                               c:"--nation", home:"https://www.thenation.com"},
 };
 let articles=[], status=null, filter=store("rd-filter")||"all", lastVisit=store("rd-lastvisit");
-if(!["all","npr","pbs","time","e360","nation"].includes(filter)) filter="all";
+if(!["all","npr","pbs","time","e360"].includes(filter)) filter="all";
 function dayKey(iso){ const d=new Date(iso); return isNaN(d)?"Undated":d.toLocaleDateString(undefined,{weekday:"long",month:"short",day:"numeric"}); }
 function renderReading(){
   const f=$("filters"); f.replaceChildren();
