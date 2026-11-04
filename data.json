@@ -2,169 +2,161 @@
  "weather": {
   "cities": [
    {
-    "cond": "Decreasing Clouds",
-    "hi": 73,
-    "lo": 53,
+    "cond": "Mostly Sunny",
+    "hi": 75,
+    "lo": 62,
     "name": "Baltimore",
     "rain": 0
    }
   ],
-  "date": "2026-11-03",
-  "updatedAt": "2026-11-03T11:45:00Z"
+  "date": "2026-11-04",
+  "updatedAt": "2026-11-04T11:40:43Z"
  },
  "digest": {
-  "date": "2026-11-03",
-  "generatedAt": "2026-11-03T11:50:00Z",
+  "date": "2026-11-04",
+  "generatedAt": "2026-11-04T11:40:43Z",
   "items": [
    {
-    "headline": "Midterm Election Day arrives with Congress at stake",
+    "headline": "Democrats win control of the House and Senate",
     "sources": [
      {
-      "name": "NPR",
-      "url": "https://www.npr.org/2026/11/02/nx-s1-6025451/midterms-what-to-watch-election-night"
+      "name": "TIME",
+      "url": "https://time.com/article/2026/11/04/democrats-win-control-of-senate-in-blue-wave-election/"
+     },
+     {
+      "name": "PBS NewsHour",
+      "url": "https://www.pbs.org/newshour/politics/democrats-win-control-of-the-u-s-house"
+     },
+     {
+      "name": "PBS NewsHour",
+      "url": "https://www.pbs.org/newshour/politics/watch-sen-chuck-schumer-speaks-after-democrats-win-control-of-senate"
+     }
+    ],
+    "summary": "Democrats won majorities in both chambers of Congress in Tuesday's midterm elections, a major rebuke to President Trump. Senate Democratic leader Chuck Schumer spoke after his party clinched the Senate majority."
+   },
+   {
+    "headline": "Talarico wins Texas Senate race over Paxton",
+    "sources": [
+     {
+      "name": "TIME",
+      "url": "https://time.com/article/2026/11/04/talarico-wins-texas-senate-race-first-democrat-to-win-statewide-in-more-than-30-years/"
+     }
+    ],
+    "summary": "Democrat James Talarico defeated Republican Ken Paxton for the U.S. Senate in Texas, according to an AP race call. TIME called it a major upset in a state Democrats had not won statewide in decades."
+   },
+   {
+    "headline": "Troy Jackson unseats Susan Collins in Maine",
+    "sources": [
+     {
+      "name": "PBS NewsHour",
+      "url": "https://www.pbs.org/newshour/politics/democrat-troy-jackson-wins-election-to-u-s-senate-from-maine"
+     }
+    ],
+    "summary": "Democrat Troy Jackson won Maine's U.S. Senate seat, defeating longtime Republican Sen. Susan Collins. Collins conceded the race."
+   },
+   {
+    "headline": "El-Sayed holds Michigan Senate seat for Democrats",
+    "sources": [
+     {
+      "name": "TIME",
+      "url": "https://time.com/article/2026/11/03/abdul-el-sayed-michigan-senate-2026-midterm-elections-mike-rogers/"
+     }
+    ],
+    "summary": "Democrat Abdul El-Sayed defeated Republican Mike Rogers in Michigan's open Senate race, days after Rep. Haley Stevens endorsed Rogers. El-Sayed becomes the first Muslim elected to the U.S. Senate."
+   },
+   {
+    "headline": "Annie Andrews flips South Carolina Senate seat",
+    "sources": [
+     {
+      "name": "TIME",
+      "url": "https://time.com/article/2026/11/04/south-carolina-senate-results-darline-graham-democrat-annie-andrews-republican/"
+     }
+    ],
+    "summary": "Democrat Annie Andrews defeated Republican Sen. Darline Graham in South Carolina. The win flipped the seat to Democrats in what TIME called a stunning upset."
+   },
+   {
+    "headline": "Amy Acton defeats Vivek Ramaswamy for Ohio governor",
+    "sources": [
+     {
+      "name": "TIME",
+      "url": "https://time.com/article/2026/11/04/amy-acton-ohio-governor-ramaswamy-midterm-election-bitter-race-against/"
+     }
+    ],
+    "summary": "Democrat Amy Acton won Ohio's governor's race over Republican Vivek Ramaswamy, according to an AP race call. Acton led 50.8% to 45.9% with most votes counted."
+   },
+   {
+    "headline": "Trump blames Republican candidates for midterm losses",
+    "sources": [
+     {
+      "name": "PBS NewsHour",
+      "url": "https://www.pbs.org/newshour/politics/trump-says-democrats-did-a-good-job-blames-republican-candidates-for-midterm-losses"
      },
      {
       "name": "TIME",
-      "url": "https://time.com/article/2026/11/02/trump-2026-midterm-elections/"
+      "url": "https://time.com/article/2026/11/03/what-is-trump-planning-to-do-on-election-day-midterm/"
      }
     ],
-    "summary": "Voters head to the polls today as Republicans defend narrow majorities in the House and Senate. President Trump made a closing appeal before the vote, and analysts are watching voter groups that have turned against him during his second term."
+    "summary": "President Trump said Democrats 'did a good job' and blamed Republican candidates for the party's defeats. He also criticized GOP figures and Fox News after the results."
    },
    {
-    "headline": "Haley Stevens endorses Republican Mike Rogers in Michigan Senate race",
-    "sources": [
-     {
-      "name": "NPR",
-      "url": "https://www.npr.org/2026/11/01/nx-s1-6020993/michigan-senate-race-abdul-el-sayed-haley-stevens-mike-rogers"
-     },
-     {
-      "name": "PBS NewsHour",
-      "url": "https://www.pbs.org/newshour/politics/democrat-haley-stevens-endorses-gops-mike-rogers-in-michigan-senate-race-2-days-before-election"
-     },
-     {
-      "name": "TIME",
-      "url": "https://time.com/article/2026/11/02/haley-stevens-abdul-el-sayed-mike-rogers-endorsement-trump-republicans-democrats/"
-     }
-    ],
-    "summary": "Rep. Haley Stevens, who lost the Democratic primary to Abdul El-Sayed, endorsed Republican Mike Rogers two days before the election. Trump invited her to join the GOP as Democrats condemned the move."
-   },
-   {
-    "headline": "Iran's delegation leaves talks in Qatar",
+    "headline": "Voters decide abortion, redistricting and voting measures",
     "sources": [
      {
       "name": "PBS NewsHour",
-      "url": "https://www.pbs.org/newshour/world/irans-delegation-has-left-negotiations-in-qatar-after-a-tense-weekend-heres-where-things-stand"
+      "url": "https://www.pbs.org/newshour/politics/voters-decide-key-ballot-measures-on-abortion-rights-congressional-redistricting-and-voter-id-laws"
      }
     ],
-    "summary": "Iran's negotiators left talks in Qatar after a tense weekend. There is concern that Israeli Prime Minister Benjamin Netanyahu could push for new strikes."
+    "summary": "Voters in several states decided 145 ballot measures, including on abortion rights, congressional maps and voter ID. Missouri voters rejected a Republican-drawn congressional map, and Virginia approved an abortion-rights amendment."
    },
    {
-    "headline": "Judge dismisses charges against ex-FBI agents in Hunter Biden case",
+    "headline": "U.S. strikes Iranian targets after Netanyahu pressed for action",
     "sources": [
      {
       "name": "PBS NewsHour",
-      "url": "https://www.pbs.org/newshour/politics/judge-dismisses-charges-against-ex-fbi-agents-accused-of-lying-about-hunter-biden-citing-weaponization"
+      "url": "https://www.pbs.org/newshour/world/u-s-launches-new-attacks-on-iranian-targets-days-after-netanyahu-pressed-trump-for-more-strikes"
      }
     ],
-    "summary": "A judge dismissed charges against former FBI agents accused of lying about Hunter Biden, citing 'weaponization.' The Justice Department could still seek a new indictment from a grand jury."
+    "summary": "The United States carried out new strikes on Iranian targets around the Strait of Hormuz, days after Israeli Prime Minister Benjamin Netanyahu reportedly pressed President Trump for more strikes. A U.S. official described them as a response to Iranian missile fire at U.S. forces."
    },
    {
-    "headline": "Nine killed as business jet crashes in South Florida",
-    "sources": [
-     {
-      "name": "NPR",
-      "url": "https://www.npr.org/2026/11/02/g-s1-151211/south-florida-jet-crash"
-     },
-     {
-      "name": "PBS NewsHour",
-      "url": "https://www.pbs.org/newshour/nation/all-9-people-aboard-a-jet-that-crashed-in-florida-have-died-transportation-secretary-says"
-     }
-    ],
-    "summary": "A jet flying from Austin, Texas, to the Bahamas crashed into a South Florida neighborhood, killing all nine people aboard. Federal officials are investigating the crash."
-   },
-   {
-    "headline": "Sen. Chris Murphy hospitalized after a stroke",
-    "sources": [
-     {
-      "name": "NPR",
-      "url": "https://www.npr.org/2026/11/01/nx-s1-6025467/chris-murphy-stroke"
-     },
-     {
-      "name": "PBS NewsHour",
-      "url": "https://www.pbs.org/newshour/politics/connecticut-sen-chris-murphy-is-in-the-hospital-after-having-a-stroke-his-office-says"
-     }
-    ],
-    "summary": "Connecticut Sen. Chris Murphy was hospitalized after experiencing arm numbness at his son's hockey game. His office says he is responding well to treatment and is expected to fully recover."
-   },
-   {
-    "headline": "Fake emergency alerts hit Ukraine and Russia as limited ceasefire ends",
-    "sources": [
-     {
-      "name": "PBS NewsHour",
-      "url": "https://www.pbs.org/newshour/world/ukraine-and-russia-both-report-fake-emergency-alerts-after-cyberattacks-target-apps-as-limited-ceasefire-ends"
-     }
-    ],
-    "summary": "Ukraine and Russia both reported fake emergency alerts after cyberattacks targeted alert apps. The incidents came as a limited ceasefire ended, and no link between them was confirmed."
-   },
-   {
-    "headline": "FBI blames North Korea for $6.3 billion Binance heist",
-    "sources": [
-     {
-      "name": "PBS NewsHour",
-      "url": "https://www.pbs.org/newshour/world/fbi-says-north-korea-was-behind-6-3-billion-binance-heist-the-biggest-crypto-hack-in-history"
-     }
-    ],
-    "summary": "The FBI said North Korea was behind the $6.3 billion theft from the Binance crypto exchange, the largest crypto hack on record. It linked the attack to the group behind an earlier hack of Bybit."
-   },
-   {
-    "headline": "Carney reports progress in U.S.-Canada trade talks",
-    "sources": [
-     {
-      "name": "PBS NewsHour",
-      "url": "https://www.pbs.org/newshour/world/canadian-prime-minister-carney-reports-progress-in-trade-talks-with-trump-days-before-u-s-midterms"
-     }
-    ],
-    "summary": "Canadian Prime Minister Mark Carney said trade talks with the United States are making progress on an outline covering jobs, costs and Canadian sovereignty. President Trump spoke of the 'concept' of a deal."
-   },
-   {
-    "headline": "Snowstorms carry microplastics to remote Sierra Nevada",
+    "headline": "China's expanding mangroves draw more bird species",
     "sources": [
      {
       "name": "Yale e360",
-      "url": "https://e360.yale.edu/digest/sierra-nevada-snowfall-microplastics"
+      "url": "https://e360.yale.edu/digest/china-mangrove-restoration-bird-species"
      }
     ],
-    "summary": "Researchers found that snowstorms are depositing large numbers of tiny plastic particles in remote parts of California's Sierra Nevada. Snowmelt from the range supplies much of the region's fresh water."
+    "summary": "China's restored mangrove forests have spread across large stretches of coastline. Researchers found the expanding forests are attracting a growing number of bird species."
    }
   ],
-  "overview": "Americans vote today in midterms that will decide control of Congress; Democrats need a net gain of four Senate seats and three House seats, and more than 54 million ballots were cast early. President Trump closed his campaign at the Reflecting Pool, vowing to be \"Mr. Veto\" if Democrats win. Michigan Democrat Haley Stevens endorsed Republican Mike Rogers for Senate. A judge threw out a Justice Department suit to block certification of Alaska's Senate result, and the department will appeal. Another judge dismissed charges against ex-FBI agents accused of lying about Hunter Biden. Sen. Chris Murphy was hospitalized after a stroke. A jet crash in Palm Beach County killed nine. The FBI blamed North Korea for the $6.3 billion Binance heist, and Marvell agreed to buy Lumentum for about $115 billion.\n\nAbroad, Iran's delegation left talks in Qatar, with the Strait of Hormuz still closed to shipping. A Russian strike near Zaporizhzhia killed at least 18 civilians, and Ukraine and Russia reported fake alerts after cyberattacks as a limited ceasefire ended. Israeli officials said election results will stand after Benjamin Netanyahu claimed Arabs stole the vote. South Korean President Lee Jae-myung presented a record 821 trillion won budget, and North Korea claimed its first cluster-warhead cruise missile test. Japan launched a national disaster agency. Iliana Yotova won Bulgaria's presidency, Belgian Prime Minister Bart De Wever resigned over a budget impasse, and cyberattacks spoiled food in supermarket freezers across Europe. Congo's Ebola toll reached 5,376."
+  "overview": "Democrats won control of both the House and the Senate in Tuesday's midterms, a sharp rebuke to President Trump, putting Hakeem Jeffries on course to become the first Black speaker. Democrats flipped Senate seats in Texas, where James Talarico beat Ken Paxton, and in Maine, North Carolina, Ohio, Iowa, Kansas and South Carolina, while Abdul El-Sayed held Michigan. Mississippi and Alaska remained too close to call, along with dozens of House races. Democrats also flipped governorships in Texas, Ohio, Georgia and Iowa. Missouri voters rejected abortion restrictions and a Republican congressional map, and Virginia approved an abortion-rights amendment. Trump said he would accept the results, blamed Republican candidates and vowed to veto freely. The Supreme Court refused a Justice Department request to set aside about 20,000 California mail ballots.\n\nAbroad, U.S. strikes hit Iranian targets around the Strait of Hormuz, and Iran's parliament speaker warned of a \"new battlefield\" as Qatari mediators carried a revised proposal to Tehran. Iran's Revolutionary Guard claimed it downed two U.S. drones. Russia struck Ukraine's power grid with 289 drones and 17 ballistic missiles, knocking three thermal plants offline, and the toll from an attack on an aid site in Zaporizhzhia region rose past 30; peace talks are set for Abu Dhabi on Nov. 10–11. North Korea fired another projectile on Wednesday, and Kim Yo Jong ruled out talks with Washington for now. Israel reportedly moved to fully close Gaza's Rafah crossing, and Yemen's Houthis advanced to within 50 miles of Aden. Spain's transport minister resigned over a train crash that killed 69. The COP31 climate summit opens Nov. 9 in Antalya, Turkey."
  },
  "status": {
-  "lastRun": "2026-11-03T11:45:00Z",
+  "lastRun": "2026-11-04T11:40:43Z",
   "sources": {
    "e360": {
     "newCount": 1,
-    "newest": "2026-11-02T12:46:00Z",
+    "newest": "2026-11-03T13:46:00Z",
     "ok": true,
     "stale": false
    },
    "npr": {
-    "newCount": 10,
-    "newest": "2026-11-02T12:19:54Z",
+    "newCount": 7,
+    "newest": "2026-11-03T11:43:49Z",
     "ok": true,
     "stale": true
    },
    "pbs": {
     "newCount": 10,
-    "newest": "2026-11-02T16:38:34Z",
+    "newest": "2026-11-04T08:00:00Z",
     "ok": true,
-    "stale": true
+    "stale": false
    },
    "time": {
-    "newCount": 3,
-    "newest": "2026-11-02T12:00:00Z",
+    "newCount": 6,
+    "newest": "2026-11-04T07:30:00Z",
     "ok": true,
-    "stale": true
+    "stale": false
    }
   }
  },
@@ -329,71 +321,78 @@
      "t": "2026-11-07T17:30:00Z"
     }
    ],
-   "updatedAt": "2026-11-03T12:00:00Z"
+   "updatedAt": "2026-11-04T11:41:21Z"
   },
   "championship": {
    "country": "eng",
    "group": "soccer",
    "name": "Championship",
-   "note": "Leaders Middlesbrough, two points clear, visit Wrexham on Wednesday, while second-placed Swansea go to Portsmouth on Tuesday.",
+   "note": "Birmingham beat Millwall 3–0 to move second and Portsmouth beat Swansea 3–1 on Tuesday, while leaders Middlesbrough visit Wrexham on Wednesday.",
    "order": 2,
-   "phase": "Midweek round Tuesday–Wednesday",
+   "phase": "Midweek round concludes Wednesday",
    "results": [
     {
      "as": 0,
-     "away": "Charlton",
-     "home": "Middlesbrough",
+     "away": "Millwall",
+     "home": "Birmingham",
      "hs": 3,
-     "t": "2026-10-31T15:00:00Z"
-    },
-    {
-     "as": 0,
-     "away": "Blackburn",
-     "home": "Swansea",
-     "hs": 4,
-     "t": "2026-10-31T15:00:00Z"
-    },
-    {
-     "as": 0,
-     "away": "Cardiff",
-     "home": "Wolves",
-     "hs": 3,
-     "t": "2026-10-31T15:00:00Z"
-    },
-    {
-     "as": 3,
-     "away": "West Brom",
-     "home": "West Ham",
-     "hs": 1,
-     "t": "2026-10-31T15:00:00Z"
+     "t": "2026-11-03T20:00:00Z"
     },
     {
      "as": 1,
-     "away": "QPR",
-     "home": "Southampton",
-     "hs": 4,
-     "t": "2026-10-31T15:00:00Z"
+     "away": "Southampton",
+     "home": "West Brom",
+     "hs": 1,
+     "t": "2026-11-03T20:00:00Z"
     },
     {
-     "as": 3,
-     "away": "Bristol City",
-     "home": "Bolton",
-     "hs": 2,
-     "t": "2026-10-31T15:00:00Z"
+     "as": 1,
+     "away": "Swansea",
+     "home": "Portsmouth",
+     "hs": 3,
+     "t": "2026-11-03T19:45:00Z"
     },
     {
      "as": 2,
-     "away": "Watford",
-     "home": "Norwich",
-     "hs": 3,
-     "t": "2026-10-31T12:30:00Z"
+     "away": "Stoke",
+     "home": "Blackburn",
+     "hs": 1,
+     "t": "2026-11-03T19:45:00Z"
+    },
+    {
+     "as": 4,
+     "away": "Norwich",
+     "home": "Derby",
+     "hs": 0,
+     "t": "2026-11-03T19:45:00Z"
     },
     {
      "as": 3,
-     "away": "Birmingham",
-     "home": "Lincoln",
+     "away": "Sheffield United",
+     "home": "Preston",
+     "hs": 2,
+     "t": "2026-11-03T19:45:00Z"
+    },
+    {
+     "as": 0,
+     "away": "Lincoln",
+     "home": "Watford",
      "hs": 1,
-     "t": "2026-10-31T12:30:00Z"
+     "t": "2026-11-03T19:45:00Z"
+    },
+    {
+     "as": 1,
+     "away": "Burnley",
+     "home": "QPR",
+     "hs": 1,
+     "t": "2026-11-03T19:45:00Z"
+    },
+    {
+     "as": 1,
+     "away": "Bolton",
+     "home": "Charlton",
+     "hs": 0,
+     "t": "2026-11-03T19:45:00Z"
     }
    ],
    "table": [
@@ -408,89 +407,134 @@
      "w": 8
     },
     {
-     "d": 2,
-     "gd": 7,
-     "gp": 13,
-     "l": 3,
+     "d": 5,
+     "gd": 13,
+     "gp": 14,
+     "l": 2,
      "pos": 2,
+     "pts": 26,
+     "team": "Birmingham",
+     "w": 7
+    },
+    {
+     "d": 2,
+     "gd": 5,
+     "gp": 14,
+     "l": 4,
+     "pos": 3,
+     "pts": 26,
+     "team": "Stoke",
+     "w": 8
+    },
+    {
+     "d": 2,
+     "gd": 5,
+     "gp": 14,
+     "l": 4,
+     "pos": 4,
      "pts": 26,
      "team": "Swansea",
      "w": 8
     },
     {
-     "d": 3,
-     "gd": 7,
-     "gp": 13,
-     "l": 3,
-     "pos": 3,
-     "pts": 24,
-     "team": "Wolves",
-     "w": 7
-    },
-    {
-     "d": 3,
+     "d": 4,
      "gd": 5,
-     "gp": 13,
+     "gp": 14,
      "l": 3,
-     "pos": 4,
-     "pts": 24,
+     "pos": 5,
+     "pts": 25,
      "team": "West Brom",
      "w": 7
     },
     {
-     "d": 3,
+     "d": 4,
      "gd": 15,
-     "gp": 13,
-     "l": 2,
-     "pos": 5,
-     "pts": 23,
-     "team": "Southampton",
-     "w": 8
-    },
-    {
-     "d": 5,
-     "gd": 10,
-     "gp": 13,
+     "gp": 14,
      "l": 2,
      "pos": 6,
-     "pts": 23,
-     "team": "Birmingham",
-     "w": 6
+     "pts": 24,
+     "team": "Southampton",
+     "w": 8
     }
    ],
    "upcoming": [
     {
-     "away": "Stoke",
-     "home": "Blackburn",
-     "t": "2026-11-03T19:45:00Z"
-    },
-    {
-     "away": "Norwich",
-     "home": "Derby",
-     "t": "2026-11-03T19:45:00Z"
-    },
-    {
-     "away": "Swansea",
-     "home": "Portsmouth",
-     "t": "2026-11-03T19:45:00Z"
-    },
-    {
-     "away": "Millwall",
-     "home": "Birmingham",
-     "t": "2026-11-03T20:00:00Z"
-    },
-    {
-     "away": "Southampton",
-     "home": "West Brom",
-     "t": "2026-11-03T20:00:00Z"
-    },
-    {
      "away": "Middlesbrough",
      "home": "Wrexham",
      "t": "2026-11-04T19:45:00Z"
+    },
+    {
+     "away": "West Ham",
+     "home": "Cardiff",
+     "t": "2026-11-04T19:45:00Z"
+    },
+    {
+     "away": "Wolves",
+     "home": "Bristol City",
+     "t": "2026-11-04T20:00:00Z"
+    },
+    {
+     "away": "Bolton",
+     "home": "Derby",
+     "t": "2026-11-06T20:00:00Z"
+    },
+    {
+     "away": "Stoke",
+     "home": "Portsmouth",
+     "t": "2026-11-07T12:30:00Z"
+    },
+    {
+     "away": "Norwich",
+     "home": "Bristol City",
+     "t": "2026-11-07T12:30:00Z"
+    },
+    {
+     "away": "Wolves",
+     "home": "Wrexham",
+     "t": "2026-11-07T12:30:00Z"
+    },
+    {
+     "away": "Swansea",
+     "home": "Birmingham",
+     "t": "2026-11-07T15:00:00Z"
+    },
+    {
+     "away": "West Ham",
+     "home": "Blackburn",
+     "t": "2026-11-07T15:00:00Z"
+    },
+    {
+     "away": "Burnley",
+     "home": "Cardiff",
+     "t": "2026-11-07T15:00:00Z"
+    },
+    {
+     "away": "Sheffield United",
+     "home": "Charlton",
+     "t": "2026-11-07T15:00:00Z"
+    },
+    {
+     "away": "Southampton",
+     "home": "Preston",
+     "t": "2026-11-07T15:00:00Z"
+    },
+    {
+     "away": "Lincoln",
+     "home": "QPR",
+     "t": "2026-11-07T15:00:00Z"
+    },
+    {
+     "away": "Middlesbrough",
+     "home": "Watford",
+     "t": "2026-11-07T15:00:00Z"
+    },
+    {
+     "away": "Millwall",
+     "home": "West Brom",
+     "t": "2026-11-07T15:00:00Z"
     }
    ],
-   "updatedAt": "2026-11-03T12:00:00Z"
+   "updatedAt": "2026-11-04T11:41:21Z"
   },
   "eflcup": {
    "country": "eng",
@@ -582,7 +626,7 @@
      "label": "Quarterfinal · week of Dec. 14"
     }
    ],
-   "updatedAt": "2026-11-03T12:00:00Z"
+   "updatedAt": "2026-11-04T11:41:21Z"
   },
   "epl": {
    "country": "eng",
@@ -743,7 +787,7 @@
      "t": "2026-11-08T16:30:00Z"
     }
    ],
-   "updatedAt": "2026-11-03T12:00:00Z"
+   "updatedAt": "2026-11-04T11:41:21Z"
   },
   "facup": {
    "country": "eng",
@@ -775,7 +819,7 @@
      "label": "First round"
     }
    ],
-   "updatedAt": "2026-11-03T12:00:00Z"
+   "updatedAt": "2026-11-04T11:41:21Z"
   },
   "intl": {
    "country": "intl",
@@ -877,15 +921,23 @@
      "t": "2026-11-15T19:45:00Z"
     }
    ],
-   "updatedAt": "2026-11-03T12:00:00Z"
+   "updatedAt": "2026-11-04T11:41:21Z"
   },
   "kbo": {
    "group": "kbo",
    "name": "KBO",
-   "note": "Top seed KT Wiz host Samsung in Game 1 of the best-of-seven Korean Series in Suwon, with Davis Daniel facing Choi Won-tae.",
+   "note": "KT Wiz edged Samsung 8–7 in Game 1 of the Korean Series in Suwon behind home runs from Ahn Hyun-min, Han Seung-taek and Kim Hyun-soo, with Game 2 set for Wednesday night in Suwon.",
    "order": 1,
    "phase": "Postseason: Korean Series",
    "results": [
+    {
+     "as": 7,
+     "away": "Samsung",
+     "home": "KT Wiz",
+     "hs": 8,
+     "label": "Korean Series G1",
+     "t": "2026-11-03T09:30:00Z"
+    },
     {
      "as": 1,
      "away": "Kia",
@@ -953,6 +1005,11 @@
    ],
    "series": [
     {
+     "round": "Korean Series",
+     "status": "live",
+     "text": "KT Wiz lead Samsung, 1–0"
+    },
+    {
      "round": "Second round",
      "status": "final",
      "text": "Samsung beat Kia, 3–2"
@@ -1000,15 +1057,8 @@
     {
      "away": "Samsung",
      "home": "KT Wiz",
-     "label": "Korean Series G1",
-     "t": "2026-11-03T09:30:00Z"
-    },
-    {
-     "away": "Samsung",
-     "dateOnly": true,
-     "home": "KT Wiz",
      "label": "Korean Series G2",
-     "t": "2026-11-04T12:00:00Z"
+     "t": "2026-11-04T09:30:00Z"
     },
     {
      "away": "KT Wiz",
@@ -1046,7 +1096,7 @@
      "t": "2026-11-11T12:00:00Z"
     }
    ],
-   "updatedAt": "2026-11-03T12:00:00Z"
+   "updatedAt": "2026-11-04T11:41:21Z"
   },
   "kleague1": {
    "country": "kor",
@@ -1193,7 +1243,7 @@
      "t": "2026-11-08T07:30:00Z"
     }
    ],
-   "updatedAt": "2026-11-03T12:00:00Z"
+   "updatedAt": "2026-11-04T11:41:21Z"
   },
   "kleague2": {
    "country": "kor",
@@ -1352,9 +1402,19 @@
      "away": "Yongin",
      "home": "Suwon Samsung",
      "t": "2026-11-08T05:00:00Z"
+    },
+    {
+     "away": "Busan IPark",
+     "home": "Cheonan",
+     "t": "2026-11-08T05:00:00Z"
+    },
+    {
+     "away": "Chungnam Asan",
+     "home": "Paju",
+     "t": "2026-11-08T07:30:00Z"
     }
    ],
-   "updatedAt": "2026-11-03T12:00:00Z"
+   "updatedAt": "2026-11-04T11:41:21Z"
   },
   "laliga": {
    "country": "esp",
@@ -1516,7 +1576,7 @@
      "t": "2026-11-08T20:00:00Z"
     }
    ],
-   "updatedAt": "2026-11-03T12:00:00Z"
+   "updatedAt": "2026-11-04T11:41:21Z"
   },
   "ligue1": {
    "country": "fra",
@@ -1678,7 +1738,7 @@
      "t": "2026-11-08T19:45:00Z"
     }
    ],
-   "updatedAt": "2026-11-03T12:00:00Z"
+   "updatedAt": "2026-11-04T11:41:21Z"
   },
   "mlb": {
    "group": "mlb",
@@ -1774,7 +1834,7 @@
     }
    ],
    "upcoming": [],
-   "updatedAt": "2026-11-03T12:00:00Z"
+   "updatedAt": "2026-11-04T11:41:21Z"
   },
   "mls": {
    "country": "usa",
@@ -1935,14 +1995,14 @@
      "t": "2026-11-08T00:00:00Z"
     }
    ],
-   "updatedAt": "2026-11-03T12:00:00Z"
+   "updatedAt": "2026-11-04T11:41:21Z"
   },
   "nba": {
    "group": "nba",
    "name": "NBA",
-   "note": "New Orleans beat Memphis 135–134 in overtime on Monday to hand the Grizzlies their first loss despite 40 points from Ty Jerome, while Shai Gilgeous-Alexander's season-high 43 lifted short-handed Oklahoma City past Cleveland.",
+   "note": "Wednesday night features a matchup of the top two teams in the East, as 7-1 Philadelphia visits 6-1 Detroit.",
    "order": 1,
-   "phase": "Week 3 · No games tonight (Election Day)",
+   "phase": "Week 3 · 14 games tonight",
    "results": [
     {
      "as": 117,
@@ -2049,34 +2109,6 @@
      "home": "Cavaliers",
      "hs": 112,
      "t": "2026-11-03T00:00:00Z"
-    },
-    {
-     "as": 125,
-     "away": "Raptors",
-     "home": "Lakers",
-     "hs": 131,
-     "t": "2026-11-02T02:00:00Z"
-    },
-    {
-     "as": 112,
-     "away": "Clippers",
-     "home": "Warriors",
-     "hs": 124,
-     "t": "2026-11-02T01:30:00Z"
-    },
-    {
-     "as": 98,
-     "away": "Nets",
-     "home": "Pacers",
-     "hs": 90,
-     "t": "2026-11-01T22:00:00Z"
-    },
-    {
-     "as": 108,
-     "away": "Celtics",
-     "home": "Magic",
-     "hs": 97,
-     "t": "2026-11-01T20:30:00Z"
     }
    ],
    "table": [
@@ -2191,14 +2223,24 @@
      "away": "Heat",
      "home": "Clippers",
      "t": "2026-11-05T03:30:00Z"
+    },
+    {
+     "away": "Magic",
+     "home": "Suns",
+     "t": "2026-11-06T02:00:00Z"
+    },
+    {
+     "away": "Heat",
+     "home": "Warriors",
+     "t": "2026-11-06T03:00:00Z"
     }
    ],
-   "updatedAt": "2026-11-03T12:00:00Z"
+   "updatedAt": "2026-11-04T11:41:21Z"
   },
   "nfl": {
    "group": "nfl",
    "name": "NFL",
-   "note": "Denver beat Kansas City 28–24 to take first place in the AFC West, while Baltimore's Lamar Jackson is headed to injured reserve with a thumb injury suffered against Buffalo.",
+   "note": "Baltimore signed quarterback Kedon Slovis with Lamar Jackson headed to injured reserve, ahead of Thursday night's game against Jacksonville that opens Week 9.",
    "order": 1,
    "phase": "Week 9 · TNF Thursday",
    "results": [
@@ -2429,16 +2471,79 @@
      "t": "2026-11-10T01:15:00Z"
     }
    ],
-   "updatedAt": "2026-11-03T12:00:00Z"
+   "updatedAt": "2026-11-04T11:41:21Z"
   },
   "ucl": {
    "country": "eur",
    "group": "soccer",
    "name": "Champions League",
-   "note": "Leaders PSG visit Villarreal and Aston Villa go to Barcelona tonight, with Bayern at Atlético, before Real Madrid, Liverpool and Arsenal play away on Wednesday.",
+   "note": "PSG won 6–0 at Villarreal and Barcelona beat Aston Villa 3–0 on Tuesday, while Man United beat Roma 3–2; tonight Real Madrid visit AEK Athens, Liverpool go to Fenerbahçe and Man City play at RB Leipzig.",
    "order": 1,
-   "phase": "League phase · Matchday 4 today and Wednesday",
+   "phase": "League phase · Matchday 4 concludes Wednesday",
    "results": [
+    {
+     "as": 6,
+     "away": "PSG",
+     "home": "Villarreal",
+     "hs": 0,
+     "t": "2026-11-03T20:00:00Z"
+    },
+    {
+     "as": 2,
+     "away": "Roma",
+     "home": "Man United",
+     "hs": 3,
+     "t": "2026-11-03T20:00:00Z"
+    },
+    {
+     "as": 0,
+     "away": "Slovan Bratislava",
+     "home": "LASK",
+     "hs": 4,
+     "t": "2026-11-03T20:00:00Z"
+    },
+    {
+     "as": 0,
+     "away": "Lille",
+     "home": "Bodø/Glimt",
+     "hs": 0,
+     "t": "2026-11-03T20:00:00Z"
+    },
+    {
+     "as": 3,
+     "away": "Inter",
+     "home": "Feyenoord",
+     "hs": 0,
+     "t": "2026-11-03T20:00:00Z"
+    },
+    {
+     "as": 0,
+     "away": "Aston Villa",
+     "home": "Barcelona",
+     "hs": 3,
+     "t": "2026-11-03T20:00:00Z"
+    },
+    {
+     "as": 2,
+     "away": "Bayern",
+     "home": "Atlético",
+     "hs": 0,
+     "t": "2026-11-03T20:00:00Z"
+    },
+    {
+     "as": 0,
+     "away": "Stuttgart",
+     "home": "Galatasaray",
+     "hs": 2,
+     "t": "2026-11-03T17:45:00Z"
+    },
+    {
+     "as": 1,
+     "away": "Sporting CP",
+     "home": "Shakhtar Donetsk",
+     "hs": 0,
+     "t": "2026-11-03T17:45:00Z"
+    },
     {
      "as": 2,
      "away": "Arsenal",
@@ -2459,46 +2564,35 @@
      "home": "Aston Villa",
      "hs": 3,
      "t": "2026-10-21T19:00:00Z"
-    },
-    {
-     "as": 0,
-     "away": "Shakhtar Donetsk",
-     "home": "Inter",
-     "hs": 1,
-     "t": "2026-10-21T19:00:00Z"
-    },
-    {
-     "as": 1,
-     "away": "Man United",
-     "home": "Como",
-     "hs": 4,
-     "t": "2026-10-21T16:45:00Z"
-    },
-    {
-     "as": 4,
-     "away": "Galatasaray",
-     "home": "Lille",
-     "hs": 2,
-     "t": "2026-10-21T16:45:00Z"
     }
    ],
    "table": [
     {
      "d": 0,
-     "gd": 9,
-     "gp": 3,
+     "gd": 15,
+     "gp": 4,
      "l": 0,
      "pos": 1,
-     "pts": 9,
+     "pts": 12,
      "team": "PSG",
+     "w": 4
+    },
+    {
+     "d": 0,
+     "gd": 8,
+     "gp": 4,
+     "l": 1,
+     "pos": 2,
+     "pts": 9,
+     "team": "Barcelona",
      "w": 3
     },
     {
      "d": 0,
-     "gd": 9,
-     "gp": 3,
-     "l": 0,
-     "pos": 2,
+     "gd": 6,
+     "gp": 4,
+     "l": 1,
+     "pos": 3,
      "pts": 9,
      "team": "Aston Villa",
      "w": 3
@@ -2508,7 +2602,7 @@
      "gd": 5,
      "gp": 3,
      "l": 0,
-     "pos": 3,
+     "pos": 4,
      "pts": 9,
      "team": "Liverpool",
      "w": 3
@@ -2518,78 +2612,23 @@
      "gd": 5,
      "gp": 3,
      "l": 0,
-     "pos": 4,
+     "pos": 5,
      "pts": 9,
      "team": "Real Madrid",
      "w": 3
     },
     {
      "d": 0,
-     "gd": 3,
-     "gp": 3,
-     "l": 0,
-     "pos": 5,
-     "pts": 9,
-     "team": "Real Betis",
-     "w": 3
-    },
-    {
-     "d": 1,
-     "gd": 5,
-     "gp": 3,
-     "l": 0,
+     "gd": 4,
+     "gp": 4,
+     "l": 1,
      "pos": 6,
-     "pts": 7,
-     "team": "Stuttgart",
-     "w": 2
+     "pts": 9,
+     "team": "Sporting CP",
+     "w": 3
     }
    ],
    "upcoming": [
-    {
-     "away": "Sporting CP",
-     "home": "Shakhtar Donetsk",
-     "t": "2026-11-03T17:45:00Z"
-    },
-    {
-     "away": "Stuttgart",
-     "home": "Galatasaray",
-     "t": "2026-11-03T17:45:00Z"
-    },
-    {
-     "away": "Bayern",
-     "home": "Atlético",
-     "t": "2026-11-03T20:00:00Z"
-    },
-    {
-     "away": "Aston Villa",
-     "home": "Barcelona",
-     "t": "2026-11-03T20:00:00Z"
-    },
-    {
-     "away": "Inter",
-     "home": "Feyenoord",
-     "t": "2026-11-03T20:00:00Z"
-    },
-    {
-     "away": "Lille",
-     "home": "Bodø/Glimt",
-     "t": "2026-11-03T20:00:00Z"
-    },
-    {
-     "away": "Slovan Bratislava",
-     "home": "LASK",
-     "t": "2026-11-03T20:00:00Z"
-    },
-    {
-     "away": "Roma",
-     "home": "Man United",
-     "t": "2026-11-03T20:00:00Z"
-    },
-    {
-     "away": "PSG",
-     "home": "Villarreal",
-     "t": "2026-11-03T20:00:00Z"
-    },
     {
      "away": "Real Madrid",
      "home": "AEK Athens",
@@ -2636,7 +2675,7 @@
      "t": "2026-11-04T20:00:00Z"
     }
    ],
-   "updatedAt": "2026-11-03T12:00:00Z"
+   "updatedAt": "2026-11-04T11:41:21Z"
   },
   "uecl": {
    "country": "eur",
@@ -2865,7 +2904,7 @@
      "t": "2026-11-05T20:00:00Z"
     }
    ],
-   "updatedAt": "2026-11-03T12:00:00Z"
+   "updatedAt": "2026-11-04T11:41:21Z"
   },
   "uel": {
    "country": "eur",
@@ -3094,319 +3133,485 @@
      "t": "2026-11-05T20:00:00Z"
     }
    ],
-   "updatedAt": "2026-11-03T12:00:00Z"
+   "updatedAt": "2026-11-04T11:41:21Z"
   }
  },
  "sportsnews": {
   "home": {
-   "overview": "Chicago routed Seattle 34–17 on Monday night to move to 6-2, a day after Denver beat Kansas City 28–24 to take first in the AFC West and Pittsburgh crushed Cleveland 27–6 to lead the AFC North. Lamar Jackson is headed to injured reserve with a thumb injury after Buffalo's 36–10 win over Baltimore, and Cincinnati outlasted Tennessee 43–36 in overtime. In the NBA, New Orleans handed Memphis its first loss, 135–134 in overtime, Shai Gilgeous-Alexander scored 43 in Oklahoma City's win at Cleveland, and Luka Dončić posted 45 and 42 in back-to-back Lakers wins. The league sits out Election Day before a 14-game Wednesday. MLB free agency is open, with eight players handed $23.15 million qualifying offers.\n\nKai Havertz's goal gave Arsenal a 1–0 win at Anfield and a three-point Premier League lead, and Everton won 1–0 at Newcastle. Real Madrid won 3–0 at Racing to sit a point behind Atlético, who host leaders Barcelona on Sunday. The Champions League returns tonight with Aston Villa at Barcelona, PSG at Villarreal and Bayern at Atlético, and MLS closes its regular season on Decision Day Saturday. In the KBO, top seed KT Wiz and Samsung opened the Korean Series in Suwon on Tuesday.",
-   "updatedAt": "2026-11-03T12:00:00Z"
+   "overview": "There were no NBA games on Election Day, and the league returns with 14 tonight, led by 7-1 Philadelphia at 6-1 Detroit and Cleveland's visit to Oklahoma City two days after Shai Gilgeous-Alexander's 43 points beat the Cavaliers. Draymond Green was ejected for the first time this season after tackling Phoenix's Maluach in Monday's Warriors win. In the NFL, Baltimore signed quarterback Kedon Slovis with Lamar Jackson headed to injured reserve before hosting Jacksonville on Thursday night, Atlanta's James Pearce Jr. was reinstated from an eight-game suspension, and the trade deadline is Nov. 10. Baseball's offseason is heating up: MLB proposed delaying a salary cap in labor talks, Seattle hired Cubs executive Jason Kanzler as manager, and award finalists were announced.\n\nIn the Champions League, PSG won 6–0 at Villarreal to stay perfect, Barcelona beat Aston Villa 3–0, Bayern won 2–0 at Atlético and Manchester United edged Roma 3–2, with Real Madrid, Liverpool, Arsenal and Manchester City all away tonight. Birmingham beat Millwall 3–0 to climb to second in the Championship as leaders Middlesbrough visit Wrexham, and MLS closes its regular season on Decision Day Saturday. In the KBO, KT Wiz held off Samsung 8–7 in Game 1 of the Korean Series, with Game 2 played Wednesday night in Suwon.",
+   "updatedAt": "2026-11-04T11:42:05Z"
   },
   "kbo": {
    "brief": [
-    "The best-of-seven Korean Series between regular-season champion KT Wiz and Samsung opened Tuesday at 6:30 p.m. KST at KT Wiz Park in Suwon.",
-    "Davis Daniel (5-2, 2.13 ERA) started Game 1 for KT against Samsung's Choi Won-tae, who has a 14.14 ERA in seven previous Korean Series games.",
-    "Games 1 and 2 are in Suwon, Games 3–5 in Daegu (Nov. 6–8, Game 5 if needed), and Games 6–7 back in Suwon on Nov. 10–11 if needed.",
-    "KT have not played since Oct. 12, while Samsung won the regular-season series against them 9–7."
+    "KT Wiz beat Samsung 8–7 in Game 1 of the Korean Series in Suwon, holding on after Samsung cut an eight-run deficit to one.",
+    "Home runs from Ahn Hyun-min, Han Seung-taek and Kim Hyun-soo powered KT, and closer Park Yeong-hyun struck out the last three batters for the save.",
+    "Game 2 in Suwon matched KT's Ko Young-pyo against Samsung's Chris Paddack, who started on short rest.",
+    "The series moves to Daegu for Games 3–5 from Nov. 6, with Games 6 and 7 in Suwon on Nov. 10–11 if needed.",
+    "The late pitcher Choi Dong-won was named a Korean 'Sports Hero'."
    ],
    "headlines": [
     {
-     "source": "Korea Times",
-     "title": "Wiz slugger Ahn Hyun-min itching to make Korean Series debut",
-     "url": "https://www.koreatimes.co.kr/sports/20261103/wiz-slugger-ahn-hyun-min-itching-to-make-korean-series-debut"
-    },
-    {
-     "source": "Korea Times",
-     "title": "Battle of right-handers set for opening game of Korean Series",
-     "url": "https://www.koreatimes.co.kr/sports/20261102/battle-of-right-handers-set-for-opening-game-of-korean-series"
-    },
-    {
      "source": "Korea JoongAng Daily",
-     "title": "Will Lions get revenge, or will Wiz protect home turf?",
-     "url": "https://www.koreajoongangdaily.com/sports/will-lions-get-revenge-or-will-wiz-protect-home-turf/12950939"
+     "title": "Wiz hold off Lions in Korean Series opener",
+     "url": "https://www.koreajoongangdaily.com/sports/wiz-hold-off-lions-in-korean-series-opener/12954273"
     },
     {
      "source": "Korea Times",
-     "title": "2 best teams from KBO regular season on collision course in Korean Series",
-     "url": "https://www.koreatimes.co.kr/sports/20261102/2-best-teams-from-kbo-regular-season-on-collision-course-in-korean-series"
+     "title": "Wiz manager predicts tight duel between starters in Game 2 of Korean Series",
+     "url": "https://www.koreatimes.co.kr/sports/20261104/wiz-manager-predicts-tight-duel-between-starters-in-game-2-of-korean-series"
     },
     {
-     "source": "Korea JoongAng Daily",
-     "title": "Right-handers Daniel, Choi to face off in Korean Series opener",
-     "url": "https://www.koreajoongangdaily.com/sports/righthanders-daniel-choi-to-face-off-in-korean-series-opener/12950531"
+     "source": "Korea Times",
+     "title": "Wiz closer Park Yeong-hyun says belief in himself, catcher led to big Korean Series save",
+     "url": "https://www.koreatimes.co.kr/sports/20261104/wiz-closer-park-yeong-hyun-says-belief-in-himself-catcher-led-to-big-korean-series-save"
     },
     {
-     "source": "Korea JoongAng Daily",
-     "title": "KT Wiz, Samsung Lions set for showdown in Korean Series",
-     "url": "https://www.koreajoongangdaily.com/sports/kt-wiz-samsung-lions-set-for-showdown-in-korean-series/12949688"
+     "source": "Korea Times",
+     "title": "Lions ace Paddack says ready to sacrifice body for Korean Series start",
+     "url": "https://www.koreatimes.co.kr/sports/20261104/lions-ace-paddack-says-ready-to-sacrifice-body-for-korean-series-start"
+    },
+    {
+     "source": "Korea Times",
+     "title": "Wiz pitcher Allen taking role changes in stride: 'I am ready to do whatever team needs'",
+     "url": "https://www.koreatimes.co.kr/sports/20261104/wiz-pitcher-allen-taking-role-changes-in-stride-i-am-ready-to-do-whatever-team-needs"
+    },
+    {
+     "source": "Korea Times",
+     "title": "Lions manager Park Jin-man confident momentum behind his club in Korean Series",
+     "url": "https://www.koreatimes.co.kr/sports/20261103/lions-manager-park-jin-man-confident-momentum-behind-his-club-in-korean-series"
+    },
+    {
+     "source": "Korea Times",
+     "title": "Late baseball pitcher Choi Dong-won honored as Korean 'Sports Hero'",
+     "url": "https://www.koreatimes.co.kr/sports/20261104/late-baseball-pitcher-choi-dong-won-honored-as-korean-sports-hero"
     }
    ],
-   "updatedAt": "2026-11-03T12:00:00Z"
+   "updatedAt": "2026-11-04T11:42:05Z"
   },
   "mlb": {
    "brief": [
-    "MLB free agency opened Monday, Nov. 2, and the qualifying offer acceptance deadline is Nov. 17.",
-    "Eight players received $23.15 million qualifying offers: Randy Arozarena, Jake Bauers, David Bednar, Ryan Jeffers, Brandon Lowe, Adrián Morejón, Trevor Rogers and Seiya Suzuki.",
-    "The champion Brewers exercised their 2027 option on World Series MVP William Contreras and declined options on Gary Sánchez and Antonio Senzatela.",
-    "The Rays picked up Drew Rasmussen's $20 million option, and Hanshin posted Central League triple crown winner Teruaki Sato to MLB clubs.",
-    "Gold Gloves went to Pete Crow-Armstrong for a second straight year, with the Red Sox and Diamondbacks leading all teams with three winners each.",
-    "The GM Meetings run Nov. 9–12 in Las Vegas, and the labor deal expires Dec. 1 with a lockout expected."
+    "MLB's latest proposal in collective bargaining talks would delay a salary cap, with the labor deal expiring Dec. 1.",
+    "Seattle hired Cubs executive Jason Kanzler as its new manager.",
+    "MLB announced finalists for MVP, Cy Young, Rookie of the Year and other major awards.",
+    "Robinson Canó's 16-year-old son reportedly agreed to a $1 million deal with Miami.",
+    "Dusty Baker and Bruce Bochy are among the candidates on the Hall of Fame's Contemporary Era ballot.",
+    "Players given $23.15 million qualifying offers have until Nov. 17 to decide."
    ],
    "headlines": [
     {
-     "source": "Yahoo Sports",
-     "title": "Mariners' Randy Arozarena, Cubs' Seiya Suzuki among 8 players receiving $23.15 million qualifying offers",
-     "url": "https://sports.yahoo.com/mlb/article/mariners-randy-arozarena-cubs-seiya-suzuki-among-8-players-receiving-2315-million-qualifying-offers-232436235.html"
+     "source": "CBS Sports",
+     "title": "MLB proposes delaying salary cap in new CBA negotiations",
+     "url": "https://www.cbssports.com/mlb/news/mlb-cba-proposal-salary-cap-delay-2028/"
     },
     {
      "source": "CBS Sports",
-     "title": "2026 MLB Gold Glove winners: Pete Crow-Armstrong wins second honor, Red Sox and D-backs lead with three each",
-     "url": "https://www.cbssports.com/mlb/news/2026-mlb-gold-glove-winners-pete-crow-armstrong/"
+     "title": "Mariners hire Cubs executive as new manager",
+     "url": "https://www.cbssports.com/mlb/news/mariners-manager-jason-kanzler/"
     },
     {
-     "source": "Yahoo Sports",
-     "title": "Brewers roster moves: Contreras option, Bauers offer, more",
-     "url": "https://sports.yahoo.com/articles/brewers-roster-moves-contreras-option-231535792.html"
+     "source": "CBS Sports",
+     "title": "MLB announces award finalists for MVP, Cy Young, ROY, more",
+     "url": "https://www.cbssports.com/mlb/news/mvp-awards-finalists-2026-rookie-manager-reliever-mvp-cy-young/"
     },
     {
-     "source": "Yahoo Sports",
-     "title": "MLB Hot Stove tracker: Live updates on news, rumors, signings and trades for 2026 free agency",
-     "url": "https://sports.yahoo.com/articles/mlb-hot-stove-tracker-live-110001971.html"
+     "source": "CBS Sports",
+     "title": "Why MLB could see a free agency frenzy before looming lockout",
+     "url": "https://www.cbssports.com/mlb/news/mlb-free-agency-frenzy-november-lockout/"
     },
     {
-     "source": "Yahoo Sports",
-     "title": "As MLB free agency begins today, here's a look at the 2026-2027 MLB Offseason Calendar",
-     "url": "https://sports.yahoo.com/articles/mlb-free-agency-begins-today-170233638.html"
+     "source": "CBS Sports",
+     "title": "Reports: Canó Jr., 16, agrees to $1 million deal with Marlins",
+     "url": "https://www.cbssports.com/mlb/news/robinson-cano-jr-1-million-deal-marlins/"
     },
     {
-     "source": "Yahoo Sports",
-     "title": "Guardians free agents, potential targets as MLB free agency begins",
-     "url": "https://sports.yahoo.com/articles/guardians-free-agents-potential-targets-220140245.html"
+     "source": "CBS Sports",
+     "title": "Baker, Bochy, more named as Baseball Hall of Fame candidates",
+     "url": "https://www.cbssports.com/mlb/news/baseball-hall-of-fame-ballot-contemporary-era-baker-bochy-alderson-maddon-piniella-sabean-turner-white/"
+    },
+    {
+     "source": "CBS Sports",
+     "title": "Eight MLB players tagged with qualifying offers for 2026-27 offseason",
+     "url": "https://www.cbssports.com/mlb/news/mlb-qualifying-offer-2027-contract/"
+    },
+    {
+     "source": "CBS Sports",
+     "title": "Astros hire Randy Flores as new general manager as offseason filled with questions begins in Houston",
+     "url": "https://www.cbssports.com/mlb/news/astros-hire-randy-flores-general-manager-offseason-questions/"
     }
    ],
-   "updatedAt": "2026-11-03T12:00:00Z"
+   "updatedAt": "2026-11-04T11:42:05Z"
   },
   "nba": {
    "brief": [
-    "New Orleans beat Memphis 135–134 in overtime on Monday, ending the Grizzlies' unbeaten start despite 40 points from Ty Jerome.",
-    "Shai Gilgeous-Alexander scored a season-high 43, including the go-ahead 3-pointer with 32.6 seconds left, as Oklahoma City won 117–112 at Cleveland without Jalen Williams, Chet Holmgren, Cason Wallace and Alex Caruso.",
-    "Luka Dončić followed Sunday's 45 points in a 131–125 win over Toronto with 42 in the Lakers' 138–117 rout of Miami.",
-    "Philadelphia beat Chicago 126–107 to move to 7–1, Cade Cunningham scored 33 as Detroit routed Charlotte 124–91, and Houston beat Boston 109–93 to reach 7–1.",
-    "Rookie Yaxel Lendeborg scored 37 in Golden State's 124–112 win over the Clippers on Sunday, and Stephen Curry had 34 as the Warriors edged Phoenix 116–113 on Monday.",
-    "There are no games on Election Day; 14 games are on Wednesday's slate, including 76ers at Pistons and Cavaliers at Thunder."
+    "The league returns from its Election Day break with 14 games tonight, led by 7-1 Philadelphia at 6-1 Detroit.",
+    "Cleveland visits Oklahoma City two days after Shai Gilgeous-Alexander's 43 points beat the Cavaliers.",
+    "Draymond Green was ejected for the first time this season after tackling Phoenix's Maluach and scuffling with Brooks in Monday's Warriors win.",
+    "Houston (7-1) and Memphis (6-1) lead the West, and Philadelphia tops the East.",
+    "Thursday's slate has just two games: Orlando at Phoenix and Miami at Golden State."
    ],
    "headlines": [
     {
-     "source": "Yahoo Sports",
-     "title": "Shai Gilgeous-Alexander drops season-high 43 points including dagger 3 to lead hobbled Thunder past Cavs",
-     "url": "https://sports.yahoo.com/nba/breaking-news/article/shai-gilgeous-alexander-scores-season-high-43-including-dagger-3-to-lead-hobbled-thunder-past-cavs-032428520.html"
-    },
-    {
-     "source": "Yahoo Sports",
-     "title": "Ty Jerome's superhero effort not enough as Grizzlies finally lose",
-     "url": "https://sports.yahoo.com/articles/ty-jeromes-superhero-effort-not-044223705.html"
+     "source": "CBS Sports",
+     "title": "Green ejected for tackling Suns' Maluach, scuffling with Brooks",
+     "url": "https://www.cbssports.com/nba/news/draymond-green-gets-first-ejection-of-season-after-sparking-warriors-suns-scuffle/"
     },
     {
      "source": "CBS Sports",
-     "title": "NBA's biggest winners and losers of the week: Last unbeaten team is ... the Grizzlies? Plus a crisis in OKC",
-     "url": "https://www.cbssports.com/nba/news/nba-biggest-winners-losers-of-the-week-grizzlies-okc-nov-2/"
-    },
-    {
-     "source": "Yahoo Sports",
-     "title": "Luka Doncic's 42-point effort carries Lakers past Giannis Antetokounmpo and Heat",
-     "url": "https://sports.yahoo.com/articles/luka-doncics-42-point-effort-055225000.html"
+     "title": "NBA Bracketology: Projecting full 20-team postseason field",
+     "url": "https://www.cbssports.com/nba/news/nba-bracketology-projecting-20-team-postseason-field-nov-3/"
     },
     {
      "source": "CBS Sports",
-     "title": "Ranking NBA injuries so far: Why Anthony Edwards' absence is a bigger blow than any single OKC injury",
-     "url": "https://www.cbssports.com/nba/news/ranking-nba-injuries-anthony-edwards-jalen-williams-cason-wallace-chet-holmgren-kawhi-leonard/"
+     "title": "Blazers star Ja Morant (hamstring) out at least four weeks",
+     "url": "https://www.cbssports.com/nba/news/ja-morant-injury-trail-blazers-star-miss-at-least-four-weeks-hamstring-strain/"
     },
     {
      "source": "CBS Sports",
-     "title": "Why Warriors rookie Yaxel Lendeborg was benched after being 'peer pressured' into chasing 40 against Clippers",
-     "url": "https://www.cbssports.com/nba/news/warriors-yaxel-lendeborg-benched-40-points-peer-pressure-clippers/"
+     "title": "How can Thunder survive Chet Holmgren's absence? Rookie Aday Mara becomes vital as trade rumors swirl",
+     "url": "https://www.cbssports.com/nba/news/chet-holmgren-injury-how-can-thunder-survive-trade-rumors/"
     },
     {
      "source": "CBS Sports",
-     "title": "Russell Westbrook number retirement: OKC Thunder to hang No. 0 from the rafters in February",
-     "url": "https://www.cbssports.com/nba/news/russell-westbrook-thunder-number-retirement/"
+     "title": "Jeanie Buss accuses siblings of conspiring against her as dispute over Lakers stake continues",
+     "url": "https://www.cbssports.com/nba/news/jeanie-buss-lakers-sale-family-dispute/"
     },
     {
      "source": "CBS Sports",
-     "title": "Luka Dončić explains his 'step forward' on defense after five-steal performance vs. Raptors",
-     "url": "https://www.cbssports.com/nba/news/luka-doncic-explains-step-forward-defense/"
-    },
-    {
-     "source": "CBS Sports",
-     "title": "Five things we learned from Victor Wembanyama's '60 Minutes' interview, including why he loves going barefoot",
-     "url": "https://www.cbssports.com/nba/news/victor-wembanyama-60-minutes-barefoot-gregg-popovich-gambling-villain/"
-    },
-    {
-     "source": "CBS Sports",
-     "title": "Grading every NBA lottery pick's first two weeks as impressive 2026 rookie class dazzles early",
-     "url": "https://www.cbssports.com/nba/news/grading-every-nba-lottery-picks-first-two-weeks-rookie-class/"
-    },
-    {
-     "source": "Yahoo Sports",
-     "title": "Isaiah Stewart was ready to fight Pelicans after Grizzlies' first loss",
-     "url": "https://sports.yahoo.com/articles/isaiah-stewart-ready-fight-pelicans-044446145.html"
-    },
-    {
-     "source": "CBS Sports",
-     "title": "Yaxel Lendeborg continues to revive a Warriors team everyone left for dead",
-     "url": "https://www.cbssports.com/nba/news/yaxel-lendeborg-warriors-rookie-revival-plans/"
+     "title": "LeBron explains why he sipped a 76ers fan's wine during win vs. Bulls",
+     "url": "https://www.cbssports.com/nba/news/lebron-james-76ers-fans-wine/"
     }
    ],
-   "updatedAt": "2026-11-03T12:00:00Z"
+   "updatedAt": "2026-11-04T11:42:05Z"
   },
   "nfl": {
    "brief": [
-    "Chicago routed defending champion Seattle 34–17 on Monday night to improve to 6-2, with newly acquired Jeffery Simmons posting a sack and Caleb Williams throwing for 247 yards and a touchdown.",
-    "Denver beat Kansas City 28–24 to seize first place in the AFC West after a false-start penalty wiped out an apparent Chiefs go-ahead touchdown.",
-    "Baltimore's Lamar Jackson is headed for injured reserve and thumb surgery after getting hurt against Buffalo in a 36–10 Bills win.",
-    "Arizona stunned Dallas 33–30 in overtime, and Cincinnati outlasted Tennessee 43–36 in overtime for a final score never before seen in NFL history.",
-    "Pittsburgh took the AFC North lead by beating Cleveland 27–6, Detroit edged Minnesota 19–15 but lost linebacker Jack Campbell to a serious injury, and Tampa Bay blanked Atlanta 16–0.",
-    "Week 9 opens Thursday with Jacksonville at Baltimore, and the NFL trade deadline is Nov. 10 at 4 p.m. ET."
+    "Baltimore signed quarterback Kedon Slovis on Tuesday, with Lamar Jackson headed to injured reserve, before hosting Jacksonville in Thursday night's Week 9 opener.",
+    "The NFL reinstated Atlanta edge rusher James Pearce Jr. after an eight-game suspension.",
+    "Arizona named Gardner Minshew its starting quarterback, with Carson Beck No. 2 and Jacoby Brissett third on the depth chart.",
+    "Jacksonville lost standout defensive tackle DaVon Hamilton, and Detroit linebacker Jack Campbell remains hospitalized, though the Lions say early indications are positive.",
+    "Chicago's trade for Jeffery Simmons headlines deadline activity, and the trade deadline is Nov. 10."
    ],
    "headlines": [
     {
-     "source": "Yahoo Sports",
-     "title": "Winners, losers as Bears make statement vs. Seahawks on Monday Night Football",
-     "url": "https://sports.yahoo.com/articles/winners-losers-bears-statement-vs-234352498.html"
+     "source": "CBS Sports",
+     "title": "Bears announce Super Bowl candidacy with Simmons trade, 'MNF' win",
+     "url": "https://www.cbssports.com/nfl/news/bears-assert-super-bowl-candidacy-jeffery-simmons/"
     },
     {
      "source": "CBS Sports",
-     "title": "Five things we learned as Broncos stun Chiefs, seize first place in AFC West",
-     "url": "https://www.cbssports.com/nfl/news/chiefs-broncos-five-things-we-learned-bo-nix/"
+     "title": "Bears dominate Seahawks as D'Andre Swift scores 3 TDs",
+     "url": "https://www.cbssports.com/nfl/news/seahawks-vs-bears-live-updates-score-highlights/live/"
     },
     {
      "source": "CBS Sports",
-     "title": "Lamar Jackson headed for injured reserve: Ravens QB to undergo surgery after injuring thumb vs. Bills",
-     "url": "https://www.cbssports.com/nfl/news/lamar-jackson-injury-updates-ravens-bills/"
+     "title": "Ravens could hand their offense to a QB they just signed on Tuesday",
+     "url": "https://www.cbssports.com/nfl/news/ravens-add-starting-qb-kedon-slovis-week-9/"
     },
     {
      "source": "CBS Sports",
-     "title": "NFL Week 8 grades for every team: Cowboys get an 'F' for choking, Steelers surge to 'A+'",
-     "url": "https://www.cbssports.com/nfl/news/nfl-week-8-grades-cowboys-get-an-f-steelers-surge-to-a/"
+     "title": "2026 NFL trade deadline tracker: Bears all-in, Colts enter rebuild",
+     "url": "https://www.cbssports.com/nfl/news/2026-nfl-trade-deadline-tracker-latest-deals-grades/"
     },
     {
      "source": "CBS Sports",
-     "title": "Andy Reid questions controversial false start that erased Chiefs' apparent winning TD",
-     "url": "https://www.cbssports.com/nfl/news/chiefs-controversial-penalty-andy-reid-broncos/"
+     "title": "NFL reinstates James Pearce Jr. after eight-game suspension: Why EDGE returns at critical time for Falcons",
+     "url": "https://www.cbssports.com/nfl/news/nfl-reinstates-james-pearce-jr-after-eight-game-suspension-falcons/"
     },
     {
      "source": "CBS Sports",
-     "title": "Lions' Jack Campbell placed on backboard, carted off field after suffering serious injury",
-     "url": "https://www.cbssports.com/nfl/news/lions-jack-campbell-injury-updates-vikings/"
+     "title": "Could NFC North be first modern division with four playoff teams?",
+     "url": "https://www.cbssports.com/nfl/news/nfc-north-four-playoff-teams-looking-more-likely-than-ever/"
     },
     {
      "source": "CBS Sports",
-     "title": "Why Jerry Jones 'doesn't see' firing Brian Schottenheimer midseason after disaster Cowboys loss to Cardinals",
-     "url": "https://www.cbssports.com/nfl/news/jerry-jones-cowboys-fire-brian-schottenheimer-midseason-cardinals-loss/"
+     "title": "Cardinals name Gardner Minshew as starter, Carson Beck No. 2: What's next for Jacoby Brissett?",
+     "url": "https://www.cbssports.com/nfl/news/cardinals-name-gardner-minshew-carson-beck-no-2-jacoby-brissett/"
     },
     {
      "source": "CBS Sports",
-     "title": "Bengals wild overtime win ends with final score that's never happened before in NFL history",
-     "url": "https://www.cbssports.com/nfl/news/bengals-wild-overtime-win-ends-scorigami/"
+     "title": "Lamar Jackson injury throws huge wrench into looming contract talks with Ravens",
+     "url": "https://www.cbssports.com/nfl/news/lamar-jackson-injury-ravens-contract-extension/"
     },
     {
      "source": "CBS Sports",
-     "title": "NFL Week 8 winners and losers: Cowboys suffer epic collapse, Joe Burrow delivers historic heroics",
-     "url": "https://www.cbssports.com/nfl/news/nfl-week-8-winners-losers-cowboys-joe-burrow/"
+     "title": "Jaguars lose standout DT DaVon Hamilton: Trade partners for Jacksonville include Cowboys, Colts",
+     "url": "https://www.cbssports.com/nfl/news/jaguars-lose-davon-hamilton-trade-deadline-options/"
     },
     {
      "source": "CBS Sports",
-     "title": "Who is Ravens' Joe Fagnano? Baltimore turns to third QB after Lamar Jackson, Tyler Huntley injuries",
-     "url": "https://www.cbssports.com/nfl/news/who-is-ravens-joe-fagnano-baltimore-quarterbacks-lamar-jackson/"
+     "title": "Jerry Jones addresses Pickens' disappearing act in Cowboys offense",
+     "url": "https://www.cbssports.com/nfl/news/cowboys-jerry-jones-wants-george-pickens-to-be-more-involved/"
     },
     {
      "source": "CBS Sports",
-     "title": "Baker Mayfield, Buccaneers complete win against Falcons with statistics not seen since 1933",
-     "url": "https://www.cbssports.com/nfl/news/buccaneers-falcons-baker-mayfield-no-completions-nfl-history/"
-    },
-    {
-     "source": "CBS Sports",
-     "title": "Week 8 overreactions: Time for Vikings to bench Kyler Murray? Colts should fire Steichen?",
-     "url": "https://www.cbssports.com/nfl/news/nfl-week-8-overreactions-vikings-kyler-murray-colts/"
+     "title": "Prisco's NFL Week 9 Power Rankings: Bills on top, Steelers climbing",
+     "url": "https://www.cbssports.com/nfl/news/nfl-week-9-power-rankings-bills-steelers/"
     }
    ],
-   "updatedAt": "2026-11-03T12:00:00Z"
+   "updatedAt": "2026-11-04T11:42:05Z"
   },
   "soccer": {
    "brief": [
-    "Kai Havertz scored from a Declan Rice cross as Arsenal won 1–0 at Liverpool, their first league win at Anfield in 14 years, to go three points clear of Manchester City at the top; Liverpool stay fifth, nine points back.",
-    "Everton won 1–0 at Newcastle, handing Matthias Jaissle a second straight home defeat as fans booed and the coach accused his players of ignoring the game plan.",
-    "Real Madrid won 3–0 at Racing Santander on Sunday with first-half goals from Kylian Mbappé (penalty), Jude Bellingham and Yan Diomande; Athletic Club beat Real Sociedad 2–1 in the Basque derby.",
-    "Elsewhere on Sunday, Frankfurt beat Hamburg 3–1 in the Bundesliga, Getafe beat Sevilla 3–1 in La Liga, and Paris FC beat Monaco 3–1 as Lyon and Marseille also won to chase Ligue 1 leaders PSG.",
-    "Champions League Matchday 4 runs Tuesday and Wednesday, with Man United hosting Roma under pressure on Michael Carrick, Barcelona facing Aston Villa, Bayern meeting Atlético and Inter visiting Feyenoord without Lautaro Martínez.",
-    "West Ham sacked Nuno Espírito Santo on Tuesday after a 3–1 home loss to West Brom left them eighth in the Championship, with Mark Noble, Steve Potts and Gerard Prenderville in temporary charge."
+    "PSG won 6–0 at Villarreal to stay perfect in the Champions League, Barcelona beat Aston Villa 3–0 and Bayern won 2–0 at Atlético.",
+    "Manchester United beat Roma 3–2 at Old Trafford, a welcome result for under-pressure coach Michael Carrick.",
+    "Matchday 4 concludes tonight with Real Madrid at AEK Athens, Liverpool at Fenerbahçe, Man City at RB Leipzig and Arsenal at Slavia Praha.",
+    "In the Europa League, Rennes host Olympiacos tonight before the rest of Matchday 4 on Thursday, when the Conference League also plays.",
+    "Birmingham beat Millwall 3–0 to climb to second in the Championship, and leaders Middlesbrough visit Wrexham tonight.",
+    "Christian Pulisic signed a new contract with AC Milan through 2031.",
+    "K League 1's final split rounds resume this weekend, with champions FC Seoul hosting Ulsan HD on Sunday, and MLS closes its regular season on Decision Day Saturday."
    ],
    "headlines": [
     {
-     "source": "GOAL",
-     "title": "Arsenal player ratings vs Liverpool: Declan Rice and Kai Havertz end 14-year Anfield wait as Gunners go top",
-     "url": "https://www.goal.com/en/news/arsenal-player-ratings-vs-liverpool-declan-rice-kai-havertz-end-14-year-anfield-wait-gunners-go-top/blt4459572fa50cabba"
+     "source": "CBS Sports",
+     "title": "Christian Pulisic signs new deal with AC Milan until 2031",
+     "url": "https://www.cbssports.com/soccer/news/christian-pulisic-ac-milan-deal-2031/"
     },
     {
      "source": "CBS Sports",
-     "title": "What to watch in UEFA Champions League: Michael Carrick's Manchester United future on the line",
-     "url": "https://www.cbssports.com/soccer/news/uefa-champions-league-michael-carrick-manchester-united-bayern-inter/"
+     "title": "Dortmund spoil Kane's Ballon d'Or coronation",
+     "url": "https://www.cbssports.com/soccer/news/harry-kane-ballon-dor-coronation-borussia-dortmund-bundesliga-title-race/"
     },
     {
      "source": "GOAL",
-     "title": "Jaissle slams Newcastle stars after Everton loss",
-     "url": "https://www.goal.com/en-us/news/matthias-jaissle-newcastle-united-everton/blt7a473e9fe4f89cfb"
+     "title": "Ferdinand rues Man Utd missing out on Arsenal star",
+     "url": "https://www.goal.com/en-us/news/rio-ferdinand-manchester-united-transfer-arsenal-ezri-konsa/blt523344b327643cf0"
     },
     {
      "source": "GOAL",
-     "title": "West Ham officially sack Nuno as replacement named",
-     "url": "https://www.goal.com/en-us/news/west-ham-sack-nuno-espirito-santo-west-brom-defeat/blt72d2793bf3c8d3ad"
+     "title": "Atletico open talks with Almeria midfielder Stefan Dzodic",
+     "url": "https://www.goal.com/en-us/news/atletico-madrid-open-talks-almeria-midfielder-stefan-dzodic-summer-transfer-release-clause/blt7d46fa4d3f9b4570"
     },
     {
-     "source": "Yahoo Sports",
-     "title": "Real Madrid player ratings vs Racing Santander: Jude Bellingham, Arda Guler and Kylian Mbappe run riot in first-half blitz",
-     "url": "https://sports.yahoo.com/articles/real-madrid-player-ratings-vs-174232662.html"
+     "source": "GOAL",
+     "title": "Man Utd rival PSG, Arsenal and Liverpool for Atletico's Barrios",
+     "url": "https://www.goal.com/en-us/news/manchester-united-rival-psg-arsenal-liverpool-atletico-madrid-pablo-barrios-scouting-mission/bltb02ea0f233fb12f4"
     },
     {
      "source": "CBS Sports",
-     "title": "Footy Fix: How to watch Bayern Munich vs. Atletico Madrid, Barcelona vs. Aston Villa in UCL",
-     "url": "https://www.cbssports.com/soccer/news/footy-fix-ucl-matchday-4/"
-    },
-    {
-     "source": "GOAL",
-     "title": "Gian Piero Gasperini issues stern warning ahead of Old Trafford trip",
-     "url": "https://www.goal.com/en-us/news/gian-piero-gasperini-roma-manchester-united-old-trafford-champions-league/bltd963b84cae07a39f"
-    },
-    {
-     "source": "GOAL",
-     "title": "Emery backs Barca for UCL and hails Yamal",
-     "url": "https://www.goal.com/en-us/news/unai-emery-barcelona-champions-league-aston-villa-lamine-yamal/bltaf05534b03c3879b"
-    },
-    {
-     "source": "GOAL",
-     "title": "Cristian Chivu previews Inter's Champions League clash at De Kuip",
-     "url": "https://www.goal.com/en-us/news/cristian-chivu-inter-feyenoord-de-kuip-champions-league/blt0edc1f49edfa8317"
-    },
-    {
-     "source": "GOAL",
-     "title": "Nusa reveals cheeky plan to stop Haaland",
-     "url": "https://www.goal.com/en-us/news/rb-leipzig-antonio-nusa-erling-haaland-champions-league-manchester-city/bltd4ff69ce942682d3"
-    },
-    {
-     "source": "GOAL",
-     "title": "La Liga chief accuses Madrid of dragging out Negreira case to ruin Barca's reputation",
-     "url": "https://www.goal.com/en-us/news/la-liga-javier-tebas-real-madrid-negreira-case-barcelona/blt3f93dcc068a7a132"
-    },
-    {
-     "source": "CBS Sports",
-     "title": "NWSL Decision Day scores, playoff bracket, takeaways: Gotham FC cement their dynasty, Seattle Reign survive",
-     "url": "https://www.cbssports.com/soccer/news/nwsl-decision-day-scores-playoff-bracket-gotham-fc-seattle-reign/"
+     "title": "Michael Carrick clings to job as Man United spirals toward disaster",
+     "url": "https://www.cbssports.com/soccer/news/manchester-united-michael-carrick-chelsea-dressing-room-discord/"
     }
    ],
-   "updatedAt": "2026-11-03T12:00:00Z"
+   "updatedAt": "2026-11-04T11:42:05Z"
   }
  },
  "articles": [
+  {
+   "id": "pbs-09552fa65775",
+   "added": "2026-11-04T11:40:43Z",
+   "published": "2026-11-04T08:00:00Z",
+   "source": "pbs",
+   "summary": "Trump said Democrats did a good job and blamed Republican candidates for the party's midterm losses.",
+   "title": "Trump says Democrats 'did a good job,' blames Republican candidates for midterm losses",
+   "url": "https://www.pbs.org/newshour/politics/trump-says-democrats-did-a-good-job-blames-republican-candidates-for-midterm-losses"
+  },
+  {
+   "id": "pbs-24638a889495",
+   "added": "2026-11-04T11:40:43Z",
+   "published": "2026-11-04T08:00:00Z",
+   "source": "pbs",
+   "summary": "AP reports Democrat Troy Jackson won Maine's U.S. Senate seat.",
+   "title": "Democrat Troy Jackson wins election to U.S. Senate from Maine",
+   "url": "https://www.pbs.org/newshour/politics/democrat-troy-jackson-wins-election-to-u-s-senate-from-maine"
+  },
+  {
+   "id": "pbs-5502bd147369",
+   "added": "2026-11-04T11:40:43Z",
+   "published": "2026-11-04T08:00:00Z",
+   "source": "pbs",
+   "summary": "AP reports Democrats won control of the U.S. House in the midterm elections.",
+   "title": "Democrats win control of U.S. House, in major rebuke to Trump",
+   "url": "https://www.pbs.org/newshour/politics/democrats-win-control-of-the-u-s-house"
+  },
+  {
+   "id": "pbs-c7300a420ce7",
+   "added": "2026-11-04T11:40:43Z",
+   "published": "2026-11-04T08:00:00Z",
+   "source": "pbs",
+   "summary": "Video of Senate Democratic leader Chuck Schumer speaking after Democrats won Senate control.",
+   "title": "WATCH: Sen. Chuck Schumer speaks after Democrats win control of Senate",
+   "url": "https://www.pbs.org/newshour/politics/watch-sen-chuck-schumer-speaks-after-democrats-win-control-of-senate"
+  },
+  {
+   "id": "time-bae8ea0a4f70",
+   "added": "2026-11-04T11:40:43Z",
+   "published": "2026-11-04T07:30:00Z",
+   "source": "time",
+   "summary": "Democrat Abdul El-Sayed defeated Republican Mike Rogers in Michigan's open Senate race, becoming the first Muslim elected to the Senate.",
+   "title": "Abdul El-Sayed Wins Michigan Senate Race",
+   "url": "https://time.com/article/2026/11/03/abdul-el-sayed-michigan-senate-2026-midterm-elections-mike-rogers/"
+  },
+  {
+   "id": "time-24965de191c0",
+   "added": "2026-11-04T11:40:43Z",
+   "published": "2026-11-04T06:46:00Z",
+   "source": "time",
+   "summary": "After Democrats won the House and Senate, Trump criticized GOP figures and Fox News and denied the results rejected his leadership.",
+   "title": "Trump Blames Republicans After Crushing Election Defeats",
+   "url": "https://time.com/article/2026/11/03/what-is-trump-planning-to-do-on-election-day-midterm/"
+  },
+  {
+   "id": "time-1a589aee3fe9",
+   "added": "2026-11-04T11:40:43Z",
+   "published": "2026-11-04T04:57:38Z",
+   "source": "time",
+   "summary": "Democrats won control of both the House and Senate in the midterms, giving them a congressional majority for the final two years of Trump's term.",
+   "title": "Democrats Win Control of Both House and Senate in Huge Blow to Trump",
+   "url": "https://time.com/article/2026/11/04/democrats-win-control-of-senate-in-blue-wave-election/"
+  },
+  {
+   "id": "time-3dc7033ca19b",
+   "added": "2026-11-04T11:40:43Z",
+   "published": "2026-11-04T04:04:17Z",
+   "source": "time",
+   "summary": "AP called the Texas Senate race for Democrat James Talarico over Ken Paxton, the first Democratic statewide win in Texas since 1994.",
+   "title": "Talarico Wins Texas Senate Seat in Major Upset",
+   "url": "https://time.com/article/2026/11/04/talarico-wins-texas-senate-race-first-democrat-to-win-statewide-in-more-than-30-years/"
+  },
+  {
+   "id": "time-f5541c35d886",
+   "added": "2026-11-04T11:40:43Z",
+   "published": "2026-11-04T04:02:54Z",
+   "source": "time",
+   "summary": "AP called Ohio's governor's race for Democrat Amy Acton, who led Republican Vivek Ramaswamy 50.8% to 45.9% with 86% counted.",
+   "title": "Democrat Amy Acton Defeats Vivek Ramaswamy in Ohio Governor's Race",
+   "url": "https://time.com/article/2026/11/04/amy-acton-ohio-governor-ramaswamy-midterm-election-bitter-race-against/"
+  },
+  {
+   "id": "time-7b3a92268bc0",
+   "added": "2026-11-04T11:40:43Z",
+   "published": "2026-11-04T03:44:02Z",
+   "source": "time",
+   "summary": "Democrat Annie Andrews defeated Republican Sen. Darline Graham in South Carolina's Senate race.",
+   "title": "Annie Andrews Flips South Carolina Senate Seat in Stunning Upset",
+   "url": "https://time.com/article/2026/11/04/south-carolina-senate-results-darline-graham-democrat-annie-andrews-republican/"
+  },
+  {
+   "id": "pbs-a57512aa26e9",
+   "added": "2026-11-04T11:40:43Z",
+   "published": "2026-11-03T17:30:12Z",
+   "source": "pbs",
+   "summary": "Voters in several states are deciding 145 ballot measures on abortion rights and other issues, including some that could affect future voting rules.",
+   "title": "Voters decide key ballot measures on abortion rights, congressional redistricting and voter ID laws",
+   "url": "https://www.pbs.org/newshour/politics/voters-decide-key-ballot-measures-on-abortion-rights-congressional-redistricting-and-voter-id-laws"
+  },
+  {
+   "id": "pbs-87bb1596ee22",
+   "added": "2026-11-04T11:40:43Z",
+   "published": "2026-11-03T16:20:58Z",
+   "source": "pbs",
+   "summary": "Heavy rainfall over the Four Corners states and Nevada over two weeks has caused flooding that keeps swift-water rescue teams busy, though rain is moving out.",
+   "title": "Rain moves out as flood risks remain in Southwest following destructive storms",
+   "url": "https://www.pbs.org/newshour/nation/rain-moves-out-as-flood-risks-remain-in-southwest-following-destructive-storms"
+  },
+  {
+   "id": "pbs-a894b7f8efac",
+   "added": "2026-11-04T11:40:43Z",
+   "published": "2026-11-03T16:01:29Z",
+   "source": "pbs",
+   "summary": "Demand for the HIV-prevention drug lenacapavir exceeds supply in Uganda and elsewhere, even after U.S. regulators approved a generic version for low-income countries.",
+   "title": "A new HIV-prevention drug is showing promising signs, but it's difficult to find in Africa and beyond",
+   "url": "https://www.pbs.org/newshour/health/a-new-hiv-prevention-drug-is-showing-promising-signs-but-its-difficult-to-find-in-africa-and-beyond"
+  },
+  {
+   "id": "pbs-5aaa47a30abc",
+   "added": "2026-11-04T11:40:43Z",
+   "published": "2026-11-03T15:24:22Z",
+   "source": "pbs",
+   "summary": "Rescue workers searched rubble at a blast site in a village in Ukraine's Zaporizhzhia region, where at least 31 people were killed and more than 45 residents remain missing.",
+   "title": "Russian strikes on Ukrainian aid site kill at least 31 people, with dozens still missing",
+   "url": "https://www.pbs.org/newshour/world/russian-strikes-on-ukrainian-aid-site-kill-at-least-31-people-with-dozens-still-missing"
+  },
+  {
+   "id": "pbs-aa699d11d00c",
+   "added": "2026-11-04T11:40:43Z",
+   "published": "2026-11-03T15:07:24Z",
+   "source": "pbs",
+   "summary": "The U.S. conducted new strikes on Iranian targets after reports that Israeli Prime Minister Netanyahu had urged further attacks.",
+   "title": "U.S. launches new attacks on Iranian targets days after Netanyahu pressed Trump for more strikes",
+   "url": "https://www.pbs.org/newshour/world/u-s-launches-new-attacks-on-iranian-targets-days-after-netanyahu-pressed-trump-for-more-strikes"
+  },
+  {
+   "id": "pbs-7e7a9372225c",
+   "added": "2026-11-04T11:40:43Z",
+   "published": "2026-11-03T15:00:14Z",
+   "source": "pbs",
+   "summary": "The Supreme Court is hearing arguments from Catholic preschools challenging their exclusion from a state-funded program over admissions policies for LGBTQ+ families.",
+   "title": "LISTEN LIVE: Supreme Court hears case on Catholic preschools and LGBTQ families",
+   "url": "https://www.pbs.org/newshour/politics/listen-live-supreme-court-hears-case-on-catholic-preschools-and-lgbtq-families"
+  },
+  {
+   "id": "e360-c7583ef8c64d",
+   "added": "2026-11-04T11:40:43Z",
+   "published": "2026-11-03T13:46:00Z",
+   "source": "e360",
+   "summary": "China's mangrove revival has colonized large coastal areas and attracted many new bird species to the new forests.",
+   "title": "As Mangrove Forests Expand in China, Bird Species Multiply",
+   "url": "https://e360.yale.edu/digest/china-mangrove-restoration-bird-species"
+  },
+  {
+   "id": "npr-586cced2deb2",
+   "added": "2026-11-04T11:40:43Z",
+   "published": "2026-11-03T11:01:14Z",
+   "source": "npr",
+   "summary": "A Russian strike on a Ukrainian aid site has killed 29 people, with 48 still missing, during a wide barrage of drones and missiles.",
+   "title": "Death toll hits 29 after Russian strike on Ukrainian aid site, with 48 still missing",
+   "url": "https://www.npr.org/2026/11/03/g-s1-151439/russia-ukraine-war"
+  },
+  {
+   "id": "npr-7ba466cb8419",
+   "added": "2026-11-04T11:40:43Z",
+   "published": "2026-11-03T11:00:00Z",
+   "source": "npr",
+   "summary": "Certain House races will serve as useful indicators of how the 2026 midterm elections are unfolding on election night.",
+   "title": "Four types of House races to watch on election night to know how it might go",
+   "url": "https://www.npr.org/2026/11/03/g-s1-151305/2026-midterms-house-races-to-watch"
+  },
+  {
+   "id": "npr-c6009e1bc4eb",
+   "added": "2026-11-04T11:40:43Z",
+   "published": "2026-11-03T10:01:00Z",
+   "source": "npr",
+   "summary": "New Texas Tech rules have altered course materials and sparked censorship accusations, faculty departures, student protests, and a federal lawsuit.",
+   "title": "New restrictions at Texas Tech are changing what professors can teach",
+   "url": "https://www.npr.org/2026/11/03/nx-s1-5963883/texas-tech-academic-sb17-odyssey"
+  },
+  {
+   "id": "npr-670fb0ff902e",
+   "added": "2026-11-04T11:40:43Z",
+   "published": "2026-11-03T10:00:00Z",
+   "source": "npr",
+   "summary": "An NPR investigation finds that cyberattacks on digital controls for industrial refrigerators expose operational technology to damage and disruption.",
+   "title": "A new cold war: hackers target fridges across the globe",
+   "url": "https://www.npr.org/2026/11/03/nx-s1-6026676/cold-war-hackers-fridges"
+  },
+  {
+   "id": "npr-7deb22f5dd10",
+   "added": "2026-11-04T11:40:43Z",
+   "published": "2026-11-03T10:00:00Z",
+   "source": "npr",
+   "summary": "After an alleged plot targeting Hindu Americans was thwarted, researchers say hostility toward South Asians in the U.S. is growing and becoming more mainstream.",
+   "title": "From 'model minority' to target, anti-Indian hate on the rise",
+   "url": "https://www.npr.org/2026/11/03/nx-s1-6026418/from-model-minority-to-target-anti-indian-hate-on-the-rise"
+  },
+  {
+   "id": "npr-82dffca6d8f5",
+   "added": "2026-11-04T11:40:43Z",
+   "published": "2026-11-03T10:00:00Z",
+   "source": "npr",
+   "summary": "Control of Congress is at stake on Election Day, with the first results expected at 6 p.m. ET in Kentucky and Indiana.",
+   "title": "It's Election Day. Control of Congress is on the line, and what else you need to know",
+   "url": "https://www.npr.org/2026/11/03/nx-s1-5992757/election-day-live-updates-key-races"
+  },
+  {
+   "id": "npr-9b83d78a9441",
+   "added": "2026-11-04T11:40:43Z",
+   "published": "2026-11-03T10:00:00Z",
+   "source": "npr",
+   "summary": "A group of swing voters, all of whom backed President Trump, shares its views on his presidency and its voting plans before Election Day.",
+   "title": "'Messy,' 'divided' and 'scary': swing voters rate the country ahead of Election Day",
+   "url": "https://www.npr.org/2026/11/03/nx-s1-6014577/swing-voters-midterm-elections-voting-trump"
+  },
   {
    "id": "pbs-c183035d5af5",
    "added": "2026-11-03T11:40:00Z",
@@ -3624,159 +3829,6 @@
    "url": "https://www.pbs.org/newshour/world/fbi-says-north-korea-was-behind-6-3-billion-binance-heist-the-biggest-crypto-hack-in-history"
   },
   {
-   "id": "time-aa786470b4f3",
-   "added": "2026-11-01T12:10:00Z",
-   "published": "2026-11-01T11:00:03Z",
-   "source": "time",
-   "summary": "An essay argues the FDA should create an expedited pathway for clinical tests that detect emerging drug threats.",
-   "title": "Why Doctors Are Last to Know What's in the Drug Supply",
-   "url": "https://time.com/article/2026/11/01/why-doctors-are-last-to-know-what-s-in-the-drug-supply/"
-  },
-  {
-   "id": "npr-48cf3b89786d",
-   "added": "2026-11-01T12:10:00Z",
-   "published": "2026-11-01T09:00:00Z",
-   "source": "npr",
-   "summary": "A family affected by Sanfilippo syndrome raised millions for research that helped make possible a gene therapy the FDA just approved.",
-   "title": "How one family gave a critical boost to gene therapy research",
-   "url": "https://www.npr.org/2026/11/01/nx-s1-6014739/sanfilippo-gene-therapy-fayuvi"
-  },
-  {
-   "id": "npr-49dd0f3a1946",
-   "added": "2026-11-01T12:10:00Z",
-   "published": "2026-11-01T09:00:00Z",
-   "source": "npr",
-   "summary": "President Trump is holding near-daily rallies in red states before Election Day in what amounts to a farewell tour of campaigning.",
-   "title": "Trump thanks supporters for the memories in final campaign stops for 2026 midterms",
-   "url": "https://www.npr.org/2026/11/01/nx-s1-6022128/trump-rally-2026-midterms-republicans"
-  },
-  {
-   "id": "npr-52d82dceda4b",
-   "added": "2026-11-01T12:10:00Z",
-   "published": "2026-11-01T09:00:00Z",
-   "source": "npr",
-   "summary": "The Supreme Court is weighing whether Catholic preschools in Colorado's state-funded universal pre-K program may turn away LGBTQ families.",
-   "title": "Supreme Court hears religious freedom case centered on universal pre-K program",
-   "url": "https://www.npr.org/2026/11/01/nx-s1-6000367/supreme-court-colorado-catholic-preschool-religious-freedom-lgbtq"
-  },
-  {
-   "id": "npr-54895f7b104e",
-   "added": "2026-11-01T12:10:00Z",
-   "published": "2026-11-01T09:00:00Z",
-   "source": "npr",
-   "summary": "After the Kennedy Center closed in September, the National Symphony Orchestra lost its home and has taken its performances on the road.",
-   "title": "The National Symphony Orchestra is at a crossroads. Can it survive?",
-   "url": "https://www.npr.org/2026/11/01/nx-s1-6005501/national-symphony-orchestra-kennedy-center"
-  },
-  {
-   "id": "npr-22fc29958fd4",
-   "added": "2026-11-01T12:10:00Z",
-   "published": "2026-11-01T08:20:19Z",
-   "source": "npr",
-   "summary": "A federal judge dismissed Donald Trump's lawsuit against The Wall Street Journal and Rupert Murdoch over a story about Trump's ties to Jeffrey Epstein.",
-   "title": "'Grasping at straws': Judge dismisses Trump suit against Wall Street Journal over Epstein letter",
-   "url": "https://www.npr.org/2026/11/01/nx-s1-6025342/judge-dismisses-trump-suit-against-wall-street-journal-epstein-letter"
-  },
-  {
-   "id": "npr-fdc667fffbbb",
-   "added": "2026-11-01T12:10:00Z",
-   "published": "2026-10-31T22:48:51Z",
-   "source": "npr",
-   "summary": "Virginia and the District of Columbia sued to block construction of the proposed Trump arch, and a federal judge ordered both sides to set a briefing schedule.",
-   "title": "Virginia and D.C. sue to block construction of Trump arch",
-   "url": "https://www.npr.org/2026/10/31/nx-s1-6024694/virginia-dc-sue-trump-arch"
-  },
-  {
-   "id": "npr-4b09569c771d",
-   "added": "2026-11-01T12:10:00Z",
-   "published": "2026-10-31T19:30:19Z",
-   "source": "npr",
-   "summary": "About 320,000 people protested rising living costs across France as youth-led demonstrations spread in Europe, and the interior minister warned of a high risk of disorder.",
-   "title": "France seethes again as youth-led protests sweep Europe",
-   "url": "https://www.npr.org/2026/10/31/g-s1-151121/france-seethes-again-as-youth-led-protests-sweep-europe"
-  },
-  {
-   "id": "time-7203ceae189f",
-   "added": "2026-11-01T12:10:00Z",
-   "published": "2026-10-31T19:28:26Z",
-   "source": "time",
-   "summary": "A new lawsuit by D.C. and Virginia adds to legal challenges against President Trump's planned triumphal arch in Washington.",
-   "title": "D.C. and Virginia Join the Fight to Block Trump's Triumphal Arch. What Happens Next?",
-   "url": "https://time.com/article/2026/10/31/d-c-and-virginia-join-the-fight-to-block-trump-s-triumphal-arch-what-happens-next-/"
-  },
-  {
-   "id": "npr-c5e05211993f",
-   "added": "2026-11-01T12:10:00Z",
-   "published": "2026-10-31T18:42:33Z",
-   "source": "npr",
-   "summary": "A Chinese Communist Party central committee meeting focused on discipline and anti-corruption ahead of next year, when Xi is widely expected to seek a fourth term.",
-   "title": "Key takeaways from this week's political meeting in Beijing",
-   "url": "https://www.npr.org/2026/10/31/nx-s1-6024695/political-meeting-beijing-takeaways"
-  },
-  {
-   "id": "pbs-b9799cdc3f1c",
-   "added": "2026-11-01T12:10:00Z",
-   "published": "2026-10-31T17:02:17Z",
-   "source": "pbs",
-   "summary": "A fact check explains that counting midterm results can take days, as is normal, and addresses false claims that late counts signal fraud.",
-   "title": "When will we know 2026 midterm election results? It may take some time, but that's normal",
-   "url": "https://www.pbs.org/newshour/politics/when-will-we-know-2026-midterm-election-results-it-may-take-some-time-but-thats-normal"
-  },
-  {
-   "id": "pbs-140f1fccca21",
-   "added": "2026-11-01T12:10:00Z",
-   "published": "2026-10-31T15:25:17Z",
-   "source": "pbs",
-   "summary": "Congolese health ministry data show 5,026 Ebola deaths among 10,351 people infected, as fears of a wider spread across Africa grow.",
-   "title": "Congo's Ebola deaths top 5,000 as fear of continent-wide spread mounts",
-   "url": "https://www.pbs.org/newshour/world/congos-ebola-deaths-top-5000-as-fear-of-continent-wide-spread-mounts"
-  },
-  {
-   "id": "pbs-f87bc9ac4915",
-   "added": "2026-11-01T12:10:00Z",
-   "published": "2026-10-31T15:14:44Z",
-   "source": "pbs",
-   "summary": "An explainer on the $6.3 billion Binance hack, possible North Korean involvement and the exchange's ongoing investigation.",
-   "title": "What to know about the $6.3B hack on Binance, likely the biggest-ever crypto theft",
-   "url": "https://www.pbs.org/newshour/world/what-to-know-about-the-6-3b-hack-on-binance-likely-the-biggest-ever-crypto-theft"
-  },
-  {
-   "id": "pbs-c35896d4cd6f",
-   "added": "2026-11-01T12:10:00Z",
-   "published": "2026-10-31T15:00:17Z",
-   "source": "pbs",
-   "summary": "G20 foreign ministers meeting in Atlanta will issue no joint communique, relying instead on a chairman's statement from Secretary of State Rubio.",
-   "title": "G20 foreign ministers in Atlanta meeting head to an ending without consensus on key issues",
-   "url": "https://www.pbs.org/newshour/politics/g20-foreign-ministers-in-atlanta-meeting-head-to-an-ending-without-consensus-on-key-issues"
-  },
-  {
-   "id": "pbs-9e36e917e512",
-   "added": "2026-11-01T12:10:00Z",
-   "published": "2026-10-31T14:47:05Z",
-   "source": "pbs",
-   "summary": "Civilians evacuated from Russian-occupied Oleshky reached Ukraine after traveling through Russia and Belarus under a localized ceasefire.",
-   "title": "Residents evacuated from Russian-occupied Oleshky reach Ukraine after localized ceasefire",
-   "url": "https://www.pbs.org/newshour/world/residents-evacuated-from-russian-occupied-oleshky-reach-ukraine-after-localized-ceasefire"
-  },
-  {
-   "id": "npr-6e4b7f3779ab",
-   "added": "2026-11-01T12:10:00Z",
-   "published": "2026-10-31T13:50:58Z",
-   "source": "npr",
-   "summary": "The Justice Department is seeking to set aside some Alaska ballots amid a criminal probe into allegations that Democrats recruited a spoiler candidate in a toss-up Senate race.",
-   "title": "Justice Department seeks to isolate Alaska ballots amid criminal probe over Senate candidate",
-   "url": "https://www.npr.org/2026/11/01/nx-s1-6024423/criminal-probe-alaska-senate-candidate"
-  },
-  {
-   "id": "time-40678d00e5bd",
-   "added": "2026-11-01T12:10:00Z",
-   "published": "2026-10-31T12:30:00Z",
-   "source": "time",
-   "summary": "A congressional investigation identifies gaps in federal efforts to help Americans recover billions of dollars lost to online scams.",
-   "title": "Americans Lost Nearly $18 Billion Last Year to Cyberscams. Is Washington Doing Enough to Help Them Get It Back?",
-   "url": "https://time.com/article/2026/10/31/americans-lost-nearly-18-billion-last-year-to-cyberscams-is-washington-doing-enough-to-help-them-get-it-back-/"
-  },
-  {
    "id": "e360-37badb73216f",
    "added": "2026-10-31T11:05:00Z",
    "published": "2026-10-30T14:57:00Z",
@@ -3784,19 +3836,10 @@
    "summary": "Researchers found evidence that fossil-fuel-driven warming reversed the advance of a new ice age.",
    "title": "Human-Driven Warming May Have Halted the Onset of a New Ice Age",
    "url": "https://e360.yale.edu/digest/ice-age-avoided"
-  },
-  {
-   "id": "e360-51d3da2aa2ad",
-   "added": "2026-10-29T10:50:00Z",
-   "published": "2026-10-28T12:35:00Z",
-   "source": "e360",
-   "summary": "A report warns that carbon dioxide levels will surge this year amid a powerful El Niño.",
-   "title": "El Niño to Ratchet Up Carbon Dioxide Levels",
-   "url": "https://e360.yale.edu/digest/el-nino-emissions"
   }
  ],
  "edition": {
-  "no": 24,
-  "date": "2026-11-03"
+  "no": 25,
+  "date": "2026-11-04"
  }
 }
