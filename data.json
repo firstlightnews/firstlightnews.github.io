@@ -2,155 +2,167 @@
  "weather": {
   "cities": [
    {
-    "cond": "Increasing Clouds",
-    "hi": 52,
-    "lo": 39,
+    "cond": "Partly Sunny",
+    "hi": 55,
+    "lo": 37,
     "name": "Baltimore",
     "rain": 0
    }
   ],
-  "date": "2026-11-14",
-  "updatedAt": "2026-11-14T11:40:00Z"
+  "date": "2026-11-15",
+  "updatedAt": "2026-11-15T11:38:36Z"
  },
  "digest": {
-  "date": "2026-11-14",
-  "generatedAt": "2026-11-14T11:40:00Z",
+  "date": "2026-11-15",
+  "generatedAt": "2026-11-15T11:38:36Z",
   "items": [
    {
-    "headline": "Tanker hits river cruise boat in New Orleans",
+    "headline": "FAA blames ground stop on equipment issue",
     "sources": [
      {
-      "name": "PBS NewsHour",
-      "url": "https://www.pbs.org/newshour/nation/rescues-operations-underway-in-new-orleans-after-tanker-hits-river-cruise-boat"
-     }
-    ],
-    "summary": "A tanker struck a river cruise boat carrying 129 passengers on the Mississippi River in New Orleans on Friday, partially submerging it. Rescue operations were underway, officials said."
-   },
-   {
-    "headline": "Supreme Court to weigh Trump asylum ban",
-    "sources": [
-     {
-      "name": "PBS NewsHour",
-      "url": "https://www.pbs.org/newshour/politics/supreme-court-will-consider-trumps-executive-order-suspending-asylum-access-at-the-southern-border"
-     }
-    ],
-    "summary": "The Supreme Court agreed to consider President Trump's executive order suspending asylum access at the southern border. Lower courts had ruled that blocking asylum applications there was illegal."
-   },
-   {
-    "headline": "Ukraine launches massive drone strike as Europe joins talks",
-    "sources": [
-     {
-      "name": "PBS NewsHour",
-      "url": "https://www.pbs.org/newshour/world/ukraine-fires-nearly-1200-drones-at-russia-as-u-s-led-talks-consider-wider-european-security"
-     },
-     {
-      "name": "PBS NewsHour",
-      "url": "https://www.pbs.org/newshour/world/europe-to-send-a-diplomat-team-to-ukraine-talks-as-leaders-push-for-a-voice"
-     }
-    ],
-    "summary": "Ukraine fired nearly 1,200 drones at Russian targets overnight in one of its largest aerial attacks of the war. European Council President Antonio Costa said EU officials and five Coalition of the Willing members will represent Europe at the U.S.-led peace talks."
-   },
-   {
-    "headline": "Van Hollen to challenge Schumer for Senate leader",
-    "sources": [
-     {
-      "name": "PBS NewsHour",
-      "url": "https://www.pbs.org/newshour/politics/van-hollen-to-challenge-schumer-for-senate-democratic-leader"
+      "name": "NPR",
+      "url": "https://www.npr.org/2026/11/14/nx-s1-6040952/faa-ground-stop-airplane-travel"
      },
      {
       "name": "NPR",
-      "url": "https://www.npr.org/2026/11/13/g-s1-153350/senator-chris-van-hollen-global-health-development-aid"
-     }
-    ],
-    "summary": "Maryland Sen. Chris Van Hollen said he will run for Senate majority leader in the next Congress, challenging Chuck Schumer. He also outlined plans to use Democrats' new power on foreign aid and global health."
-   },
-   {
-    "headline": "Bessent blames Commerce over Nvidia chip sales to China",
-    "sources": [
+      "url": "https://www.npr.org/2026/11/14/nx-s1-6040463/telecom-outage-triggers-rare-nationwide-faa-ground-stop-stranding-travelers"
+     },
      {
       "name": "PBS NewsHour",
-      "url": "https://www.pbs.org/newshour/politics/bessent-blames-lutnicks-commerce-department-for-not-restricting-nvidia-chips-to-china"
-     }
-    ],
-    "summary": "Treasury Secretary Scott Bessent faulted Howard Lutnick's Commerce Department for failing to restrict Nvidia chip sales to China. Lutnick faces scrutiny over his ties to former Nvidia CEO Jensen Huang."
-   },
-   {
-    "headline": "Navy quietly fires commanders, drawing pushback",
-    "sources": [
-     {
-      "name": "PBS NewsHour",
-      "url": "https://www.pbs.org/newshour/politics/navy-has-quietly-fired-some-commanders-and-other-officials-drawing-congressional-pushback"
-     }
-    ],
-    "summary": "The Navy has fired some commanders and other officials without announcing it, a departure from its usual practice. Members of Congress have criticized the secrecy."
-   },
-   {
-    "headline": "Pochettino leaves USMNT for Manchester United",
-    "sources": [
-     {
-      "name": "NPR",
-      "url": "https://www.npr.org/2026/11/13/nx-s1-6038932/mauricio-pochettino-usmnt-manchester-united"
-     }
-    ],
-    "summary": "Manchester United named Mauricio Pochettino its manager, ending his tenure as U.S. men's national team coach. He led the U.S. to the World Cup round of 16."
-   },
-   {
-    "headline": "SpaceX prepares to retire NASA's main ride to ISS",
-    "sources": [
-     {
-      "name": "NPR",
-      "url": "https://www.npr.org/2026/11/13/nx-s1-6039312/spacex-nasa-starship-iss-dragon-falcon-musk"
-     }
-    ],
-    "summary": "As it develops its giant Starship rocket, SpaceX is preparing to retire the spacecraft that serves as NASA's main ride to the International Space Station. The shift raises questions about NASA's reliance on the company."
-   },
-   {
-    "headline": "Countries raise climate ambition despite U.S. retreat",
-    "sources": [
-     {
-      "name": "Yale Environment 360",
-      "url": "https://e360.yale.edu/digest/global-climate-policy"
-     }
-    ],
-    "summary": "Experts say several countries in Asia, Africa and Latin America are strengthening their climate policies. The shift comes as the United States scales back its own climate measures."
-   },
-   {
-    "headline": "Early polar vortex and El Niño to shape winter",
-    "sources": [
+      "url": "https://www.pbs.org/newshour/nation/thousands-of-flights-canceled-as-airlines-work-to-recover-from-nationwide-ground-stop"
+     },
      {
       "name": "TIME",
-      "url": "https://time.com/article/2026/11/13/early-polar-vortex-el-nino-winter/"
+      "url": "https://time.com/article/2026/11/14/air-traffic-control-systems-are-outdated-what-s-being-done-to-prevent-another-outage-/"
      }
     ],
-    "summary": "An early polar vortex disruption combined with a strong El Niño could influence U.S. winter weather. TIME explains what the pattern may mean for the season ahead."
+    "summary": "The FAA said Friday's nationwide ground stop was caused by an equipment issue during a contractor's telecommunications upgrade at a remote site. Airlines canceled thousands of flights Saturday as they worked to recover, and questions grew about the age of the air traffic control system."
+   },
+   {
+    "headline": "Zelenskyy warns U.S. security plan could aid Putin",
+    "sources": [
+     {
+      "name": "PBS NewsHour",
+      "url": "https://www.pbs.org/newshour/world/zelenskyy-says-a-new-european-security-framework-floated-by-u-s-could-benefit-putin"
+     }
+    ],
+    "summary": "Ukrainian President Volodymyr Zelenskyy said a new European security framework floated by the U.S. could benefit Vladimir Putin. European leaders insisted that Europeans must decide their own security."
+   },
+   {
+    "headline": "Trump's shifting Iran rhetoric leaves region in limbo",
+    "sources": [
+     {
+      "name": "PBS NewsHour",
+      "url": "https://www.pbs.org/newshour/world/with-shifting-iran-rhetoric-following-u-s-elections-trump-leaves-middle-east-in-limbo-about-path-ahead"
+     }
+    ],
+    "summary": "President Trump's changing comments on Iran since the U.S. elections have left uncertainty about the next steps in the conflict. U.S. allies are struggling with its economic effects."
+   },
+   {
+    "headline": "Alaska elects Democratic governor, keeps ranked-choice voting",
+    "sources": [
+     {
+      "name": "NPR",
+      "url": "https://www.npr.org/2026/11/14/g-s1-151719/midterms-alaska-governor-kreiss-tomkins"
+     },
+     {
+      "name": "PBS NewsHour",
+      "url": "https://www.pbs.org/newshour/politics/jonathan-kreiss-tomkins-becomes-first-democrat-since-1998-elected-governor-in-alaska"
+     },
+     {
+      "name": "NPR",
+      "url": "https://www.npr.org/2026/11/14/nx-s1-6034952/alaska-results-ranked-choice-voting-nonpartisan-primary"
+     }
+    ],
+    "summary": "Democrat Jonathan Kreiss-Tomkins won the race for Alaska governor, the first Democrat elected to the office since 1998, giving Democrats 30 governorships. Alaska voters also rejected a second attempt to repeal ranked-choice voting and the top-four primary."
+   },
+   {
+    "headline": "Starship caught by launch pad arms after orbit",
+    "sources": [
+     {
+      "name": "PBS NewsHour",
+      "url": "https://www.pbs.org/newshour/science/spacexs-starship-returns-from-orbit-and-is-captured-by-launch-pad-arms-in-a-dramatic-first"
+     }
+    ],
+    "summary": "SpaceX's Starship returned from orbit and was caught by the launch pad's arms for the first time. The booster failed after liftoff, so the planned double catch did not happen."
+   },
+   {
+    "headline": "Microsoft restores services after global outage",
+    "sources": [
+     {
+      "name": "PBS NewsHour",
+      "url": "https://www.pbs.org/newshour/world/microsoft-says-services-fully-restored-after-global-outage"
+     }
+    ],
+    "summary": "Microsoft said its services were fully restored after a global outage. The disruption had affected governments, courts, health care, airlines and banks in many countries."
+   },
+   {
+    "headline": "States get six more months on Medicaid work rules",
+    "sources": [
+     {
+      "name": "PBS NewsHour",
+      "url": "https://www.pbs.org/newshour/health/u-s-gives-states-another-6-months-before-they-have-to-remove-people-from-medicaid-for-not-working"
+     }
+    ],
+    "summary": "The administration gave states six more months, until July 1, before they must remove people from Medicaid for not meeting work requirements. The extension delays a key part of the new rules."
+   },
+   {
+    "headline": "Fuel crisis and protests pressure Chile's president",
+    "sources": [
+     {
+      "name": "NPR",
+      "url": "https://www.npr.org/2026/11/14/nx-s1-6040144/chile-protests-fuel-kast-students"
+     }
+    ],
+    "summary": "Rising fuel prices have set off transport strikes and protests across Chile. The unrest is increasing pressure on the country's far-right president."
+   },
+   {
+    "headline": "Democrats weigh lessons of failed Hegseth impeachment",
+    "sources": [
+     {
+      "name": "NPR",
+      "url": "https://www.npr.org/2026/11/14/nx-s1-6040299/hegseth-impeachment-democrats-house-test"
+     }
+    ],
+    "summary": "The failed impeachment of Pete Hegseth has become a test for Democrats as they prepare to hold House and Senate majorities. An NPR analysis says they face hard choices on priorities, timing and messaging."
+   },
+   {
+    "headline": "New organ donation policy draws ethics debate",
+    "sources": [
+     {
+      "name": "NPR",
+      "url": "https://www.npr.org/2026/11/14/nx-s1-6032604/organ-transplant-donor-dead-ethics"
+     }
+    ],
+    "summary": "New organ-retrieval guidelines are meant to help ease the U.S. organ shortage while protecting donors. Bioethicists question whether the procedure is ethical."
    }
   ],
-  "overview": "A tanker struck a river cruise boat carrying 129 passengers on the Mississippi River in New Orleans on Friday, partially submerging it. The Supreme Court agreed to consider President Trump's executive order suspending asylum access at the southern border after lower courts found it illegal. Treasury Secretary Scott Bessent blamed Commerce Secretary Howard Lutnick's department for not restricting Nvidia chip sales to China, as Lutnick faces scrutiny over his ties to Jensen Huang. The Navy has quietly fired some commanders and officials, drawing pushback from Congress. Democrats preparing to take control of Congress in January are weighing oversight, and possibly impeachment, of Health Secretary Robert F. Kennedy Jr. Mauricio Pochettino left the U.S. men's soccer team to manage Manchester United.\n\nAbroad, Ukraine fired nearly 1,200 drones at Russian targets overnight in one of its largest aerial attacks of the war, and European Council President Antonio Costa said EU officials and five Coalition of the Willing members will join the U.S.-led peace talks. Iran's Revolutionary Guards said a liquefied gas carrier caught fire after hitting mines in the Strait of Hormuz, and Türkiye and Qatar signed a mutual defense agreement. South Korean Foreign Minister Cho Hyun met Chinese counterpart Wang Yi in Beijing, where Wang briefed him on Kim Jong Un's October visit to Dandong and Cho urged China to help bring North Korea back to dialogue. A truck-bus crash in India's Assam state killed at least 24 people. Norway lost a landmark climate case, meaning emissions from exported oil must be weighed when licensing oilfields. U.N. Secretary-General António Guterres called for immediate and drastic emissions cuts."
+  "overview": "Airlines expected to cancel 4,000 to 5,000 of roughly 41,000 scheduled U.S. flights Sunday as air travel recovers from Friday's nationwide ground stop, which the FAA blamed on an equipment issue during a contractor's telecommunications upgrade. Microsoft said its services were fully restored after a global outage that disrupted governments, courts, hospitals, airlines and banks. SpaceX caught a returning Starship with its launch pad arms for the first time after a mission of more than 22 hours. Democrat Jonathan Kreiss-Tomkins won Alaska's governorship, his party's first there since 1998, as voters again refused to repeal ranked-choice voting and Democrat Mary Peltola widened her lead over Sen. Dan Sullivan. The administration gave states until July 1 before removing people from Medicaid under work requirements. The CDC said seven states had high flu activity last week, an unusually early start.\n\nAbroad, Ukrainian President Volodymyr Zelenskyy warned that a European security framework floated by the U.S. could benefit Vladimir Putin, while the Kremlin said Putin, Xi Jinping and President Trump will meet Nov. 19 in Shenzhen on the sidelines of the APEC summit. Iran's Revolutionary Guards said two oil tankers struck naval mines and caught fire south of the Strait of Hormuz, and claimed to have shot down a U.S. MQ-1 drone over Qeshm Island. Türkiye and 17 other countries condemned an Israeli airstrike on the Nasser Medical Complex in Khan Younis. Chile's president faces mounting protests and transport strikes over rising fuel prices. Italy's data protection authority fined Meta €805 million for accessing Android users' photos and data without informed consent."
  },
  "status": {
-  "lastRun": "2026-11-14T11:40:00Z",
+  "lastRun": "2026-11-15T11:38:36Z",
   "sources": {
    "e360": {
-    "newCount": 2,
+    "newCount": 0,
     "newest": "2026-11-13T13:43:00Z",
     "ok": true,
     "stale": false
    },
    "npr": {
-    "newCount": 4,
-    "newest": "2026-11-13T15:46:35Z",
+    "newCount": 7,
+    "newest": "2026-11-14T16:53:04Z",
     "ok": true,
     "stale": true
    },
    "pbs": {
     "newCount": 10,
-    "newest": "2026-11-13T21:00:35Z",
+    "newest": "2026-11-14T21:56:15Z",
     "ok": true,
-    "stale": true
+    "stale": false
    },
    "time": {
     "newCount": 1,
-    "newest": "2026-11-13T12:00:00Z",
+    "newest": "2026-11-14T12:00:00Z",
     "ok": true,
     "stale": true
    }
@@ -833,10 +845,42 @@
    "country": "intl",
    "group": "soccer",
    "name": "National teams",
-   "note": "Uruguay won 2–1 at La Bombonera in Argentina's first match since Lionel Messi's retirement, Germany won 3–1 in Serbia and South Korea lost 3–2 to Saudi Arabia in Doha.",
+   "note": "The USA routed Haiti 6–0 in the first leg of their Concacaf Nations League quarterfinal, Denmark thrashed already-qualified Portugal 4–1 in Braga, and Japan beat Brazil 3–2 in Singapore, where Ancelotti and Raphinha were both sent off.",
    "order": 1,
-   "phase": "November window · USA–Haiti tonight, Spain vs. England Sunday",
+   "phase": "November window · Spain vs. England tonight",
    "results": [
+    {
+     "as": 6,
+     "away": "USA",
+     "home": "Haiti",
+     "hs": 0,
+     "label": "Concacaf Nations League",
+     "t": "2026-11-14T21:30:00Z"
+    },
+    {
+     "as": 4,
+     "away": "Denmark",
+     "home": "Portugal",
+     "hs": 1,
+     "label": "Nations League",
+     "t": "2026-11-14T19:45:00Z"
+    },
+    {
+     "as": 1,
+     "away": "Wales",
+     "home": "Norway",
+     "hs": 3,
+     "label": "Nations League",
+     "t": "2026-11-14T17:00:00Z"
+    },
+    {
+     "as": 2,
+     "away": "Brazil",
+     "home": "Japan",
+     "hs": 3,
+     "label": "Friendly",
+     "t": "2026-11-14T10:15:00Z"
+    },
     {
      "as": 2,
      "away": "Uruguay",
@@ -868,53 +912,9 @@
      "hs": 3,
      "label": "Friendly",
      "t": "2026-11-13T14:30:00Z"
-    },
-    {
-     "as": 1,
-     "away": "Croatia",
-     "home": "England",
-     "hs": 2,
-     "label": "Nations League",
-     "t": "2026-11-12T19:45:00Z"
-    },
-    {
-     "as": 2,
-     "away": "Spain",
-     "home": "Czechia",
-     "hs": 0,
-     "label": "Nations League",
-     "t": "2026-11-12T19:45:00Z"
-    },
-    {
-     "as": 1,
-     "away": "France",
-     "home": "Italy",
-     "hs": 3,
-     "label": "Nations League",
-     "t": "2026-11-12T19:45:00Z"
-    },
-    {
-     "as": 2,
-     "away": "Belgium",
-     "home": "Türkiye",
-     "hs": 1,
-     "label": "Nations League",
-     "t": "2026-11-12T17:00:00Z"
     }
    ],
    "upcoming": [
-    {
-     "away": "Denmark",
-     "home": "Portugal",
-     "label": "Nations League",
-     "t": "2026-11-14T19:45:00Z"
-    },
-    {
-     "away": "USA",
-     "home": "Haiti",
-     "label": "Concacaf Nations League",
-     "t": "2026-11-14T21:30:00Z"
-    },
     {
      "away": "England",
      "home": "Spain",
@@ -928,23 +928,22 @@
      "t": "2026-11-15T19:45:00Z"
     },
     {
-     "away": "Italy",
-     "home": "Belgium",
-     "label": "Nations League",
-     "t": "2026-11-15T19:45:00Z"
-    },
-    {
      "away": "Netherlands",
      "home": "Germany",
      "label": "Nations League",
      "t": "2026-11-16T19:45:00Z"
     },
     {
+     "away": "Brazil",
+     "home": "Singapore",
+     "label": "Friendly",
+     "t": "2026-11-17T10:00:00Z"
+    },
+    {
      "away": "South Korea",
-     "dateOnly": true,
      "home": "Qatar",
      "label": "Friendly",
-     "t": "2026-11-17T12:00:00Z"
+     "t": "2026-11-17T14:00:00Z"
     },
     {
      "away": "Portugal",
@@ -953,13 +952,19 @@
      "t": "2026-11-17T19:45:00Z"
     },
     {
+     "away": "Costa Rica",
+     "home": "Argentina",
+     "label": "Friendly",
+     "t": "2026-11-17T23:00:00Z"
+    },
+    {
      "away": "Haiti",
      "home": "USA",
      "label": "Concacaf Nations League",
      "t": "2026-11-18T00:00:00Z"
     }
    ],
-   "updatedAt": "2026-11-14T11:40:00Z"
+   "updatedAt": "2026-11-15T11:40:33Z"
   },
   "kbo": {
    "group": "kbo",
@@ -1084,7 +1089,7 @@
    ],
    "tableTitle": "Standings",
    "upcoming": [],
-   "updatedAt": "2026-11-14T11:40:00Z"
+   "updatedAt": "2026-11-15T11:40:33Z"
   },
   "kleague1": {
    "country": "kor",
@@ -1714,7 +1719,7 @@
   "mlb": {
    "group": "mlb",
    "name": "MLB",
-   "note": "Jake Bauers reportedly agreed to a four-year, $58 million deal with the Red Sox, and qualifying-offer decisions are due Nov. 17.",
+   "note": "Qualifying-offer decisions are due Tuesday, Nov. 17, and the Cubs, Astros, Padres and White Sox have shown early interest in free-agent pitcher Dustin May.",
    "order": 1,
    "phase": "Offseason · Brewers are champions",
    "results": [
@@ -1805,7 +1810,7 @@
     }
    ],
    "upcoming": [],
-   "updatedAt": "2026-11-14T11:40:00Z"
+   "updatedAt": "2026-11-15T11:40:33Z"
   },
   "mls": {
    "country": "usa",
@@ -1953,10 +1958,45 @@
   "nba": {
    "group": "nba",
    "name": "NBA",
-   "note": "San Antonio routed Golden State 123–85 for its 11th straight win, and the Clippers edged Oklahoma City 113–112 despite 40 points from Shai Gilgeous-Alexander.",
+   "note": "Miami won its fourth straight, beating Detroit 137–117 behind 34 points from Giannis Antetokounmpo, and Cleveland beat Dallas 127–117 with all five starters resting.",
    "order": 1,
-   "phase": "Week 4 · NBA Cup group play",
+   "phase": "Week 4 · Nine games Sunday",
    "results": [
+    {
+     "as": 117,
+     "away": "Pistons",
+     "home": "Heat",
+     "hs": 137,
+     "t": "2026-11-15T01:00:00Z"
+    },
+    {
+     "as": 117,
+     "away": "Bulls",
+     "home": "Timberwolves",
+     "hs": 106,
+     "t": "2026-11-15T01:00:00Z"
+    },
+    {
+     "as": 110,
+     "away": "Nets",
+     "home": "Grizzlies",
+     "hs": 129,
+     "t": "2026-11-15T01:00:00Z"
+    },
+    {
+     "as": 117,
+     "away": "Mavericks",
+     "home": "Cavaliers",
+     "hs": 127,
+     "t": "2026-11-15T00:30:00Z"
+    },
+    {
+     "as": 116,
+     "away": "Nuggets",
+     "home": "Pelicans",
+     "hs": 108,
+     "t": "2026-11-15T00:00:00Z"
+    },
     {
      "as": 112,
      "away": "Thunder",
@@ -2002,7 +2042,7 @@
      "away": "Hawks",
      "home": "Bulls",
      "hs": 125,
-     "label": "NBA Cup",
+     "label": "NBA Cup · OT",
      "t": "2026-11-14T01:00:00Z"
     },
     {
@@ -2028,35 +2068,6 @@
      "hs": 107,
      "label": "NBA Cup",
      "t": "2026-11-14T00:00:00Z"
-    },
-    {
-     "as": 96,
-     "away": "Hornets",
-     "home": "Suns",
-     "hs": 101,
-     "t": "2026-11-13T02:00:00Z"
-    },
-    {
-     "as": 94,
-     "away": "Mavericks",
-     "home": "Timberwolves",
-     "hs": 133,
-     "t": "2026-11-13T01:00:00Z"
-    },
-    {
-     "as": 112,
-     "away": "Raptors",
-     "home": "76ers",
-     "hs": 123,
-     "t": "2026-11-13T00:00:00Z"
-    },
-    {
-     "as": 144,
-     "away": "Pistons",
-     "home": "Wizards",
-     "hs": 140,
-     "label": "2OT",
-     "t": "2026-11-13T00:00:00Z"
     }
    ],
    "table": [
@@ -2072,13 +2083,13 @@
     },
     {
      "note": "East",
-     "rec": "8-3",
+     "rec": "8-4",
      "team": "Pistons"
     },
     {
      "note": "East",
      "rec": "7-6",
-     "team": "Hawks"
+     "team": "Heat"
     },
     {
      "note": "West",
@@ -2103,31 +2114,6 @@
    ],
    "upcoming": [
     {
-     "away": "Nuggets",
-     "home": "Pelicans",
-     "t": "2026-11-15T00:00:00Z"
-    },
-    {
-     "away": "Mavericks",
-     "home": "Cavaliers",
-     "t": "2026-11-15T00:30:00Z"
-    },
-    {
-     "away": "Pistons",
-     "home": "Heat",
-     "t": "2026-11-15T01:00:00Z"
-    },
-    {
-     "away": "Bulls",
-     "home": "Timberwolves",
-     "t": "2026-11-15T01:00:00Z"
-    },
-    {
-     "away": "Nets",
-     "home": "Grizzlies",
-     "t": "2026-11-15T01:00:00Z"
-    },
-    {
      "away": "Pacers",
      "home": "76ers",
      "t": "2026-11-15T18:00:00Z"
@@ -2148,13 +2134,13 @@
      "t": "2026-11-15T22:00:00Z"
     },
     {
-     "away": "Mavericks",
-     "home": "Celtics",
+     "away": "Knicks",
+     "home": "Raptors",
      "t": "2026-11-15T23:00:00Z"
     },
     {
-     "away": "Knicks",
-     "home": "Raptors",
+     "away": "Mavericks",
+     "home": "Celtics",
      "t": "2026-11-15T23:00:00Z"
     },
     {
@@ -2171,16 +2157,56 @@
      "away": "Thunder",
      "home": "Kings",
      "t": "2026-11-16T02:00:00Z"
+    },
+    {
+     "away": "Bulls",
+     "home": "Cavaliers",
+     "t": "2026-11-17T00:00:00Z"
+    },
+    {
+     "away": "Grizzlies",
+     "home": "Wizards",
+     "t": "2026-11-17T00:00:00Z"
+    },
+    {
+     "away": "Magic",
+     "home": "Celtics",
+     "t": "2026-11-17T00:00:00Z"
+    },
+    {
+     "away": "Rockets",
+     "home": "Heat",
+     "t": "2026-11-17T00:30:00Z"
+    },
+    {
+     "away": "76ers",
+     "home": "Nets",
+     "t": "2026-11-17T00:30:00Z"
+    },
+    {
+     "away": "Warriors",
+     "home": "Pelicans",
+     "t": "2026-11-17T01:00:00Z"
+    },
+    {
+     "away": "Trail Blazers",
+     "home": "Timberwolves",
+     "t": "2026-11-17T01:00:00Z"
+    },
+    {
+     "away": "Suns",
+     "home": "Nuggets",
+     "t": "2026-11-17T02:00:00Z"
     }
    ],
-   "updatedAt": "2026-11-14T11:40:00Z"
+   "updatedAt": "2026-11-15T11:40:33Z"
   },
   "nfl": {
    "group": "nfl",
    "name": "NFL",
-   "note": "Baltimore's Lamar Jackson had surgery on a broken and dislocated thumb and is expected to miss 6–10 weeks, with Jacoby Brissett set to start Monday night against the Chargers.",
+   "note": "Chiefs running back Kenneth Walker III, the NFL's leading rusher, will reportedly miss Sunday's game at Atlanta with a groin injury, and the league reassigned officials for several games after Friday's FAA ground stop.",
    "order": 1,
-   "phase": "Week 10 · Patriots-Lions in Munich Sunday",
+   "phase": "Week 10 · Patriots-Lions in Munich today",
    "results": [
     {
      "as": 24,
@@ -2413,7 +2439,7 @@
      "t": "2026-11-17T01:15:00Z"
     }
    ],
-   "updatedAt": "2026-11-14T11:40:00Z"
+   "updatedAt": "2026-11-15T11:40:33Z"
   },
   "ucl": {
    "country": "eur",
@@ -2942,335 +2968,474 @@
  },
  "sportsnews": {
   "home": {
-   "overview": "San Antonio stretched its winning streak to 11 by routing the Curry-less Warriors 123–85 in NBA Cup play, the Clippers edged Oklahoma City 113–112 despite 40 points from Shai Gilgeous-Alexander, and Indiana held off the Knicks 106–104 to drop New York to 0-2 in its Cup group. Stephen Curry will miss at least two weeks with an oblique tear. In the NFL, Baltimore's Lamar Jackson had thumb surgery and is expected to miss 6–10 weeks, leaving Jacoby Brissett to start Monday night against the Chargers. Sunday opens with Patriots-Lions in Munich, Fernando Mendoza, Carson Beck and Kyle McCord make their first starts, and Steelers-Bengals closes the night. In baseball, Jake Bauers reportedly agreed to a four-year, $58 million deal with the Red Sox, and qualifying-offer decisions are due Tuesday.\n\nManchester United made Mauricio Pochettino their manager, though he will coach the USMNT in both Concacaf Nations League legs against Haiti, starting tonight in Miami. Germany beat nine-man Serbia 3–1 to relegate them, the Netherlands thrashed Greece 7–0 to set up Monday's decider in Berlin, Uruguay won 2–1 at La Bombonera, and South Korea fell 3–2 to Saudi Arabia in Doha. Portugal host Denmark tonight before Sunday's Spain-England showdown in Madrid, and K League 1 and 2 resume Nov. 21–22. In the KBO, free-agent negotiations open Tuesday, with 28 players eligible.",
-   "updatedAt": "2026-11-14T11:40:00Z"
+   "overview": "Miami kept rolling with a fourth straight win, 137–117 over Detroit, as Giannis Antetokounmpo put up 34 points, 14 rebounds and 8 assists and Klay Thompson hit six 3s. Cleveland beat Dallas 127–117 with all five starters resting thanks to a Tyrese Proctor triple-double, Denver sent New Orleans to a sixth straight loss, and Chicago snapped Minnesota's five-game streak. Sunday's nine NBA games include Lakers-Suns and Mavericks-Celtics. NFL Week 10 opens with Patriots-Lions in Munich at 9:30 a.m. ET, but Kansas City will reportedly be without league-leading rusher Kenneth Walker III, and backup referees will work several games after Friday's FAA ground stop. Steelers-Bengals closes Sunday night. In baseball, four clubs have shown interest in Dustin May, and qualifying-offer decisions are due Tuesday.\n\nThe USMNT routed Haiti 6–0 in Miami behind two goals from Christian Pulisic in the first leg of its Concacaf Nations League quarterfinal. Denmark thrashed Portugal 4–1 in Braga in their first game since Cristiano Ronaldo's retirement, and Japan stunned Brazil 3–2 in Singapore as Carlo Ancelotti and Raphinha were sent off. Spain host England tonight, Germany and the Netherlands meet Monday in Berlin, and club play returns next weekend. In baseball, South Korea beat Taiwan 6–4 to reach Sunday's Asia Professional Baseball Championship final against Japan.",
+   "updatedAt": "2026-11-15T11:40:33Z"
   },
   "kbo": {
    "brief": [
-    "South Korea lost 9–5 to Japan on Friday at Tokyo Dome to fall to 0–2 at the Asia Professional Baseball Championship.",
-    "Korea tied the game 5–5 in the top of the eighth, but Rui Muneyama's three-run homer in the bottom half put Japan ahead for good; Korea allowed four home runs.",
-    "To reach a third straight final, Korea must beat Taiwan on Saturday night and needs Japan to beat Australia, with a tiebreaker then deciding Japan's opponent in Sunday's final.",
-    "Of the 28 KBO players eligible for free agency, 15 are eligible for the first time, and KT Wiz and SSG have six each.",
-    "Eligible players have until Sunday to declare, with the final list due Monday and negotiations with any club opening Tuesday."
+    "South Korea beat Taiwan 6–4 at Tokyo Dome on Saturday to reach the Asia Professional Baseball Championship final, with Kim Do-yeong's tiebreaking solo homer in the fifth one of three Korean solo shots.",
+    "Korea, which had lost to Australia and Japan, advanced on the Team Quality Balance tiebreaker after Japan beat Australia 16–1 to finish the round robin 3–0.",
+    "Korea face Japan in Sunday night's final at Tokyo Dome, the countries' third straight APBC final meeting; Japan won the previous two.",
+    "Back home, KBO free-agent negotiations open Tuesday, Nov. 17, with Samsung's Koo Ja-wook and Won Tae-in heading the list."
    ],
    "headlines": [
     {
      "source": "Korea Times",
-     "title": "S. Korea falls to Japan for 2nd straight loss at regional baseball tournament",
-     "url": "https://www.koreatimes.co.kr/sports/20261114/s-korea-falls-to-japan-for-2nd-straight-loss-at-regional-baseball-tournament"
+     "title": "S. Korea defeats Taiwan to reach final vs. Japan at regional baseball tournament",
+     "url": "https://www.koreatimes.co.kr/sports/20261114/s-korea-defeats-taiwan-to-reach-final-vs-japan-at-regional-baseball-tournament"
     },
     {
      "source": "Korea JoongAng Daily",
-     "title": "Korea falls to Japan 9-5 in second straight APBC defeat",
-     "url": "https://www.koreajoongangdaily.com/sports/korea-falls-to-japan-95-in-second-straightnbspapbcnbspdefeatnbspnbsp/12972832"
+     "title": "South Korea beats Taiwan to set up APBC final against Japan",
+     "url": "https://www.koreajoongangdaily.com/sports/korea-finally-gets-first-win-at-apbc-will-face-japan-for-title/12973089"
     },
     {
-     "source": "Korea Times",
-     "title": "Key players behind Lions' Korean Series title run headline list of potential free agents",
-     "url": "https://www.koreatimes.co.kr/sports/20261113/key-players-behind-lions-korean-series-title-run-headline-list-of-potential-free-agents"
-    },
-    {
-     "source": "Korea Times",
-     "title": "KBO star Koo Ja-wook hires US agent in pursuit of MLB opportunity: report",
-     "url": "https://www.koreatimes.co.kr/sports/20261113/kbo-star-koo-ja-wook-hires-us-agent-in-pursuit-of-mlb-opportunity-report"
+     "source": "Korea JoongAng Daily",
+     "title": "Samsung Lions stars Koo Ja-wook, Won Tae-in lead KBO free agency list",
+     "url": "https://www.koreajoongangdaily.com/sports/key-players-behind-lions-korean-series-title-run-headline-list-of-potential-free-agents/12972162"
     }
    ],
-   "updatedAt": "2026-11-14T11:40:00Z"
+   "updatedAt": "2026-11-15T11:40:33Z"
   },
   "mlb": {
    "brief": [
-    "Jake Bauers, the NLCS MVP who hit 26 homers for champion Milwaukee, reportedly agreed to a four-year, $58 million deal with the Red Sox.",
-    "Because Bauers turned down a qualifying offer, Milwaukee gets a compensation pick after the first round, while Boston forfeits its second- and fifth-highest 2027 picks and $1 million in international bonus money.",
-    "Blue Jays outfielder Anthony Santander apologized for sharing anti-Muslim videos after GM Ross Atkins publicly criticized the posts.",
-    "The Dodgers are set to meet with top free agent Tarik Skubal, though no agreement has been reported.",
-    "The other seven qualifying-offer recipients have until Tuesday, Nov. 17, to decide on the $23.15 million offers, and the collective bargaining agreement expires Dec. 1."
+    "The Cubs, Astros, Padres and White Sox have shown early interest in free-agent right-hander Dustin May, who had a 4.70 ERA over 145 2/3 innings with St. Louis and Milwaukee in 2026.",
+    "The Cubs' Pete Crow-Armstrong was a unanimous National League MVP, beating Shohei Ohtani, and Houston's Yordan Alvarez was a unanimous AL MVP.",
+    "Houston named franchise icon Brad Ausmus as its new manager.",
+    "The remaining qualifying-offer recipients must decide by Tuesday, Nov. 17, as teams like the Mets and Dodgers pursue top free agent Tarik Skubal."
    ],
    "headlines": [
     {
-     "source": "CBS Sports",
-     "title": "Jake Bauers reportedly agrees to $58 million deal with Red Sox after helping lead Brewers to World Series",
-     "url": "https://www.cbssports.com/mlb/news/jake-bauers-contract-red-sox-brewers-mlb-free-agency/"
-    },
-    {
      "source": "Yahoo Sports",
-     "title": "From journeyman to $58M: Jake Bauers heads to Boston in smart move for Red Sox",
-     "url": "https://sports.yahoo.com/mlb/article/from-journeyman-to-58m-jake-bauers-heads-to-boston-in-smart-move-for-red-sox-214351919.html"
+     "title": "Chicago Cubs Showing Interest In World Series Champion",
+     "url": "https://sports.yahoo.com/articles/chicago-cubs-showing-interest-world-234625951.html"
     },
     {
      "source": "CBS Sports",
-     "title": "Blue Jays' Anthony Santander issues statement after sharing anti-Muslim videos: 'This content caused hurt'",
-     "url": "https://www.cbssports.com/mlb/news/blue-jays-anthony-santander-statement-anti-muslim-social-media-posts/"
-    },
-    {
-     "source": "Yahoo Sports",
-     "title": "MLB free agent market is active, even with a looming lockout. Will Dodgers make a splash?",
-     "url": "https://sports.yahoo.com/articles/mlb-free-agent-market-active-221618555.html"
+     "title": "Cubs superstar Pete Crow-Armstrong wins National League MVP unanimously, beating Shohei Ohtani",
+     "url": "https://www.cbssports.com/mlb/news/mlb-2026-national-league-mvp-pete-crow-armstrong-cubs/"
     },
     {
      "source": "CBS Sports",
-     "title": "MLB rumors: Rangers in mix for Sato, Dodgers seek infield help, Korean slugger could join free agent class",
-     "url": "https://www.cbssports.com/mlb/news/mlb-rumors-rangers-teruaki-sato-dodgers-padres/"
+     "title": "Astros slugger Yordan Alvarez named unanimous American League MVP",
+     "url": "https://www.cbssports.com/mlb/news/mlb-2026-american-league-mvp-yordan-alvarez-astros/"
     },
     {
      "source": "Yahoo Sports",
-     "title": "What Jake Bauers' Multi-Year Deal Means for Rest of First Base Market",
-     "url": "https://sports.yahoo.com/articles/jake-bauers-multi-deal-means-185605847.html"
+     "title": "White Sox, Cubs Pitted Against Each Other in MLB Free Agency",
+     "url": "https://sports.yahoo.com/articles/white-sox-cubs-pitted-against-020937264.html"
     },
     {
      "source": "CBS Sports",
-     "title": "Could Tarik Skubal take a short-term, high-AAV contract? Breaking down pros and cons",
-     "url": "https://www.cbssports.com/mlb/news/tarik-skubal-short-term-high-aav-contract-pros-cons/"
+     "title": "2026-27 MLB free agent tracker: Tarik Skubal, Jazz Chisholm Jr., Randy Arozarena and more",
+     "url": "https://www.cbssports.com/mlb/news/mlb-free-agent-tracker-2026-27/"
     },
     {
      "source": "Yahoo Sports",
-     "title": "What Teruaki Sato's free-agent suitors should have learned from the last MLB offseason",
-     "url": "https://sports.yahoo.com/articles/teruaki-satos-free-agent-suitors-215300410.html"
-    },
-    {
-     "source": "Yahoo Sports",
-     "title": "Tarik Skubal Free Agency: Mason Miller Makes Recruiting Pitch to Ex-Dodgers Free Agent To Join Padres",
-     "url": "https://sports.yahoo.com/articles/tarik-skubal-free-agency-mason-182101744.html"
-    },
-    {
-     "source": "Yahoo Sports",
-     "title": "How a free agent no one's talking about could swing the NL pennant",
-     "url": "https://sports.yahoo.com/articles/free-agent-no-ones-talking-201032391.html"
-    },
-    {
-     "source": "Yahoo Sports",
-     "title": "MLB Trade Rumors: Skubal to Mets, Corey Seager to Yankees, & Blue Jays Targets",
-     "url": "https://sports.yahoo.com/articles/mlb-trade-rumors-skubal-mets-163138549.html"
+     "title": "Ex-player urges Cardinals to make Tarik Skubal free agency push",
+     "url": "https://sports.yahoo.com/articles/ex-player-urges-cardinals-tarik-231512190.html"
     },
     {
      "source": "CBS Sports",
-     "title": "Why a long-term mega deal for Tarik Skubal isn't actually all that risky",
-     "url": "https://www.cbssports.com/mlb/news/tarik-skubal-contract-risk-long-term-deal/"
+     "title": "Now with an MVP, Pete Crow-Armstrong is on the path for an all-time great career",
+     "url": "https://www.cbssports.com/mlb/news/pete-crow-armstrong-mvp-2026-historical-comparisons/"
+    },
+    {
+     "source": "Yahoo Sports",
+     "title": "Red Sox Reportedly Interested in Soon-To-Be Eight-Year Veteran in Free Agency",
+     "url": "https://sports.yahoo.com/articles/red-sox-reportedly-interested-soon-033431409.html"
+    },
+    {
+     "source": "Yahoo Sports",
+     "title": "Seattle Mariners Free Agency: Mariners May Have More Available Payroll Than Anticipated",
+     "url": "https://sports.yahoo.com/articles/seattle-mariners-free-agency-mariners-055443615.html"
+    },
+    {
+     "source": "Yahoo Sports",
+     "title": "Philadelphia Phillies Quietly Sign 7-Year MLB Player During Free Agency",
+     "url": "https://sports.yahoo.com/articles/philadelphia-phillies-quietly-sign-7-141340216.html"
+    },
+    {
+     "source": "Yahoo Sports",
+     "title": "Tigers MLB free agency rumors: Tracking who Detroit may sign for 2027",
+     "url": "https://sports.yahoo.com/articles/tigers-mlb-free-agency-rumors-205314268.html"
     }
    ],
-   "updatedAt": "2026-11-14T11:40:00Z"
+   "updatedAt": "2026-11-15T11:40:33Z"
   },
   "nba": {
    "brief": [
-    "San Antonio won its 11th straight game, routing Golden State 123–85 in the NBA Cup behind Stephon Castle's 32 points as the Curry-less Warriors were held to 85.",
-    "Darius Garland's late three-point play lifted the Clippers past Oklahoma City 113–112, wasting 40 points from Shai Gilgeous-Alexander as the Thunder lost a third straight.",
-    "Indiana held off the Knicks 106–104 despite 33 points from Jalen Brunson, dropping New York to 0-2 and last in its Cup group.",
-    "Giannis Antetokounmpo and Bam Adebayo each scored 37 as Miami beat Cleveland 133–121, Memphis tied an NBA record with 10 players in double figures in a 142–111 rout of New Orleans, and Norman Powell's 33 points led Chicago past Atlanta 125–117 in overtime to snap an eight-game skid.",
-    "Stephen Curry will miss at least two weeks with an oblique tear, and Houston's Marcus Smart was suspended three games for punching Golden State's Charles Bassey.",
-    "Bulls rookie Caleb Wilson is reportedly out 4–6 weeks with a broken hand."
+    "Miami won its fourth straight, beating Detroit 137–117 as Giannis Antetokounmpo had 34 points, 14 rebounds and 8 assists and Klay Thompson hit six 3-pointers for 26; Cade Cunningham scored 33 for the Pistons.",
+    "Cleveland beat Dallas 127–117 with all five starters sitting out, behind a Tyrese Proctor triple-double of 24 points, 11 rebounds and 10 assists.",
+    "Denver handed New Orleans a sixth straight loss, 116–108, with Nikola Jokic posting 26 points and 10 assists.",
+    "Chicago ended Minnesota's five-game win streak with a 117–106 road win, and Memphis beat Brooklyn 129–110.",
+    "Pelicans guard Dejounte Murray requested a trade after venting about the franchise in since-deleted social media posts.",
+    "Sunday's nine-game slate includes Lakers at Suns, Spurs at Jazz and Mavericks at Celtics."
    ],
    "headlines": [
     {
      "source": "Yahoo Sports",
-     "title": "NBA Cup 2026: Knicks drop to last place in group play with loss to shorthanded Pacers; Spurs dominate Warriors",
-     "url": "https://sports.yahoo.com/nba/article/nba-cup-2026-knicks-drop-to-last-place-in-group-play-with-loss-to-shorthanded-pacers-spurs-dominate-warriors-050242776.html"
-    },
-    {
-     "source": "CBS Sports",
-     "title": "How can Warriors survive Stephen Curry's absence? Yaxel Lendeborg has to step up, but that's not all",
-     "url": "https://www.cbssports.com/nba/news/warriors-survive-stephen-curry-absence-yaxel-lendeborg/"
-    },
-    {
-     "source": "CBS Sports",
-     "title": "Rockets' Marcus Smart suspended three games for punching Warriors' Charles Bassey during in-game scuffle",
-     "url": "https://www.cbssports.com/nba/news/rockets-marcus-smart-suspension-punch-warriors-charles-bassey/"
+     "title": "Giannis, Thompson shine as Heat scorch Pistons",
+     "url": "https://sports.yahoo.com/articles/giannis-thompson-shine-heat-scorch-040056204.html"
     },
     {
      "source": "Yahoo Sports",
-     "title": "Castle, Spurs rout Warriors for 11th straight win",
-     "url": "https://sports.yahoo.com/articles/castle-spurs-rout-warriors-11th-074855507.html"
+     "title": "Cavaliers backups beat Mavericks as all 5 Cleveland starters sit out Saturday night's win",
+     "url": "https://sports.yahoo.com/nba/breaking-news/article/cavaliers-backups-beat-mavericks-as-all-5-cleveland-starters-sit-out-saturday-nights-win-030626448.html"
+    },
+    {
+     "source": "CBS Sports",
+     "title": "Pelicans' Dejounte Murray requests trade after venting about franchise in deleted social media posts",
+     "url": "https://www.cbssports.com/nba/news/pelicans-dejounte-murraysocial-media-now-deleted-posts-trade/"
     },
     {
      "source": "Yahoo Sports",
-     "title": "Clippers overcome 40 points from SGA and use late run to slip past Thunder 113-112",
-     "url": "https://sports.yahoo.com/articles/clippers-overcome-40-points-sga-064001748.html"
-    },
-    {
-     "source": "CBS Sports",
-     "title": "Caleb Wilson reportedly out 4-6 weeks with broken hand, taking away the only reason to watch the Bulls",
-     "url": "https://www.cbssports.com/nba/news/caleb-wilson-injury-update-bulls-rookie-of-the-year/"
+     "title": "Jokic, Murray help Nuggets hand Pelicans a sixth straight loss",
+     "url": "https://sports.yahoo.com/articles/jokic-murray-help-nuggets-hand-050607024.html"
     },
     {
      "source": "Yahoo Sports",
-     "title": "Giannis, Bam join LeBron, Wade in exclusive Miami Heat club",
-     "url": "https://sports.yahoo.com/articles/giannis-bam-join-lebron-wade-053605329.html"
+     "title": "Cade Cunningham heroics can't save Pistons after Duncan Robinson injury vs Heat",
+     "url": "https://sports.yahoo.com/articles/cade-cunningham-heroics-cant-save-040112028.html"
     },
     {
      "source": "CBS Sports",
-     "title": "Grizzlies tie NBA record with 10 in double figures, rout Pelicans",
-     "url": "https://www.cbssports.com/nba/news/grizzlies-tie-nba-record-with-10-in-double-figures-rout-pelicans/"
+     "title": "Yaxel Lendeborg, Warriors get a taste of life without Stephen Curry: 'It felt helpless out there'",
+     "url": "https://www.cbssports.com/nba/news/yaxel-lendeborg-warriors-spurs-life-without-stephen-curry/"
     },
     {
      "source": "Yahoo Sports",
-     "title": "Victor Wembanyama gives blunt three-word response to Draymond Green's shove",
-     "url": "https://sports.yahoo.com/articles/victor-wembanyama-gives-blunt-three-221544926.html"
+     "title": "Cavs beat Mavericks 127-117 behind Tyrese Proctor's triple double",
+     "url": "https://sports.yahoo.com/articles/cavs-beat-mavericks-127-117-030103279.html"
     },
     {
      "source": "CBS Sports",
-     "title": "Norman Powell leads Bulls past Hawks in OT to snap 8-game skid",
-     "url": "https://www.cbssports.com/nba/news/norman-powell-leads-bulls-past-hawks-in-ot-to-snap-8-game-skid/"
+     "title": "Dejounte Murray landing spots: Three possible destinations after Pelicans guard requests trade",
+     "url": "https://www.cbssports.com/nba/news/dejounte-murray-landing-spots-pelicans-guard-requests-trade/"
+    },
+    {
+     "source": "Yahoo Sports",
+     "title": "Heat's surge continues with blowout home victory over Pistons for fourth straight win",
+     "url": "https://sports.yahoo.com/articles/heat-surge-continues-blowout-home-035444334.html"
+    },
+    {
+     "source": "Yahoo Sports",
+     "title": "Giannis Antetokounmpo reveals how Heat turned things around after 0-4 start",
+     "url": "https://sports.yahoo.com/articles/giannis-antetokounmpo-reveals-heat-turned-073344148.html"
     },
     {
      "source": "CBS Sports",
-     "title": "Zion Williamson says Pelicans need to 'look in the mirror' after 'unacceptable' blowout loss to Nets",
-     "url": "https://www.cbssports.com/nba/news/zion-williamson-calls-out-pelicans-losing-streak-nets/"
-    },
-    {
-     "source": "CBS Sports",
-     "title": "Naz Reid landing spots: Four NBA contenders that make sense if Hornets look to move sharp-shooting big man",
-     "url": "https://www.cbssports.com/nba/news/naz-reid-trade-rumors-landing-spots-hornets-warriors-raptors-cavaliers-pistons/"
+     "title": "NBA Rookie of the Year race: Three players at top, but don't count out AJ Dybantsa, Darryn Peterson",
+     "url": "https://www.cbssports.com/nba/news/nba-rookie-of-the-year-race-yaxel-lendeborg-cameron-boozer-darryn-peterson-aj-dybantsa/"
     }
    ],
-   "updatedAt": "2026-11-14T11:40:00Z"
+   "updatedAt": "2026-11-15T11:40:33Z"
   },
   "nfl": {
    "brief": [
-    "The Ravens announced Lamar Jackson had surgery on a broken and dislocated thumb and is expected to be out 6–10 weeks, with Jacoby Brissett expected to start Monday night against the Chargers.",
-    "The Vikings officially named Kirk Cousins their starter for Sunday's game at Green Bay after his deadline trade from the Raiders.",
-    "Three quarterbacks make their first NFL starts Sunday: Fernando Mendoza for the Raiders against Seattle, Carson Beck for Arizona against the Rams and Kyle McCord for Miami at Indianapolis.",
-    "The Packers' Micah Parsons, Seahawks' Sam Darnold and 49ers' Mike Evans are ruled out for Week 10, while the Chiefs' Kenneth Walker III (groin) and Patriots' A.J. Brown (ankle/knee) are questionable.",
-    "Jacksonville's deadline additions Jessie Bates III and Jordan Davis won't play against Tennessee, and the Eagles released wide receiver Hollywood Brown at his request.",
-    "Giants players criticized a defensive pass interference call that helped decide Thursday night's 24–21 loss to Washington."
+    "Chiefs running back Kenneth Walker III, who leads the NFL with 109 rushing yards per game, will reportedly miss Sunday's game at Atlanta with a groin injury, and Texans back David Montgomery is out with a groin injury.",
+    "After Friday's FAA ground stop, the NFL reassigned officials for several Week 10 games, using backup referees, while keeping Sunday's schedule intact.",
+    "The Saints planned to activate running back Travis Etienne Jr. from injured reserve before Sunday's home game against Carolina.",
+    "Patriots-Lions in Munich kicks off Sunday at 9:30 a.m. ET, Steelers-Bengals is the Sunday night game, and the Ravens host the Chargers on Monday night with Jacoby Brissett at quarterback.",
+    "Arizona reportedly gave tight end Elijah Higgins a three-year extension, and Cowboys cornerback Joey Porter Jr. addressed talk that his absence is contract-related."
    ],
    "headlines": [
     {
-     "source": "CBS Sports",
-     "title": "Ravens announce Lamar Jackson had surgery on broken and dislocated thumb, will be out 6-10 weeks",
-     "url": "https://www.cbssports.com/nfl/news/ravens-announce-lamar-jackson-surgery-broken-dislocated-thumb-out-6-10-weeks/"
+     "source": "Yahoo Sports",
+     "title": "NFL news, live updates: Chiefs RB Kenneth Walker III out for Week 10, per reports",
+     "url": "https://sports.yahoo.com/nfl/live/nfl-news-injury-updates-week-10-172837798.html"
     },
     {
      "source": "Yahoo Sports",
-     "title": "Ravens QB Lamar Jackson undergoes thumb surgery, expected to be out 6-10 weeks",
-     "url": "https://sports.yahoo.com/nfl/article/ravens-qb-lamar-jackson-undergoes-thumb-surgery-expected-to-be-out-6-10-weeks-151001861.html"
-    },
-    {
-     "source": "CBS Sports",
-     "title": "Vikings officially announce Kirk Cousins will start vs. Packers following trade deadline",
-     "url": "https://www.cbssports.com/nfl/news/vikings-officially-announce-kirk-cousins-start-vs-packers-lambeau-field-sunday/"
-    },
-    {
-     "source": "CBS Sports",
-     "title": "NFL Week 10 injury report: Chiefs' Kenneth Walker has new groin injury, Patriots' A.J. Brown questionable",
-     "url": "https://www.cbssports.com/nfl/news/nfl-week-10-injury-report-chiefs-kenneth-walker-aj-brown/"
+     "title": "NFL announces changes made to Week 10 slate due to FAA ground stop",
+     "url": "https://sports.yahoo.com/articles/nfl-announces-changes-made-week-160745797.html"
     },
     {
      "source": "Yahoo Sports",
-     "title": "NFL playoff picture Week 10: Giants come back to NFC East pack with loss to Commanders",
-     "url": "https://sports.yahoo.com/articles/nfl-playoff-picture-week-10-042438503.html"
-    },
-    {
-     "source": "CBS Sports",
-     "title": "Giants players blast controversial DPI penalty in loss to Commanders: 'This league is funny, bro'",
-     "url": "https://www.cbssports.com/nfl/news/giants-players-blast-controversial-dpi-penalty-loss-to-commanders/"
-    },
-    {
-     "source": "CBS Sports",
-     "title": "Fernando Mendoza, Carson Beck, Kyle McCord set to make NFL history with first starts, debuts",
-     "url": "https://www.cbssports.com/nfl/news/fernando-mendoza-carson-beck-kyle-mccord-make-nfl-history-first-starts/"
+     "title": "NFL Keeps Sunday Schedule Intact Despite FAA-Related Ref Changes",
+     "url": "https://sports.yahoo.com/articles/nfl-keeps-sunday-schedule-intact-164239827.html"
     },
     {
      "source": "Yahoo Sports",
-     "title": "Fernando Mendoza will make 1st start vs. Seahawks, and he will have his work cut out for him vs. Mike Macdonald",
-     "url": "https://sports.yahoo.com/articles/fernando-mendoza-1st-start-vs-001935630.html"
-    },
-    {
-     "source": "CBS Sports",
-     "title": "Eagles release wide receiver Hollywood Brown upon his request, according to report",
-     "url": "https://www.cbssports.com/nfl/news/eagles-release-wide-receiver-hollywood-brown-upon-his-request-according-to-report/"
-    },
-    {
-     "source": "CBS Sports",
-     "title": "Jaguars' trade deadline acquisitions Jessie Bates III and Jordan Davis won't play in Week 10 vs. Titans",
-     "url": "https://www.cbssports.com/nfl/news/jaguars-liam-coen-acquisitions-jessie-bates-iii-jordan-davis-wont-play-week-10-trade-deadline-titans/"
+     "title": "Saints to activate Travis Etienne Jr. from IR in time for Week 10 clash vs. Panthers",
+     "url": "https://sports.yahoo.com/articles/saints-activate-travis-etienne-jr-172112802.html"
     },
     {
      "source": "Yahoo Sports",
-     "title": "How to watch NFL Week 10: Bengals gear up for Sunday Night showdown with Steelers, Browns back home vs. Texans",
-     "url": "https://sports.yahoo.com/articles/travis-erickson-watch-nfl-week-045900077.html"
+     "title": "New England Patriots vs. Detroit Lions: How to watch the NFL international game",
+     "url": "https://sports.yahoo.com/nfl/article/new-england-patriots-vs-detroit-lions-how-to-watch-the-nfl-international-game-channel-streaming-info-and-more-182900164.html"
     },
     {
      "source": "CBS Sports",
-     "title": "Bengals facing massive NFL scheduling disadvantage vs. Steelers in Week 10: No team has ever overcome this",
-     "url": "https://www.cbssports.com/nfl/news/bengals-facing-massive-nfl-scheduling-disadvantage-vs-steelers-week-10-no-team-ever/"
+     "title": "Cardinals reportedly extend No. 2 TE Elijah Higgins, going all-in on tight ends amid WR injuries",
+     "url": "https://www.cbssports.com/nfl/news/cardinals-sign-2-tight-end-elijah-higgins-three-year-extension-per-report/"
+    },
+    {
+     "source": "CBS Sports",
+     "title": "Cowboys' Joey Porter Jr. breaks silence on chatter that absence is contract related",
+     "url": "https://www.cbssports.com/nfl/news/cowboys-joey-porter-jr-breaks-silence-on-chatter-that-absence-is-contract-related/"
+    },
+    {
+     "source": "Yahoo Sports",
+     "title": "Vikings make roster moves amid Jordan Addison's injury concern",
+     "url": "https://sports.yahoo.com/articles/vikings-roster-moves-amid-jordan-225046373.html"
+    },
+    {
+     "source": "CBS Sports",
+     "title": "Jerry Jones reveals when he thinks NFL expands to 18-game season",
+     "url": "https://www.cbssports.com/nfl/news/jerry-jones-on-nfl-expansion-18-game-regular-season/"
+    },
+    {
+     "source": "Yahoo Sports",
+     "title": "Colts Make Numerous Moves in Wake of Injury Updates",
+     "url": "https://sports.yahoo.com/articles/colts-numerous-moves-wake-injury-220003271.html"
+    },
+    {
+     "source": "CBS Sports",
+     "title": "NFL midseason grades, awards, 2nd-half predictions; Commanders open up NFC East race",
+     "url": "https://www.cbssports.com/nfl/news/nfl-midseason-grades-awards-2nd-half-predictions-commanders-open-up-nfc-east-race/"
     }
    ],
-   "updatedAt": "2026-11-14T11:40:00Z"
+   "updatedAt": "2026-11-15T11:40:33Z"
   },
   "soccer": {
    "brief": [
-    "Manchester United named Mauricio Pochettino their manager on Friday, a day after firing Michael Carrick, and he will coach both USMNT quarterfinal legs against Haiti before taking over on Nov. 18.",
-    "Germany beat nine-man Serbia 3–1 in Belgrade, relegating Serbia, and a win over the Netherlands in Berlin on Monday would send Jürgen Klopp's side through.",
-    "The Netherlands routed Greece 7–0 in Amsterdam to set up that decider in Berlin.",
-    "Uruguay won 2–1 at La Bombonera in Argentina's first match since Lionel Messi's international retirement, with Julián Álvarez scoring Argentina's only goal.",
-    "South Korea lost 3–2 to Saudi Arabia in Doha despite goals from Oh Hyeon-gyu and Lee Jae-sung, and face Qatar on Tuesday.",
-    "Portugal host Denmark tonight with Bernardo Silva as captain after Cristiano Ronaldo's international retirement, while the U.S. meet Haiti in Miami and Spain host England on Sunday.",
-    "Club play returns next week, with MLS wild-card games on Nov. 19 and K League 1 and 2 resuming Nov. 21–22."
+    "The USA routed Haiti 6–0 in Miami in the first leg of their Concacaf Nations League quarterfinal, with Christian Pulisic scoring twice, one from the penalty spot, ahead of Tuesday's second leg in Cincinnati, Mauricio Pochettino's farewell.",
+    "Denmark won 4–1 in Braga in Portugal's first match since Cristiano Ronaldo's international retirement, with Rasmus Højlund scoring twice; Denmark need a draw against Norway on Tuesday.",
+    "Japan beat Brazil 3–2 in Singapore on a stoppage-time winner despite two goals from Vinícius Júnior, and Carlo Ancelotti and Raphinha were sent off for protesting after the final goal.",
+    "Norway beat Wales 3–1 in Oslo in the Nations League.",
+    "Spain host England in Madrid tonight and France face Türkiye, before Germany meet the Netherlands in Berlin on Monday with a quarterfinal place on the line.",
+    "South Korea face Qatar in Doha on Tuesday after Friday's 3–2 loss to Saudi Arabia.",
+    "Club play resumes next weekend, with the Premier League back on Nov. 21, MLS wild-card games on Nov. 19 and K League 1 and 2 on Nov. 21–22."
    ],
    "headlines": [
     {
      "source": "Yahoo Sports",
-     "title": "Manchester United hires USMNT's Mauricio Pochettino as coach",
-     "url": "https://sports.yahoo.com/articles/manchester-united-hires-usmnts-mauricio-152600365.html"
-    },
-    {
-     "source": "GOAL",
-     "title": "Carrick sends message after Man Utd exit",
-     "url": "https://www.goal.com/en-us/news/michael-carrick-statement-man-utd-sacking-mauricio-pochettino/blt34dfed487c9e5a56"
-    },
-    {
-     "source": "GOAL",
-     "title": "Klopp hails 'exceptional' Germany quality after Serbia victory",
-     "url": "https://www.goal.com/en-us/news/jurgen-klopp-germany-nations-league-serbia/bltf0d909c97218c7a1"
+     "title": "Christian Pulisic's brace powers USMNT to 6-0 rout of Haiti in Mauricio Pochettino's farewell tour",
+     "url": "https://sports.yahoo.com/soccer/article/christian-pulisics-brace-powers-usmnt-to-6-0-rout-of-haiti-in-mauricio-pochettinos-farewell-tour-233105707.html"
     },
     {
      "source": "Yahoo Sports",
-     "title": "'We need patience' - Argentina boss Lionel Scaloni backs young talents to bounce back after 2-1 Uruguay loss in post-Messi era opener",
-     "url": "https://sports.yahoo.com/articles/patience-argentina-boss-lionel-scaloni-053006717.html"
+     "title": "Portugal thrashed by Denmark as life after Cristiano Ronaldo starts",
+     "url": "https://sports.yahoo.com/articles/portugal-thrashed-denmark-life-cristiano-221830406.html"
+    },
+    {
+     "source": "GOAL",
+     "title": "Brazil lose to Japan despite Vinicius: Ancelotti sent off for protesting alongside Raphinha",
+     "url": "https://www.goal.com/en/news/brazil-lose-to-japan-despite-vinicius-it-finishes-3-2-to-the-japanese-ancelotti-is-furious-goes-onto-the-pitch-and-is-sent-off-for-protesting-alongside-rapinha/blt1d621cc661064073"
+    },
+    {
+     "source": "GOAL",
+     "title": "'He's just such a fun player to play with' - Christian Pulisic re-announces himself to the USMNT with a brace",
+     "url": "https://www.goal.com/en-us/originals/christian-pulisic-usmnt-ac-milan/blt596a3fc79ec713bb"
+    },
+    {
+     "source": "GOAL",
+     "title": "Portugal suffer their heaviest defeat in Ronaldo's absence in 23 years",
+     "url": "https://www.goal.com/en/news/portugal-suffer-their-heaviest-defeat-in-ronaldo-s-absence-in-23-years/blt49af442d4f35d242"
     },
     {
      "source": "Yahoo Sports",
-     "title": "Recap: Serbia 1-3 Germany (UEFA Nations League)",
-     "url": "https://sports.yahoo.com/articles/recap-serbia-1-3-germany-221412883.html"
+     "title": "Ancelotti sees red in Brazil's defeat to Japan: 'The referee lacked experience'",
+     "url": "https://sports.yahoo.com/articles/ancelotti-sees-red-brazil-defeat-203000365.html"
     },
     {
      "source": "GOAL",
-     "title": "Jovanovic admits Netherlands defeat will hurt Greece",
-     "url": "https://www.goal.com/en-us/news/ivan-jovanovic-netherlands-defeat-greece/blt37a4dc6c2daf0679"
+     "title": "Raphinha launches a fierce attack on the referee after Brazil's loss to Japan",
+     "url": "https://www.goal.com/en/news/raphinha-launches-fierce-attack-on-referee-he-made-unacceptable-errors-in-japan-s-favour/blt81b0c3de69a03134"
     },
     {
      "source": "GOAL",
-     "title": "Silva opens up on replacing Ronaldo as Portugal captain",
-     "url": "https://www.goal.com/en-us/news/bernardo-silva-cristiano-ronaldo-portugal-captain/blt89e0475d14991cf3"
+     "title": "Winners and losers: Pulisic bags a brace as Pochettino begins USMNT farewell with 6-0 Haiti rout",
+     "url": "https://www.goal.com/en-in/originals/usmnt-winners-and-losers/bltd472c281a541689a"
+    },
+    {
+     "source": "Yahoo Sports",
+     "title": "Spain vs England: match preview",
+     "url": "https://sports.yahoo.com/articles/spain-vs-england-match-preview-054900286.html"
     },
     {
      "source": "GOAL",
-     "title": "'I'll be surprised if he's still there!' - Lineker warns Pochettino over Man Utd job",
-     "url": "https://www.goal.com/en-us/news/gary-lineker-mauricio-pochettino-man-utd-manager/bltca85b3035cfaa8e9"
+     "title": "Romario attacks Ancelotti and calls on the federation president to sack him",
+     "url": "https://www.goal.com/en/news/romario-attacks-ancelotti-and-calls-on-the-federation-president-to-sack-him-you-re-not-up-to-the-job-of-managing-brazil/bltfab8ebe01ca08d1f"
     },
     {
      "source": "GOAL",
-     "title": "Meulensteen claims 'mentally damaged' Fernandes should leave Man Utd",
-     "url": "https://www.goal.com/en-us/news/rene-meulensteen-bruno-fernandes-mentally-damaged-manchester-united-mauricio-pochettino/bltabb19ef0e299bc09"
+     "title": "Scotland target Spurs star Gray and Everton's Hackney for switch",
+     "url": "https://www.goal.com/en-us/news/scotland-target-tottenham-archie-gray-everton-hayden-hackney-international-switch-england/blt1f67e69c55b74b10"
     },
     {
      "source": "GOAL",
-     "title": "Esposito breaks Italy scoring record",
-     "url": "https://www.goal.com/en-us/news/francesco-pio-esposito-italy-goals-per-minute-record/bltd414753512f6aef7"
-    },
-    {
-     "source": "GOAL",
-     "title": "Zidane defends Gusto after Italy loss",
-     "url": "https://www.goal.com/en-us/news/zinedine-zidane-defends-malo-gusto-france-italy/blt2f7cb2b040d2dae0"
-    },
-    {
-     "source": "GOAL",
-     "title": "Courtois targeting SHOCK takeover of Italian club",
-     "url": "https://www.goal.com/en-us/news/real-madrid-thibaut-courtois-reggiana-takeover-bid/blt0fe28dedf4f421f3"
+     "title": "Bayern and Leverkusen circle £25m-rated Brighton starlet Gruda",
+     "url": "https://www.goal.com/en-us/news/bayern-munich-bayer-leverkusen-circle-brighton-starlet-brajan-gruda/blt4869cef65c02537a"
     }
    ],
-   "updatedAt": "2026-11-14T11:40:00Z"
+   "updatedAt": "2026-11-15T11:40:33Z"
   }
  },
  "articles": [
+  {
+   "id": "pbs-b321bad61724",
+   "added": "2026-11-15T11:36:51Z",
+   "published": "2026-11-14T21:56:15Z",
+   "source": "pbs",
+   "summary": "SpaceX's Starship returned from orbit and was caught by launch pad arms, though the booster failed after liftoff, ruling out a double catch.",
+   "title": "SpaceX's Starship returns from orbit and is captured by launch pad arms in a dramatic first",
+   "url": "https://www.pbs.org/newshour/science/spacexs-starship-returns-from-orbit-and-is-captured-by-launch-pad-arms-in-a-dramatic-first"
+  },
+  {
+   "id": "pbs-db94bcaaadab",
+   "added": "2026-11-15T11:36:51Z",
+   "published": "2026-11-14T21:17:42Z",
+   "source": "pbs",
+   "summary": "Trump's shifting comments on Iran have left uncertainty about the next steps in the conflict as allies absorb its economic effects.",
+   "title": "With shifting Iran rhetoric following U.S. elections, Trump leaves Middle East in limbo about path ahead",
+   "url": "https://www.pbs.org/newshour/world/with-shifting-iran-rhetoric-following-u-s-elections-trump-leaves-middle-east-in-limbo-about-path-ahead"
+  },
+  {
+   "id": "pbs-873596a5bcec",
+   "added": "2026-11-15T11:36:51Z",
+   "published": "2026-11-14T21:02:19Z",
+   "source": "pbs",
+   "summary": "The CDC reported seven states with high flu activity last week, up from two the week before, an unusually early start to the season.",
+   "title": "The U.S. flu season is off to a very early start. It's hitting the South and West now",
+   "url": "https://www.pbs.org/newshour/health/the-u-s-flu-season-is-off-to-a-very-early-start-its-hitting-the-south-and-west-now"
+  },
+  {
+   "id": "pbs-27bc396a2948",
+   "added": "2026-11-15T11:36:51Z",
+   "published": "2026-11-14T20:23:29Z",
+   "source": "pbs",
+   "summary": "Zelenskyy warned a U.S.-floated European security framework could benefit Putin, as European leaders insisted Europeans must decide their own security.",
+   "title": "Zelenskyy says a new European security framework floated by U.S. could benefit Putin",
+   "url": "https://www.pbs.org/newshour/world/zelenskyy-says-a-new-european-security-framework-floated-by-u-s-could-benefit-putin"
+  },
+  {
+   "id": "pbs-5d1bc3587dbc",
+   "added": "2026-11-15T11:36:51Z",
+   "published": "2026-11-14T18:05:33Z",
+   "source": "pbs",
+   "summary": "The administration extended the deadline for states to remove people from Medicaid under work requirements by six months, to July 1.",
+   "title": "U.S. gives states another 6 months before they have to remove people from Medicaid for not working",
+   "url": "https://www.pbs.org/newshour/health/u-s-gives-states-another-6-months-before-they-have-to-remove-people-from-medicaid-for-not-working"
+  },
+  {
+   "id": "npr-cc0a455b519d",
+   "added": "2026-11-15T11:36:51Z",
+   "published": "2026-11-14T16:53:04Z",
+   "source": "npr",
+   "summary": "The FAA attributed Friday's nationwide ground stop to an equipment issue linked to a contractor's telecommunications upgrade at a remote site.",
+   "title": "FAA blames Friday's ground stop on 'equipment issue' during telecoms network upgrade",
+   "url": "https://www.npr.org/2026/11/14/nx-s1-6040952/faa-ground-stop-airplane-travel"
+  },
+  {
+   "id": "pbs-74340488d93f",
+   "added": "2026-11-15T11:36:51Z",
+   "published": "2026-11-14T16:38:34Z",
+   "source": "pbs",
+   "summary": "Jonathan Kreiss-Tomkins became Alaska's first Democratic governor since 1998, giving Democrats governor's offices in 30 states.",
+   "title": "Jonathan Kreiss-Tomkins becomes first Democrat since 1998 elected governor in Alaska",
+   "url": "https://www.pbs.org/newshour/politics/jonathan-kreiss-tomkins-becomes-first-democrat-since-1998-elected-governor-in-alaska"
+  },
+  {
+   "id": "pbs-9b46c745605c",
+   "added": "2026-11-15T11:36:51Z",
+   "published": "2026-11-14T16:23:56Z",
+   "source": "pbs",
+   "summary": "Microsoft said its services were fully restored after a global outage that disrupted governments, courts, health care, airlines and banks.",
+   "title": "Microsoft says services fully restored after global outage",
+   "url": "https://www.pbs.org/newshour/world/microsoft-says-services-fully-restored-after-global-outage"
+  },
+  {
+   "id": "pbs-f736f78c19dd",
+   "added": "2026-11-15T11:36:51Z",
+   "published": "2026-11-14T16:10:40Z",
+   "source": "pbs",
+   "summary": "Airlines canceled thousands of flights while recovering from the FAA's nationwide ground stop, the first since January 2023.",
+   "title": "Thousands of flights canceled as airlines work to recover from nationwide ground stop",
+   "url": "https://www.pbs.org/newshour/nation/thousands-of-flights-canceled-as-airlines-work-to-recover-from-nationwide-ground-stop"
+  },
+  {
+   "id": "npr-86cee693d648",
+   "added": "2026-11-15T11:36:51Z",
+   "published": "2026-11-14T16:05:12Z",
+   "source": "npr",
+   "summary": "Chile's president faces growing public anger as rising fuel prices spark transport strikes and protests across the country.",
+   "title": "Fuel crisis and protests pressure Chile's far-right president",
+   "url": "https://www.npr.org/2026/11/14/nx-s1-6040144/chile-protests-fuel-kast-students"
+  },
+  {
+   "id": "npr-6722fc2091ca",
+   "added": "2026-11-15T11:36:51Z",
+   "published": "2026-11-14T13:08:05Z",
+   "source": "npr",
+   "summary": "Alaska voters rejected a second effort to repeal ranked-choice voting and the state's top-four primary system.",
+   "title": "Alaska voters aren't ditching ranked choice voting, top-four primaries",
+   "url": "https://www.npr.org/2026/11/14/nx-s1-6034952/alaska-results-ranked-choice-voting-nonpartisan-primary"
+  },
+  {
+   "id": "npr-be84dc9ccf40",
+   "added": "2026-11-15T11:36:51Z",
+   "published": "2026-11-14T12:40:30Z",
+   "source": "npr",
+   "summary": "A telecommunications outage prompted a rare nationwide FAA ground stop that halted U.S. air travel Friday before it was lifted.",
+   "title": "Telecom outage triggers rare nationwide FAA ground stop, stranding travelers",
+   "url": "https://www.npr.org/2026/11/14/nx-s1-6040463/telecom-outage-triggers-rare-nationwide-faa-ground-stop-stranding-travelers"
+  },
+  {
+   "id": "time-7eb17f1a2137",
+   "added": "2026-11-15T11:36:51Z",
+   "published": "2026-11-14T12:00:00Z",
+   "source": "time",
+   "summary": "An examination of the age of U.S. air traffic control systems and the steps being taken to prevent another nationwide outage.",
+   "title": "Air Traffic Control Systems Are Outdated. What's Being Done to Prevent Another Outage?",
+   "url": "https://time.com/article/2026/11/14/air-traffic-control-systems-are-outdated-what-s-being-done-to-prevent-another-outage-/"
+  },
+  {
+   "id": "npr-59a903ad25c8",
+   "added": "2026-11-15T11:36:51Z",
+   "published": "2026-11-14T10:00:00Z",
+   "source": "npr",
+   "summary": "New organ-retrieval guidelines aim to protect donors, but bioethicists question the ethics of the procedure.",
+   "title": "A new policy could help solve the U.S. organ shortage. Critics say it's unethical",
+   "url": "https://www.npr.org/2026/11/14/nx-s1-6032604/organ-transplant-donor-dead-ethics"
+  },
+  {
+   "id": "npr-6eaaf315fbf4",
+   "added": "2026-11-15T11:36:51Z",
+   "published": "2026-11-14T10:00:00Z",
+   "source": "npr",
+   "summary": "An analysis of the choices Democrats face on priorities, timing and messaging as they prepare to hold House and Senate majorities.",
+   "title": "Hegseth's failed impeachment was a warning to Democrats. Where will they go from here?",
+   "url": "https://www.npr.org/2026/11/14/nx-s1-6040299/hegseth-impeachment-democrats-house-test"
+  },
+  {
+   "id": "npr-aad7b0950b82",
+   "added": "2026-11-15T11:36:51Z",
+   "published": "2026-11-14T05:12:43Z",
+   "source": "npr",
+   "summary": "Democrat Jonathan Kreiss-Tomkins won Alaska's governorship, replacing a Republican; at 37 he would be the state's youngest governor.",
+   "title": "Democrat Jonathan Kreiss-Tomkins wins race for Alaska governor, replaces a Republican",
+   "url": "https://www.npr.org/2026/11/14/g-s1-151719/midterms-alaska-governor-kreiss-tomkins"
+  },
+  {
+   "id": "pbs-6126db0198ff",
+   "added": "2026-11-15T11:36:51Z",
+   "published": "2026-11-13T23:45:45Z",
+   "source": "pbs",
+   "summary": "Existing-home sales fell last month to their lowest level in over 16 years, the National Association of Realtors said, amid rising housing costs.",
+   "title": "Increasing cost of housing squeezes Americans out of market",
+   "url": "https://www.pbs.org/newshour/show/increasing-cost-of-housing-squeezes-americans-out-of-market"
+  },
+  {
+   "id": "pbs-32c3d153d7f7",
+   "added": "2026-11-15T11:36:51Z",
+   "published": "2026-11-13T23:35:23Z",
+   "source": "pbs",
+   "summary": "DHS reported record ICE arrests and deportations in the last fiscal year as the administration aims for one million deportations a year.",
+   "title": "ICE touts record number of deportations in agency's history",
+   "url": "https://www.pbs.org/newshour/show/ice-touts-record-number-of-deportations-in-agencys-history"
+  },
   {
    "id": "pbs-64ed9cb6ca2d",
    "added": "2026-11-14T11:40:00Z",
@@ -3596,33 +3761,6 @@
    "url": "https://time.com/article/2026/11/12/ukraine-russia-peace-deal-talks-putin-zelensky-witkoff-kushner/"
   },
   {
-   "id": "time-7f84d726062c",
-   "added": "2026-11-13T12:10:00Z",
-   "published": "2026-11-12T12:00:00Z",
-   "source": "time",
-   "summary": "An apartment building collapse in Brooklyn killed eight people as rescuers searched the rubble.",
-   "title": "Brooklyn Apartment Building Collapses, Killing 8: What To Know",
-   "url": "https://time.com/article/2026/11/12/brooklyn-new-york-apartment-building-collapse-death-toll-search-rescue-operations/"
-  },
-  {
-   "id": "time-3bab57794176",
-   "added": "2026-11-12T11:36:47Z",
-   "published": "2026-11-12T11:36:47Z",
-   "source": "time",
-   "summary": "Millions of Spanish workers joined the country's first general strike in 14 years to demand action on the housing crisis ahead of a national election.",
-   "title": "Millions of Spanish Workers Stage First General Strike in 14 Years",
-   "url": "https://time.com/article/2026/11/12/spain-general-strike-housing-crisis-national-election-sanchez/"
-  },
-  {
-   "id": "time-7f6a20a7d0e1",
-   "added": "2026-11-12T11:36:47Z",
-   "published": "2026-11-12T11:36:47Z",
-   "source": "time",
-   "summary": "Democrat Scott Colom won Mississippi's Senate race, unseating Republican Sen. Cindy Hyde-Smith.",
-   "title": "Democrat Scott Colom Wins Mississippi Senate Race",
-   "url": "https://time.com/article/2026/11/12/mississippi-senate-race-scott-colom-cindy-hyde-smith-2026-midterm-elections/"
-  },
-  {
    "id": "e360-09b87ece138e",
    "added": "2026-11-14T11:40:00Z",
    "published": "2026-11-12T11:27:00Z",
@@ -3630,141 +3768,6 @@
    "summary": "Democratic wins in governorships and state legislatures could open the way for clean energy and utility regulation, incoming leaders suggest.",
    "title": "Power Shift: State Election Wins Open Path for Climate Progress",
    "url": "https://e360.yale.edu/features/2026-midterm-elections-states-environment"
-  },
-  {
-   "id": "npr-4ef25a39ade5",
-   "added": "2026-11-12T11:36:47Z",
-   "published": "2026-11-12T10:00:00Z",
-   "source": "npr",
-   "summary": "Black representation in the House is set to fall after a Supreme Court ruling weakened the Voting Rights Act, though midterm Democratic gains partly offset the decline.",
-   "title": "A blue wave helped offset for now a falling tally of Black members in the U.S. House",
-   "url": "https://www.npr.org/2026/11/12/nx-s1-6029640/black-voter-turnout-congress-redistricting"
-  },
-  {
-   "id": "npr-8dd2945531cf",
-   "added": "2026-11-12T11:36:47Z",
-   "published": "2026-11-12T10:00:00Z",
-   "source": "npr",
-   "summary": "At least 23 states considered legislation this year setting school policies for interactions with Immigration and Customs Enforcement agents.",
-   "title": "At least 23 states considered laws governing ICE and schools this year",
-   "url": "https://www.npr.org/2026/11/12/nx-s1-5718547/ice-schools-state-laws-federal-immigration"
-  },
-  {
-   "id": "npr-cbbfd191690b",
-   "added": "2026-11-12T11:36:47Z",
-   "published": "2026-11-12T10:00:00Z",
-   "source": "npr",
-   "summary": "The Education Department has finalized a rule overhauling college accreditation, a tool President Trump has said he would use to reshape universities.",
-   "title": "Trump proposed a 'secret weapon' to police colleges. It will soon become reality",
-   "url": "https://www.npr.org/2026/11/12/nx-s1-6027967/accreditation-trump-higher-education"
-  },
-  {
-   "id": "npr-dd2b8bea7e8d",
-   "added": "2026-11-12T11:36:47Z",
-   "published": "2026-11-12T10:00:00Z",
-   "source": "npr",
-   "summary": "The Kennedy Center plans to move its ticketing to Ticketmaster, raising conflict-of-interest questions over a board member's paid role at Ticketmaster's parent company.",
-   "title": "Kennedy Center plans Ticketmaster switch, raising conflict of interest concerns",
-   "url": "https://www.npr.org/2026/11/12/nx-s1-6031461/kennedy-center-ticketmaster-conflict-of-interest"
-  },
-  {
-   "id": "npr-39b7babe27ba",
-   "added": "2026-11-12T11:36:47Z",
-   "published": "2026-11-12T09:29:30Z",
-   "source": "npr",
-   "summary": "An Israeli strike on a Gaza hospital killed six people, including a surgeon, health authorities said; Israel said it targeted a Hamas commander.",
-   "title": "Israeli strike on a Gaza hospital kills 6 people, health authorities say",
-   "url": "https://www.npr.org/2026/11/12/nx-s1-6038339/israeli-strike-gaza-hospital"
-  },
-  {
-   "id": "npr-b85161856f56",
-   "added": "2026-11-12T11:36:47Z",
-   "published": "2026-11-12T03:10:32Z",
-   "source": "npr",
-   "summary": "The SS United States, once the world's fastest ocean liner, was sunk off Florida on Wednesday to become the largest artificial reef.",
-   "title": "World's fastest ocean liner is sunk to break another record: largest artificial reef",
-   "url": "https://www.npr.org/2026/11/11/nx-s1-6030853/ss-united-states-artificial-reef-sinking"
-  },
-  {
-   "id": "npr-3474c4ca1e8d",
-   "added": "2026-11-12T11:36:47Z",
-   "published": "2026-11-11T23:04:51Z",
-   "source": "npr",
-   "summary": "Democrat Scott Colom won election to the U.S. Senate in Mississippi, defeating Republican Sen. Cindy Hyde-Smith, according to an AP race call.",
-   "title": "Democrat Scott Colom wins Mississippi Senate race",
-   "url": "https://www.npr.org/2026/11/11/g-s1-151688/mississippi-senate-race-scott-colom"
-  },
-  {
-   "id": "pbs-d5c3097afc55",
-   "added": "2026-11-12T11:36:47Z",
-   "published": "2026-11-11T20:33:19Z",
-   "source": "pbs",
-   "summary": "More than a dozen key races remained uncalled a week after Election Day, leaving the size of Democrats' House and Senate majorities unsettled.",
-   "title": "More than a dozen key races remain too early to call one week after Election Day",
-   "url": "https://www.pbs.org/newshour/politics/more-than-a-dozen-key-races-remain-too-early-to-call-one-week-after-election-day"
-  },
-  {
-   "id": "pbs-c91cd19fd939",
-   "added": "2026-11-12T11:36:47Z",
-   "published": "2026-11-11T20:26:20Z",
-   "source": "pbs",
-   "summary": "An analysis examines how Nvidia CEO Jensen Huang's personal scandal could carry policy consequences in Washington and beyond.",
-   "title": "How Nvidia CEO Jensen Huang's extramarital affair could cause collateral damage in Washington",
-   "url": "https://www.pbs.org/newshour/world/how-nvidia-ceo-jensen-huangs-extramarital-affair-could-cause-collateral-damage-in-washington"
-  },
-  {
-   "id": "pbs-9b6ba7b71b13",
-   "added": "2026-11-12T11:36:47Z",
-   "published": "2026-11-11T19:59:45Z",
-   "source": "pbs",
-   "summary": "Treasury Secretary Scott Bessent moved to a military base after U.S. intelligence indicated Iran has stepped up efforts to target American officials.",
-   "title": "AP report: Bessent moves to a military base over safety concerns",
-   "url": "https://www.pbs.org/newshour/world/ap-report-bessent-moves-to-a-military-base-over-safety-concerns"
-  },
-  {
-   "id": "pbs-4f06b70962b1",
-   "added": "2026-11-12T11:36:47Z",
-   "published": "2026-11-11T17:54:51Z",
-   "source": "pbs",
-   "summary": "The historic ocean liner SS United States was intentionally sunk off Florida's Panhandle to form an artificial reef.",
-   "title": "WATCH LIVE: SS United States, once world's fastest ocean liner, sinks to become reef off Florida",
-   "url": "https://www.pbs.org/newshour/nation/watch-live-ss-united-states-once-worlds-fastest-ocean-liner-sinks-to-become-reef-off-florida"
-  },
-  {
-   "id": "pbs-f82e9c2e4ab0",
-   "added": "2026-11-12T11:36:47Z",
-   "published": "2026-11-11T17:06:10Z",
-   "source": "pbs",
-   "summary": "The White House warned Democrats that their planned investigations of the administration could cross legal lines, setting up an early clash with the incoming majority.",
-   "title": "White House sends warning to Democrats about investigating the Trump administration",
-   "url": "https://www.pbs.org/newshour/politics/white-house-sends-warning-to-democrats-about-investigating-the-trump-administration"
-  },
-  {
-   "id": "pbs-1e0caadefc7b",
-   "added": "2026-11-12T11:36:47Z",
-   "published": "2026-11-11T16:01:25Z",
-   "source": "pbs",
-   "summary": "A judge is weighing Mary Peltola's campaign's request for a list of voters whose absentee ballots were rejected in Alaska's close Senate race.",
-   "title": "Judge weighs lawsuit brought by Peltola campaign over absentee ballots in Alaska's Senate race",
-   "url": "https://www.pbs.org/newshour/politics/judge-weighs-lawsuit-brought-by-peltola-campaign-over-absentee-ballots-in-alaskas-us-senate-race"
-  },
-  {
-   "id": "pbs-2e78a1224fbe",
-   "added": "2026-11-12T11:36:47Z",
-   "published": "2026-11-11T15:06:19Z",
-   "source": "pbs",
-   "summary": "President Trump laid a wreath and spoke at Arlington National Cemetery to mark Veterans Day.",
-   "title": "WATCH: Trump marks Veterans Day with wreath laying, remarks at Arlington National Cemetery",
-   "url": "https://www.pbs.org/newshour/politics/watch-live-trump-marks-veterans-day-with-wreath-laying-remarks-at-arlington-national-cemetery"
-  },
-  {
-   "id": "npr-16acc59220e3",
-   "added": "2026-11-12T11:36:47Z",
-   "published": "2026-11-11T13:30:00Z",
-   "source": "npr",
-   "summary": "After U.S.-mediated talks in Abu Dhabi, Russia and Ukraine agreed to a large prisoner-of-war exchange, described as the largest humanitarian release since 2022.",
-   "title": "Russia and Ukraine agree to a large exchange of prisoners of war, officials say",
-   "url": "https://www.npr.org/2026/11/11/g-s1-152954/russia-ukraine-war-talks"
   },
   {
    "id": "e360-55b7f024c0c7",
@@ -3777,7 +3780,7 @@
   }
  ],
  "edition": {
-  "no": 35,
-  "date": "2026-11-14"
+  "no": 36,
+  "date": "2026-11-15"
  }
 }
