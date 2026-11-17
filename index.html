@@ -751,9 +751,9 @@ window.addEventListener("pagehide",()=>store("rd-lastvisit",new Date().toISOStri
     const r=await fetch("data.json?v="+Date.now(),{cache:"no-store"}); if(!r.ok) throw new Error(r.status);
     const d=await r.json();
     if(window.setEdition)setEdition(d.edition);
-    // new edition since the reader's last visit -> open on the front page (Briefing), like picking up a fresh paper
+    // new edition since the reader's last visit -> open on the front page (Briefing) with Sports on its home view and News on "all", like picking up a fresh paper
     { const ed=d.edition&&d.edition.no?String(d.edition.no):null; const hashTab=TABS.includes((location.hash||"").slice(1));
-      if(ed && store("rd-ed")!==ed){ store("rd-ed",ed); if(!hashTab && tab!=="briefing") showTab("briefing"); } }weather=d.weather||null; digest=d.digest||null; status=d.status||null; leagues=d.sports||{}; snews=d.sportsnews||{}; extras=d.extras||null;
+      if(ed && store("rd-ed")!==ed){ store("rd-ed",ed); sport="home"; store("rd-sport","home"); league="epl"; store("rd-league","epl"); country="eng"; store("rd-country","eng"); filter="all"; store("rd-filter","all"); if(!hashTab && tab!=="briefing") showTab("briefing"); } }weather=d.weather||null; digest=d.digest||null; status=d.status||null; leagues=d.sports||{}; snews=d.sportsnews||{}; extras=d.extras||null;
     articles=(d.articles||[]).slice().sort((x,y)=>String(y.published).localeCompare(String(x.published)));
     renderWeather(); renderBriefing(); renderExtras(); renderSports(); renderReading(); renderRefreshed();
   }catch(e){
