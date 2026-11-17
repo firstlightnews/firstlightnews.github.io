@@ -3854,5 +3854,39 @@
  "edition": {
   "no": 38,
   "date": "2026-11-17"
+ },
+ "extras": {
+  "date": "2026-11-17",
+  "updatedAt": "2026-11-17T14:21:38Z",
+  "word": {
+   "word": "ubiquitous",
+   "pos": "adjective",
+   "pron": "yoo-BIK-wih-tus",
+   "definition": "Existing or found everywhere at the same time; constantly encountered.",
+   "example": "Smartphones have become so ubiquitous that it is hard to find a meeting where no one glances at one.",
+   "synonyms": [
+    "pervasive",
+    "omnipresent",
+    "everywhere"
+   ],
+   "source": {
+    "name": "Merriam-Webster",
+    "url": "https://www.merriam-webster.com/dictionary/ubiquitous"
+   }
+  },
+  "fact": {
+   "question": "Why do onions make you cry?",
+   "answer": "When you cut an onion, you break open its cells and release an enzyme called lachrymatory-factor synthase. It turns the onion's sulfur compounds (via sulfenic acid) into a gas, syn-propanethial-S-oxide.\n\nThat gas drifts up to your eyes and irritates them, and your tear glands respond by flushing it away. Scientists only identified this enzyme in 2002; before that, a different enzyme, alliinase, was thought to be the cause.\n\nThe practical fix: refrigerate or freeze the onion before chopping, which slows the reaction, or choose sweet onions, which carry less sulfur.",
+   "sources": [
+    {
+     "name": "Library of Congress",
+     "url": "https://www.loc.gov/everyday-mysteries/food-and-nutrition/item/why-does-chopping-an-onion-make-you-cry/"
+    },
+    {
+     "name": "Britannica",
+     "url": "https://www.britannica.com/story/why-do-onions-make-you-cry"
+    }
+   ]
+  }
  }
 }

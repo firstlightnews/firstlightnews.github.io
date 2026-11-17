@@ -19,6 +19,23 @@
 <meta name="twitter:description" content="Daily news and sports briefing, delivered every morning by 7:30 AM ET.">
 <meta name="twitter:image" content="https://firstlightnews.org/og-image.png?v=1">
 <style>:root{padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}body{margin:0}img{max-width:100%}[hidden]{display:none!important}.pxi{display:inline-block;width:32px;height:32px;vertical-align:middle;margin-right:6px;image-rendering:pixelated}@keyframes pxf2{0%{visibility:visible}50%,100%{visibility:hidden}}@keyframes pxf3{0%{visibility:visible}33.33%,100%{visibility:hidden}}@media (prefers-reduced-motion:reduce){.pxi g{animation:none!important;visibility:hidden}.pxi g:first-child{visibility:visible}}.pxi.r{width:16px;height:16px;margin:0 0 0 5px;position:relative;top:-1px}
+.extras{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin:14px 0 4px}
+.xbox .xb{padding:8px 10px 10px}
+.xbox .xb p{margin:0 0 6px;line-height:1.45}
+.xbox .xw{font-size:17px}
+.xbox .xw b{font-size:20px}
+.xbox .xe{font-style:italic}
+@media(max-width:700px){.extras{grid-template-columns:1fr}}
+html.modern .xbox .xb{padding:0}
+html.modern .xbox .xb p{font-family:"PT Serif",Georgia,serif;font-size:15px;line-height:1.55}
+html.modern .xbox .xw b{font-family:var(--hed);font-size:22px}
+.xbox details summary{cursor:pointer;font-size:12px;color:var(--bar,#2a3fa8);margin:2px 0 6px}
+.xbox details[open] summary{display:none}
+.xbox .srcs{display:flex;flex-wrap:wrap;gap:4px 12px;font-size:11px;margin-top:4px}
+html.modern .xbox .srcs{font:italic 11px Georgia,serif;color:#555;margin-top:6px;gap:0 8px}
+html.modern .xbox .srcs a{color:#555;font-weight:normal}
+html.modern .xbox .srcs::before{content:"Sources:";color:#555}
+html.modern .extras{margin:0 0 16px;padding:0 0 20px;gap:30px;border-bottom:1px solid #121212}
 </style>
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-V2P5Z35PRF"></script>
@@ -509,6 +526,7 @@ html.modern .uitoggle .tg-print{display:block;width:100%;height:100%}
     </div>
     <div class="banner" id="banner" aria-hidden="true"></div>
     <div class="overview" id="overview" hidden></div>
+    <div class="extras" id="extras" hidden></div>
     <div id="stories" data-x><div class="empty"><b>The morning briefing appears here.</b><br>Each day's ten most important stories, summarized in two sentences with links to the full reporting.</div></div>
     <a class="turn" data-to="reading" role="button" tabindex="0">Continued on Page 2</a>
   </section>
@@ -574,6 +592,27 @@ function renderBriefing(){
     const src=el("div",{className:"srcs"}); for(const s of (it.sources||[])) src.append(el("a",{href:s.url,target:"_blank",rel:"noopener"},s.name));
     return el("div",{className:"story"},el("span",{className:"rk"},String(i+1)),el("div",{},el("h4",{},it.sources?.[0]?el("a",{href:it.sources[0].url,target:"_blank",rel:"noopener"},it.headline):it.headline),el("p",{},it.summary),src));
   }));
+}
+
+/* ---------- word & fact of the day ---------- */
+let extras=null;
+function extrasBoxes(side){
+  const boxes=[];
+  if(extras.word){ const w=extras.word; boxes.push(el("div",{className:"brief xbox xl"},el("h3",{},"Word of the day"),el("div",{className:"xb"},
+    el("p",{className:"xw"},el("b",{},w.word),el("span",{className:"muted xpron"},(side?"":" ")+[w.pron&&"("+w.pron+")",w.pos].filter(Boolean).join(" \u00B7 "))),
+    el("p",{},w.definition),w.example?el("p",{className:"xe"},"\u201C"+w.example+"\u201D"):null,
+    w.synonyms?.length?el("p",{className:"muted"},"Similar: "+w.synonyms.join(", ")):null,
+    w.source?.url?el("div",{className:"srcs"},el("a",{href:w.source.url,target:"_blank",rel:"noopener"},w.source.name||"dictionary")):null))); }
+  if(extras.fact){ const f=extras.fact; const paras=String(f.answer||"").split(/\n\n+/).map(t=>el("p",{},t));
+    const body = side&&f.short ? [el("p",{},f.short), el("details",{},el("summary",{},"Read the full explanation"),...paras)] : paras;
+    boxes.push(el("div",{className:"brief xbox xr"},el("h3",{},"Fact of the day"),el("div",{className:"xb"},
+    el("p",{className:"xw"},el("b",{},f.question)),...body,
+    el("div",{className:"srcs"},...(f.sources||[]).filter(s=>s?.url).slice(0,3).map(s=>el("a",{href:s.url,target:"_blank",rel:"noopener"},s.name||"source")))))); }
+  return boxes;
+}
+function renderExtras(){
+  const x=$("extras"); if(!extras||(!extras.word&&!extras.fact)){ x.hidden=true; return; }
+  x.replaceChildren(...extrasBoxes(false)); x.hidden=false;
 }
 
 /* ---------- sports ---------- */
@@ -714,9 +753,9 @@ window.addEventListener("pagehide",()=>store("rd-lastvisit",new Date().toISOStri
     if(window.setEdition)setEdition(d.edition);
     // new edition since the reader's last visit -> open on the front page (Briefing), like picking up a fresh paper
     { const ed=d.edition&&d.edition.no?String(d.edition.no):null; const hashTab=TABS.includes((location.hash||"").slice(1));
-      if(ed && store("rd-ed")!==ed){ store("rd-ed",ed); if(!hashTab && tab!=="briefing") showTab("briefing"); } }weather=d.weather||null; digest=d.digest||null; status=d.status||null; leagues=d.sports||{}; snews=d.sportsnews||{};
+      if(ed && store("rd-ed")!==ed){ store("rd-ed",ed); if(!hashTab && tab!=="briefing") showTab("briefing"); } }weather=d.weather||null; digest=d.digest||null; status=d.status||null; leagues=d.sports||{}; snews=d.sportsnews||{}; extras=d.extras||null;
     articles=(d.articles||[]).slice().sort((x,y)=>String(y.published).localeCompare(String(x.published)));
-    renderWeather(); renderBriefing(); renderSports(); renderReading(); renderRefreshed();
+    renderWeather(); renderBriefing(); renderExtras(); renderSports(); renderReading(); renderRefreshed();
   }catch(e){
     const m="<b>Couldn't load today's edition.</b><br>Refresh the page in a minute.";
     EMPTY.innerHTML=m; $("stories").firstElementChild.innerHTML=m;
