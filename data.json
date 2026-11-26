@@ -2,163 +2,159 @@
  "weather": {
   "cities": [
    {
-    "cond": "Partly sunny",
-    "hi": 50,
-    "lo": 41,
+    "cond": "Rain",
+    "hi": 56,
+    "lo": 49,
     "name": "Baltimore",
-    "rain": 0
+    "rain": 100
    }
   ],
-  "date": "2026-11-25",
-  "updatedAt": "2026-11-25T11:35:49Z"
+  "date": "2026-11-26",
+  "updatedAt": "2026-11-26T11:45:00Z"
  },
  "digest": {
-  "date": "2026-11-25",
-  "generatedAt": "2026-11-25T11:35:49Z",
+  "date": "2026-11-26",
+  "generatedAt": "2026-11-26T11:50:00Z",
   "items": [
    {
-    "headline": "Jury convicts Huawei of fraud and conspiracy",
-    "sources": [
-     {
-      "name": "PBS NewsHour",
-      "url": "https://www.pbs.org/newshour/nation/u-s-jury-finds-chinese-tech-giant-huawei-guilty-of-conspiracy-to-steal-trade-secrets-bank-fraud"
-     },
-     {
-      "name": "TIME",
-      "url": "https://time.com/article/2026/11/25/huawei-guilty-crimes-fraud-conspiracy-sanctions-us-china/"
-     }
-    ],
-    "summary": "A federal jury in New York found Chinese tech giant Huawei guilty of conspiring to steal trade secrets and of bank fraud, in a case that also involved its business with Iran. The verdict caps a long-running U.S. prosecution of the company."
-   },
-   {
-    "headline": "Report says Trump may have profited from Huang's return",
-    "sources": [
-     {
-      "name": "PBS NewsHour",
-      "url": "https://www.pbs.org/newshour/show/how-trump-may-have-profited-from-huangs-return-to-nvidia"
-     },
-     {
-      "name": "NPR",
-      "url": "https://www.npr.org/2026/11/24/nx-s1-6052402/unpacking-president-trumps-financial-stake-in-nvidia"
-     }
-    ],
-    "summary": "A new report suggests President Trump may have gained millions of dollars after he intervened to reinstate Jensen Huang as Nvidia's chief executive. The findings add to questions about the president's financial stake in the chipmaker."
-   },
-   {
-    "headline": "Abrego Garcia leaves U.S. for Spain",
+    "headline": "Judge rules FCC violated ABC's free speech rights",
     "sources": [
      {
       "name": "NPR",
-      "url": "https://www.npr.org/2026/11/25/nx-s1-6053203/abrego-garcia-leaves-us"
-     }
-    ],
-    "summary": "Kilmar Abrego Garcia, the Salvadoran immigrant who became a symbol of the administration's deportation campaign, left the United States voluntarily for Spain. His departure follows nearly two years of legal battles."
-   },
-   {
-    "headline": "China investigates Shanghai party chief Chen Jining",
-    "sources": [
-     {
-      "name": "NPR",
-      "url": "https://www.npr.org/2026/11/25/nx-s1-6053801/china-investigation-politburo-shanghai-party"
-     }
-    ],
-    "summary": "Chinese authorities opened an investigation into Politburo member and Shanghai Communist Party chief Chen Jining. He is the latest senior official targeted in Xi Jinping's long-running anti-corruption campaign."
-   },
-   {
-    "headline": "Trump to give Giuliani the Medal of Freedom",
-    "sources": [
-     {
-      "name": "PBS NewsHour",
-      "url": "https://www.pbs.org/newshour/politics/trump-will-give-medal-of-freedom-to-giuliani-a-fierce-political-ally-who-led-new-york-through-9-11"
+      "url": "https://www.npr.org/2026/11/26/nx-s1-6000576/fcc-disney-abc-first-amendment-trump-brendan-carr"
      },
      {
       "name": "TIME",
-      "url": "https://time.com/article/2026/11/24/trump-awards-rudy-giuliani-presidential-medal-of-freedom/"
+      "url": "https://time.com/article/2026/11/26/fcc-abc-disney-broadcast-license-early-review-judge-injunction/"
      }
     ],
-    "summary": "President Trump will award the Presidential Medal of Freedom to Rudy Giuliani, the former New York mayor and his former personal lawyer. Giuliani was a central figure in efforts to overturn the 2020 election result."
+    "summary": "A federal judge blocked the Trump administration from reviewing all local broadcast licenses held by ABC, whose stations air in six major U.S. markets. The ruling found the FCC's actions violated the network's free speech rights."
    },
    {
-    "headline": "Legal immigrants lose Medicaid coverage",
+    "headline": "New U.S. tariffs target China, EU and 12 others",
     "sources": [
      {
       "name": "PBS NewsHour",
-      "url": "https://www.pbs.org/newshour/show/thousands-of-immigrants-with-legal-status-lose-medicaid-coverage"
+      "url": "https://www.pbs.org/newshour/show/how-trumps-newest-tariffs-could-impact-americans-and-the-economy"
      }
     ],
-    "summary": "Hundreds of thousands of immigrants living in the U.S. legally have lost Medicaid coverage under a provision of President Trump's tax and spending law. The law is projected to reduce federal Medicaid spending."
+    "summary": "The administration plans a new 20% tariff on most Chinese products and additional tariffs of 10% to 20% on other partners, possibly starting in January. It is relying on Section 301 of the Trade Act of 1974 after the Supreme Court ruled against its use of emergency powers in February."
    },
    {
-    "headline": "Australia moves to fine tech giants over online harms",
-    "sources": [
-     {
-      "name": "PBS NewsHour",
-      "url": "https://www.pbs.org/newshour/world/australia-set-to-pass-online-safety-laws-with-multibillion-dollar-fines-for-tech-giants"
-     },
-     {
-      "name": "TIME",
-      "url": "https://time.com/article/2026/11/25/australia-digital-duty-of-care-big-tech-fines-social-media-platforms-risks-harms-safety/"
-     }
-    ],
-    "summary": "Australia's government reached a political deal on online safety laws that could impose multibillion-dollar fines on platforms that fail to prevent foreseeable harms. The 'digital duty of care' would put new obligations on large tech companies."
-   },
-   {
-    "headline": "Probe into forged titles clouds Kushner's Albania project",
+    "headline": "Storms snarl Thanksgiving travel; Macy's parade moved to Saturday",
     "sources": [
      {
       "name": "NPR",
-      "url": "https://www.npr.org/2026/11/24/g-s1-154623/albania-jared-kushner-land-deal-protests"
+      "url": "https://www.npr.org/2026/11/26/nx-s1-6054079/storms-expected-on-both-coasts-as-millions-travel-for-thanksgiving"
+     },
+     {
+      "name": "PBS NewsHour",
+      "url": "https://www.pbs.org/newshour/nation/macys-thanksgiving-day-parade-postponed-to-saturday-due-to-expected-bad-weather"
      }
     ],
-    "summary": "Albania's prime minister says Jared Kushner's planned resort will go ahead as planned. But a state prosecutor's investigation into forged land titles could halt the development."
+    "summary": "Strong winds, high tides, heavy rain and flooding are expected to affect travel for an estimated 81.5 million people. NBC said the Macy's Thanksgiving Day Parade was postponed to Saturday because powerful winds were forecast for New York."
    },
    {
-    "headline": "Experts weigh fallout of failed climate talks",
+    "headline": "Army destroys lead azide stockpile in Iowa",
     "sources": [
      {
       "name": "PBS NewsHour",
-      "url": "https://www.pbs.org/newshour/science/experts-say-failed-climate-talks-could-worsen-inequality-but-progress-not-stalled"
+      "url": "https://www.pbs.org/newshour/show/what-the-armys-iowa-detonation-means-for-nearby-communities"
      }
     ],
-    "summary": "Dozens of nations objected to the U.N. climate summit's final text because it did not mention fossil fuels or raise financial help for poorer countries. Experts say the breakdown could deepen inequality but that climate progress has not stalled."
+    "summary": "The Army detonated the nation's entire five-ton stockpile of lead azide at the Iowa Army Ammunition Plant in Middletown after a federal court approved it. FEMA reported no detectable lead in the air, while environmental groups are demanding a full accounting of the effects."
    },
    {
-    "headline": "Taipei candidate on countering Chinese influence",
+    "headline": "FCC clears SpaceX plan for 1 million satellites",
+    "sources": [
+     {
+      "name": "NPR",
+      "url": "https://www.npr.org/2026/11/26/g-s1-155940/fcc-spacex-satellites-data-centers-in-space"
+     }
+    ],
+    "summary": "The FCC approved SpaceX's plan to deploy 1 million satellites to host data centers in space. Scientists are skeptical of the plan."
+   },
+   {
+    "headline": "Alaska ends voter-data deal with Justice Department",
+    "sources": [
+     {
+      "name": "PBS NewsHour",
+      "url": "https://www.pbs.org/newshour/politics/alaska-ends-voter-data-agreement-with-justice-department-which-had-been-searching-for-noncitizens"
+     }
+    ],
+    "summary": "Alaska's Republican elections official ended an agreement that shared state voter registration data with the Justice Department. The department had been searching such data for noncitizens, which could flag voters for possible removal."
+   },
+   {
+    "headline": "Support grows for Princeton scientist held by ICE",
     "sources": [
      {
       "name": "TIME",
-      "url": "https://time.com/article/2026/11/24/puma-shen-taipei-mayor-taiwan-china-interview/"
+      "url": "https://time.com/article/2026/11/25/the-push-to-free-a-princeton-scientist-from-ice-detention-is-growing/"
      }
     ],
-    "summary": "Taipei mayoral candidate Puma Shen spoke with TIME about fighting what he calls Chinese cognitive warfare. The interview comes as Taiwan weighs how to resist pressure from Beijing."
+    "summary": "Princeton doctoral candidate Eva Yi Xie, a Chinese national, was detained by ICE on Nov. 19 at Reagan National Airport, and a federal judge has barred her transfer out of Virginia while her petition is pending. About 250 people rallied at Princeton, and New Jersey lawmakers have pressed for her return."
+   },
+   {
+    "headline": "Settler violence marks West Bank olive harvest",
+    "sources": [
+     {
+      "name": "PBS NewsHour",
+      "url": "https://www.pbs.org/newshour/show/former-israeli-generals-protect-palestinians-from-settler-attacks-during-olive-harvest"
+     }
+    ],
+    "summary": "Palestinians in the West Bank are finishing an olive harvest the U.N. calls the most violent on record amid rising settler attacks. Some former Israeli generals have stepped in to help protect Palestinian farmers."
+   },
+   {
+    "headline": "Climate change threatens U.S. cranberry harvest",
+    "sources": [
+     {
+      "name": "PBS NewsHour",
+      "url": "https://www.pbs.org/newshour/show/cranberry-farmers-forced-to-adapt-as-climate-change-threatens-harvest"
+     }
+    ],
+    "summary": "Climate change is shifting the narrow growing conditions cranberries need. Scientists and growers are working to protect the crop, most of which the U.S. supplies to the world."
+   },
+   {
+    "headline": "Duran Duran guitarist Andy Taylor dies at 65",
+    "sources": [
+     {
+      "name": "NPR",
+      "url": "https://www.npr.org/2026/11/26/g-s1-155934/andy-taylor-duran-duran-obit"
+     },
+     {
+      "name": "TIME",
+      "url": "https://time.com/article/2026/11/26/andy-taylor-death-duran-duran-music-tributes-obituary/"
+     }
+    ],
+    "summary": "Andy Taylor, guitarist of the 1980s English band Duran Duran, has died at 65. He had disclosed a stage 4 prostate cancer diagnosis in 2022, and musicians and fans have paid tribute."
    }
   ],
-  "overview": "A New York jury convicted Huawei on 10 of 12 criminal counts, including conspiracy to steal trade secrets and bank fraud. A new report suggests President Trump may have profited by millions after he pushed Nvidia to reinstate Jensen Huang, and Trump said he would pardon Huang if needed. The administration is preparing higher tariffs on China, the EU and 14 other trading partners, with China facing duties of up to 20%. Kilmar Abrego Garcia left the country voluntarily for Spain after nearly two years of legal fights. Trump will award Rudy Giuliani the Presidential Medal of Freedom. Hundreds of thousands of legal immigrants have lost Medicaid under the president's tax law, and states sued HUD over a rule ending housing aid for mixed-status families. Record king tides threaten flooding along the West Coast.\n\nAbroad, Yemen's Houthis struck Saudi Arabia's Public Investment Fund headquarters for the second time in a week, injuring 11, and Iran said it shot down two U.S. drones near the Strait of Hormuz. Russia attacked Naftogaz gas facilities in Ukraine's Poltava region, while a Ukrainian drone strike cut power in Russia's Samara region. China opened an investigation into Shanghai party chief Chen Jining and launched Shenzhou-24 carrying a Pakistani astronaut. Australia struck a deal on online safety laws with multibillion-dollar fines for tech firms. In France, Nicolas Sarkozy was ordered to stand trial over an alleged witness-tampering scheme. Malaysia plans to send 6,803 migrants and refugees back to Myanmar next month."
+  "overview": "A federal judge ruled the FCC violated ABC's free speech rights and blocked the administration from reviewing the network's local broadcast licenses. The White House announced new tariffs on China, the European Union and 12 other partners, including a 20% rate on most Chinese goods, possibly starting in January. The Army destroyed the nation's five-ton lead azide stockpile in Iowa, and FEMA reported no detectable lead in the air. Storms threaten Thanksgiving travel for an estimated 81.5 million people, and the Macy's parade was moved to Saturday. The FCC approved SpaceX's plan to deploy 1 million satellites for data centers in space. A judge ordered Georgia's Fulton County to give the state election board a copy of 2020 records seized by the FBI, and Alaska ended a voter-data agreement with the Justice Department. The Steelers released Aaron Rodgers.\n\nAbroad, Yemen's Houthis set Saudi Arabia's Ras Tanura refinery ablaze and threatened Red Sea ports after the Saudi-led coalition warned of a strike on Hodeida. Gaza's Health Ministry declared an epidemic alert over meningitis as Israeli strikes killed at least 10 people Tuesday. Vladimir Putin vowed to retaliate for Ukrainian attacks that have hit at least 14 Russian refineries this month. South Korea's central bank raised its key rate to 3.25% and lifted its growth forecasts, while rail workers began a work-to-rule ahead of a planned Dec. 10 strike. Seoul is among the 14 economies in the new U.S. tariff round, which keeps its 15% cap. In the West Bank, former Israeli generals are escorting Palestinians through an olive harvest the U.N. calls the most violent on record."
  },
  "status": {
-  "lastRun": "2026-11-25T11:35:49Z",
+  "lastRun": "2026-11-26T11:45:00Z",
   "sources": {
    "e360": {
-    "newCount": 1,
+    "newCount": 0,
     "newest": "2026-11-24T08:16:00Z",
     "ok": true,
     "stale": false
    },
    "npr": {
     "newCount": 8,
-    "newest": "2026-11-25T10:04:00Z",
+    "newest": "2026-11-26T10:00:00Z",
     "ok": true,
     "stale": false
    },
    "pbs": {
     "newCount": 10,
-    "newest": "2026-11-24T23:55:53Z",
+    "newest": "2026-11-26T00:02:17Z",
     "ok": true,
     "stale": false
    },
    "time": {
-    "newCount": 5,
-    "newest": "2026-11-25T12:00:00Z",
+    "newCount": 3,
+    "newest": "2026-11-26T12:00:00Z",
     "ok": true,
     "stale": false
    }
@@ -326,10 +322,38 @@
    "country": "eng",
    "group": "soccer",
    "name": "Championship",
-   "note": "Middlesbrough beat Swansea 2–1 to stay top, a point clear of Wolves, who beat Derby 3–0; Stoke host Millwall and Birmingham visit Burnley tonight.",
+   "note": "George Hirst scored twice as Stoke beat Millwall 2–1 to draw level on 35 points with leaders Middlesbrough, who visit Southampton on Friday; Birmingham won 2–0 at Burnley and West Brom 3–1 at Bolton.",
    "order": 2,
-   "phase": "Midweek round concludes tonight",
+   "phase": "Matchday 18 this weekend",
    "results": [
+    {
+     "as": 1,
+     "away": "Millwall",
+     "home": "Stoke",
+     "hs": 2,
+     "t": "2026-11-25T20:00:00Z"
+    },
+    {
+     "as": 3,
+     "away": "West Brom",
+     "home": "Bolton",
+     "hs": 1,
+     "t": "2026-11-25T19:45:00Z"
+    },
+    {
+     "as": 2,
+     "away": "Birmingham",
+     "home": "Burnley",
+     "hs": 0,
+     "t": "2026-11-25T19:45:00Z"
+    },
+    {
+     "as": 1,
+     "away": "Blackburn",
+     "home": "Watford",
+     "hs": 0,
+     "t": "2026-11-25T19:45:00Z"
+    },
     {
      "as": 0,
      "away": "Derby",
@@ -357,35 +381,6 @@
      "home": "Charlton",
      "hs": 4,
      "t": "2026-11-24T19:45:00Z"
-    },
-    {
-     "as": 4,
-     "away": "Preston",
-     "home": "Cardiff",
-     "hs": 0,
-     "t": "2026-11-24T19:45:00Z"
-    },
-    {
-     "as": 2,
-     "away": "Blackburn",
-     "home": "Burnley",
-     "hs": 2,
-     "label": "East Lancashire derby",
-     "t": "2026-11-22T12:00:00Z"
-    },
-    {
-     "as": 0,
-     "away": "Birmingham",
-     "home": "Stoke",
-     "hs": 1,
-     "t": "2026-11-21T15:00:00Z"
-    },
-    {
-     "as": 0,
-     "away": "Bristol City",
-     "home": "Middlesbrough",
-     "hs": 2,
-     "t": "2026-11-21T15:00:00Z"
     }
    ],
    "table": [
@@ -400,44 +395,44 @@
      "w": 10
     },
     {
+     "d": 2,
+     "gd": 8,
+     "gp": 17,
+     "l": 4,
+     "pos": 2,
+     "pts": 35,
+     "team": "Stoke",
+     "w": 11
+    },
+    {
      "d": 4,
      "gd": 12,
      "gp": 17,
      "l": 3,
-     "pos": 2,
+     "pos": 3,
      "pts": 34,
      "team": "Wolves",
      "w": 10
     },
     {
-     "d": 2,
-     "gd": 7,
-     "gp": 16,
-     "l": 4,
-     "pos": 3,
-     "pts": 32,
-     "team": "Stoke",
-     "w": 10
-    },
-    {
      "d": 5,
-     "gd": 13,
-     "gp": 16,
+     "gd": 15,
+     "gp": 17,
      "l": 3,
      "pos": 4,
-     "pts": 29,
+     "pts": 32,
      "team": "Birmingham",
-     "w": 8
+     "w": 9
     },
     {
      "d": 5,
-     "gd": 8,
-     "gp": 16,
+     "gd": 10,
+     "gp": 17,
      "l": 3,
      "pos": 5,
-     "pts": 29,
+     "pts": 32,
      "team": "West Brom",
-     "w": 8
+     "w": 9
     },
     {
      "d": 5,
@@ -452,27 +447,50 @@
    ],
    "upcoming": [
     {
-     "away": "Birmingham",
-     "home": "Burnley",
-     "t": "2026-11-25T19:45:00Z"
+     "away": "Middlesbrough",
+     "home": "Southampton",
+     "t": "2026-11-27T20:00:00Z"
     },
     {
-     "away": "West Brom",
-     "home": "Bolton",
-     "t": "2026-11-25T19:45:00Z"
+     "away": "Charlton",
+     "dateOnly": true,
+     "home": "Blackburn",
+     "t": "2026-11-28T12:00:00Z"
     },
     {
-     "away": "Blackburn",
-     "home": "Watford",
-     "t": "2026-11-25T19:45:00Z"
+     "away": "Wolves",
+     "dateOnly": true,
+     "home": "Lincoln",
+     "t": "2026-11-28T12:00:00Z"
     },
     {
-     "away": "Millwall",
-     "home": "Stoke",
-     "t": "2026-11-25T20:00:00Z"
+     "away": "Norwich",
+     "home": "Preston",
+     "t": "2026-11-28T12:30:00Z"
+    },
+    {
+     "away": "Bolton",
+     "home": "Birmingham",
+     "t": "2026-11-28T15:00:00Z"
+    },
+    {
+     "away": "Bristol City",
+     "home": "West Brom",
+     "t": "2026-11-28T15:00:00Z"
+    },
+    {
+     "away": "Stoke",
+     "home": "West Ham",
+     "t": "2026-11-28T15:00:00Z"
+    },
+    {
+     "away": "Cardiff",
+     "home": "Swansea",
+     "label": "South Wales derby",
+     "t": "2026-11-29T12:00:00Z"
     }
    ],
-   "updatedAt": "2026-11-25T11:35:49Z"
+   "updatedAt": "2026-11-26T11:50:00Z"
   },
   "eflcup": {
    "country": "eng",
@@ -961,9 +979,9 @@
   "kbo": {
    "group": "kbo",
    "name": "KBO",
-   "note": "The KBO hands out its MVP and Rookie of the Year awards on Thursday, Nov. 26, with Kia's Kim Do-yeong and Doosan's Gwak Been among the MVP contenders; Samsung are the 2026 champions and the 2027 season starts in late March.",
+   "note": "Kia's Kim Do-yeong won his second MVP award with 80 of 136 votes and Hanwha catcher Heo In-seo was named Rookie of the Year; Samsung are the 2026 champions and the 2027 season starts in late March.",
    "order": 1,
-   "phase": "Offseason · Awards on Thursday",
+   "phase": "Offseason · Awards handed out",
    "results": [
     {
      "as": 1,
@@ -1081,7 +1099,7 @@
    ],
    "tableTitle": "Standings",
    "upcoming": [],
-   "updatedAt": "2026-11-25T11:35:49Z"
+   "updatedAt": "2026-11-26T11:50:00Z"
   },
   "kleague1": {
    "country": "kor",
@@ -1725,7 +1743,7 @@
   "mlb": {
    "group": "mlb",
    "name": "MLB",
-   "note": "Freddy Peralta agreed to a five-year, $125 million deal with the Orioles and the Cubs added Trevor Rogers and Teruaki Sato, as the labor agreement nears its Dec. 1 expiration.",
+   "note": "MLB sued the players' union in federal court ahead of an expected lockout when the labor deal expires Dec. 1, as the Royals reportedly agreed with Alec Bohm and the Tigers with Kevin Gausman.",
    "order": 1,
    "phase": "Offseason · CBA expires Dec. 1",
    "results": [
@@ -1816,7 +1834,7 @@
     }
    ],
    "upcoming": [],
-   "updatedAt": "2026-11-25T11:35:49Z"
+   "updatedAt": "2026-11-26T11:50:00Z"
   },
   "mls": {
    "country": "usa",
@@ -1996,10 +2014,82 @@
   "nba": {
    "group": "nba",
    "name": "NBA",
-   "note": "Jayson Tatum scored 41 as Boston beat Washington 131–116 to go 3-0 in NBA Cup play, and Cooper Flagg had 24 points and a career-high 12 assists in Dallas' 120–101 win at Denver.",
+   "note": "Victor Wembanyama scored 44 in a 116–111 loss at Portland and Jaden McDaniels had 32 as Minnesota won 113–106 at Oklahoma City; there are no games on Thanksgiving, and 11 Cup games are set for Friday.",
    "order": 1,
-   "phase": "NBA Cup group play continues tonight",
+   "phase": "NBA Cup group play resumes Friday",
    "results": [
+    {
+     "as": 110,
+     "away": "Kings",
+     "home": "Warriors",
+     "hs": 129,
+     "label": "In-Season Tournament",
+     "t": "2026-11-26T03:00:00Z"
+    },
+    {
+     "as": 111,
+     "away": "Spurs",
+     "home": "Trail Blazers",
+     "hs": 116,
+     "label": "In-Season Tournament",
+     "t": "2026-11-26T03:00:00Z"
+    },
+    {
+     "as": 104,
+     "away": "Suns",
+     "home": "Rockets",
+     "hs": 116,
+     "label": "In-Season Tournament",
+     "t": "2026-11-26T01:30:00Z"
+    },
+    {
+     "as": 104,
+     "away": "Nets",
+     "home": "Bucks",
+     "hs": 97,
+     "label": "In-Season Tournament",
+     "t": "2026-11-26T01:00:00Z"
+    },
+    {
+     "as": 97,
+     "away": "Clippers",
+     "home": "Grizzlies",
+     "hs": 115,
+     "label": "In-Season Tournament",
+     "t": "2026-11-26T01:00:00Z"
+    },
+    {
+     "as": 102,
+     "away": "Cavaliers",
+     "home": "Knicks",
+     "hs": 121,
+     "label": "In-Season Tournament",
+     "t": "2026-11-26T00:30:00Z"
+    },
+    {
+     "as": 113,
+     "away": "Timberwolves",
+     "home": "Thunder",
+     "hs": 106,
+     "label": "In-Season Tournament",
+     "t": "2026-11-26T00:30:00Z"
+    },
+    {
+     "as": 107,
+     "away": "Bulls",
+     "home": "Hornets",
+     "hs": 105,
+     "label": "In-Season Tournament",
+     "t": "2026-11-26T00:00:00Z"
+    },
+    {
+     "as": 104,
+     "away": "Heat",
+     "home": "76ers",
+     "hs": 111,
+     "label": "In-Season Tournament",
+     "t": "2026-11-25T22:00:00Z"
+    },
     {
      "as": 120,
      "away": "Mavericks",
@@ -2023,83 +2113,12 @@
      "hs": 86,
      "label": "In-Season Tournament",
      "t": "2026-11-25T00:00:00Z"
-    },
-    {
-     "as": 94,
-     "away": "Jazz",
-     "home": "Lakers",
-     "hs": 109,
-     "t": "2026-11-24T03:00:00Z"
-    },
-    {
-     "as": 123,
-     "away": "Spurs",
-     "home": "Kings",
-     "hs": 107,
-     "t": "2026-11-24T03:00:00Z"
-    },
-    {
-     "as": 104,
-     "away": "Clippers",
-     "home": "Rockets",
-     "hs": 116,
-     "t": "2026-11-24T01:30:00Z"
-    },
-    {
-     "as": 108,
-     "away": "Cavaliers",
-     "home": "Bulls",
-     "hs": 122,
-     "t": "2026-11-24T01:00:00Z"
-    },
-    {
-     "as": 123,
-     "away": "Suns",
-     "home": "Pelicans",
-     "hs": 119,
-     "label": "OT",
-     "t": "2026-11-24T01:00:00Z"
-    },
-    {
-     "as": 120,
-     "away": "Thunder",
-     "home": "Pacers",
-     "hs": 125,
-     "t": "2026-11-24T00:30:00Z"
-    },
-    {
-     "as": 116,
-     "away": "Nets",
-     "home": "Timberwolves",
-     "hs": 142,
-     "t": "2026-11-24T00:30:00Z"
-    },
-    {
-     "as": 116,
-     "away": "Bucks",
-     "home": "Raptors",
-     "hs": 111,
-     "t": "2026-11-24T00:30:00Z"
-    },
-    {
-     "as": 117,
-     "away": "Grizzlies",
-     "home": "Hornets",
-     "hs": 111,
-     "t": "2026-11-24T00:00:00Z"
-    },
-    {
-     "as": 128,
-     "away": "Trail Blazers",
-     "home": "76ers",
-     "hs": 111,
-     "t": "2026-11-24T00:00:00Z"
     }
    ],
    "table": [
     {
      "note": "East",
-     "rec": "14-4",
+     "rec": "15-4",
      "team": "76ers"
     },
     {
@@ -2109,18 +2128,13 @@
     },
     {
      "note": "East",
-     "rec": "11-6",
-     "team": "Hawks"
+     "rec": "12-6",
+     "team": "Knicks"
     },
     {
      "note": "East",
      "rec": "11-6",
-     "team": "Knicks"
-    },
-    {
-     "note": "West",
-     "rec": "15-3",
-     "team": "Spurs"
+     "team": "Hawks"
     },
     {
      "note": "West",
@@ -2129,80 +2143,129 @@
     },
     {
      "note": "West",
-     "rec": "13-5",
+     "rec": "15-4",
+     "team": "Spurs"
+    },
+    {
+     "note": "West",
+     "rec": "14-5",
      "team": "Timberwolves"
     },
     {
      "note": "West",
-     "rec": "13-5",
+     "rec": "14-5",
      "team": "Rockets"
     }
    ],
    "upcoming": [
     {
      "away": "Heat",
-     "home": "76ers",
-     "label": "In-Season Tournament",
-     "t": "2026-11-25T22:00:00Z"
-    },
-    {
-     "away": "Bulls",
-     "home": "Hornets",
-     "label": "In-Season Tournament",
-     "t": "2026-11-26T00:00:00Z"
-    },
-    {
-     "away": "Cavaliers",
      "home": "Knicks",
      "label": "In-Season Tournament",
-     "t": "2026-11-26T00:30:00Z"
+     "t": "2026-11-28T00:00:00Z"
     },
     {
-     "away": "Timberwolves",
-     "home": "Thunder",
+     "away": "Bucks",
+     "home": "Pistons",
      "label": "In-Season Tournament",
-     "t": "2026-11-26T00:30:00Z"
+     "t": "2026-11-28T00:30:00Z"
+    },
+    {
+     "away": "76ers",
+     "home": "Pacers",
+     "label": "In-Season Tournament",
+     "t": "2026-11-28T00:30:00Z"
     },
     {
      "away": "Nets",
-     "home": "Bucks",
+     "home": "Raptors",
      "label": "In-Season Tournament",
-     "t": "2026-11-26T01:00:00Z"
+     "t": "2026-11-28T00:30:00Z"
     },
     {
-     "away": "Clippers",
-     "home": "Grizzlies",
+     "away": "Hawks",
+     "home": "Celtics",
      "label": "In-Season Tournament",
-     "t": "2026-11-26T01:00:00Z"
+     "t": "2026-11-28T01:00:00Z"
     },
     {
-     "away": "Suns",
-     "home": "Rockets",
+     "away": "Grizzlies",
+     "home": "Timberwolves",
      "label": "In-Season Tournament",
-     "t": "2026-11-26T01:30:00Z"
+     "t": "2026-11-28T01:30:00Z"
     },
     {
-     "away": "Kings",
-     "home": "Warriors",
+     "away": "Mavericks",
+     "home": "Suns",
      "label": "In-Season Tournament",
-     "t": "2026-11-26T03:00:00Z"
+     "t": "2026-11-28T02:00:00Z"
     },
     {
-     "away": "Spurs",
+     "away": "Pelicans",
+     "home": "Clippers",
+     "label": "In-Season Tournament",
+     "t": "2026-11-28T02:30:00Z"
+    },
+    {
+     "away": "Warriors",
      "home": "Trail Blazers",
      "label": "In-Season Tournament",
-     "t": "2026-11-26T03:00:00Z"
+     "t": "2026-11-28T02:30:00Z"
+    },
+    {
+     "away": "Lakers",
+     "home": "Spurs",
+     "label": "In-Season Tournament",
+     "t": "2026-11-28T02:30:00Z"
+    },
+    {
+     "away": "Nuggets",
+     "home": "Jazz",
+     "label": "In-Season Tournament",
+     "t": "2026-11-28T02:30:00Z"
+    },
+    {
+     "away": "Magic",
+     "home": "Wizards",
+     "t": "2026-11-28T22:00:00Z"
+    },
+    {
+     "away": "Nets",
+     "home": "Hornets",
+     "t": "2026-11-28T23:00:00Z"
+    },
+    {
+     "away": "Pacers",
+     "home": "Bulls",
+     "t": "2026-11-29T01:00:00Z"
+    },
+    {
+     "away": "Thunder",
+     "home": "Bucks",
+     "t": "2026-11-29T01:00:00Z"
+    },
+    {
+     "away": "76ers",
+     "home": "Rockets",
+     "t": "2026-11-29T01:30:00Z"
     }
    ],
-   "updatedAt": "2026-11-25T11:35:49Z"
+   "updatedAt": "2026-11-26T11:50:00Z"
   },
   "nfl": {
    "group": "nfl",
    "name": "NFL",
-   "note": "Week 12 opens tonight with Packers–Rams, followed on Thanksgiving by Bears–Lions, Eagles–Cowboys and Chiefs–Bills, and Broncos–Steelers on Friday.",
+   "note": "Blake Corum ran for 184 yards as the Rams beat the Packers 26–13 for a fifth straight win; Thanksgiving brings Bears–Lions, Eagles–Cowboys and Chiefs–Bills after Pittsburgh released Aaron Rodgers.",
    "order": 1,
    "phase": "Week 12 · Thanksgiving slate",
    "results": [
+    {
+     "as": 13,
+     "away": "Packers",
+     "home": "Rams",
+     "hs": 26,
+     "t": "2026-11-26T01:00:00Z"
+    },
     {
      "as": 20,
      "away": "Bengals",
@@ -2342,11 +2405,6 @@
    ],
    "upcoming": [
     {
-     "away": "Packers",
-     "home": "Rams",
-     "t": "2026-11-26T01:00:00Z"
-    },
-    {
      "away": "Bears",
      "home": "Lions",
      "label": "Thanksgiving",
@@ -2428,16 +2486,80 @@
      "t": "2026-12-01T01:15:00Z"
     }
    ],
-   "updatedAt": "2026-11-25T11:35:49Z"
+   "updatedAt": "2026-11-26T11:50:00Z"
   },
   "ucl": {
    "country": "eur",
    "group": "soccer",
    "name": "Champions League",
-   "note": "Real Madrid hit back from a Perišić penalty to rout PSV 5–1 and stay perfect, Arsenal drew 1–1 with Dortmund, and Rayan Cherki's late goal earned Man City a 2–2 draw with Napoli; PSG host Roma tonight.",
+   "note": "Roma ended PSG's perfect start with a 2–2 draw in Paris, Lille came from behind to beat Bayern 2–1, Alexander Isak scored twice in Liverpool's 3–0 win at Club Brugge and Barcelona won 4–1 at Sabah.",
    "order": 1,
-   "phase": "League phase · Matchday 5 concludes tonight",
+   "phase": "League phase · Matchday 6 on Dec. 8–9",
    "results": [
+    {
+     "as": 0,
+     "away": "Viking",
+     "home": "Atlético",
+     "hs": 2,
+     "t": "2026-11-25T20:00:00Z"
+    },
+    {
+     "as": 3,
+     "away": "Liverpool",
+     "home": "Club Brugge",
+     "hs": 0,
+     "t": "2026-11-25T20:00:00Z"
+    },
+    {
+     "as": 0,
+     "away": "Stuttgart",
+     "home": "Inter",
+     "hs": 2,
+     "t": "2026-11-25T20:00:00Z"
+    },
+    {
+     "as": 1,
+     "away": "Fenerbahçe",
+     "home": "Shakhtar",
+     "hs": 0,
+     "t": "2026-11-25T20:00:00Z"
+    },
+    {
+     "as": 1,
+     "away": "Bayern",
+     "home": "Lille",
+     "hs": 2,
+     "t": "2026-11-25T20:00:00Z"
+    },
+    {
+     "as": 2,
+     "away": "Roma",
+     "home": "PSG",
+     "hs": 2,
+     "t": "2026-11-25T20:00:00Z"
+    },
+    {
+     "as": 2,
+     "away": "Man United",
+     "home": "Sporting",
+     "hs": 2,
+     "t": "2026-11-25T20:00:00Z"
+    },
+    {
+     "as": 4,
+     "away": "Barcelona",
+     "home": "Sabah",
+     "hs": 1,
+     "t": "2026-11-25T17:45:00Z"
+    },
+    {
+     "as": 1,
+     "away": "Villarreal",
+     "dateOnly": true,
+     "home": "Slavia Praha",
+     "hs": 0,
+     "t": "2026-11-25T12:00:00Z"
+    },
     {
      "as": 1,
      "away": "PSV",
@@ -2458,53 +2580,6 @@
      "home": "Arsenal",
      "hs": 1,
      "t": "2026-11-24T20:00:00Z"
-    },
-    {
-     "as": 0,
-     "away": "Aston Villa",
-     "home": "Galatasaray",
-     "hs": 1,
-     "t": "2026-11-24T17:45:00Z"
-    },
-    {
-     "as": 1,
-     "away": "Lens",
-     "dateOnly": true,
-     "home": "RB Leipzig",
-     "hs": 3,
-     "t": "2026-11-24T12:00:00Z"
-    },
-    {
-     "as": 1,
-     "away": "Porto",
-     "dateOnly": true,
-     "home": "Feyenoord",
-     "hs": 0,
-     "t": "2026-11-24T12:00:00Z"
-    },
-    {
-     "as": 0,
-     "away": "AEK Athens",
-     "dateOnly": true,
-     "home": "Como",
-     "hs": 1,
-     "t": "2026-11-24T12:00:00Z"
-    },
-    {
-     "as": 0,
-     "away": "LASK",
-     "dateOnly": true,
-     "home": "Bodø/Glimt",
-     "hs": 1,
-     "t": "2026-11-24T12:00:00Z"
-    },
-    {
-     "as": 2,
-     "away": "Real Betis",
-     "dateOnly": true,
-     "home": "Slovan Bratislava",
-     "hs": 0,
-     "t": "2026-11-24T12:00:00Z"
     }
    ],
    "table": [
@@ -2519,12 +2594,12 @@
      "w": 5
     },
     {
-     "d": 0,
+     "d": 1,
      "gd": 15,
-     "gp": 4,
+     "gp": 5,
      "l": 0,
      "pos": 2,
-     "pts": 12,
+     "pts": 13,
      "team": "PSG",
      "w": 4
     },
@@ -2540,67 +2615,83 @@
     },
     {
      "d": 0,
-     "gd": 4,
+     "gd": 11,
      "gp": 5,
      "l": 1,
      "pos": 4,
      "pts": 12,
-     "team": "Real Betis",
+     "team": "Barcelona",
      "w": 4
     },
     {
-     "d": 2,
-     "gd": 5,
+     "d": 0,
+     "gd": 7,
      "gp": 5,
-     "l": 0,
+     "l": 1,
      "pos": 5,
-     "pts": 11,
-     "team": "Arsenal",
-     "w": 3
+     "pts": 12,
+     "team": "Liverpool",
+     "w": 4
     },
     {
-     "d": 1,
+     "d": 0,
+     "gd": 4,
      "gp": 5,
      "l": 1,
      "pos": 6,
-     "pts": 10,
-     "team": "Man City",
-     "w": 3
+     "pts": 12,
+     "team": "Real Betis",
+     "w": 4
     }
    ],
    "upcoming": [
     {
-     "away": "Barcelona",
-     "home": "Sabah",
-     "t": "2026-11-25T17:45:00Z"
+     "away": "Sabah",
+     "home": "Villarreal",
+     "t": "2026-12-08T17:45:00Z"
     },
     {
-     "away": "Roma",
-     "home": "PSG",
-     "t": "2026-11-25T20:00:00Z"
+     "away": "Man City",
+     "home": "Barcelona",
+     "t": "2026-12-08T20:00:00Z"
     },
     {
-     "away": "Bayern",
-     "home": "Lille",
-     "t": "2026-11-25T20:00:00Z"
+     "away": "PSG",
+     "home": "Aston Villa",
+     "t": "2026-12-08T20:00:00Z"
     },
     {
-     "away": "Liverpool",
-     "home": "Club Brugge",
-     "t": "2026-11-25T20:00:00Z"
+     "away": "RB Leipzig",
+     "home": "Man United",
+     "t": "2026-12-08T20:00:00Z"
     },
     {
-     "away": "Man United",
-     "home": "Sporting CP",
-     "t": "2026-11-25T20:00:00Z"
+     "away": "Slavia Praha",
+     "home": "Bayern",
+     "t": "2026-12-08T20:00:00Z"
     },
     {
-     "away": "Stuttgart",
-     "home": "Inter",
-     "t": "2026-11-25T20:00:00Z"
+     "away": "Como",
+     "home": "Real Betis",
+     "t": "2026-12-09T17:45:00Z"
+    },
+    {
+     "away": "Real Madrid",
+     "home": "Arsenal",
+     "t": "2026-12-09T20:00:00Z"
+    },
+    {
+     "away": "Inter",
+     "home": "Dortmund",
+     "t": "2026-12-09T20:00:00Z"
+    },
+    {
+     "away": "Porto",
+     "home": "Liverpool",
+     "t": "2026-12-09T20:00:00Z"
     }
    ],
-   "updatedAt": "2026-11-25T11:35:49Z"
+   "updatedAt": "2026-11-26T11:50:00Z"
   },
   "uecl": {
    "country": "eur",
@@ -2608,7 +2699,7 @@
    "name": "Conference League",
    "note": "Lugano, Panathinaikos, Twente and Monaco all won to stay perfect, Brighton won 1–0 at Getafe, and Ajax routed Midtjylland 6–1.",
    "order": 3,
-   "phase": "League phase · Matchday 4 Nov. 26",
+   "phase": "League phase · Matchday 4 today",
    "results": [
     {
      "as": 1,
@@ -2736,8 +2827,8 @@
      "t": "2026-11-26T17:45:00Z"
     },
     {
-     "away": "Lugano",
-     "home": "Jablonec",
+     "away": "Thun",
+     "home": "Ajax",
      "t": "2026-11-26T17:45:00Z"
     },
     {
@@ -2746,9 +2837,19 @@
      "t": "2026-11-26T17:45:00Z"
     },
     {
-     "away": "Thun",
-     "home": "Ajax",
+     "away": "Lugano",
+     "home": "Jablonec",
      "t": "2026-11-26T17:45:00Z"
+    },
+    {
+     "away": "Getafe",
+     "home": "Iberia Tbilisi",
+     "t": "2026-11-26T17:45:00Z"
+    },
+    {
+     "away": "Twente",
+     "home": "Freiburg",
+     "t": "2026-11-26T20:00:00Z"
     },
     {
      "away": "Panathinaikos",
@@ -2756,12 +2857,12 @@
      "t": "2026-11-26T20:00:00Z"
     },
     {
-     "away": "Twente",
-     "home": "Freiburg",
+     "away": "Atalanta",
+     "home": "Borac",
      "t": "2026-11-26T20:00:00Z"
     }
    ],
-   "updatedAt": "2026-11-24T11:55:00Z"
+   "updatedAt": "2026-11-26T11:50:00Z"
   },
   "uel": {
    "country": "eur",
@@ -2769,7 +2870,7 @@
    "name": "Europa League",
    "note": "Benfica, Bournemouth and Ferencváros are perfect after Matchday 4, with Bournemouth winning 3–1 at Sparta Praha and Ferencváros 2–0 at Milan, while Sunderland lost 2–0 to Dinamo Zagreb.",
    "order": 2,
-   "phase": "League phase · Matchday 5 Nov. 26",
+   "phase": "League phase · Matchday 5 today",
    "results": [
     {
      "as": 1,
@@ -2902,13 +3003,23 @@
      "t": "2026-11-26T17:45:00Z"
     },
     {
+     "away": "Leverkusen",
+     "home": "GNK Dinamo",
+     "t": "2026-11-26T17:45:00Z"
+    },
+    {
      "away": "Benfica",
      "home": "Viktoria Plzeň",
      "t": "2026-11-26T17:45:00Z"
     },
     {
-     "away": "Leverkusen",
-     "home": "GNK Dinamo",
+     "away": "Jagiellonia",
+     "home": "Sunderland",
+     "t": "2026-11-26T17:45:00Z"
+    },
+    {
+     "away": "Celje",
+     "home": "Ferencváros",
      "t": "2026-11-26T17:45:00Z"
     },
     {
@@ -2917,266 +3028,477 @@
      "t": "2026-11-26T20:00:00Z"
     },
     {
-     "away": "Celje",
-     "home": "Ferencváros",
-     "t": "2026-11-26T20:00:00Z"
-    },
-    {
      "away": "Omonia",
      "home": "Juventus",
      "t": "2026-11-26T20:00:00Z"
     },
     {
-     "away": "Jagiellonia",
-     "home": "Sunderland",
+     "away": "Celtic",
+     "home": "Torreense",
      "t": "2026-11-26T20:00:00Z"
     }
    ],
-   "updatedAt": "2026-11-24T11:55:00Z"
+   "updatedAt": "2026-11-26T11:50:00Z"
   }
  },
  "sportsnews": {
   "home": {
-   "overview": "Week 12 kicks off tonight with Packers–Rams, and Thanksgiving delivers Bears–Lions, Eagles–Cowboys and Chiefs–Bills before Broncos–Steelers on Black Friday. In the NBA Cup, Jayson Tatum poured in 41 as Boston outlasted Washington 131–116 to go 3-0, Cooper Flagg posted 24 points and a career-high 12 assists in Dallas' 120–101 rout of Denver, and Detroit beat Orlando 104–86 without Cade Cunningham, who sat with a knee injury. Nine Cup games tip off tonight, headlined by Cavaliers–Knicks and Timberwolves–Thunder. Baseball's spending spree rolls on: Freddy Peralta landed $125 million from the Orioles and the Cubs added Teruaki Sato and Trevor Rogers, with the labor deal expiring Dec. 1.\n\nReal Madrid roared back from a penalty down to crush PSV 5–1 and lead the Champions League on 15 points, while Arsenal drew 1–1 with Dortmund and Rayan Cherki's late strike salvaged Man City a 2–2 draw with Napoli. PSG host Roma and Liverpool visit Club Brugge tonight. Middlesbrough edged Swansea 2–1 to stay a point clear of Wolves, who hammered Derby 3–0, and San Jose took Game 1 from Houston in MLS. K League wraps up its season this weekend, alongside Arsenal–Man City and the Merseyside derby. In the KBO, Kim Do-yeong and Gwak Been headline Thursday's MVP race.",
-   "updatedAt": "2026-11-25T11:35:49Z"
+   "overview": "Blake Corum ran for 184 yards as the Rams beat the Packers 26–13 for their fifth straight win, setting up a Thanksgiving of Bears–Lions, Eagles–Cowboys and Chiefs–Bills, with Kansas City missing Kenneth Walker III. Pittsburgh released Aaron Rodgers after he criticized Mike McCarthy, and Mason Rudolph starts Friday against Denver. In the NBA Cup, Victor Wembanyama's 44 points weren't enough in a 116–111 loss at Portland, Jaden McDaniels scored 32 as Minnesota won at Oklahoma City, and the Knicks routed Cleveland 121–102; Friday brings 11 more Cup games. Baseball's labor fight escalated as MLB sued the players' union ahead of an expected lockout when the deal expires Dec. 1.\n\nRoma ended PSG's perfect Champions League run with a 2–2 draw, leaving Real Madrid alone on top, while Alexander Isak scored twice in Liverpool's 3–0 win at Club Brugge and Lille stunned Bayern 2–1. Barcelona won 4–1 at Sabah, and Man United drew 2–2 at Sporting. The Europa League and Conference League play tonight, and Stoke drew level with Championship leaders Middlesbrough. K League wraps up this weekend alongside Arsenal–Man City and the Merseyside derby. In the KBO, Kia's Kim Do-yeong became the youngest two-time MVP and Hanwha's Heo In-seo was named Rookie of the Year.",
+   "updatedAt": "2026-11-26T11:55:00Z"
   },
   "kbo": {
    "brief": [
-    "The KBO Awards are Thursday at 2 p.m. at Lotte Hotel World in Seoul, where the MVP and Rookie of the Year will be named.",
-    "Kia's Kim Do-yeong, the 2024 MVP, is a front-runner after hitting 45 home runs, while Doosan ace Gwak Been led pitchers with a 2.24 ERA and 197 strikeouts.",
-    "Hanwha catcher Heo In-seo (20 HR, 79 RBI) and LG infielder Moon Jeong-bin (19 HR, 66 RBI) lead the Rookie of the Year race.",
-    "The MVP receives a trophy and a Kia EV5; the top rookie gets 3 million won."
+    "Kia's Kim Do-yeong won the 2026 KBO MVP award with 80 of 136 votes, ahead of Doosan's Gwak Been with 34.",
+    "At 23, Kim became the youngest two-time MVP after leading the league with 45 home runs and a .647 slugging percentage.",
+    "Hanwha catcher Heo In-seo was named Rookie of the Year with 92 votes, the first catcher to win since Yang Eui-ji in 2010.",
+    "LG signed veteran catcher Kim Min-sik, and Lotte re-signed Victor Reyes for a fourth season."
    ],
    "headlines": [
     {
      "source": "Korea Times",
-     "title": "KBO to hand out MVP, top rookie awards Nov. 26",
-     "url": "https://www.koreatimes.co.kr/sports/20261120/kbo-to-hand-out-mvp-top-rookie-awards-nov-26"
+     "title": "Kim Do-yeong joins elite company with 2nd career KBO MVP award",
+     "url": "https://www.koreatimes.co.kr/sports/20261126/kim-do-yeong-joins-elite-company-with-2nd-career-kbo-mvp-award"
+    },
+    {
+     "source": "Korea Times",
+     "title": "Eagles catcher Heo In-seo voted KBO's top rookie for 2026",
+     "url": "https://www.koreatimes.co.kr/sports/20261126/eagles-catcher-heo-in-seo-voted-kbos-top-rookie-for-2026"
     },
     {
      "source": "Korea JoongAng Daily",
-     "title": "Bears sign ex-MLB pitcher Jose Suarez",
-     "url": "https://www.koreajoongangdaily.com/sports/bears-sign-exmlb-pitchernbspjose-suarez/12989074"
+     "title": "Giants re-sign hitting superstar Victor Reyes for fourth season",
+     "url": "https://www.koreajoongangdaily.com/sports/giants-resign-hitting-superstar-victor-reyes-for-fourth-season/12992304"
     },
     {
-     "source": "Korea Times",
-     "title": "Landers retain free agent pitcher Moon Seung-won",
-     "url": "https://www.koreatimes.co.kr/sports/20261122/landers-retain-free-agent-pitcher-moon-seung-won"
+     "source": "Korea JoongAng Daily",
+     "title": "Twins acquire veteran catcher Kim Min-sik",
+     "url": "https://www.koreajoongangdaily.com/sports/twins-acquire-veteran-catcher-kim-minsik/12992145"
+    },
+    {
+     "source": "Korea JoongAng Daily",
+     "title": "KBO clubs to change up foreign players for 2027 season",
+     "url": "https://www.koreajoongangdaily.com/sports/kbo-clubs-to-change-up-foreign-players-for-2027-season/12991181"
+    },
+    {
+     "source": "Korea JoongAng Daily",
+     "title": "Twins re-sign Australian pitcher Kennedy to fill Asian quota",
+     "url": "https://www.koreajoongangdaily.com/sports/twins-resign-australian-pitcher-kennedy-to-fill-asian-quota/12989912"
     }
    ],
-   "updatedAt": "2026-11-25T11:35:49Z"
+   "updatedAt": "2026-11-26T11:55:00Z"
   },
   "mlb": {
    "brief": [
-    "ALCS MVP Freddy Peralta agreed to a five-year, $125 million deal with the Orioles.",
-    "The Cubs signed Japanese slugger Teruaki Sato to a six-year, $120 million contract hours after adding Trevor Rogers on a five-year, $120 million deal.",
-    "Toronto, which missed out on Tarik Skubal, agreed to a five-year, $80 million contract with NPB pitcher Kaima Taira.",
-    "MLB and the players' union traded new proposals on revenue sharing as the Dec. 1 expiration of the labor deal nears.",
-    "Corey Seager is reportedly willing to waive his no-trade clause for a move to the Phillies."
+    "MLB sued the players' union and eight players, including Tarik Skubal, in Manhattan federal court, seeking a ruling that a lockout would not violate antitrust law; the union called the suit 'completely frivolous.'",
+    "The labor deal expires at 11:59 p.m. ET on Dec. 1, and MLB says it expects to lock out players.",
+    "The Royals reportedly agreed with Alec Bohm on a two-year, $20 million deal.",
+    "The Tigers are reportedly signing Kevin Gausman to a one-year deal and agreed with Kim Ha-seong on a one-year, $5 million contract.",
+    "The Marlins reportedly agreed with catcher Gary Sánchez on a one-year, $6.5 million deal."
    ],
    "headlines": [
     {
      "source": "CBS Sports",
-     "title": "Freddy Peralta lands with Orioles: After post-trade turnaround, ALCS MVP scores five-year, $125 million deal",
-     "url": "https://www.cbssports.com/mlb/news/freddy-peralta-orioles-free-agency-contract/"
+     "title": "2026-27 MLB free agent tracker: Mets land Skubal, Cubs go holiday shopping with Trevor Rogers, Teruaki Sato",
+     "url": "https://www.cbssports.com/mlb/news/mlb-free-agent-tracker-2026-27/"
     },
     {
      "source": "CBS Sports",
-     "title": "Cubs signing NPB slugger Teruaki Sato on six-year, $120 million contract as offseason overhaul continues",
-     "url": "https://www.cbssports.com/mlb/news/cubs-teruaki-sato-free-agency-contract/"
+     "title": "MLB CBA negotiations timeline: League, MLBPA trade new proposals over revenue sharing as Dec. 1 deadline nears",
+     "url": "https://www.cbssports.com/mlb/news/mlb-cba-negotiations-timeline-2026/"
     },
     {
      "source": "CBS Sports",
-     "title": "Trevor Rogers signing with Cubs: Chicago begins rotation rebuild with five-year, $120 million deal, per report",
-     "url": "https://www.cbssports.com/mlb/news/trevor-rogers-cubs-free-agency-contract/"
+     "title": "Tarik Skubal signing with Mets: Two-time Cy Young winner lands historic nine-year, $450 million contract",
+     "url": "https://www.cbssports.com/mlb/news/tarik-skubal-mets-free-agency-contract/"
     },
     {
      "source": "CBS Sports",
-     "title": "Blue Jays signing 5-foot-8 NPB pitcher Kaima Taira after striking out on Tarik Skubal, other FA targets",
-     "url": "https://www.cbssports.com/mlb/news/blue-jays-kaima-taira-free-agency-contract/"
+     "title": "What's next for the Mets after record-breaking deal with Tarik Skubal? Biggest needs for 2027",
+     "url": "https://www.cbssports.com/mlb/news/whats-next-for-mets-tarik-skubal-rotation-bullpen-first-baseman-extensions/"
     },
     {
      "source": "CBS Sports",
-     "title": "MLB rumors: Corey Seager willing to waive his NTC for Phillies, plus news on Mets, Nationals, Yankees, more",
-     "url": "https://www.cbssports.com/mlb/news/mlb-rumors-mets-cubs-twins-guardians-kris-bubic/"
+     "title": "Winners and losers of the Tarik Skubal signing: Blue Jays, Dodgers strike out; David Stearns looks nervous",
+     "url": "https://www.cbssports.com/mlb/news/tarik-skubal-mets-free-agency-winners-losers-mets-blue-jays-dodgers-david-stearns-salary-cap/"
     },
     {
      "source": "CBS Sports",
-     "title": "Snyder's Soapbox: Until MLB owners open the books, there's no reason to listen to pleas of poverty",
-     "url": "https://www.cbssports.com/mlb/news/snyders-soapbox-mlb-owners-books-poverty/"
+     "title": "Logan Webb landing spots: Five possible destinations for Giants starting pitcher on the trading block",
+     "url": "https://www.cbssports.com/mlb/news/logan-webb-landing-spots-giants-trade/"
     },
     {
      "source": "CBS Sports",
-     "title": "MLB extension candidates: 10 players who could get deals before CBA expires, including two Cy Young winners",
-     "url": "https://www.cbssports.com/mlb/news/mlb-extension-candidates-jacob-misiorowski-cam-schlittler-nolan-mclean-payton-tolle/"
-    },
-    {
-     "source": "CBS Sports",
-     "title": "MLB rumors: Mets' Tarik Skubal follow-up, where Blue Jays turn now, plus Yankees, Phillies, Red Sox, more",
-     "url": "https://www.cbssports.com/mlb/news/mlb-rumors-mets-paul-goldschmidt-blue-jays-freddy-peralta-teruaki-sato-jarren-duran/"
-    },
-    {
-     "source": "CBS Sports",
-     "title": "Predicting MLB's next mega contracts: Paul Skenes, Junior Caminero, James Wood and more in line to get paid",
-     "url": "https://www.cbssports.com/mlb/news/predicting-mlb-next-mega-contracts-paul-skenes-junior-caminero-james-wood-elly-de-la-cruz/"
-    },
-    {
-     "source": "CBS Sports",
-     "title": "Why Mets owner Steve Cohen was willing to give Tarik Skubal the most lucrative pitcher contract in MLB history",
-     "url": "https://www.cbssports.com/mlb/news/tarik-skubal-mets-steve-cohen-new-york/"
+     "title": "A.J. Ewing, Mets agree to eight-year, $95 million extension after standout rookie season, per reports",
+     "url": "https://www.cbssports.com/mlb/news/a-j-ewing-new-york-mets-contract-extension/"
     }
    ],
-   "updatedAt": "2026-11-25T11:35:49Z"
+   "updatedAt": "2026-11-26T11:55:00Z"
   },
   "nba": {
    "brief": [
-    "Jayson Tatum scored 41 points, all six of his threes coming before halftime, as Boston held off Washington 131–116 to go 3-0 in NBA Cup group play.",
-    "Cooper Flagg had 24 points and a career-high 12 assists as Dallas routed Denver 120–101 to take control of West Group A.",
-    "Detroit beat Orlando 104–86 without Cade Cunningham, a late scratch with a lingering right knee injury; Isaiah Joe scored 21 in his place.",
-    "Kawhi Leonard will miss at least another week with left knee swelling, the Raptors said.",
-    "Nine NBA Cup games are on tonight, led by Heat–76ers, Cavaliers–Knicks and Timberwolves–Thunder; Dallas clinches a quarterfinal spot if Phoenix loses."
+    "Victor Wembanyama scored 44 with 16 rebounds, but Portland beat San Antonio 116–111 behind 33 from Deni Avdija.",
+    "Jaden McDaniels had 32 points as Minnesota won 113–106 at Oklahoma City in NBA Cup play; Shai Gilgeous-Alexander also scored 32.",
+    "Julius Randle scored 28 as Brooklyn beat Milwaukee 104–97 to end a five-game losing streak.",
+    "The Knicks beat Cleveland 121–102, Houston topped Phoenix 116–104, Golden State beat Sacramento 129–110 and the 76ers edged Miami 111–104.",
+    "There are no games on Thanksgiving; 11 NBA Cup games follow on Friday, including Heat–Knicks, Hawks–Celtics and Lakers–Spurs."
    ],
    "headlines": [
     {
-     "source": "Yahoo Sports",
-     "title": "NBA Cup 2026: Celtics avert disaster, Mavs roll listless Nuggets, Pistons deny Magic without Cade Cunningham",
-     "url": "https://sports.yahoo.com/nba/breaking-news/article/nba-cup-2026-celtics-avert-disaster-mavs-roll-listless-nuggets-pistons-deny-magic-without-cade-cunningham-054349785.html"
+     "source": "CBS Sports",
+     "title": "NBA trade rumors: Lakers planning to be active, Jazz looking elsewhere after Kyrie Irving buzz",
+     "url": "https://www.cbssports.com/nba/news/nba-trade-rumors-lakers-jazz-kyrie-irving-nov-23/"
     },
     {
      "source": "CBS Sports",
-     "title": "Why asking Trae Young to score less is a band-aid, not a fix for the Wizards' self-inflicted problem",
-     "url": "https://www.cbssports.com/nba/news/trae-young-wizards-scoring-less-aj-dybantsa-anthony-davis/"
+     "title": "Ranking NBA's biggest winners and losers of the week: Knicks hit their stride, while Celtics take step back",
+     "url": "https://www.cbssports.com/nba/news/ranking-nba-biggest-winners-losers-of-the-week-knicks-celtics-nov-23/"
     },
     {
      "source": "CBS Sports",
-     "title": "NBA Hater Report: Celtics can't shoot, neither can Trae Young and James Harden isn't close to a top 10 player",
-     "url": "https://www.cbssports.com/nba/news/nba-hater-report-celtics-trae-young-james-harden-warriors/"
+     "title": "Victor Wembanyama takes hypocritical jab at 'stat-padding peers' after hunting his own 50-piece",
+     "url": "https://www.cbssports.com/nba/news/victor-wembanyama-stat-padding-peers-spurs/"
     },
     {
      "source": "CBS Sports",
-     "title": "Grading the stress levels for 76ers, Celtics, Warriors and more",
-     "url": "https://www.cbssports.com/nba/news/nba-grading-stress-levels-76ers-celtics-timberwolves-cavaliers-thunder-warriors/"
+     "title": "2027 NBA Draft Big Board: Quentin Coleman's meteoric rise, Tyran Stokes stays at No. 1, returners boost stock",
+     "url": "https://www.cbssports.com/nba/news/2027-nba-draft-big-board-quentin-coleman-tyran-stokes-ivan-kharchenkov/"
+    },
+    {
+     "source": "CBS Sports",
+     "title": "In a New York minute: Did Mikal Bridges just turn his season around with one shot?",
+     "url": "https://www.cbssports.com/nba/news/mikal-bridges-game-winning-shot-knicks-blazers/"
+    },
+    {
+     "source": "CBS Sports",
+     "title": "NBA injury updates: The latest on Tyrese Haliburton, Anthony Edwards, Kawhi Leonard, Dylan Harper, more",
+     "url": "https://www.cbssports.com/nba/news/nba-injury-updates-tyrese-haliburton-kawhi-leonard-dylan-harper-brandon-ingram/"
     }
    ],
-   "updatedAt": "2026-11-25T11:35:49Z"
+   "updatedAt": "2026-11-26T11:55:00Z"
   },
   "nfl": {
    "brief": [
-    "Week 12 kicks off tonight with Packers–Rams, the first of five holiday-week games.",
-    "Thanksgiving brings Bears–Lions, Eagles–Cowboys and Chiefs–Bills, with Broncos–Steelers on Black Friday.",
-    "Jayden Daniels led Washington past Cincinnati on Monday night, cutting the AFC North-leading Bengals to 7-3.",
-    "Pete Prisco's Week 12 power rankings frame the Thanksgiving slate as a proving ground for contenders, with the 49ers (9-1) atop the NFC."
+    "Blake Corum ran for a career-high 184 yards as the Rams beat the Packers 26–13 for their fifth straight win; Green Bay's Christian Watson left with a concussion.",
+    "The Steelers released Aaron Rodgers on Wednesday after he publicly criticized coach Mike McCarthy over his benching; Mason Rudolph starts Friday against Denver.",
+    "Thanksgiving brings Bears at Lions (1 p.m. ET), Eagles at Cowboys (4:30) and Chiefs at Bills (8:20).",
+    "Kansas City's Kenneth Walker III is out at Buffalo, Chicago ruled out CB Kyler Gordon, and Dallas will be without TE Jake Ferguson.",
+    "49ers QB Brock Purdy (ankle) did not practice Wednesday, while Seattle's Sam Darnold is on track to start Sunday in San Francisco."
    ],
    "headlines": [
     {
      "source": "CBS Sports",
-     "title": "NFL Thanksgiving schedule: What to know about Thanksgiving Eve, Turkey Day, and Black Friday games",
-     "url": "https://www.cbssports.com/nfl/news/nfl-thanksgiving-games-2026-schedule-black-friday-rams-packers/"
+     "title": "Steelers release Aaron Rodgers following criticism of Mike McCarthy: Possible landing spots for QB",
+     "url": "https://www.cbssports.com/nfl/news/steelers-release-aaron-rodgers-following-benching-qbs-criticism-mike-mccarthy/"
     },
     {
      "source": "CBS Sports",
-     "title": "Prisco's NFL Week 12 Power Rankings: Thanksgiving feast offers a proving ground for contenders",
-     "url": "https://www.cbssports.com/nfl/news/priscos-nfl-week-12-power-rankings-thanksgiving-games/"
+     "title": "Mike McCarthy responds to Aaron Rodgers, confirms QB gave him 'ultimatum:' 'I know how to win'",
+     "url": "https://www.cbssports.com/nfl/news/steelers-mike-mccarthy-responds-to-aaron-rodgers-after-pat-mcafee-interview/"
     },
     {
      "source": "CBS Sports",
-     "title": "Jayden Daniels leads Commanders past Bengals on MNF; Florida State hires coach Glenn Schumann",
-     "url": "https://www.cbssports.com/nfl/news/jayden-daniels-commanders-bengals-nfl-mnf-florida-state-coach-glenn-schumann/"
+     "title": "Steelers bench Aaron Rodgers, turn to Mason Rudolph to start vs. Broncos",
+     "url": "https://www.cbssports.com/nfl/news/steelers-bench-aaron-rodgers-make-qb-inactive-friday-broncos/"
     },
     {
      "source": "CBS Sports",
-     "title": "NFL Week 12 picks, score predictions: Bears, Chiefs lose on Thanksgiving; Rams edge Packers in thriller",
-     "url": "https://www.cbssports.com/nfl/news/nfl-week-12-breech-picks-score-predictions-bears-chiefs-rams-packers/"
+     "title": "NFL Thanksgiving injury report: Micah Parsons cleared for season debut, Chiefs' Kenneth Walker III out",
+     "url": "https://www.cbssports.com/nfl/news/nfl-thanksgiving-injury-report-micah-parsons-cleared-kenneth-walker-iii-practices/"
     },
     {
      "source": "CBS Sports",
-     "title": "6 lessons from Week 11: Kyle Shanahan is as good as it gets, plus a rookie RB earning a role",
-     "url": "https://www.cbssports.com/nfl/news/6-lessons-week-11-kyle-shanahan-49ers-chiefs-colts/"
+     "title": "NFL Week 12 injury report: Thanksgiving game statuses, latest updates for Sam Darnold, Brock Purdy",
+     "url": "https://www.cbssports.com/nfl/news/nfl-week-12-injury-report-updates-kenneth-walker-brock-purdy-sam-darnold/"
     },
     {
      "source": "CBS Sports",
-     "title": "Why the Cowboys and Lions always play on Thanksgiving Day: All 32 NFL team's record on the holiday",
-     "url": "https://www.cbssports.com/nfl/news/why-cowboys-lions-always-play-thanksgiving-day-all-32-nfl-teams-record-holiday/"
+     "title": "Steelers players react to Aaron Rodgers' release as some teammates back QB amid Mike McCarthy controversy",
+     "url": "https://www.cbssports.com/nfl/news/aaron-rodgers-released-steelers-players-react-mike-mccarthy-controversy/"
     },
     {
      "source": "CBS Sports",
-     "title": "NFL Week 12 upset alert: Don't count out Patrick Mahomes, Fernando Mendoza and these underdogs",
-     "url": "https://www.cbssports.com/nfl/news/nfl-week-12-upset-picks-thanksgiving-games-chiefs-bills/"
+     "title": "Brandon Aiyuk to sign with Commanders' practice squad days after leaving 49ers",
+     "url": "https://www.cbssports.com/nfl/news/former-49ers-wr-brandon-aiyuk-to-sign-with-commanders/"
     },
     {
      "source": "CBS Sports",
-     "title": "It wouldn't shock me if ... for NFL Week 12: Colston Loveland feasts on Thanksgiving, Browns RB shines",
-     "url": "https://www.cbssports.com/nfl/news/nfl-week-12-predictions-colston-loveland-thanksgiving/"
+     "title": "Agent's Take: The Puka Nacua predicament and where his future with Rams stands after injury",
+     "url": "https://www.cbssports.com/nfl/news/agents-take-puka-nacua-predicament-where-future-rams-stands/"
+    },
+    {
+     "source": "CBS Sports",
+     "title": "NFL Week 12 most important games for playoff picture: Rams-Packers, Panthers-Bucs key duels in NFC",
+     "url": "https://www.cbssports.com/nfl/news/nfl-week-12-most-important-games-playoff-picture-rams-packers-panthers-bucs/"
+    },
+    {
+     "source": "CBS Sports",
+     "title": "NFL Week 12 QB Power Rankings: Brock Purdy swipes No. 1 spot from Joe Burrow, Dak Prescott into top five",
+     "url": "https://www.cbssports.com/nfl/news/week-12-qb-power-rankings-brock-purdy-joe-burrow-dak-prescott/"
+    },
+    {
+     "source": "CBS Sports",
+     "title": "NFL playoff picture: Ranking AFC wild card contenders, from Super Bowl-hopeful Chiefs to rebuilding Raiders",
+     "url": "https://www.cbssports.com/nfl/news/nfl-playoff-picture-ranking-afc-wild-card-contenders-chiefs-raiders/"
+    },
+    {
+     "source": "CBS Sports",
+     "title": "Aaron Rodgers unleashes on Mike McCarthy: Unpacking everything Steelers QB said after benching",
+     "url": "https://www.cbssports.com/nfl/news/aaron-rodgers-unleases-on-steelers-mike-mccarthy-pat-mcafee-interview/"
     }
    ],
-   "updatedAt": "2026-11-25T11:35:49Z"
+   "updatedAt": "2026-11-26T11:55:00Z"
   },
   "soccer": {
    "brief": [
-    "Real Madrid came from behind against PSV to win 5–1 at the Bernabéu, with Kylian Mbappé scoring twice, and top the Champions League table on 15 points.",
-    "Arsenal were held 1–1 by Dortmund after Viktor Gyökeres' early goal, Rayan Cherki's 86th-minute equaliser rescued a 2–2 draw for Man City against Napoli, and Aston Villa lost 1–0 at Galatasaray.",
-    "Matchday 5 concludes tonight with PSG–Roma, Lille–Bayern, Club Brugge–Liverpool, Sporting–Man United and Inter–Stuttgart.",
-    "Middlesbrough beat Swansea 2–1 to stay top of the Championship, a point ahead of Wolves, who thrashed Derby 3–0.",
-    "San Jose beat Houston 2–1 in Game 1 of their MLS Round One series; Game 2s are Friday and Saturday.",
-    "K League 1 and 2 play their final rounds on Nov. 28–29, with FC Seoul already champions and Suwon Samsung top of K League 2.",
-    "Sunday brings Arsenal–Man City and the Merseyside derby in the Premier League."
+    "Roma ended PSG's perfect Champions League start with a 2–2 draw in Paris, leaving Real Madrid alone on top with 15 points.",
+    "Alexander Isak scored twice in Liverpool's 3–0 win at Club Brugge, and Anthony Gordon struck twice as Barcelona won 4–1 at Sabah.",
+    "Lille came from behind to beat Bayern 2–1, Lautaro Martínez's club-record 28th Champions League goal helped Inter beat Stuttgart 2–0, and Man United drew 2–2 at Sporting.",
+    "Europa League Matchday 5 is tonight, with Olympiacos–Milan, Celta–Bournemouth and Crystal Palace–Real Sociedad, while Brighton host Universitatea Craiova in the Conference League.",
+    "George Hirst scored twice as Stoke beat Millwall 2–1 to draw level with Championship leaders Middlesbrough on 35 points.",
+    "K League 1 and 2 play their final rounds on Nov. 28–29, with champions FC Seoul hosting Daejeon and Ulsan HD hosting Jeonbuk.",
+    "Sunday brings Arsenal–Man City and the Merseyside derby, with Dortmund hosting Leverkusen in the Bundesliga."
    ],
    "headlines": [
     {
-     "source": "Yahoo Sports",
-     "title": "Champions League: Jude Bellingham, Kylian Mbappé help Real Madrid hit for 5 against PSV; Manchester City, Arsenal settle for home draws",
-     "url": "https://sports.yahoo.com/soccer/live/champions-league-jude-bellingham-kylian-mbappe-help-real-madrid-hit-for-5-against-psv-manchester-city-arsenal-settle-for-home-draws-221509772.html"
-    },
-    {
-     "source": "GOAL",
-     "title": "Gimenez vows no celebration on Feyenoord return",
-     "url": "https://www.goal.com/en-us/news/santiago-gimenez-feyenoord-fc-porto-champions-league-return/bltf8991e0b6daa6480"
-    },
-    {
-     "source": "Yahoo Sports",
-     "title": "San Jose Earthquakes top Houston in Game 1 PayPal Park party",
-     "url": "https://sports.yahoo.com/soccer/articles/san-jose-earthquakes-top-houston-055300183.html"
-    },
-    {
-     "source": "GOAL",
-     "title": "Juventus prepare €40m January bid to beat Newcastle to Lazio's Dutch star",
-     "url": "https://www.goal.com/en-us/news/juventus-prepare-january-bid-beat-newcastle-premier-league-clubs-lazio-kenneth-taylor/blt18ca7abc763fbf16"
-    },
-    {
-     "source": "GOAL",
-     "title": "Pochettino eyes summer Dortmund raid for frustrated USMNT wonderkid",
-     "url": "https://www.goal.com/en-us/news/man-utd-boss-mauricio-pochettino-eyes-summer-raid-dortmund-mathis-albert/blt297de5dd7d3af4e1"
-    },
-    {
-     "source": "GOAL",
-     "title": "Como plot shock transfer move for Man Utd outcast Zirkzee",
-     "url": "https://www.goal.com/en-us/news/como-transfer-man-utd-joshua-zirkzee-moise-kean-injury/blt8fc3aacd37b0aec8"
-    },
-    {
-     "source": "GOAL",
-     "title": "Ex-Arsenal star Rosicky leaves Sparta Prague alongside axed Priske",
-     "url": "https://www.goal.com/en-us/news/tomas-rosicky-agrees-leave-sparta-prague-role-axed-boss-brian-priske/blt1c78168147f1158b"
+     "source": "CBS Sports",
+     "title": "Champions League power rankings: Real Madrid claim top spot as Man City, Arsenal, PSG stumble",
+     "url": "https://www.cbssports.com/soccer/news/champions-league-power-rankings-real-madrid-man-city-arsenal-psg/"
     },
     {
      "source": "CBS Sports",
-     "title": "USA to co-host 2031 FIFA Women's World Cup with Mexico, Costa Rica and Jamaica",
-     "url": "https://www.cbssports.com/soccer/news/u-s-a-co-host-2031-fifa-womens-world-cup-mexico-costa-rica-jamaica/"
+     "title": "Depleted PSG attack shows vulnerability in 2-2 Champions League draw with Roma",
+     "url": "https://www.cbssports.com/soccer/news/psg-attack-injury-2-2-champions-league-draw-roma/"
     },
     {
      "source": "GOAL",
-     "title": "Tottenham move to reward 18-year-old Williams-Barnett with new deal",
-     "url": "https://www.goal.com/en-us/news/tottenham-reward-luca-williams-barnett-improved-long-term-deal-premier-league/blt89bb54a3ef94c744"
+     "title": "Arteta hails Gyokeres after Dortmund stunner",
+     "url": "https://www.goal.com/en-us/news/mikel-arteta-arsenal-viktor-gyokeres-champions-league-borussia-dortmund/blt1d4680a02726f0fa"
     },
     {
      "source": "GOAL",
-     "title": "Morgan labels Palmer a 'd***head' and slams 'rotten attitude' after Leeds humiliation",
-     "url": "https://www.goal.com/en-us/news/piers-morgan-slams-cole-palmer-chelsea-fan-snub/blt151a0dedc6acb246"
+     "title": "Courtois warns Madrid after PSV scare",
+     "url": "https://www.goal.com/en-us/news/arsenal-thibaut-courtois-real-madrid-psv/blta409a99a9a6ef806"
+    },
+    {
+     "source": "GOAL",
+     "title": "Haaland relishes Gabriel battle ahead of Arsenal clash",
+     "url": "https://www.goal.com/en-us/news/erling-haaland-relishes-arsenal-clash-with-gabriel-man-city/blt33f2a34f2ce93282"
+    },
+    {
+     "source": "GOAL",
+     "title": "Football regulator chief warns Man City could be forced to sell",
+     "url": "https://www.goal.com/en-us/news/we-will-absolutely-have-stomach-football-regulator-chief-david-kogan-vows-take-man-city-owners-warns-club-forced-sell/blt737410e2fa7df745"
+    },
+    {
+     "source": "GOAL",
+     "title": "Kompany plays down Ngoy 'successor' talk before Lille clash",
+     "url": "https://www.goal.com/en-us/news/vincent-kompany-nathan-ngoy-bayern-munich-lille-champions-league/blt7ce2337ab30432bf"
+    },
+    {
+     "source": "GOAL",
+     "title": "'I wasn't happy' - Wirtz reveals mental struggles during difficult Liverpool start",
+     "url": "https://www.goal.com/en-us/news/florian-wirtz-liverpool-mental-struggles/blt52e59e542b7df92f"
+    },
+    {
+     "source": "CBS Sports",
+     "title": "Why are Arsenal throwing away leads? Itchy trigger fingers cost Mikel Arteta's side against Dortmund",
+     "url": "https://www.cbssports.com/soccer/news/why-arsenal-throwing-away-leads-champions-league-dortmund/"
+    },
+    {
+     "source": "CBS Sports",
+     "title": "Cavan Sullivan wins MLS Young Player of the Year as league announces award winners and finalists",
+     "url": "https://www.cbssports.com/soccer/news/mls-announces-award-winners-mvp-cavan-sullivan-lionel-messi-antoine-griezmann-2026/"
+    },
+    {
+     "source": "GOAL",
+     "title": "'We will be asking for royalties!' - Laporta blasts Madrid for 'obsession' with Barca",
+     "url": "https://www.goal.com/en-us/news/joan-laporta-barcelona-real-madrid-royalties-legal-hearing/bltf9ce4727a8ad8765"
     }
    ],
-   "updatedAt": "2026-11-25T11:35:49Z"
+   "updatedAt": "2026-11-26T11:55:00Z"
   }
  },
  "articles": [
+  {
+   "id": "time-42e4488afaf6",
+   "added": "2026-11-26T11:45:00Z",
+   "published": "2026-11-26T12:00:00Z",
+   "source": "time",
+   "summary": "A federal judge blocked the Trump administration's moves against ABC's broadcast licenses, calling it 'not a close case.'",
+   "title": "‘Not a Close Case’: Judge Strikes Down Trump Administration’s Targeting of ABC",
+   "url": "https://time.com/article/2026/11/26/fcc-abc-disney-broadcast-license-early-review-judge-injunction/"
+  },
+  {
+   "id": "time-8c05e6ca1b8f",
+   "added": "2026-11-26T11:45:00Z",
+   "published": "2026-11-26T12:00:00Z",
+   "source": "time",
+   "summary": "Musicians and fans paid tribute to Duran Duran guitarist Andy Taylor after his death at 65.",
+   "title": "Artists and Fans Pay Tribute to Duran Duran Guitarist Andy Taylor",
+   "url": "https://time.com/article/2026/11/26/andy-taylor-death-duran-duran-music-tributes-obituary/"
+  },
+  {
+   "id": "npr-2dc66a39f53a",
+   "added": "2026-11-26T11:45:00Z",
+   "published": "2026-11-26T10:00:00Z",
+   "source": "npr",
+   "summary": "New Orleans chef Alon Shaya's new cookbook shares World War II stories of resilience centered on food.",
+   "title": "'Memories of a Good Meal': How food made a difference during WWII",
+   "url": "https://www.npr.org/2026/11/26/nx-s1-6028781/memories-of-a-good-meal-cookbook-chef-alon-shaya"
+  },
+  {
+   "id": "npr-ed6f106e29d2",
+   "added": "2026-11-26T11:45:00Z",
+   "published": "2026-11-26T09:43:27Z",
+   "source": "npr",
+   "summary": "Severe weather with strong winds, high tides, heavy rain, and floods is expected to affect travel plans for an estimated 81.5 million people.",
+   "title": "Powerful storms disrupt holiday travel, as Macy's Thanksgiving Day Parade is postponed",
+   "url": "https://www.npr.org/2026/11/26/nx-s1-6054079/storms-expected-on-both-coasts-as-millions-travel-for-thanksgiving"
+  },
+  {
+   "id": "npr-936733cfe648",
+   "added": "2026-11-26T11:45:00Z",
+   "published": "2026-11-26T06:53:09Z",
+   "source": "npr",
+   "summary": "The Trump administration approved SpaceX's plan to deploy 1 million satellites for space-based data centers, which has drawn scientific skepticism.",
+   "title": "FCC says SpaceX can deploy 1 million satellites for data centers in space. Scientists are skeptical",
+   "url": "https://www.npr.org/2026/11/26/g-s1-155940/fcc-spacex-satellites-data-centers-in-space"
+  },
+  {
+   "id": "npr-c61e50e95f5e",
+   "added": "2026-11-26T11:45:00Z",
+   "published": "2026-11-26T06:34:20Z",
+   "source": "npr",
+   "summary": "Andy Taylor, guitarist of the 1980s English band Duran Duran, has died; he had disclosed a stage 4 prostate cancer diagnosis in 2022.",
+   "title": "Andy Taylor, guitarist of new wave icons Duran Duran, dies at 65",
+   "url": "https://www.npr.org/2026/11/26/g-s1-155934/andy-taylor-duran-duran-obit"
+  },
+  {
+   "id": "npr-8258ff6effe3",
+   "added": "2026-11-26T11:45:00Z",
+   "published": "2026-11-26T06:26:03Z",
+   "source": "npr",
+   "summary": "The Steelers released Aaron Rodgers after a chaotic period in which the team benched him and he publicly criticized coach Mike McCarthy.",
+   "title": "Steelers cut Aaron Rodgers after the QB rips coach Mike McCarthy on TV",
+   "url": "https://www.npr.org/2026/11/26/nx-s1-6054760/steelers-cut-aaron-rodgers"
+  },
+  {
+   "id": "npr-e972052d7bfc",
+   "added": "2026-11-26T11:45:00Z",
+   "published": "2026-11-26T05:23:18Z",
+   "source": "npr",
+   "summary": "A federal judge blocked the Trump administration from reviewing all local broadcast licenses held by ABC, whose stations air in six major U.S. markets.",
+   "title": "U.S. Judge rules FCC violated ABC's free speech rights to please Trump",
+   "url": "https://www.npr.org/2026/11/26/nx-s1-6000576/fcc-disney-abc-first-amendment-trump-brendan-carr"
+  },
+  {
+   "id": "pbs-2fd7466eccb9",
+   "added": "2026-11-26T11:45:00Z",
+   "published": "2026-11-25T23:50:40Z",
+   "source": "pbs",
+   "summary": "The administration announced new tariffs on China, the European Union, and 12 other trading partners, with China facing the highest rate, and a reporter discusses the likely effects.",
+   "title": "How Trump's newest tariffs could impact Americans and the economy",
+   "url": "https://www.pbs.org/newshour/show/how-trumps-newest-tariffs-could-impact-americans-and-the-economy"
+  },
+  {
+   "id": "pbs-49f8c3d2f0ed",
+   "added": "2026-11-26T11:45:00Z",
+   "published": "2026-11-25T23:49:33Z",
+   "source": "pbs",
+   "summary": "The Army detonated a highly volatile lead chemical compound in Iowa after a federal court approved it, while nearby communities remain on alert and three states monitor effects.",
+   "title": "What the Army's Iowa detonation means for nearby communities",
+   "url": "https://www.pbs.org/newshour/show/what-the-armys-iowa-detonation-means-for-nearby-communities"
+  },
+  {
+   "id": "pbs-8eed362459ce",
+   "added": "2026-11-26T11:45:00Z",
+   "published": "2026-11-25T23:40:39Z",
+   "source": "pbs",
+   "summary": "As Palestinians in the West Bank conclude an olive harvest the UN calls the most violent on record, this report examines rising settler attacks and a debate within Israel.",
+   "title": "Former Israeli generals protect Palestinians from settler attacks during olive harvest",
+   "url": "https://www.pbs.org/newshour/show/former-israeli-generals-protect-palestinians-from-settler-attacks-during-olive-harvest"
+  },
+  {
+   "id": "pbs-edccf790344d",
+   "added": "2026-11-26T11:45:00Z",
+   "published": "2026-11-25T23:25:46Z",
+   "source": "pbs",
+   "summary": "Climate change is shifting the narrow growing conditions cranberries need, and scientists and growers are working to protect the seasonal crop, which the U.S. mostly supplies worldwide.",
+   "title": "Cranberry farmers forced to adapt as climate change threatens harvest",
+   "url": "https://www.pbs.org/newshour/show/cranberry-farmers-forced-to-adapt-as-climate-change-threatens-harvest"
+  },
+  {
+   "id": "pbs-065d1627cdcc",
+   "added": "2026-11-26T11:45:00Z",
+   "published": "2026-11-25T22:53:33Z",
+   "source": "pbs",
+   "summary": "Alaska's Republican elections official ended an agreement that shared state voter registration data with the Justice Department, which could flag voters for possible removal.",
+   "title": "Alaska ends voter data agreement with Justice Department, which had been searching for noncitizens",
+   "url": "https://www.pbs.org/newshour/politics/alaska-ends-voter-data-agreement-with-justice-department-which-had-been-searching-for-noncitizens"
+  },
+  {
+   "id": "pbs-6a64f422c107",
+   "added": "2026-11-26T11:45:00Z",
+   "published": "2026-11-25T22:48:11Z",
+   "source": "pbs",
+   "summary": "A judge ordered Fulton County to provide the State Election Board with a digital copy of 2020 ballots and records that the FBI seized earlier this year.",
+   "title": "Georgia's Fulton County ordered to give copy of 2020 election records seized by FBI to state board",
+   "url": "https://www.pbs.org/newshour/politics/georgias-fulton-county-ordered-to-give-copy-of-2020-election-records-seized-by-fbi-to-state-board"
+  },
+  {
+   "id": "pbs-8df17eb663d1",
+   "added": "2026-11-26T11:45:00Z",
+   "published": "2026-11-25T22:30:20Z",
+   "source": "pbs",
+   "summary": "Kilmar Ábrego García arrived in Spain for what his lawyer called a temporary departure, hoping to return to his Maryland family's home after President Trump leaves office.",
+   "title": "Ábrego García, a Salvadoran mistakenly deported by U.S., goes to Spain but hopes to return after Trump",
+   "url": "https://www.pbs.org/newshour/politics/abrego-garcia-a-salvadoran-mistakenly-deported-by-u-s-goes-to-spain-but-hopes-to-return-after-trump"
+  },
+  {
+   "id": "pbs-73cc56823312",
+   "added": "2026-11-26T11:45:00Z",
+   "published": "2026-11-25T21:28:32Z",
+   "source": "pbs",
+   "summary": "NBC said the Macy's Thanksgiving Day Parade was postponed because powerful winds were expected to hit New York during the event.",
+   "title": "Macy's Thanksgiving Day Parade postponed to Saturday due to expected bad weather",
+   "url": "https://www.pbs.org/newshour/nation/macys-thanksgiving-day-parade-postponed-to-saturday-due-to-expected-bad-weather"
+  },
+  {
+   "id": "pbs-0e64e554f2df",
+   "added": "2026-11-26T11:45:00Z",
+   "published": "2026-11-25T21:08:56Z",
+   "source": "pbs",
+   "summary": "The White House announced that First Lady Melania Trump helped return a seventh group of wartime children to their families, bringing the total reunified to 43.",
+   "title": "Melania Trump reunites her seventh group of Ukrainian and Russian children with their families",
+   "url": "https://www.pbs.org/newshour/world/melania-trump-reunites-her-seventh-group-of-ukrainian-and-russian-children-with-their-families"
+  },
+  {
+   "id": "pbs-a4e095697f8d",
+   "added": "2026-11-26T11:45:00Z",
+   "published": "2026-11-25T18:07:48Z",
+   "source": "pbs",
+   "summary": "The article argues that State Department reports use selective data and careful phrasing to understate violence, government corruption, and police inaction in countries asylum seekers flee.",
+   "title": "State Department reports downplay violence and corruption in countries that asylum seekers are fleeing",
+   "url": "https://www.pbs.org/newshour/nation/state-department-reports-downplay-violence-and-corruption-in-countries-that-asylum-seekers-are-fleeing"
+  },
+  {
+   "id": "npr-38f98bf868f6",
+   "added": "2026-11-26T11:45:00Z",
+   "published": "2026-11-25T17:30:47Z",
+   "source": "npr",
+   "summary": "Several Democratic senators are pushing to add an incoming freshman senator to party leadership, citing the diverse incoming class.",
+   "title": "Group of Senate Democrats push to add freshman to leadership",
+   "url": "https://www.npr.org/2026/11/25/g-s1-155518/senate-democrats-freshman-leadership-schumer-van-hollen"
+  },
+  {
+   "id": "npr-de478ea7a63a",
+   "added": "2026-11-26T11:45:00Z",
+   "published": "2026-11-25T13:51:56Z",
+   "source": "npr",
+   "summary": "According to the National Retail Federation, 59% of U.S. shoppers plan to use AI for holiday shopping this weekend.",
+   "title": "What to know before using AI agents for Black Friday shopping",
+   "url": "https://www.npr.org/2026/11/25/nx-s1-6048524/what-to-know-before-using-ai-agents-for-black-friday-shopping"
+  },
   {
    "id": "time-1fd468caff08",
    "added": "2026-11-25T11:35:49Z",
@@ -3194,6 +3516,15 @@
    "summary": "A U.S. jury convicted Chinese telecom giant Huawei of bank fraud and conspiracy in a case tied to its business dealings with Iran.",
    "title": "China's Huawei Convicted in U.S. Over Bank Fraud, Iran Ties",
    "url": "https://time.com/article/2026/11/25/huawei-guilty-crimes-fraud-conspiracy-sanctions-us-china/"
+  },
+  {
+   "id": "time-bc4a477dd6cd",
+   "added": "2026-11-26T11:45:00Z",
+   "published": "2026-11-25T12:00:00Z",
+   "source": "time",
+   "summary": "Support is growing for the release of Eva Yi Xie, a Princeton doctoral candidate detained by ICE at a Virginia airport on Nov. 19.",
+   "title": "The Push to Free a Princeton Scientist From ICE Detention Is Growing",
+   "url": "https://time.com/article/2026/11/25/the-push-to-free-a-princeton-scientist-from-ice-detention-is-growing/"
   },
   {
    "id": "npr-0c20c7905a17",
@@ -3583,213 +3914,6 @@
    "url": "https://e360.yale.edu/digest/cop31-failed-agreement"
   },
   {
-   "id": "time-135b76dd2801",
-   "added": "2026-11-24T11:50:00Z",
-   "published": "2026-11-23T12:00:00Z",
-   "source": "time",
-   "summary": "A look at how Taiwan is using its dominance in advanced technology as a form of security protection.",
-   "title": "How Taiwan Is Turning Tech Supremacy Into a Security Shield",
-   "url": "https://time.com/article/2026/11/23/how-taiwan-is-turning-tech-supremacy-into-a-security-shield/"
-  },
-  {
-   "id": "time-1c91203ac1d0",
-   "added": "2026-11-24T11:50:00Z",
-   "published": "2026-11-23T12:00:00Z",
-   "source": "time",
-   "summary": "President Trump praised Nvidia's decision to reinstate Jensen Huang as chief executive.",
-   "title": "Trump Applauds NVIDIA's Decision to Reinstate Jensen Huang",
-   "url": "https://time.com/article/2026/11/23/trump-nvidia-jensen-huang-reinstated/"
-  },
-  {
-   "id": "time-27780c0dad2a",
-   "added": "2026-11-24T11:50:00Z",
-   "published": "2026-11-23T12:00:00Z",
-   "source": "time",
-   "summary": "Zelensky said Ukraine sank a Russian warship at a naval base in Libya.",
-   "title": "Zelensky Says Ukraine Sank Russian Warship in Libya",
-   "url": "https://time.com/article/2026/11/23/zelensky-says-ukraine-sank-russian-warship-at-naval-base-in-libya/"
-  },
-  {
-   "id": "time-297a892b8a0f",
-   "added": "2026-11-24T11:50:00Z",
-   "published": "2026-11-23T12:00:00Z",
-   "source": "time",
-   "summary": "Thanksgiving dinner is expected to cost Americans more this year, according to the American Farm Bureau's survey.",
-   "title": "Why Thanksgiving Dinner Is Set to Cost Americans More This Year",
-   "url": "https://time.com/article/2026/11/23/thanksgiving-set-to-cost-americans-more-this-year-farm-bureau/"
-  },
-  {
-   "id": "time-3f920a9279f4",
-   "added": "2026-11-24T11:50:00Z",
-   "published": "2026-11-23T12:00:00Z",
-   "source": "time",
-   "summary": "A look at how storms forecast for Thanksgiving week could affect holiday travel.",
-   "title": "Will Bad Weather Disrupt Thanksgiving Travel?",
-   "url": "https://time.com/article/2026/11/23/weather-disruption-thanksgiving-travel/"
-  },
-  {
-   "id": "time-ac53043b285e",
-   "added": "2026-11-24T11:50:00Z",
-   "published": "2026-11-23T12:00:00Z",
-   "source": "time",
-   "summary": "An explainer on the Army's on-again, off-again plan to detonate degraded lead azide in Iowa and the controversy around it.",
-   "title": "What to Know About the U.S. Army's On-Again, Off-Again Plan to Explode Lead in Iowa",
-   "url": "https://time.com/article/2026/11/23/iowa-lead-azide-detonation-environment-controversy-doj-us-army/"
-  },
-  {
-   "id": "time-e1084a034304",
-   "added": "2026-11-24T11:50:00Z",
-   "published": "2026-11-23T12:00:00Z",
-   "source": "time",
-   "summary": "South Korea's education minister resigned after backlash over anti-AI cheating measures tied to the national college entrance exam.",
-   "title": "South Korean Education Minister Resigns After Backlash Toward Anti-AI Measures",
-   "url": "https://time.com/article/2026/11/23/south-korea-education-minister-resigns-college-exam-suneung-ai-cheating/"
-  },
-  {
-   "id": "npr-a133c870a360",
-   "added": "2026-11-23T12:05:00Z",
-   "published": "2026-11-23T10:16:33Z",
-   "source": "npr",
-   "summary": "Ukrainian President Volodymyr Zelenskyy says sea drones struck and sank a Russian navy vessel docked at a Libyan port in a surprise attack.",
-   "title": "Ukrainian drones hit a Russian warship at a naval base in Libya, Zelenskyy says",
-   "url": "https://www.npr.org/2026/11/23/g-s1-155017/ukraine-attack-russian-warship-libya"
-  },
-  {
-   "id": "npr-cb88e1b28dca",
-   "added": "2026-11-23T12:05:00Z",
-   "published": "2026-11-23T10:00:00Z",
-   "source": "npr",
-   "summary": "Older drivers are relying on Tesla's automated driving features to keep driving longer, while safety experts question whether the company overstates their capabilities.",
-   "title": "Seniors embrace Tesla automated driving technology despite questions about safety",
-   "url": "https://www.npr.org/2026/11/23/nx-s1-6020559/senior-drivers-tesla-automated-driving-safety"
-  },
-  {
-   "id": "npr-dae74464c643",
-   "added": "2026-11-23T12:05:00Z",
-   "published": "2026-11-23T10:00:00Z",
-   "source": "npr",
-   "summary": "Rising grocery prices make this year's Thanksgiving cost uncertain, according to food-price analysts, and some people are hosting fewer guests or skipping hosting altogether.",
-   "title": "Let's talk turkey: Here's how Thanksgiving meal costs have changed this year",
-   "url": "https://www.npr.org/2026/11/23/nx-s1-6044207/thanksgiving-meal-costs"
-  },
-  {
-   "id": "pbs-7af0bf3d71f1",
-   "added": "2026-11-23T12:05:00Z",
-   "published": "2026-11-22T22:40:06Z",
-   "source": "pbs",
-   "summary": "An automation problem at Delta led to flight delays and an FAA ground stop at Atlanta's airport during the busy Thanksgiving travel period.",
-   "title": "Automation system problem at Delta causes flight delays as Americans travel for Thanksgiving",
-   "url": "https://www.pbs.org/newshour/nation/automation-system-problem-at-delta-causes-flight-delays-as-americans-travel-for-thanksgiving"
-  },
-  {
-   "id": "pbs-49dfa92aa0ba",
-   "added": "2026-11-23T12:05:00Z",
-   "published": "2026-11-22T21:21:26Z",
-   "source": "pbs",
-   "summary": "An appeals court ruled the Pregnant Workers Fairness Act unconstitutional because a House majority was not physically present when it passed in 2022.",
-   "title": "Appeals court says federal law requiring accommodations for pregnant workers is unconstitutional",
-   "url": "https://www.pbs.org/newshour/nation/appeals-court-says-federal-law-requiring-accommodations-for-pregnant-workers-is-unconstitutional"
-  },
-  {
-   "id": "pbs-0250dcc570c8",
-   "added": "2026-11-23T12:05:00Z",
-   "published": "2026-11-22T20:18:46Z",
-   "source": "pbs",
-   "summary": "The Army intends to use emergency authority to detonate stored bomb-making chemicals in Iowa, a move environmental groups criticize as circumventing a court order.",
-   "title": "U.S. Army plans to invoke emergency provisions to detonate bomb-making chemicals in Iowa",
-   "url": "https://www.pbs.org/newshour/nation/u-s-army-plans-to-invoke-emergency-provisions-to-detonate-bomb-making-chemicals-in-iowa"
-  },
-  {
-   "id": "pbs-8c9cb5e3819c",
-   "added": "2026-11-23T12:05:00Z",
-   "published": "2026-11-22T19:58:16Z",
-   "source": "pbs",
-   "summary": "Poland alleges Russia twice attempted to kill a Ukrainian American rapper, and Denmark plans to ask the EU for stronger measures, which Poland would support.",
-   "title": "Poland says Russia allegedly twice tried to kill a Ukrainian American rapper",
-   "url": "https://www.pbs.org/newshour/world/poland-says-russia-allegedly-twice-tried-to-kill-a-ukrainian-american-rapper"
-  },
-  {
-   "id": "pbs-20baa5925c3e",
-   "added": "2026-11-23T12:05:00Z",
-   "published": "2026-11-22T18:37:06Z",
-   "source": "pbs",
-   "summary": "The intelligence chief defended Trump's characterization of Putin after three-way talks with Putin and Xi Jinping, which Democrats criticized.",
-   "title": "U.S. intelligence chief says Trump's description of Putin as a 'friend' is 'entirely appropriate'",
-   "url": "https://www.pbs.org/newshour/world/u-s-intelligence-chief-says-trumps-description-of-putin-as-a-friend-is-entirely-appropriate"
-  },
-  {
-   "id": "pbs-4319c416d268",
-   "added": "2026-11-23T12:05:00Z",
-   "published": "2026-11-22T18:24:22Z",
-   "source": "pbs",
-   "summary": "Democrats secured at least 258 House seats after a North Carolina win, giving them their largest House majority since 1992.",
-   "title": "Democrats clinch a historic House majority of at least 258 seats, the largest since 1992",
-   "url": "https://www.pbs.org/newshour/politics/democrats-clinch-a-historic-house-majority-of-at-least-258-seats-the-largest-since-1992"
-  },
-  {
-   "id": "npr-6a1969ce9110",
-   "added": "2026-11-23T12:05:00Z",
-   "published": "2026-11-22T17:44:52Z",
-   "source": "npr",
-   "summary": "Villagers in a southern Lebanese village returned after Israeli forces withdrew and the Lebanese army took over, only to find their homes badly damaged.",
-   "title": "Lebanese villagers return to wrecked homes as the Israeli army pulls back",
-   "url": "https://www.npr.org/2026/11/22/nx-s1-6048710/lebanon-israel-army-conflict-homes"
-  },
-  {
-   "id": "pbs-30228365a20f",
-   "added": "2026-11-23T12:05:00Z",
-   "published": "2026-11-22T17:13:38Z",
-   "source": "pbs",
-   "summary": "AI tools quickly identify software vulnerabilities, pressuring companies to patch fast, and experts warn this may cause unintended disruptions such as outages.",
-   "title": "As AI detects flaws in computer systems, is it causing more tech outages and disruptions?",
-   "url": "https://www.pbs.org/newshour/nation/as-ai-detects-flaws-in-computer-systems-is-it-causing-more-tech-outages-and-disruptions"
-  },
-  {
-   "id": "pbs-e99e0449a122",
-   "added": "2026-11-23T12:05:00Z",
-   "published": "2026-11-22T16:41:28Z",
-   "source": "pbs",
-   "summary": "The BepiColombo spacecraft pair has entered orbit around Mercury, marking the first visit to the planet in more than a decade.",
-   "title": "Mercury gets its first visitor in years as a pair of spacecraft loop into orbit",
-   "url": "https://www.pbs.org/newshour/science/mercury-gets-its-first-visitor-in-years-as-a-pair-of-spacecraft-loop-into-orbit"
-  },
-  {
-   "id": "npr-4fa2e6869078",
-   "added": "2026-11-23T12:05:00Z",
-   "published": "2026-11-22T16:33:22Z",
-   "source": "npr",
-   "summary": "Nearly 200 countries meeting in Antalya, Turkey, for COP31 ended without agreeing on whether to phase away from fossil fuels, the main driver of global warming.",
-   "title": "Climate change talks fall apart in final hours over fossil fuels",
-   "url": "https://www.npr.org/2026/11/22/nx-s1-6046195/cop31-climate-talks-close-disappointment"
-  },
-  {
-   "id": "pbs-ed8e9a00886e",
-   "added": "2026-11-23T12:05:00Z",
-   "published": "2026-11-22T16:30:17Z",
-   "source": "pbs",
-   "summary": "UN climate negotiations in Turkey collapsed after countries failed to agree on fossil fuel language and disputes over funding remained unresolved.",
-   "title": "UN climate talks break down over bitter disagreements on fossil fuels",
-   "url": "https://www.pbs.org/newshour/world/un-climate-talks-break-down-over-bitter-disagreements-on-fossil-fuels"
-  },
-  {
-   "id": "pbs-c52a26a8a044",
-   "added": "2026-11-23T12:05:00Z",
-   "published": "2026-11-22T16:18:21Z",
-   "source": "pbs",
-   "summary": "Video shows immigration officers removing people at Seattle-Tacoma airport, a scene that delayed a flight and included a mother describing her daughter's detention.",
-   "title": "Immigration officers make arrests at Seattle airport in 'distressing' scene, delaying flight",
-   "url": "https://www.pbs.org/newshour/nation/immigration-officers-make-arrests-at-seattle-airport-in-distressing-scene-delaying-flight"
-  },
-  {
-   "id": "npr-7b306ae35bb3",
-   "added": "2026-11-23T12:05:00Z",
-   "published": "2026-11-22T13:11:04Z",
-   "source": "npr",
-   "summary": "Medicare open enrollment runs until December 7, and beneficiaries with drug or Medicare Advantage plans may face significant changes for 2027.",
-   "title": "Medicare looks a bit different in 2027, so don't miss open enrollment",
-   "url": "https://www.npr.org/2026/11/22/nx-s1-6036735/medicare-open-enrollment-2027"
-  },
-  {
    "id": "e360-f6d4ea4e3c57",
    "added": "2026-11-20T11:45:00Z",
    "published": "2026-11-20T09:19:00Z",
@@ -3800,41 +3924,41 @@
   }
  ],
  "edition": {
-  "no": 46,
-  "date": "2026-11-25"
+  "no": 47,
+  "date": "2026-11-26"
  },
  "extras": {
-  "date": "2026-11-25",
+  "date": "2026-11-26",
   "fact": {
-   "answer": "When a plane climbs or descends, outside air pressure changes, but air sealed in your middle ear doesn't adjust on its own, so the mismatch pushes or pulls on the eardrum. Relief comes through the Eustachian tube, a narrow passage from the middle ear to the back of the nose; when it opens, the pressure evens out, and that opening is the \"pop.\"\n\nThe tube normally stays closed until swallowing or yawning pulls it open. Takeoff is usually easier, since middle-ear air can push its way out; on landing, higher outside pressure presses in and is harder to relieve.\n\nChewing gum, swallowing or yawning during descent helps; babies can be fed or given a pacifier. If a cold blocks the tube, the pressure can't equalize, and it can hurt a lot.",
-   "question": "Why do your ears pop on an airplane?",
+   "answer": "Cutting an apple breaks open its cells and lets an enzyme called polyphenol oxidase mix with natural compounds called polyphenols. Once oxygen reaches them, the enzyme oxidizes the polyphenols, and the products react to form brown pigments. Scientists call this enzymatic browning.\n\nThe brown pigments belong to the melanin family, the same group that gives human skin its color. Researchers think the reaction helps plants defend against pests and pathogens. The same process also gives prunes, raisins, coffee, black tea and cocoa their dark colors.\n\nTo keep slices looking fresh, refrigerate them or coat them with lemon or pineapple juice, whose acids and antioxidants slow the reaction. Pears, bananas, avocados and potatoes brown the same way.",
+   "question": "Why do apple slices turn brown?",
    "sources": [
     {
-     "name": "Indiana Public Media",
-     "url": "https://www.ipm.org/show/amomentofscience/2024-09-06/what-makes-our-ears-pop"
+     "name": "Britannica",
+     "url": "https://www.britannica.com/story/why-do-sliced-apples-turn-brown"
     },
     {
-     "name": "Science World",
-     "url": "https://www.scienceworld.ca/stories/ever-wonder-about-ear-popping/"
+     "name": "University of Wisconsin–Madison News",
+     "url": "https://news.wisc.edu/curiosities-why-do-apple-slices-turn-brown"
     }
    ]
   },
-  "updatedAt": "2026-11-25T11:35:49Z",
+  "updatedAt": "2026-11-26T11:55:00Z",
   "word": {
-   "definition": "Not done on purpose; happening by accident, often because someone wasn't paying close attention.",
-   "example": "The data leak turned out to be an inadvertent mistake: someone had attached the wrong spreadsheet to the team email.",
-   "pos": "adjective",
-   "pron": "in-ud-VUR-tunt",
+   "definition": "To bring things that seem to clash into agreement or harmony, such as two sets of figures, two points of view, or two people after a falling-out; also, to come to accept something unwelcome.",
+   "example": "Before the budget meeting, I spent an hour trying to reconcile the finance team's numbers with the ones in our project tracker.",
+   "pos": "verb",
+   "pron": "REK-un-syle",
    "source": {
     "name": "Merriam-Webster",
-    "url": "https://www.merriam-webster.com/dictionary/inadvertent"
+    "url": "https://www.merriam-webster.com/dictionary/reconcile"
    },
    "synonyms": [
-    "accidental",
-    "unintentional",
-    "unplanned"
+    "harmonize",
+    "resolve",
+    "settle"
    ],
-   "word": "inadvertent"
+   "word": "reconcile"
   }
  }
 }
