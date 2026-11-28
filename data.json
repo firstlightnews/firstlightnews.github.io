@@ -2,137 +2,125 @@
  "weather": {
   "cities": [
    {
-    "cond": "Mostly Cloudy",
-    "hi": 53,
-    "lo": 43,
+    "cond": "Mostly Sunny",
+    "hi": 58,
+    "lo": 38,
     "name": "Baltimore",
-    "rain": 20
+    "rain": 0
    }
   ],
-  "date": "2026-11-27",
-  "updatedAt": "2026-11-27T11:45:12Z"
+  "date": "2026-11-28",
+  "updatedAt": "2026-11-28T12:05:00Z"
  },
  "digest": {
-  "date": "2026-11-27",
-  "generatedAt": "2026-11-27T11:45:12Z",
+  "date": "2026-11-28",
+  "generatedAt": "2026-11-28T12:10:00Z",
   "items": [
    {
-    "headline": "Trump calls GDP data 'fake,' demands Commerce probe",
+    "headline": "U.S. disables another ship trying to run Iran blockade",
     "sources": [
      {
       "name": "PBS NewsHour",
-      "url": "https://www.pbs.org/newshour/politics/trump-calls-gdp-figures-fake-and-demands-an-investigation-of-commerce-department"
-     },
-     {
-      "name": "TIME",
-      "url": "https://time.com/article/2026/11/27/trump-thanksgiving-truth-social-economic-data-growth-estimate-revision-election/"
+      "url": "https://www.pbs.org/newshour/world/u-s-military-says-it-disabled-another-ship-that-tried-to-breach-naval-blockade-on-iranian-ports"
      }
     ],
-    "summary": "President Trump accused the Commerce Department of deliberately releasing inaccurate growth figures before the midterms, after third-quarter GDP was revised up to a 4.3% annual rate from 3.4%. He called it a \"massive, and purposeful, error\" and said he wants an investigation."
+    "summary": "U.S. Central Command said an aircraft fired precision munitions at the stern of the Palau-flagged Pacific Archer in the Gulf of Oman, disabling its propulsion without harming the crew. It is at least the 15th disclosed vessel the U.S. has disabled since the blockade of Iranian ports began."
    },
    {
-    "headline": "Thanksgiving storms knock out power to nearly 1 million",
-    "sources": [
-     {
-      "name": "NPR",
-      "url": "https://www.npr.org/2026/11/27/nx-s1-6054884/thanksgiving-weather-black-friday"
-     },
-     {
-      "name": "PBS NewsHour",
-      "url": "https://www.pbs.org/newshour/show/stormy-thanksgiving-weather-causes-delays-and-damages-for-many-americans"
-     }
-    ],
-    "summary": "Power outages peaked above 980,000 customers across New York, Pennsylvania, New Jersey and other states as storms stretched from Maine to Florida. More than 400 flights were canceled, and 65 mph gusts tore the roof off a building in Ocean City, Maryland."
-   },
-   {
-    "headline": "Zelenskyy warns of imminent Russian strike on power grid",
+    "headline": "Zelenskyy calls Trump's 'friend' remark about Putin strange",
     "sources": [
      {
       "name": "PBS NewsHour",
-      "url": "https://www.pbs.org/newshour/world/zelenskyy-warns-of-imminent-major-russian-attack-on-ukraines-power-grid"
+      "url": "https://www.pbs.org/newshour/world/zelenskyy-urges-the-u-s-to-pressure-putin-calling-trumps-my-friend-remark-strange"
      }
     ],
-    "summary": "Ukrainian President Volodymyr Zelenskyy said intelligence shows Moscow is completing preparations for a new massive strike on Ukraine's energy system, after an overnight barrage of ballistic missiles and 113 drones. U.S. envoy Jared Kushner said peace talks are at \"a little bit of a deadlock\" over territory."
+    "summary": "In a BBC interview, Ukrainian President Volodymyr Zelenskyy urged Washington to pressure Vladimir Putin and said of the Russian leader, \"He can't be a friend.\" President Trump defended his comments, saying, \"We want to make a deal. We want to stop the killing.\""
    },
    {
-    "headline": "Kim Jong Un vows to expand North Korea's nuclear arsenal",
+    "headline": "Republicans signal openness to rethinking Trump's tariffs",
     "sources": [
-     {
-      "name": "NPR",
-      "url": "https://www.npr.org/2026/11/26/g-s1-155955/north-korea-kim-nuclear-weapons-trump"
-     },
      {
       "name": "PBS NewsHour",
-      "url": "https://www.pbs.org/newshour/world/north-koreas-kim-vows-to-build-more-nuclear-weapons-after-ignoring-trumps-overture"
+      "url": "https://www.pbs.org/newshour/politics/republicans-rethink-tariffs-giving-democrats-an-opening-to-challenge-trump"
      }
     ],
-    "summary": "State media said Kim inspected two nuclear-material production factories and pledged to build more weapons, citing threats from the U.S. and South Korea. Pyongyang never publicly answered President Trump's offer to meet during his Asia trip."
+    "summary": "After midterm losses centered on rising costs, many congressional Republicans say they are open to reconsidering some tariffs, at least case by case. The shift follows the administration's proposal of new tariffs on China, the EU, Japan, South Korea, Taiwan and nine other partners."
    },
    {
-    "headline": "Congo Ebola outbreak passes 12,000 cases",
+    "headline": "Storm outages ease as East Coast begins cleanup",
     "sources": [
      {
-      "name": "NPR",
-      "url": "https://www.npr.org/2026/11/26/g-s1-155957/congo-ebola-responders"
+      "name": "PBS NewsHour",
+      "url": "https://www.pbs.org/newshour/nation/heavy-rain-winds-down-as-power-remains-out-for-hundreds-of-thousands-on-the-east-coast"
      }
     ],
-    "summary": "Ebola is spreading rapidly in eastern Congo, where confirmed cases have passed 12,000 in an outbreak caused by a strain with no approved vaccine. Renewed fighting between rebels and the army is hampering containment and has forced some responders to evacuate."
+    "summary": "More than 600,000 homes and businesses were still without power Friday morning, down from over 900,000 on Thursday, as heavy rain wound down. Crews carried out water rescues from New York to Virginia, including 39 people in Norfolk, and New York's Macy's parade was postponed to Saturday."
    },
    {
-    "headline": "Advocates ask Supreme Court to restore asylum access",
+    "headline": "Canada's top court upholds most of Quebec's religious-symbols ban",
     "sources": [
      {
-      "name": "NPR",
-      "url": "https://www.npr.org/2026/11/27/nx-s1-6037854/trump-effectively-ended-asylum-supreme-court"
+      "name": "PBS NewsHour",
+      "url": "https://www.pbs.org/newshour/world/canadas-supreme-court-largely-upholds-a-quebec-ban-on-religious-symbols-for-public-servants"
      }
     ],
-    "summary": "The administration has blocked asylum claims at the southern border for nearly two years, and the Supreme Court is set to consider whether a president can suspend asylum without Congress. The national asylum denial rate reached 94% in June, up from about 50% in 2024."
+    "summary": "Canada's Supreme Court upheld most of Quebec's 2019 Bill 21, which bars public employees in positions of authority, such as teachers and police, from wearing religious symbols. Prime Minister Mark Carney said he respected the ruling but his government would not use the constitutional override the law relies on."
    },
    {
-    "headline": "China, Brazil and EU push back on new U.S. tariff plan",
+    "headline": "Mexico files complaint over DEA crime tip line",
+    "sources": [
+     {
+      "name": "PBS NewsHour",
+      "url": "https://www.pbs.org/newshour/world/mexicos-government-is-slamming-a-dea-crime-tip-line-as-foreign-interference-others-are-thrilled"
+     }
+    ],
+    "summary": "President Claudia Sheinbaum filed a formal complaint with the U.S. Embassy over an anonymous DEA tip line, which her government calls foreign interference. Some Mexicans, including a Sinaloa journalist, have welcomed the line amid frustration over cartel violence."
+   },
+   {
+    "headline": "Russia's Kaliningrad emerges as a NATO flashpoint",
     "sources": [
      {
       "name": "TIME",
-      "url": "https://time.com/article/2026/11/26/china-brazil-eu-push-back-against-trump-tariffs/"
+      "url": "https://time.com/article/2026/11/27/russian-exclave-kaliningrad-threat-nato-tensions-ukraine-war/"
      }
     ],
-    "summary": "China, facing a proposed 20% tariff, said it reserves the right to take necessary measures, and Brazil called the U.S. move \"unacceptable.\" The European Parliament's trade committee chair called the planned 20% rate on EU goods \"absurd.\""
+    "summary": "Moscow announced about 47 billion rubles for two railway ferries to supply its Baltic exclave of Kaliningrad. Maritime incidents and rising tensions with NATO have made the territory a potential flashpoint."
    },
    {
-    "headline": "Democrats' midterm wins cool the redistricting fight",
-    "sources": [
-     {
-      "name": "TIME",
-      "url": "https://time.com/article/2026/11/27/midterm-elections-redistricting-gerrymandering/"
-     }
-    ],
-    "summary": "Democrats won several districts in Texas, North Carolina, Ohio, Alabama and Florida that had been redrawn to favor Republicans. Experts say the urgency for more mid-decade redistricting has faded ahead of the next full cycle after the 2030 census."
-   },
-   {
-    "headline": "Puerto Rico court lets governor end LUMA grid contract",
-    "sources": [
-     {
-      "name": "NPR",
-      "url": "https://www.npr.org/2026/11/26/nx-s1-6054139/court-rules-puerto-ricos-governor-can-fire-company-that-runs-troubled-power-grid"
-     }
-    ],
-    "summary": "Puerto Rico's Supreme Court cleared the governor to end the contract of LUMA Energy, the company that runs the island's troubled power grid. The government has a year to find a new operator."
-   },
-   {
-    "headline": "King tides increasingly flood U.S. coastal towns",
+    "headline": "Thousands protest living costs in Puerto Rico",
     "sources": [
      {
       "name": "PBS NewsHour",
-      "url": "https://www.pbs.org/newshour/nation/what-are-king-tides-these-exceptionally-high-tides-are-increasingly-flooding-coastal-communities"
+      "url": "https://www.pbs.org/newshour/nation/protesters-take-to-the-streets-in-puerto-ricos-capital-as-standard-of-living-deteriorates"
      }
     ],
-    "summary": "The year's highest tides are flooding coastal communities more often as sea levels rise, and this year's strong El Niño has pushed water levels higher. Four California locations recorded all-time-high water levels in late October."
+    "summary": "About 30 groups organized a Black Friday protest in San Juan over record electricity rates, the cost of living and failing services. The new residential power rate of 33.86 cents per kilowatt-hour compares with a U.S. mainland average of 18.3 cents."
+   },
+   {
+    "headline": "Depardieu ordered to stand trial for rape",
+    "sources": [
+     {
+      "name": "NPR",
+      "url": "https://www.npr.org/2026/11/27/nx-s1-6055559/gerard-depardieu-trial-rape-france"
+     }
+    ],
+    "summary": "French film star Gérard Depardieu has been ordered to stand trial for rape and sexual assault. The case is among the most prominent in France's reckoning with sexual violence."
+   },
+   {
+    "headline": "Drones and a sniffer dog check on endangered orcas",
+    "sources": [
+     {
+      "name": "PBS NewsHour",
+      "url": "https://www.pbs.org/newshour/science/using-a-drone-and-a-poop-sniffing-dog-scientists-perform-health-checks-on-endangered-orcas"
+     }
+    ],
+    "summary": "Scientists are using drones to collect whale breath and a detection dog to find stool samples to monitor the 76 remaining Southern Resident killer whales in the Salish Sea. Researchers say restoring salmon runs is the most important step, as the Chinook salmon the orcas eat have shrunk sharply in size."
    }
   ],
-  "overview": "President Trump called new GDP figures \"fake\" and demanded an investigation of the Commerce Department after third-quarter growth was revised up to 4.3%. Thanksgiving storms knocked out power to more than 980,000 customers at their peak and canceled over 400 flights. Advocates are asking the Supreme Court to restore asylum access after nearly two years of border restrictions. A federal judge declined to extend a block on taxpayer-funded pro-Trump TV ads, saying the midterms had come and gone. Puerto Rico's Supreme Court let the governor end LUMA Energy's contract to run the island's power grid. The EPA said it found zero airborne lead in Middletown, Iowa, after the Army's detonation. Trump will attend a Dec. 4 groundbreaking for TSMC's next Arizona chip plant. Former Deputy Secretary of State Strobe Talbott died at 80.\n\nAbroad, a drone attack on a Kuwaiti air-defense site killed two Italian contractors, and Iran denied responsibility. Iran's Revolutionary Guards said two tankers hit mines near the Strait of Hormuz, and the Houthis struck Saudi Arabia's Jazan oil complex. Zelenskyy warned of an imminent massive Russian strike on Ukraine's grid, while Ukraine said it damaged five warplanes at Russia's Savasleyka air base. EU leaders failed to agree on a long-term budget and a new loan for Ukraine. Kim Jong Un vowed to expand North Korea's nuclear arsenal, and North Korean troops have crossed the inter-Korean military demarcation line about 40 times since October. Israeli strikes in Gaza killed at least 10 people, including the territory's deputy education minister. Congo's Ebola outbreak passed 12,000 cases."
+  "overview": "Thanksgiving storm outages fell from more than 900,000 customers Thursday to about 600,000 by Friday morning after water rescues from New York to Virginia. Many congressional Republicans said they are open to rethinking some of President Trump's tariffs after election losses driven by rising costs. Trump told U.S. service members that victory over Iran is \"at hand.\" Thousands marched in San Juan, Puerto Rico, against record electricity rates and failing public services. Los Angeles schools quietly switched off Google's AI features on student devices. An official confirmed hackers breached the Air Force's cloud computing platform earlier this year.\n\nAbroad, a U.S. aircraft disabled another blockade-running ship in the Gulf of Oman, and Kuwait formally protested to Iran over the drone strike that killed two Italians. Zelenskyy called Trump's description of Putin as a friend \"strange,\" and EU leaders will retry a 45 billion-euro Ukraine loan at a Dec. 17–18 summit. Ukrainian intelligence said North Korea has paused military support for Russia, and Iran told Seoul that foreign forces in the Gulf raise tensions as South Korea plans to widen its naval unit's area. Russia is funding new rail ferries to Kaliningrad amid NATO tensions. Canada's Supreme Court largely upheld Quebec's ban on religious symbols for public servants, and Mexico's Claudia Sheinbaum protested a DEA crime tip line. A French court ordered Gérard Depardieu to stand trial for rape and sexual assault, and Serbia's student movement nominated chemist Radomir Saicic for president. The U.N. warned hunger will worsen in 16 countries and regions, with Yemen, Somalia, Sudan and South Sudan most at risk."
  },
  "status": {
-  "lastRun": "2026-11-27T11:45:12Z",
+  "lastRun": "2026-11-28T12:05:00Z",
   "sources": {
    "e360": {
     "newCount": 0,
@@ -141,22 +129,22 @@
     "stale": false
    },
    "npr": {
-    "newCount": 7,
-    "newest": "2026-11-27T10:59:36Z",
+    "newCount": 1,
+    "newest": "2026-11-27T11:59:02Z",
     "ok": true,
-    "stale": false
+    "stale": true
    },
    "pbs": {
     "newCount": 10,
-    "newest": "2026-11-26T23:55:26Z",
+    "newest": "2026-11-27T23:55:12Z",
     "ok": true,
     "stale": false
    },
    "time": {
-    "newCount": 3,
-    "newest": "2026-11-27T12:00:00Z",
+    "newCount": 1,
+    "newest": "2026-11-27T19:48:00Z",
     "ok": true,
-    "stale": false
+    "stale": true
    }
   }
  },
@@ -165,10 +153,17 @@
    "country": "ger",
    "group": "soccer",
    "name": "Bundesliga",
-   "note": "Leaders Dortmund, two points clear of Bayern, host Leverkusen on Sunday after Bayern visit Hamburg on Saturday.",
+   "note": "Niclas Füllkrug's 93rd-minute equalizer earned Werder Bremen a 3–3 draw with bottom side Gladbach, and leaders Dortmund host Leverkusen on Sunday after Bayern visit Hamburg.",
    "order": 1,
-   "phase": "Matchday 11 starts tonight",
+   "phase": "Matchday 11 this weekend",
    "results": [
+    {
+     "as": 3,
+     "away": "Gladbach",
+     "home": "Werder Bremen",
+     "hs": 3,
+     "t": "2026-11-27T19:30:00Z"
+    },
     {
      "as": 0,
      "away": "Hamburg",
@@ -218,13 +213,6 @@
      "home": "Elversberg",
      "hs": 0,
      "t": "2026-11-21T14:30:00Z"
-    },
-    {
-     "as": 1,
-     "away": "Köln",
-     "home": "Bayern",
-     "hs": 1,
-     "t": "2026-11-20T19:30:00Z"
     }
    ],
    "table": [
@@ -279,22 +267,17 @@
      "w": 6
     },
     {
-     "d": 3,
+     "d": 4,
      "gd": 6,
-     "gp": 10,
+     "gp": 11,
      "l": 2,
      "pos": 6,
-     "pts": 18,
+     "pts": 19,
      "team": "Werder Bremen",
      "w": 5
     }
    ],
    "upcoming": [
-    {
-     "away": "Gladbach",
-     "home": "Werder Bremen",
-     "t": "2026-11-27T19:30:00Z"
-    },
     {
      "away": "Bayern",
      "home": "Hamburg",
@@ -316,16 +299,23 @@
      "t": "2026-11-29T18:30:00Z"
     }
    ],
-   "updatedAt": "2026-11-27T11:30:00Z"
+   "updatedAt": "2026-11-28T12:30:00Z"
   },
   "championship": {
    "country": "eng",
    "group": "soccer",
    "name": "Championship",
-   "note": "Leaders Middlesbrough visit Southampton tonight, with Stoke level on 35 points ahead of their trip to West Ham on Saturday and Swansea hosting Cardiff in the South Wales derby on Sunday.",
+   "note": "Southampton beat leaders Middlesbrough 2–0 with goals from Ryan Manning and Finn Azaz; Southampton's total reflects a four-point deduction.",
    "order": 2,
-   "phase": "Matchday 18 starts tonight",
+   "phase": "Matchday 18 this weekend",
    "results": [
+    {
+     "as": 0,
+     "away": "Middlesbrough",
+     "home": "Southampton",
+     "hs": 2,
+     "t": "2026-11-27T20:00:00Z"
+    },
     {
      "as": 1,
      "away": "Millwall",
@@ -374,21 +364,14 @@
      "home": "Norwich",
      "hs": 1,
      "t": "2026-11-24T19:45:00Z"
-    },
-    {
-     "as": 0,
-     "away": "Lincoln City",
-     "home": "Charlton",
-     "hs": 4,
-     "t": "2026-11-24T19:45:00Z"
     }
    ],
    "table": [
     {
      "d": 5,
-     "gd": 14,
-     "gp": 17,
-     "l": 2,
+     "gd": 12,
+     "gp": 18,
+     "l": 3,
      "pos": 1,
      "pts": 35,
      "team": "Middlesbrough",
@@ -436,21 +419,16 @@
     },
     {
      "d": 5,
-     "gd": 16,
-     "gp": 17,
+     "gd": 18,
+     "gp": 18,
      "l": 3,
      "pos": 6,
-     "pts": 28,
+     "pts": 31,
      "team": "Southampton",
-     "w": 9
+     "w": 10
     }
    ],
    "upcoming": [
-    {
-     "away": "Middlesbrough",
-     "home": "Southampton",
-     "t": "2026-11-27T20:00:00Z"
-    },
     {
      "away": "Charlton",
      "home": "Blackburn",
@@ -477,7 +455,7 @@
      "t": "2026-11-28T15:00:00Z"
     }
    ],
-   "updatedAt": "2026-11-27T11:31:54Z"
+   "updatedAt": "2026-11-28T12:30:00Z"
   },
   "eflcup": {
    "country": "eng",
@@ -573,16 +551,23 @@
      "t": "2026-12-16T20:00:00Z"
     }
    ],
-   "updatedAt": "2026-11-27T11:31:54Z"
+   "updatedAt": "2026-11-28T12:30:00Z"
   },
   "epl": {
    "country": "eng",
    "group": "soccer",
    "name": "Premier League",
-   "note": "Nottingham Forest host Chelsea tonight to open Matchday 12, and Sunday brings the Merseyside derby at Everton and leaders Arsenal hosting Man City.",
+   "note": "Nottingham Forest beat Chelsea 3–2 on Morgan Gibbs-White's double, Chelsea's third straight league defeat, and Sunday brings the Merseyside derby and leaders Arsenal hosting Man City.",
    "order": 1,
-   "phase": "Matchday 12 starts tonight",
+   "phase": "Matchday 12 this weekend",
    "results": [
+    {
+     "as": 2,
+     "away": "Chelsea",
+     "home": "Nottingham Forest",
+     "hs": 3,
+     "t": "2026-11-27T20:00:00Z"
+    },
     {
      "as": 0,
      "away": "Everton",
@@ -633,14 +618,6 @@
      "home": "Man City",
      "hs": 1,
      "t": "2026-11-21T12:30:00Z"
-    },
-    {
-     "as": 0,
-     "away": "Nottingham Forest",
-     "dateOnly": true,
-     "home": "Bournemouth",
-     "hs": 2,
-     "t": "2026-11-21T12:00:00Z"
     }
    ],
    "table": [
@@ -707,11 +684,6 @@
    ],
    "upcoming": [
     {
-     "away": "Chelsea",
-     "home": "Nottingham Forest",
-     "t": "2026-11-27T20:00:00Z"
-    },
-    {
      "away": "Coventry",
      "home": "Leeds",
      "t": "2026-11-28T15:00:00Z"
@@ -738,7 +710,7 @@
      "t": "2026-11-29T16:30:00Z"
     }
    ],
-   "updatedAt": "2026-11-27T11:31:54Z"
+   "updatedAt": "2026-11-28T12:30:00Z"
   },
   "facup": {
    "country": "eng",
@@ -847,7 +819,7 @@
      "t": "2026-12-06T14:30:00Z"
     }
    ],
-   "updatedAt": "2026-11-27T11:31:54Z"
+   "updatedAt": "2026-11-28T12:30:00Z"
   },
   "intl": {
    "country": "intl",
@@ -951,12 +923,12 @@
      "label": "Nations League QF · March 2027"
     }
    ],
-   "updatedAt": "2026-11-27T11:31:54Z"
+   "updatedAt": "2026-11-28T12:30:00Z"
   },
   "kbo": {
    "group": "kbo",
    "name": "KBO",
-   "note": "Samsung are the 2026 champions after beating KT Wiz 4–1 in the Korean Series, Korean Series MVP Koo Ja-wook is weighing an MLB move as a free agent, and the 2027 season starts in late March.",
+   "note": "Samsung are the 2026 champions after beating KT Wiz 4–1 in the Korean Series, Kia's Kim Do-yeong won his second MVP award, and the 2027 season starts in late March.",
    "order": 1,
    "phase": "Offseason · Free agency",
    "results": [
@@ -1076,16 +1048,44 @@
    ],
    "tableTitle": "Standings",
    "upcoming": [],
-   "updatedAt": "2026-11-27T11:35:00Z"
+   "updatedAt": "2026-11-28T12:30:00Z"
   },
   "kleague1": {
    "country": "kor",
    "group": "soccer",
    "name": "K League 1",
-   "note": "Champions FC Seoul host Daejeon on Saturday as Daejeon chase second-place Ulsan HD, a point ahead, who host Jeonbuk on Sunday; Ulsan's Lee Dong-gyeong was nominated for a second straight MVP award.",
+   "note": "Champions FC Seoul beat Daejeon 4–1, leaving Daejeon a point behind second-place Ulsan HD, who host Jeonbuk on Sunday before the two meet in the final round on Dec. 6.",
    "order": 1,
-   "phase": "Final A/B split · Penultimate round Nov. 28–29",
+   "phase": "Final A/B split · Round 37 ends Sunday",
    "results": [
+    {
+     "as": 2,
+     "away": "Gimcheon",
+     "home": "Bucheon",
+     "hs": 1,
+     "t": "2026-11-28T07:30:00Z"
+    },
+    {
+     "as": 4,
+     "away": "Gwangju",
+     "home": "Pohang",
+     "hs": 2,
+     "t": "2026-11-28T07:30:00Z"
+    },
+    {
+     "as": 1,
+     "away": "Daejeon",
+     "home": "FC Seoul",
+     "hs": 4,
+     "t": "2026-11-28T05:00:00Z"
+    },
+    {
+     "as": 0,
+     "away": "Jeju SK",
+     "home": "Anyang",
+     "hs": 1,
+     "t": "2026-11-28T05:00:00Z"
+    },
     {
      "as": 1,
      "away": "Jeju SK",
@@ -1113,46 +1113,18 @@
      "home": "Gangwon",
      "hs": 1,
      "t": "2026-11-21T07:30:00Z"
-    },
-    {
-     "as": 1,
-     "away": "FC Seoul",
-     "home": "Jeonbuk",
-     "hs": 0,
-     "t": "2026-11-21T05:00:00Z"
-    },
-    {
-     "as": 1,
-     "away": "Anyang",
-     "home": "Pohang",
-     "hs": 1,
-     "t": "2026-11-21T05:00:00Z"
-    },
-    {
-     "as": 2,
-     "away": "Pohang",
-     "home": "Bucheon",
-     "hs": 2,
-     "t": "2026-11-08T07:30:00Z"
-    },
-    {
-     "as": 2,
-     "away": "Jeonbuk",
-     "home": "Gangwon",
-     "hs": 3,
-     "t": "2026-11-08T07:30:00Z"
     }
    ],
    "table": [
     {
      "d": 7,
-     "gd": 31,
-     "gp": 36,
+     "gd": 34,
+     "gp": 37,
      "l": 8,
      "pos": 1,
-     "pts": 70,
+     "pts": 73,
      "team": "FC Seoul",
-     "w": 21
+     "w": 22
     },
     {
      "d": 6,
@@ -1166,9 +1138,9 @@
     },
     {
      "d": 11,
-     "gd": 16,
-     "gp": 36,
-     "l": 10,
+     "gd": 13,
+     "gp": 37,
+     "l": 11,
      "pos": 3,
      "pts": 56,
      "team": "Daejeon",
@@ -1207,26 +1179,6 @@
    ],
    "upcoming": [
     {
-     "away": "Jeju SK",
-     "home": "Anyang",
-     "t": "2026-11-28T05:00:00Z"
-    },
-    {
-     "away": "Daejeon",
-     "home": "FC Seoul",
-     "t": "2026-11-28T05:00:00Z"
-    },
-    {
-     "away": "Gimcheon",
-     "home": "Bucheon",
-     "t": "2026-11-28T07:30:00Z"
-    },
-    {
-     "away": "Gwangju",
-     "home": "Pohang",
-     "t": "2026-11-28T07:30:00Z"
-    },
-    {
      "away": "Jeonbuk",
      "home": "Ulsan HD",
      "t": "2026-11-29T05:00:00Z"
@@ -1235,18 +1187,37 @@
      "away": "Gangwon",
      "home": "Incheon",
      "t": "2026-11-29T07:30:00Z"
+    },
+    {
+     "away": "Ulsan HD",
+     "home": "Daejeon",
+     "t": "2026-12-06T05:00:00Z"
     }
    ],
-   "updatedAt": "2026-11-27T11:30:00Z"
+   "updatedAt": "2026-11-28T12:30:00Z"
   },
   "kleague2": {
    "country": "kor",
    "group": "soccer",
    "name": "K League 2",
-   "note": "Daegu, a point ahead of Seoul E-Land in third, visit Cheonan on the final regular-season weekend while E-Land travel to Gyeongnam and champions Suwon Samsung close at Jeonnam.",
+   "note": "Sunday's final round settles the playoff order, with Daegu a point ahead of Seoul E-Land for third, before the semi-playoffs on Dec. 2 and the promotion playoff on Dec. 5.",
    "order": 2,
-   "phase": "Suwon Samsung champions · Final round Nov. 28–29",
+   "phase": "Suwon Samsung champions · Final round Sunday",
    "results": [
+    {
+     "as": 2,
+     "away": "Paju",
+     "home": "Yongin",
+     "hs": 1,
+     "t": "2026-11-28T05:00:00Z"
+    },
+    {
+     "as": 2,
+     "away": "Seongnam",
+     "home": "Gimhae",
+     "hs": 0,
+     "t": "2026-11-28T05:00:00Z"
+    },
     {
      "as": 1,
      "away": "Chungnam Asan",
@@ -1288,20 +1259,6 @@
      "home": "Gimpo",
      "hs": 0,
      "t": "2026-11-21T07:30:00Z"
-    },
-    {
-     "as": 0,
-     "away": "Chungbuk Cheongju",
-     "home": "Busan IPark",
-     "hs": 0,
-     "t": "2026-11-21T05:00:00Z"
-    },
-    {
-     "as": 1,
-     "away": "Gyeongnam",
-     "home": "Suwon Samsung",
-     "hs": 3,
-     "t": "2026-11-21T05:00:00Z"
     }
    ],
    "table": [
@@ -1368,16 +1325,6 @@
    ],
    "upcoming": [
     {
-     "away": "Paju",
-     "home": "Yongin",
-     "t": "2026-11-28T05:00:00Z"
-    },
-    {
-     "away": "Seongnam",
-     "home": "Gimhae",
-     "t": "2026-11-28T05:00:00Z"
-    },
-    {
      "away": "Suwon Samsung",
      "home": "Jeonnam",
      "t": "2026-11-29T05:00:00Z"
@@ -1396,18 +1343,35 @@
      "away": "Busan IPark",
      "home": "Chungnam Asan",
      "t": "2026-11-29T05:00:00Z"
+    },
+    {
+     "away": "Hwaseong",
+     "home": "Gimpo",
+     "t": "2026-11-29T05:00:00Z"
+    },
+    {
+     "away": "Chungbuk Cheongju",
+     "home": "Suwon FC",
+     "t": "2026-11-29T05:00:00Z"
     }
    ],
-   "updatedAt": "2026-11-27T11:30:00Z"
+   "updatedAt": "2026-11-28T12:30:00Z"
   },
   "laliga": {
    "country": "esp",
    "group": "soccer",
    "name": "La Liga",
-   "note": "Matchday 14 opens tonight with Levante hosting Racing Santander; leaders Barcelona, three points clear of Real Madrid, visit Deportivo on Sunday.",
+   "note": "Racing Santander won 3–1 at Levante to climb to sixth, and leaders Barcelona visit Deportivo on Sunday after Real Madrid host Alavés on Saturday.",
    "order": 1,
-   "phase": "Matchday 14 starts tonight",
+   "phase": "Matchday 14 this weekend",
    "results": [
+    {
+     "as": 3,
+     "away": "Racing Santander",
+     "home": "Levante",
+     "hs": 1,
+     "t": "2026-11-27T20:00:00Z"
+    },
     {
      "as": 1,
      "away": "Elche",
@@ -1458,14 +1422,6 @@
      "dateOnly": true,
      "home": "Real Madrid",
      "hs": 2,
-     "t": "2026-11-21T12:00:00Z"
-    },
-    {
-     "as": 1,
-     "away": "Deportivo",
-     "dateOnly": true,
-     "home": "Alavés",
-     "hs": 3,
      "t": "2026-11-21T12:00:00Z"
     }
    ],
@@ -1521,22 +1477,17 @@
      "w": 7
     },
     {
-     "d": 4,
-     "gd": -2,
-     "gp": 13,
-     "l": 4,
+     "d": 2,
+     "gd": -10,
+     "gp": 14,
+     "l": 6,
      "pos": 6,
-     "pts": 19,
-     "team": "Sevilla",
-     "w": 5
+     "pts": 20,
+     "team": "Racing Santander",
+     "w": 6
     }
    ],
    "upcoming": [
-    {
-     "away": "Racing Santander",
-     "home": "Levante",
-     "t": "2026-11-27T20:00:00Z"
-    },
     {
      "away": "Rayo Vallecano",
      "home": "Real Betis",
@@ -1563,16 +1514,23 @@
      "t": "2026-11-29T20:00:00Z"
     }
    ],
-   "updatedAt": "2026-11-27T11:30:00Z"
+   "updatedAt": "2026-11-28T12:30:00Z"
   },
   "ligue1": {
    "country": "fra",
    "group": "soccer",
    "name": "Ligue 1",
-   "note": "Second-placed Paris FC open Matchday 12 at Brest tonight, three points behind PSG, who host Lorient on Saturday.",
+   "note": "Luck Zogbe's goal gave Brest a 1–0 win over Paris FC, lifting Brest to third, and leaders PSG host Lorient on Saturday.",
    "order": 1,
-   "phase": "Matchday 12 starts tonight",
+   "phase": "Matchday 12 this weekend",
    "results": [
+    {
+     "as": 0,
+     "away": "Paris FC",
+     "home": "Brest",
+     "hs": 1,
+     "t": "2026-11-27T19:45:00Z"
+    },
     {
      "as": 3,
      "away": "Le Mans",
@@ -1629,9 +1587,9 @@
     },
     {
      "d": 2,
-     "gd": 11,
-     "gp": 11,
-     "l": 2,
+     "gd": 10,
+     "gp": 12,
+     "l": 3,
      "pos": 2,
      "pts": 23,
      "team": "Paris FC",
@@ -1639,10 +1597,20 @@
     },
     {
      "d": 3,
+     "gd": 8,
+     "gp": 12,
+     "l": 3,
+     "pos": 3,
+     "pts": 21,
+     "team": "Brest",
+     "w": 6
+    },
+    {
+     "d": 3,
      "gd": 6,
      "gp": 11,
      "l": 2,
-     "pos": 3,
+     "pos": 4,
      "pts": 21,
      "team": "Lille",
      "w": 6
@@ -1652,7 +1620,7 @@
      "gd": 7,
      "gp": 11,
      "l": 3,
-     "pos": 4,
+     "pos": 5,
      "pts": 20,
      "team": "Lyon",
      "w": 6
@@ -1662,28 +1630,13 @@
      "gd": 7,
      "gp": 11,
      "l": 5,
-     "pos": 5,
+     "pos": 6,
      "pts": 18,
      "team": "Marseille",
      "w": 6
-    },
-    {
-     "d": 3,
-     "gd": 7,
-     "gp": 11,
-     "l": 3,
-     "pos": 6,
-     "pts": 18,
-     "team": "Brest",
-     "w": 5
     }
    ],
    "upcoming": [
-    {
-     "away": "Paris FC",
-     "home": "Brest",
-     "t": "2026-11-27T19:45:00Z"
-    },
     {
      "away": "Lens",
      "home": "Angers",
@@ -1710,7 +1663,7 @@
      "t": "2026-11-29T19:45:00Z"
     }
    ],
-   "updatedAt": "2026-11-27T11:30:00Z"
+   "updatedAt": "2026-11-28T12:30:00Z"
   },
   "mlb": {
    "group": "mlb",
@@ -1806,16 +1759,32 @@
     }
    ],
    "upcoming": [],
-   "updatedAt": "2026-11-27T11:35:00Z"
+   "updatedAt": "2026-11-28T12:30:00Z"
   },
   "mls": {
    "country": "usa",
    "group": "soccer",
    "name": "MLS",
-   "note": "Columbus can close out Inter Miami at home tonight after a 3–0 Game 1 win in Miami, opening a slate of Round One Game 2s that runs through Saturday.",
+   "note": "Columbus swept defending champions Inter Miami on Santi Rodríguez's stoppage-time winner and Vancouver swept Real Salt Lake, while the other six Round One series continue Saturday with the Game 1 winners able to advance.",
    "order": 1,
-   "phase": "Playoffs: Round One under way",
+   "phase": "Playoffs: Round One",
    "results": [
+    {
+     "as": 1,
+     "away": "Vancouver",
+     "home": "Real Salt Lake",
+     "hs": 0,
+     "label": "Round One G2",
+     "t": "2026-11-28T03:00:00Z"
+    },
+    {
+     "as": 0,
+     "away": "Inter Miami",
+     "home": "Columbus",
+     "hs": 1,
+     "label": "Round One G2",
+     "t": "2026-11-28T01:00:00Z"
+    },
     {
      "as": 1,
      "away": "Houston",
@@ -1863,22 +1832,6 @@
      "hs": 0,
      "label": "Round One G1",
      "t": "2026-11-21T23:00:00Z"
-    },
-    {
-     "as": 0,
-     "away": "Portland",
-     "home": "FC Dallas",
-     "hs": 3,
-     "label": "Round One G1",
-     "t": "2026-11-21T21:00:00Z"
-    },
-    {
-     "as": 0,
-     "away": "Philadelphia",
-     "home": "New England",
-     "hs": 2,
-     "label": "Round One G1",
-     "t": "2026-11-21T19:00:00Z"
     }
    ],
    "table": [
@@ -1945,18 +1898,6 @@
    ],
    "upcoming": [
     {
-     "away": "Inter Miami",
-     "home": "Columbus",
-     "label": "Round One G2",
-     "t": "2026-11-28T01:00:00Z"
-    },
-    {
-     "away": "Vancouver",
-     "home": "Real Salt Lake",
-     "label": "Round One G2",
-     "t": "2026-11-28T03:00:00Z"
-    },
-    {
      "away": "Chicago",
      "home": "Charlotte",
      "label": "Round One G2",
@@ -1979,17 +1920,117 @@
      "home": "Cincinnati",
      "label": "Round One G2",
      "t": "2026-11-28T23:30:00Z"
+    },
+    {
+     "away": "St. Louis",
+     "home": "LAFC",
+     "label": "Round One G2",
+     "t": "2026-11-29T01:30:00Z"
+    },
+    {
+     "away": "FC Dallas",
+     "home": "Portland",
+     "label": "Round One G2",
+     "t": "2026-11-29T03:30:00Z"
     }
    ],
-   "updatedAt": "2026-11-27T11:31:54Z"
+   "updatedAt": "2026-11-28T12:30:00Z"
   },
   "nba": {
    "group": "nba",
    "name": "NBA",
-   "note": "LeBron James became the oldest player to record a triple-double and Kevin Durant reached 33,000 points on Wednesday; after the Thanksgiving break, Friday's 11 games close NBA Cup group play with Dallas the only team to clinch so far.",
+   "note": "Group play ended with the Pistons, Hawks, 76ers, Mavericks, Grizzlies and Trail Blazers winning groups and the Celtics and Spurs taking wild cards; the quarterfinals are Dec. 4–5 and the final is Dec. 11 in Indianapolis.",
    "order": 1,
-   "phase": "NBA Cup group play ends Friday",
+   "phase": "NBA Cup quarterfinals Dec. 4–5",
    "results": [
+    {
+     "as": 96,
+     "away": "Lakers",
+     "home": "Spurs",
+     "hs": 99,
+     "label": "In-Season Tournament",
+     "t": "2026-11-28T02:30:00Z"
+    },
+    {
+     "as": 120,
+     "away": "Nuggets",
+     "home": "Jazz",
+     "hs": 107,
+     "label": "In-Season Tournament",
+     "t": "2026-11-28T02:30:00Z"
+    },
+    {
+     "as": 105,
+     "away": "Pelicans",
+     "home": "Clippers",
+     "hs": 104,
+     "label": "In-Season Tournament",
+     "t": "2026-11-28T02:30:00Z"
+    },
+    {
+     "as": 94,
+     "away": "Warriors",
+     "home": "Trail Blazers",
+     "hs": 116,
+     "label": "In-Season Tournament",
+     "t": "2026-11-28T02:30:00Z"
+    },
+    {
+     "as": 113,
+     "away": "Mavericks",
+     "home": "Suns",
+     "hs": 109,
+     "label": "In-Season Tournament",
+     "t": "2026-11-28T02:00:00Z"
+    },
+    {
+     "as": 114,
+     "away": "Grizzlies",
+     "home": "Timberwolves",
+     "hs": 109,
+     "label": "In-Season Tournament",
+     "t": "2026-11-28T01:30:00Z"
+    },
+    {
+     "as": 87,
+     "away": "Hawks",
+     "home": "Celtics",
+     "hs": 86,
+     "label": "In-Season Tournament",
+     "t": "2026-11-28T01:00:00Z"
+    },
+    {
+     "as": 98,
+     "away": "Bucks",
+     "home": "Pistons",
+     "hs": 113,
+     "label": "In-Season Tournament",
+     "t": "2026-11-28T00:30:00Z"
+    },
+    {
+     "as": 111,
+     "away": "76ers",
+     "home": "Pacers",
+     "hs": 87,
+     "label": "In-Season Tournament",
+     "t": "2026-11-28T00:30:00Z"
+    },
+    {
+     "as": 100,
+     "away": "Nets",
+     "home": "Raptors",
+     "hs": 124,
+     "label": "In-Season Tournament",
+     "t": "2026-11-28T00:30:00Z"
+    },
+    {
+     "as": 108,
+     "away": "Heat",
+     "home": "Knicks",
+     "hs": 105,
+     "label": "In-Season Tournament",
+     "t": "2026-11-28T00:00:00Z"
+    },
     {
      "as": 110,
      "away": "Kings",
@@ -2015,18 +2056,18 @@
      "t": "2026-11-26T01:30:00Z"
     },
     {
-     "as": 104,
-     "away": "Nets",
-     "home": "Bucks",
-     "hs": 97,
-     "label": "In-Season Tournament",
-     "t": "2026-11-26T01:00:00Z"
-    },
-    {
      "as": 97,
      "away": "Clippers",
      "home": "Grizzlies",
      "hs": 115,
+     "label": "In-Season Tournament",
+     "t": "2026-11-26T01:00:00Z"
+    },
+    {
+     "as": 104,
+     "away": "Nets",
+     "home": "Bucks",
+     "hs": 97,
      "label": "In-Season Tournament",
      "t": "2026-11-26T01:00:00Z"
     },
@@ -2066,38 +2107,38 @@
    "table": [
     {
      "note": "East",
-     "rec": "15-4",
+     "rec": "16-4",
      "team": "76ers"
     },
     {
      "note": "East",
      "rec": "12-6",
-     "team": "Celtics"
+     "team": "Pistons"
     },
     {
      "note": "East",
      "rec": "12-6",
-     "team": "Knicks"
-    },
-    {
-     "note": "East",
-     "rec": "11-6",
      "team": "Hawks"
     },
     {
-     "note": "West",
-     "rec": "15-3",
-     "team": "Lakers"
+     "note": "East",
+     "rec": "12-7",
+     "team": "Celtics"
     },
     {
      "note": "West",
-     "rec": "15-4",
+     "rec": "16-4",
      "team": "Spurs"
     },
     {
      "note": "West",
-     "rec": "14-5",
-     "team": "Timberwolves"
+     "rec": "15-4",
+     "team": "Lakers"
+    },
+    {
+     "note": "West",
+     "rec": "15-5",
+     "team": "Grizzlies"
     },
     {
      "note": "West",
@@ -2106,72 +2147,6 @@
     }
    ],
    "upcoming": [
-    {
-     "away": "Heat",
-     "home": "Knicks",
-     "label": "In-Season Tournament",
-     "t": "2026-11-28T00:00:00Z"
-    },
-    {
-     "away": "Bucks",
-     "home": "Pistons",
-     "label": "In-Season Tournament",
-     "t": "2026-11-28T00:30:00Z"
-    },
-    {
-     "away": "76ers",
-     "home": "Pacers",
-     "label": "In-Season Tournament",
-     "t": "2026-11-28T00:30:00Z"
-    },
-    {
-     "away": "Nets",
-     "home": "Raptors",
-     "label": "In-Season Tournament",
-     "t": "2026-11-28T00:30:00Z"
-    },
-    {
-     "away": "Hawks",
-     "home": "Celtics",
-     "label": "In-Season Tournament",
-     "t": "2026-11-28T01:00:00Z"
-    },
-    {
-     "away": "Grizzlies",
-     "home": "Timberwolves",
-     "label": "In-Season Tournament",
-     "t": "2026-11-28T01:30:00Z"
-    },
-    {
-     "away": "Mavericks",
-     "home": "Suns",
-     "label": "In-Season Tournament",
-     "t": "2026-11-28T02:00:00Z"
-    },
-    {
-     "away": "Pelicans",
-     "home": "Clippers",
-     "label": "In-Season Tournament",
-     "t": "2026-11-28T02:30:00Z"
-    },
-    {
-     "away": "Warriors",
-     "home": "Trail Blazers",
-     "label": "In-Season Tournament",
-     "t": "2026-11-28T02:30:00Z"
-    },
-    {
-     "away": "Lakers",
-     "home": "Spurs",
-     "label": "In-Season Tournament",
-     "t": "2026-11-28T02:30:00Z"
-    },
-    {
-     "away": "Nuggets",
-     "home": "Jazz",
-     "label": "In-Season Tournament",
-     "t": "2026-11-28T02:30:00Z"
-    },
     {
      "away": "Magic",
      "home": "Wizards",
@@ -2196,17 +2171,75 @@
      "away": "76ers",
      "home": "Rockets",
      "t": "2026-11-29T01:30:00Z"
+    },
+    {
+     "away": "Heat",
+     "home": "Cavaliers",
+     "t": "2026-11-29T20:30:00Z"
+    },
+    {
+     "away": "Lakers",
+     "home": "Grizzlies",
+     "t": "2026-11-29T21:00:00Z"
+    },
+    {
+     "away": "Celtics",
+     "home": "Spurs",
+     "t": "2026-11-29T21:00:00Z"
+    },
+    {
+     "away": "Suns",
+     "home": "Jazz",
+     "t": "2026-11-29T22:00:00Z"
+    },
+    {
+     "away": "Magic",
+     "home": "Pistons",
+     "t": "2026-11-29T23:00:00Z"
+    },
+    {
+     "away": "Hawks",
+     "home": "Knicks",
+     "t": "2026-11-29T23:00:00Z"
+    },
+    {
+     "away": "Nuggets",
+     "home": "Raptors",
+     "t": "2026-11-29T23:00:00Z"
+    },
+    {
+     "away": "Pelicans",
+     "home": "Trail Blazers",
+     "t": "2026-11-29T23:00:00Z"
+    },
+    {
+     "away": "Clippers",
+     "home": "Warriors",
+     "t": "2026-11-30T01:30:00Z"
+    },
+    {
+     "away": "Timberwolves",
+     "home": "Kings",
+     "t": "2026-11-30T02:00:00Z"
     }
    ],
-   "updatedAt": "2026-11-27T11:35:00Z"
+   "updatedAt": "2026-11-28T12:30:00Z"
   },
   "nfl": {
    "group": "nfl",
    "name": "NFL",
-   "note": "The Bears beat the Lions 39–35 on a touchdown with three seconds left, the Eagles rallied from 21 down to stun the Cowboys 39–38 and Tyler Bass's 57-yard field goal sank the Chiefs 13–10; Broncos–Steelers follows on Black Friday.",
+   "note": "Pittsburgh's defense scored twice in a 27–5 Black Friday rout of Denver, a final score never seen before in NFL history, leaving the Broncos and Chiefs tied at 8-3 in the AFC West.",
    "order": 1,
-   "phase": "Week 12 · Black Friday next",
+   "phase": "Week 12 · Sunday and Monday games left",
    "results": [
+    {
+     "as": 5,
+     "away": "Broncos",
+     "home": "Steelers",
+     "hs": 27,
+     "label": "Black Friday",
+     "t": "2026-11-27T20:00:00Z"
+    },
     {
      "as": 10,
      "away": "Chiefs",
@@ -2351,7 +2384,7 @@
     },
     {
      "note": "AFC West",
-     "rec": "8-2",
+     "rec": "8-3",
      "team": "Broncos"
     },
     {
@@ -2376,12 +2409,6 @@
     }
    ],
    "upcoming": [
-    {
-     "away": "Broncos",
-     "home": "Steelers",
-     "label": "Black Friday",
-     "t": "2026-11-27T20:00:00Z"
-    },
     {
      "away": "Ravens",
      "home": "Texans",
@@ -2438,9 +2465,82 @@
      "home": "Buccaneers",
      "label": "MNF",
      "t": "2026-12-01T01:15:00Z"
+    },
+    {
+     "away": "Chiefs",
+     "home": "Rams",
+     "label": "TNF",
+     "t": "2026-12-04T01:15:00Z"
+    },
+    {
+     "away": "Bengals",
+     "home": "Browns",
+     "t": "2026-12-06T18:00:00Z"
+    },
+    {
+     "away": "Lions",
+     "home": "Falcons",
+     "t": "2026-12-06T18:00:00Z"
+    },
+    {
+     "away": "Packers",
+     "home": "Saints",
+     "t": "2026-12-06T18:00:00Z"
+    },
+    {
+     "away": "Jaguars",
+     "home": "Bears",
+     "t": "2026-12-06T18:00:00Z"
+    },
+    {
+     "away": "Chargers",
+     "home": "Buccaneers",
+     "t": "2026-12-06T18:00:00Z"
+    },
+    {
+     "away": "49ers",
+     "home": "Giants",
+     "t": "2026-12-06T18:00:00Z"
+    },
+    {
+     "away": "Commanders",
+     "home": "Titans",
+     "t": "2026-12-06T18:00:00Z"
+    },
+    {
+     "away": "Dolphins",
+     "home": "Broncos",
+     "t": "2026-12-06T21:05:00Z"
+    },
+    {
+     "away": "Eagles",
+     "home": "Cardinals",
+     "t": "2026-12-06T21:05:00Z"
+    },
+    {
+     "away": "Bills",
+     "home": "Patriots",
+     "t": "2026-12-06T21:25:00Z"
+    },
+    {
+     "away": "Panthers",
+     "home": "Vikings",
+     "t": "2026-12-06T21:25:00Z"
+    },
+    {
+     "away": "Texans",
+     "home": "Steelers",
+     "label": "SNF",
+     "t": "2026-12-07T01:20:00Z"
+    },
+    {
+     "away": "Cowboys",
+     "home": "Seahawks",
+     "label": "MNF",
+     "t": "2026-12-08T01:15:00Z"
     }
    ],
-   "updatedAt": "2026-11-27T11:35:00Z"
+   "updatedAt": "2026-11-28T12:30:00Z"
   },
   "ucl": {
    "country": "eur",
@@ -2601,7 +2701,7 @@
      "t": "2026-12-09T20:00:00Z"
     }
    ],
-   "updatedAt": "2026-11-27T11:30:00Z"
+   "updatedAt": "2026-11-28T12:30:00Z"
   },
   "uecl": {
    "country": "eur",
@@ -2762,7 +2862,7 @@
      "t": "2026-12-10T20:00:00Z"
     }
    ],
-   "updatedAt": "2026-11-27T11:30:00Z"
+   "updatedAt": "2026-11-28T12:30:00Z"
   },
   "uel": {
    "country": "eur",
@@ -2923,334 +3023,422 @@
      "t": "2026-12-10T20:00:00Z"
     }
    ],
-   "updatedAt": "2026-11-27T11:30:00Z"
+   "updatedAt": "2026-11-28T12:30:00Z"
   }
  },
  "sportsnews": {
   "home": {
-   "overview": "Philadelphia rallied from 21 points down, the biggest comeback in Thanksgiving Day history, to beat Dallas 39–38 on Jake Elliott's 59-yard field goal with three seconds left. Caleb Williams hit Rome Odunze for a touchdown with three seconds to go as the Bears edged the Lions 39–35 for a sixth straight win and sole possession of the NFC North at 9–2, and Tyler Bass's walk-off 57-yarder lifted Buffalo past Kansas City 13–10 to 10–1. The NBA returns tonight with 11 NBA Cup games to close group play; LeBron James became the oldest player to post a triple-double on Wednesday. Baseball's labor deal expires Dec. 1, with talks tentatively set to resume in Phoenix.\n\nTen-man Bournemouth came from behind to win 2–1 at Celta and stay perfect in the Europa League, Viktoria Plzeň routed Benfica 4–0 and Crystal Palace beat Real Sociedad 2–1, while Monaco stayed perfect in the Conference League with a 3–2 win at Hearts. The Premier League resumes tonight with Forest–Chelsea before Sunday's Merseyside derby and Arsenal–Man City, while Dortmund host Leverkusen and Barcelona visit Deportivo. K League 1 champions FC Seoul host Daejeon this weekend as Ulsan HD defend second place. In the KBO, Korean Series MVP Koo Ja-wook says he is excited about a possible move to MLB.",
-   "updatedAt": "2026-11-27T11:45:12Z"
+   "overview": "Pittsburgh's defense scored twice in a 27–5 Black Friday rout of Denver, a final score never before seen in the NFL, as Mason Rudolph found DK Metcalf for a touchdown in the Steelers' first game since releasing Aaron Rodgers; the loss leaves the Broncos and Chiefs tied at 8-3 atop the AFC West. Brock Purdy, Justin Herbert and Drake Maye are all out Sunday, with DJ Uiagalelei set to start for the Chargers. NBA Cup group play ended with Miami knocking out the Knicks 108–105 behind Giannis Antetokounmpo's 22 points and 23 rebounds and San Antonio erasing a 20-point deficit to beat the Lakers 99–96; the Dec. 4–5 quarterfinals pair 76ers–Hawks, Spurs–Mavericks, Celtics–Pistons and Grizzlies–Trail Blazers. Baseball's labor deal expires Tuesday night.\n\nNottingham Forest beat Chelsea 3–2 on Morgan Gibbs-White's double, and Sunday brings Arsenal–Man City and the Merseyside derby, plus Dortmund–Leverkusen and Barcelona at Deportivo. Niclas Füllkrug's stoppage-time goal rescued a 3–3 draw for Werder Bremen against Gladbach, Brest beat Paris FC 1–0, and Southampton toppled Championship leaders Middlesbrough 2–0. In MLS, Columbus swept Inter Miami and Vancouver swept Real Salt Lake. K League 1 champions FC Seoul thrashed Daejeon 4–1. In the KBO, Kia's Kim Do-yeong became the youngest two-time MVP.",
+   "updatedAt": "2026-11-28T12:40:00Z"
   },
   "kbo": {
    "brief": [
-    "Samsung's Koo Ja-wook, the Korean Series MVP and a first-time free agent, said he is excited about a possible MLB move and talks with his U.S. agent every day.",
-    "Koo collected trophies for leading the KBO in batting average (.371) and on-base percentage (.458) at Thursday's awards ceremony and apologized to Lions fans after introducing himself without naming a team.",
-    "MLB has made a formal status check on Koo, though a lockout widely expected after Dec. 1 would halt MLB free-agent negotiations.",
-    "MVP Kim Do-yeong also won his first KBO Fielding Award at third base and will move to shortstop in 2027."
+    "Kia's Kim Do-yeong, 23, became the youngest player to win two KBO MVP awards after a 45-homer season.",
+    "Hanwha Eagles catcher Heo In-seo was voted the KBO's top rookie for 2026.",
+    "Lotte re-signed Victor Reyes, the KBO's single-season hits record-holder, for a fourth season on a reported $1.8 million deal.",
+    "LG acquired 37-year-old catcher Kim Min-sik for depth, while Korean Series MVP Koo Ja-wook weighs MLB interest against offers from Samsung and other clubs."
    ],
    "headlines": [
     {
      "source": "Korea Times",
+     "title": "Tigers superstar Kim Do-yeong claims 2nd KBO MVP award",
+     "url": "https://www.koreatimes.co.kr/sports/20261126/tigers-superstar-kim-do-yeong-claims-2nd-kbo-mvp-award"
+    },
+    {
+     "source": "Korea Times",
+     "title": "Eagles catcher Heo In-seo voted KBO's top rookie for 2026",
+     "url": "https://www.koreatimes.co.kr/sports/20261126/eagles-catcher-heo-in-seo-voted-kbos-top-rookie-for-2026"
+    },
+    {
+     "source": "Korea JoongAng Daily",
+     "title": "Giants re-sign hitting superstar Victor Reyes for fourth season",
+     "url": "https://www.koreajoongangdaily.com/sports/giants-resign-hitting-superstar-victor-reyes-for-fourth-season/12992304"
+    },
+    {
+     "source": "Korea JoongAng Daily",
+     "title": "Twins acquire veteran catcher Kim Min-sik",
+     "url": "https://www.koreajoongangdaily.com/sports/twins-acquire-veteran-catcher-kim-minsik/12992145"
+    },
+    {
+     "source": "Korea Herald",
      "title": "Free agent outfielder Koo Ja-wook excited about potential MLB opportunity",
-     "url": "https://www.koreatimes.co.kr/sports/20261127/free-agent-outfielder-koo-ja-wook-excited-about-potential-mlb-opportunity"
+     "url": "https://www.koreaherald.com/article/10951644"
+    },
+    {
+     "source": "Korea Herald",
+     "title": "Heroes bring back 3 foreign players from 2026 season, acquire new Japanese pitcher",
+     "url": "https://www.koreaherald.com/article/10943543"
+    },
+    {
+     "source": "Korea Times",
+     "title": "Landers retain own free agent outfielder Choi Ji-hoon",
+     "url": "https://www.koreatimes.co.kr/sports/20261118/landers-retain-own-free-agent-outfielder-choi-ji-hoon"
     },
     {
      "source": "Korea JoongAng Daily",
-     "title": "Koo Ja-wook eyes MLB move as Samsung Lions free agent",
-     "url": "https://www.koreajoongangdaily.com/sports/free-agent-koo-jawook-excited-about-potential-mlb-move/12993933"
-    },
-    {
-     "source": "Korea JoongAng Daily",
-     "title": "Kia Tigers' Kim Do-yeong becomes youngest player to win second KBO MVP",
-     "url": "https://www.koreajoongangdaily.com/sports/kia-tigers-kim-doyeong-becomes-youngest-player-to-win-second-kbo-mvp/12993206"
-    },
-    {
-     "source": "Korea JoongAng Daily",
-     "title": "MLB formally asks KBO for status check on Korean Series MVP Koo Ja-wook",
-     "url": "https://www.koreajoongangdaily.com/sports/mlb-formally-asks-kbo-for-status-check-on-korean-series-mvp-koo-jawook/12983436"
+     "title": "Doosan Bears retain veteran catcher Yang Eui-ji in 5.5 billion won free-agent deal",
+     "url": "https://www.koreajoongangdaily.com/sports/doosan-bears-retain-veteran-catcher-yang-euiji-in-55-billion-won-freeagent-deal/12977084"
     }
    ],
-   "updatedAt": "2026-11-27T11:35:00Z"
+   "updatedAt": "2026-11-28T12:40:00Z"
   },
   "mlb": {
    "brief": [
-    "MLB and the players' union are tentatively set to resume face-to-face talks Sunday or Monday in Phoenix, with the labor deal expiring at 11:59 p.m. ET on Tuesday, Dec. 1.",
-    "Rob Manfred has said a lockout decision will come 'at the last possible moment,' after MLB's Nov. 24 offer to guarantee contracts without escrow in exchange for a salary cap, floor and 50-50 revenue split was condemned by the union.",
-    "After Manfred said he is 'not that big on Thanksgiving as a holiday,' the union posted 'Happy Thanksgiving to all those who are big on the holiday!'",
-    "The Twins agreed with reliever Kevin Ginkel on a two-year, $18 million deal, and the Nationals reportedly added A.J. Puk for one year and $5 million plus incentives.",
-    "CBS Sports reports the Blue Jays' deal with NPB right-hander Kaima Taira is for five years and $80 million."
+    "MLB's collective bargaining agreement expires at 11:59 p.m. ET on Tuesday, Dec. 1, after the league and union traded new proposals over revenue sharing.",
+    "The Mets signed two-time Cy Young winner Tarik Skubal to a nine-year, $450 million contract, the most lucrative pitcher deal in MLB history.",
+    "The Cubs have rebuilt their rotation and lineup with Trevor Rogers on a five-year, $120 million deal and NPB slugger Teruaki Sato on a six-year, $120 million contract.",
+    "Corey Seager is reportedly willing to waive his no-trade clause for the Phillies.",
+    "The Giants are reportedly open to trading starter Logan Webb, though the asking price is high."
    ],
    "headlines": [
     {
-     "source": "Yahoo Sports",
-     "title": "Major League Baseball sues players' union ahead of lockout, trying to block possible antitrust suit",
-     "url": "https://sports.yahoo.com/mlb/articles/major-league-baseball-sues-players-013655773.html"
-    },
-    {
-     "source": "Yahoo Sports",
-     "title": "MLBPA skewers Commissioner Rob Manfred with Thanksgiving post",
-     "url": "https://sports.yahoo.com/mlb/articles/mlbpa-skewers-commissioner-rob-manfred-185233866.html"
+     "source": "CBS Sports",
+     "title": "MLB CBA negotiations timeline: League, MLBPA trade new proposals over revenue sharing as Dec. 1 deadline nears",
+     "url": "https://www.cbssports.com/mlb/news/mlb-cba-negotiations-timeline-2026/"
     },
     {
      "source": "CBS Sports",
-     "title": "MLB rumors: Blue Jays narrow focus, Cardinals target pitching, plus more relievers off the board",
-     "url": "https://www.cbssports.com/mlb/news/mlb-rumors-blue-jays-offense-cardinals-starting-pitching-nationals-twins/"
-    },
-    {
-     "source": "Yahoo Sports",
-     "title": "Tarik Skubal, Paul Skenes named in MLB lawsuit ahead of imminent lockout",
-     "url": "https://sports.yahoo.com/mlb/articles/tarik-skubal-paul-skenes-named-181747802.html"
+     "title": "2026-27 MLB free agent tracker: Mets land Skubal, Cubs go holiday shopping with Trevor Rogers, Teruaki Sato",
+     "url": "https://www.cbssports.com/mlb/news/mlb-free-agent-tracker-2026-27/"
     },
     {
      "source": "CBS Sports",
-     "title": "Freddy Peralta lands with Orioles: After post-trade turnaround, ALCS MVP scores five-year, $125 million deal",
-     "url": "https://www.cbssports.com/mlb/news/freddy-peralta-orioles-free-agency-contract/"
+     "title": "Tarik Skubal signing with Mets: Two-time Cy Young winner lands historic nine-year, $450 million contract",
+     "url": "https://www.cbssports.com/mlb/news/tarik-skubal-mets-free-agency-contract/"
     },
     {
      "source": "CBS Sports",
-     "title": "Cubs signing NPB slugger Teruaki Sato on six-year, $120 million contract as offseason overhaul continues",
-     "url": "https://www.cbssports.com/mlb/news/cubs-teruaki-sato-free-agency-contract/"
+     "title": "Why Mets owner Steve Cohen was willing to give Tarik Skubal the most lucrative pitcher contract in MLB history",
+     "url": "https://www.cbssports.com/mlb/news/tarik-skubal-mets-steve-cohen-new-york/"
     },
     {
      "source": "CBS Sports",
-     "title": "MLB rumors: Corey Seager willing to waive his NTC for Phillies, plus news on Mets, Nationals, Yankees, more",
-     "url": "https://www.cbssports.com/mlb/news/mlb-rumors-mets-cubs-twins-guardians-kris-bubic/"
-    },
-    {
-     "source": "Yahoo Sports",
-     "title": "MN Twins Continue to Spend, Add Bullpen Help",
-     "url": "https://sports.yahoo.com/mlb/articles/mn-twins-continue-spend-add-041047413.html"
-    },
-    {
-     "source": "Yahoo Sports",
-     "title": "Tigers to sign RHP Kevin Gausman to one-year deal, per report",
-     "url": "https://sports.yahoo.com/mlb/articles/tigers-sign-rhp-kevin-gausman-005712414.html"
+     "title": "MLB rumors: Mets' Tarik Skubal follow-up, where Blue Jays turn now, plus Yankees, Phillies, Red Sox, more",
+     "url": "https://www.cbssports.com/mlb/news/mlb-rumors-mets-paul-goldschmidt-blue-jays-freddy-peralta-teruaki-sato-jarren-duran/"
     },
     {
      "source": "CBS Sports",
-     "title": "Blue Jays signing 5-foot-8 NPB pitcher Kaima Taira after striking out on Tarik Skubal, other FA targets",
-     "url": "https://www.cbssports.com/mlb/news/blue-jays-kaima-taira-free-agency-contract/"
+     "title": "MLB extension candidates: 10 players who could get deals before CBA expires, including two Cy Young winners",
+     "url": "https://www.cbssports.com/mlb/news/mlb-extension-candidates-jacob-misiorowski-cam-schlittler-nolan-mclean-payton-tolle/"
     },
     {
      "source": "CBS Sports",
-     "title": "Trevor Rogers signing with Cubs: Chicago begins rotation rebuild with five-year, $120 million deal, per report",
-     "url": "https://www.cbssports.com/mlb/news/trevor-rogers-cubs-free-agency-contract/"
+     "title": "Predicting MLB's next mega contracts: Paul Skenes, Junior Caminero, James Wood and more in line to get paid",
+     "url": "https://www.cbssports.com/mlb/news/predicting-mlb-next-mega-contracts-paul-skenes-junior-caminero-james-wood-elly-de-la-cruz/"
     },
     {
      "source": "CBS Sports",
-     "title": "Snyder's Soapbox: Until MLB owners open the books, there's no reason to listen to pleas of poverty",
-     "url": "https://www.cbssports.com/mlb/news/snyders-soapbox-mlb-owners-books-poverty/"
+     "title": "What's next for the Mets after record-breaking deal with Tarik Skubal? Biggest needs for 2027",
+     "url": "https://www.cbssports.com/mlb/news/whats-next-for-mets-tarik-skubal-rotation-bullpen-first-baseman-extensions/"
+    },
+    {
+     "source": "CBS Sports",
+     "title": "Logan Webb landing spots: Five possible destinations for Giants starting pitcher on the trading block",
+     "url": "https://www.cbssports.com/mlb/news/logan-webb-landing-spots-giants-trade/"
+    },
+    {
+     "source": "CBS Sports",
+     "title": "Is Tarik Skubal a Hall of Famer? Where new Mets ace stands now and where he could end up",
+     "url": "https://www.cbssports.com/mlb/news/tarik-skubal-hall-of-fame-case/"
     }
    ],
-   "updatedAt": "2026-11-27T11:35:00Z"
+   "updatedAt": "2026-11-28T12:40:00Z"
   },
   "nba": {
    "brief": [
-    "There were no NBA games on Thanksgiving; 11 NBA Cup games on Friday close group play, with 25 teams still chasing eight knockout spots.",
-    "Dallas (3-0) has clinched West Group A, while Boston and Minnesota enter Friday unbeaten in Cup play.",
-    "LeBron James had 25 points, 12 assists and 10 rebounds against Miami to become the oldest player in NBA history to record a triple-double, at 41 years and 330 days.",
-    "Kevin Durant scored 20 in Houston's win over Phoenix to become the fifth player to reach 33,000 career points.",
-    "LaMelo Ball is listed as questionable for Minnesota's Cup game against Memphis after leaving Wednesday's win at Oklahoma City with an ankle injury.",
-    "The Cup quarterfinals are Dec. 4–5, and the final moves to Hinkle Fieldhouse in Indianapolis on Dec. 11."
+    "Giannis Antetokounmpo had 22 points and 23 rebounds as the Heat beat the Knicks 108–105, eliminating New York from the NBA Cup.",
+    "The Spurs erased a 20-point deficit to beat the Lakers 99–96 behind Stephon Castle's 26 points and Victor Wembanyama's 25, advancing as a wild card.",
+    "Cooper Flagg had 34 points, 8 assists, 5 steals and 4 blocks as Dallas finished group play as the only 4-0 team, and the Hawks edged the Celtics 87–86, with Boston still advancing on point differential.",
+    "The NBA Cup quarterfinals are 76ers at Hawks and Spurs at Mavericks on Dec. 4 and Celtics at Pistons and Grizzlies at Trail Blazers on Dec. 5, with the final Dec. 11 in Indianapolis.",
+    "Minnesota played without LaMelo Ball (left ankle sprain), and Stephen Curry remains out with an oblique injury but is making progress.",
+    "Saturday's five-game slate includes Thunder at Bucks and 76ers at Rockets."
    ],
    "headlines": [
     {
      "source": "Yahoo Sports",
-     "title": "NBA Cup 2026: Clinching scenarios, standings, schedule for final day of group play",
-     "url": "https://sports.yahoo.com/nba/article/nba-cup-2026-clinching-scenarios-standings-schedule-for-final-day-of-group-play-014409086.html"
+     "title": "NBA Cup quarterfinals set: Celtics-Pistons, 76ers-Hawks, Spurs-Mavericks, Grizzlies-Trail Blazers",
+     "url": "https://sports.yahoo.com/nba/articles/nba-cup-quarterfinals-set-celtics-053300086.html"
     },
     {
      "source": "Yahoo Sports",
-     "title": "NBA Cup 2026: 76ers' LeBron James oldest to post triple-double; Rockets' Kevin Durant fifth ever to score 33,000 points",
-     "url": "https://sports.yahoo.com/nba/breaking-news/article/nba-cup-2026-76ers-lebron-james-oldest-to-post-triple-double-rockets-kevin-durant-fifth-ever-to-score-33000-points-061556599.html"
-    },
-    {
-     "source": "CBS Sports",
-     "title": "NBA Power Rankings: Knicks making their move as Karl-Anthony Towns has taken center stage",
-     "url": "https://www.cbssports.com/nba/news/nba-power-rankings-knicks-karl-anthony-towns/"
+     "title": "Heat eliminate Knicks from NBA Cup contention behind Giannis Antetokounmpo's 20-20 game",
+     "url": "https://sports.yahoo.com/nba/articles/heat-eliminate-knicks-nba-cup-025159018.html"
     },
     {
      "source": "Yahoo Sports",
-     "title": "LaMelo Ball's injury status for Timberwolves-Grizzlies game is great news after ankle scare",
-     "url": "https://sports.yahoo.com/nba/articles/lamelo-ball-injury-status-timberwolves-004931327.html"
-    },
-    {
-     "source": "CBS Sports",
-     "title": "NBA rumors: Latest on Knicks and Karl-Anthony Towns, plus Wizards' Anthony Davis plan, a Nets trade candidate",
-     "url": "https://www.cbssports.com/nba/news/nba-rumors-knicks-karl-anthony-towns-wizards-anthony-davis-nets-michael-porter-jr/"
-    },
-    {
-     "source": "CBS Sports",
-     "title": "Grading every NBA lottery pick from 2026 Draft: Yaxel Lendeborg gets an A+, plus which rookies need more time",
-     "url": "https://www.cbssports.com/nba/news/2026-nba-draft-lottery-pick-grades-yaxel-lendeborg-caleb-wilson-aj-dybantsa-cam-boozer/"
+     "title": "Spurs erase 20-point deficit to eliminate Lakers in NBA Cup action, advance to knockout round as wild card",
+     "url": "https://sports.yahoo.com/nba/breaking-news/article/spurs-erase-20-point-deficit-to-eliminate-lakers-in-nba-cup-action-advance-to-knockout-round-as-wild-card-051458498.html"
     },
     {
      "source": "Yahoo Sports",
-     "title": "Milwaukee Bucks speak on disappointing 104-97 loss to Brooklyn Nets",
-     "url": "https://sports.yahoo.com/nba/articles/milwaukee-bucks-speak-disappointing-104-041927883.html"
-    },
-    {
-     "source": "CBS Sports",
-     "title": "Why asking Trae Young to score less is a band-aid, not a fix for the Wizards' self-inflicted problem",
-     "url": "https://www.cbssports.com/nba/news/trae-young-wizards-scoring-less-aj-dybantsa-anthony-davis/"
+     "title": "Knicks' NBA Cup title reign is a short one after they are eliminated in the group stage",
+     "url": "https://sports.yahoo.com/nba/articles/knicks-nba-cup-title-reign-040614452.html"
     },
     {
      "source": "Yahoo Sports",
-     "title": "Why are there no NBA games on Thanksgiving?",
-     "url": "https://sports.yahoo.com/nba/articles/why-no-nba-games-thanksgiving-120007969.html"
+     "title": "Lakers blow 20-point lead in NBA Cup loss to Spurs in biggest test of season",
+     "url": "https://sports.yahoo.com/nba/articles/lakers-blow-20-point-lead-062242417.html"
     },
     {
-     "source": "CBS Sports",
-     "title": "NBA Hater Report: Celtics can't shoot, neither can Trae Young and James Harden isn't close to a top 10 player",
-     "url": "https://www.cbssports.com/nba/news/nba-hater-report-celtics-trae-young-james-harden-warriors/"
+     "source": "Yahoo Sports",
+     "title": "3 Takeaways as Stephon Castle keys Spurs' NBA Cup comeback",
+     "url": "https://sports.yahoo.com/nba/articles/3-takeaways-stephon-castle-keys-082346604.html"
     },
     {
-     "source": "CBS Sports",
-     "title": "Grading the stress levels for 76ers, Celtics, Warriors and more",
-     "url": "https://www.cbssports.com/nba/news/nba-grading-stress-levels-76ers-celtics-timberwolves-cavaliers-thunder-warriors/"
-    },
-    {
-     "source": "CBS Sports",
-     "title": "Timberwolves, Grizzlies reportedly hope to move to Eastern Conference after expansion; who makes more sense?",
-     "url": "https://www.cbssports.com/nba/news/nba-expansion-timberwolves-grizzlies-eastern-conference/"
+     "source": "Yahoo Sports",
+     "title": "Spurs set to play at Dallas in NBA Cup quarterfinals",
+     "url": "https://sports.yahoo.com/nba/articles/spurs-set-play-dallas-nba-085021279.html"
     }
    ],
-   "updatedAt": "2026-11-27T11:35:00Z"
+   "updatedAt": "2026-11-28T12:40:00Z"
   },
   "nfl": {
    "brief": [
-    "Caleb Williams hit Rome Odunze for a 6-yard touchdown with three seconds left as the Bears beat the Lions 39–35 for their sixth straight win and sole possession of first in the NFC North at 9-2.",
-    "Detroit's Jahmyr Gibbs ran for 205 yards and three touchdowns in defeat; Williams threw for 345 yards and two scores.",
-    "The Eagles rallied from 21 points down, the biggest comeback in Thanksgiving Day history, to beat Dallas 39–38 on Jake Elliott's 59-yard field goal with three seconds left after the Cowboys failed on fourth-and-1 in the final minute.",
-    "Tyler Bass hit a walk-off 57-yard field goal as Buffalo beat Kansas City 13–10 in nasty weather to improve to 10-1; James Cook ran for 117 yards while Josh Allen threw for 81 yards and two interceptions.",
-    "Cowboys owner Jerry Jones disputed Aaron Rodgers' accusations and called Mike McCarthy 'outstanding,' and the Steelers' president backed McCarthy, saying 'insubordination can't be tolerated.'",
-    "Mason Rudolph starts for Pittsburgh against Denver in Friday's Black Friday game at 3 p.m. ET."
+    "The Steelers routed the Broncos 27–5 on Black Friday, the first time that final score has occurred in NFL history, as T.J. Watt returned a fumble and Jalen Ramsey a pick-six for touchdowns.",
+    "Mason Rudolph, starting after Pittsburgh released Aaron Rodgers, went 9 of 15 for 142 yards with a 22-yard touchdown to DK Metcalf, while Bo Nix threw two interceptions.",
+    "Denver's loss leaves the Broncos and Chiefs tied at 8-3 atop the AFC West.",
+    "Brock Purdy, Justin Herbert and Drake Maye are ruled out for Week 12, and the Chargers are set to start DJ Uiagalelei against the Patriots.",
+    "Bears tight end Colston Loveland is seeking a second opinion on a knee injury, and Jacksonville lost WR Parker Washington and RB Bhayshul Tuten to injuries.",
+    "Sunday's slate includes Ravens–Texans and Seahawks–49ers, with Raiders–Browns on Sunday night and Panthers–Buccaneers on Monday night."
    ],
    "headlines": [
     {
-     "source": "Yahoo Sports",
-     "title": "Bears stun Lions, 39-35, on TD pass with 3 seconds left in Thanksgiving thriller",
-     "url": "https://sports.yahoo.com/nfl/articles/bears-stun-lions-39-35-001700457.html"
+     "source": "CBS Sports",
+     "title": "Black Friday scorigami: Steelers-Broncos ends with final score that's never happened before in NFL history",
+     "url": "https://www.cbssports.com/nfl/news/black-friday-scorigami-steelers-broncos-final-score-nfl-history/"
     },
     {
      "source": "CBS Sports",
-     "title": "Cowboys vs. Eagles takeaways: Philadelphia completes 21-point comeback, biggest in Thanksgiving Day history",
-     "url": "https://www.cbssports.com/nfl/news/cowboys-vs-eagles-live-updates-score-highlights/live/"
-    },
-    {
-     "source": "Yahoo Sports",
-     "title": "Tyler Bass hits walk-off 57-yard field goal, Bills beat Chiefs 13-10",
-     "url": "https://sports.yahoo.com/nfl/articles/tyler-bass-hits-walk-off-045159081.html"
+     "title": "Aaron Rodgers claims he was 'barred' from Steelers' facility: Why QB went scorched earth on Mike McCarthy",
+     "url": "https://www.cbssports.com/nfl/news/aaron-rodgers-barred-from-steelers-facility-qb-went-scorched-earth-on-mike-mccarthy/"
     },
     {
      "source": "CBS Sports",
-     "title": "NFL Week 12 grades for Thanksgiving: Cowboys choke their way to a 'D,' Bears earn 'B' for big win",
-     "url": "https://www.cbssports.com/nfl/news/nfl-week-12-grades-thanksgiving-bears-earn-b-packers-get-d/"
-    },
-    {
-     "source": "Yahoo Sports",
-     "title": "Eagles pull off miracle Thanksgiving rally as Cowboys stunningly collapse after disastrous decision",
-     "url": "https://sports.yahoo.com/nfl/articles/eagles-pull-off-miracle-thanksgiving-014641638.html"
+     "title": "Mason Rudolph and Steelers defense can clean up Aaron Rodgers' mess, but the franchise's problems run deeper",
+     "url": "https://www.cbssports.com/nfl/news/mason-rudolph-defense-can-steady-steelers-but-real-progress-far-off/"
     },
     {
      "source": "CBS Sports",
-     "title": "NFL Thanksgiving overreactions: Bears a shoo-in for NFC North title? Should Joe Milton be a full-time QB1?",
-     "url": "https://www.cbssports.com/nfl/news/nfl-thanksgiving-overreactions-bears-a-shoo-in-nfc-north-title-joe-milton-full-time-qb1/"
+     "title": "NFL Week 12 injury report: Brock Purdy, Justin Herbert out as QB health dwindles across league",
+     "url": "https://www.cbssports.com/nfl/news/nfl-week-12-injury-report-brock-purdy-justin-herbert-out/"
     },
     {
      "source": "CBS Sports",
-     "title": "Jerry Jones refutes Aaron Rodgers' accusations, calls Mike McCarthy 'outstanding'",
-     "url": "https://www.cbssports.com/nfl/news/jerry-jones-calls-mike-mccarthy-outstanding-refutes-aaron-rodgers-accusations/"
+     "title": "Chargers poised to start DJ Uiagalelei with Justin Herbert ruled out for Week 12",
+     "url": "https://www.cbssports.com/nfl/news/chargers-poised-to-start-dj-uiagalelei-with-justin-herbert-ruled-out-for-week-12/"
     },
     {
      "source": "CBS Sports",
-     "title": "Steelers president backs Mike McCarthy after Aaron Rodgers release: 'Insubordination can't be tolerated'",
-     "url": "https://www.cbssports.com/nfl/news/steelers-president-mike-mccarthy-after-aaron-rodgers-insubordination/"
+     "title": "Broncos troll Steelers, Aaron Rodgers with 'discount double-check' celebration after safety",
+     "url": "https://www.cbssports.com/nfl/news/broncos-troll-steelers-aaron-rodgers-discount-double-check-celebration-safety/"
     },
     {
      "source": "CBS Sports",
-     "title": "Former Steelers coach Mike Tomlin on Aaron Rodgers-Mike McCarthy saga: 'It's a dumpster fire'",
-     "url": "https://www.cbssports.com/nfl/news/former-steelers-coach-mike-tomlin-aaron-rodgers-mike-mccarthy-saga-dumpster-fire/"
-    },
-    {
-     "source": "Yahoo Sports",
-     "title": "Caleb Williams clears the air on postgame X-Ray, and Bears fans can breathe easy",
-     "url": "https://sports.yahoo.com/nfl/articles/caleb-williams-clears-air-postgame-003836983.html"
+     "title": "Tom Brady torches Aaron Rodgers for 'private things becoming public' after Steelers' release",
+     "url": "https://www.cbssports.com/nfl/news/tom-brady-torches-aaron-rodgers-after-steelers-release-mike-mccarthy/"
     },
     {
      "source": "CBS Sports",
-     "title": "Aaron Rodgers' former Packers teammates rip QB over Mike McCarthy criticism: 'None are on 12's side'",
-     "url": "https://www.cbssports.com/nfl/news/aaron-rodgers-packers-teammates-mike-mccarthy-steelers/"
+     "title": "Did Chiefs get hosed by NFL clock controversy? Breaking down the final seconds of Bills' wild Thanksgiving win",
+     "url": "https://www.cbssports.com/nfl/news/did-chiefs-get-hosed-by-nfl-clock-controversy-breaking-down-the-final-seconds-of-bills-wild-thanksgiving-win/"
+    },
+    {
+     "source": "CBS Sports",
+     "title": "Hope is now gone for Cowboys' season after historic Thanksgiving collapse vs. Eagles",
+     "url": "https://www.cbssports.com/nfl/news/hope-is-gone-for-dak-prescott-cowboys-thanksgiving-loss-eagles/"
+    },
+    {
+     "source": "CBS Sports",
+     "title": "Cowboys coach Brian Schottenheimer on job security after latest disastrous loss: 'I don't worry about that'",
+     "url": "https://www.cbssports.com/nfl/news/cowboys-brian-schottenheimer-job-security-after-disaster-loss-i-dont-worry-about-that/"
+    },
+    {
+     "source": "CBS Sports",
+     "title": "Bears feared to lose another TE long-term as Colston Loveland looks for second opinion on knee injury",
+     "url": "https://www.cbssports.com/nfl/news/bears-te-colston-loveland-second-opinion-knee-injury-thanksgiving-win/"
+    },
+    {
+     "source": "CBS Sports",
+     "title": "Jaguars lose WR Parker Washington, RB Bhayshul Tuten to injury as playoffs draw near",
+     "url": "https://www.cbssports.com/nfl/news/jaguars-wr-parker-washington-out-week-12-considered-week-to-week-shoulder-injury-playoffs/"
     }
    ],
-   "updatedAt": "2026-11-27T11:35:00Z"
+   "updatedAt": "2026-11-28T12:40:00Z"
   },
   "soccer": {
    "brief": [
-    "Ten-man Bournemouth came from behind to win 2–1 at Celta and are the Europa League's only perfect side, while Viktoria Plzeň routed previously perfect Benfica 4–0 and Milan won 4–2 at Olympiacos.",
-    "Crystal Palace beat Real Sociedad 2–1 and Sunderland drew 1–1 with Jagiellonia in the Europa League.",
-    "Monaco stayed perfect in the Conference League on Folarin Balogun's stoppage-time winner in a 3–2 victory at Hearts, and Brighton beat Universitatea Craiova 4–0.",
-    "Bayern face several months without Harry Kane after ankle surgery.",
-    "Premier League Matchday 12 opens tonight with Nottingham Forest–Chelsea, and Sunday brings the Merseyside derby at Everton and leaders Arsenal hosting Man City.",
-    "In MLS, Columbus can close out Inter Miami at home tonight after winning Game 1 of their Round One series 3–0.",
-    "K League 1's penultimate round sees champions FC Seoul host Daejeon, a point behind second-place Ulsan HD, as Ulsan's Lee Dong-gyeong is nominated for a second straight MVP award."
+    "Nottingham Forest beat Chelsea 3–2 as Morgan Gibbs-White scored twice after Igor Jesus's fifth-minute opener, handing Chelsea a third straight league defeat despite two goals from Emmanuel Emegha.",
+    "Southampton beat Championship leaders Middlesbrough 2–0 with goals from Ryan Manning and Finn Azaz.",
+    "Niclas Füllkrug's 93rd-minute goal earned Werder Bremen a 3–3 draw with bottom side Gladbach, Brest beat Paris FC 1–0 to climb to third in Ligue 1, and Racing Santander won 3–1 at Levante.",
+    "Columbus swept Inter Miami out of the MLS playoffs on Santi Rodríguez's stoppage-time winner, and Vancouver swept Real Salt Lake.",
+    "Sunday brings Arsenal–Man City and the Merseyside derby, with Hamburg–Bayern, Dortmund–Leverkusen, Real Madrid–Alavés and Deportivo–Barcelona also on the weekend slate.",
+    "K League 1 champions FC Seoul beat Daejeon 4–1, leaving second-place Ulsan HD a point clear as they host Jeonbuk on Sunday, while K League 2's final round Sunday sets the promotion playoff order."
    ],
    "headlines": [
     {
-     "source": "GOAL",
-     "title": "Amorim apologises for Moreira celebration in Milan win",
-     "url": "https://www.goal.com/en-us/news/ruben-amorim-diego-moreira-celebration-ac-milan-olympiacos/blt1936a49b377b4163"
+     "source": "Yahoo Sports",
+     "title": "Morgan Gibbs-White double seals Nottingham Forest success over Chelsea",
+     "url": "https://sports.yahoo.com/soccer/articles/morgan-gibbs-white-double-seals-223329827.html"
     },
     {
      "source": "GOAL",
-     "title": "Rose hails relentless Bournemouth win",
-     "url": "https://www.goal.com/en-us/news/marco-rose-bournemouth-10-man-cherries-european-celta-vigo/bltc7df185873896c40"
+     "title": "Chelsea player ratings vs Nottm Forest: Emmanuel Emegha brace not enough to stop the rot in defeat",
+     "url": "https://www.goal.com/en-om/news/-chelsea-player-ratings-nottm-forest-emmanuel-emegha-brace-defeat-/blt60fe8519d67652c0"
+    },
+    {
+     "source": "Yahoo Sports",
+     "title": "Füllkrug’s injury-time strike saves Werder Bremen in wild draw with Gladbach",
+     "url": "https://sports.yahoo.com/soccer/articles/f-llkrug-injury-time-strike-225713341.html"
+    },
+    {
+     "source": "Yahoo Sports",
+     "title": "Middlesbrough won't forget Finn Azaz celebration & can use painful loss as motivation",
+     "url": "https://uk.sports.yahoo.com/news/middlesbrough-wont-forget-finn-azaz-215714027.html"
+    },
+    {
+     "source": "Yahoo Sports",
+     "title": "Paris FC out of luck in bid to go top of Ligue 1",
+     "url": "https://sports.yahoo.com/soccer/articles/paris-fc-luck-bid-top-220809940.html"
+    },
+    {
+     "source": "GOAL",
+     "title": "'That's his problem!' - Vini Jr handed blunt reality check by Mourinho",
+     "url": "https://www.goal.com/en-us/news/vinicius-jr-jose-mourinho-real-madrid-alaves/bltb86bc56396933e5e"
+    },
+    {
+     "source": "GOAL",
+     "title": "Neville tips Haaland for Madrid move",
+     "url": "https://www.goal.com/en-us/news/gary-neville-erling-haaland-real-madrid-transfer-vinicius-junior/blt2d293419caec5451"
+    },
+    {
+     "source": "GOAL",
+     "title": "Pep opens up on secret meeting to hijack ex-Barcelona superstar for Bayern",
+     "url": "https://www.goal.com/en-us/news/pep-guardiola-barcelona-neymar-bayern-munich/bltbf9641a6604cb141"
+    },
+    {
+     "source": "GOAL",
+     "title": "Leeds, Brentford and Palace battle for uncontracted Leicester winger",
+     "url": "https://www.goal.com/en-us/news/leeds-united-brentford-crystal-palace-battle-european-clubs-leicester-city-winger-bismark-owusu/bltbf0e19319a510227"
     },
     {
      "source": "CBS Sports",
-     "title": "Harry Kane ankle surgery: Why Bayern Munich may not have squad depth to withstand months without star striker",
-     "url": "https://www.cbssports.com/soccer/news/harry-kane-ankle-surgery-injury-bayern-munich-2026/"
-    },
-    {
-     "source": "GOAL",
-     "title": "Le Bris rues errors in Jagiellonia draw",
-     "url": "https://www.goal.com/en-us/news/regis-le-bris-sunderland-jagiellonia-bialystok-europa-league/blt570b64077f640bec"
-    },
-    {
-     "source": "GOAL",
-     "title": "'I don't like it!' - Mourinho refuses to compare Bellingham with Zidane",
-     "url": "https://www.goal.com/en-us/news/jose-mourinho-jude-bellingham-zinedine-zidane-real-madrid/blt1e57af1ecca95c8a"
+     "title": "Champions League power rankings: Real Madrid claim top spot as Man City, Arsenal, PSG stumble",
+     "url": "https://www.cbssports.com/soccer/news/champions-league-power-rankings-real-madrid-man-city-arsenal-psg/"
     },
     {
      "source": "CBS Sports",
-     "title": "Welcome to Manchester United: Mauricio Pochettino faces grim reality after collapse against Liverpool",
-     "url": "https://www.cbssports.com/soccer/news/manchester-united-mauricio-pochettino-collapse-liverpool/"
+     "title": "Depleted PSG attack shows vulnerability in 2-2 Champions League draw with Roma",
+     "url": "https://www.cbssports.com/soccer/news/psg-attack-injury-2-2-champions-league-draw-roma/"
     },
     {
      "source": "CBS Sports",
-     "title": "Leeds expose Chelsea's unresolved defensive problems as Xabi Alonso's crew yet to find footing",
-     "url": "https://www.cbssports.com/soccer/news/leeds-expose-chelseas-unresolved-defensive-problems/"
-    },
-    {
-     "source": "The Korea Times",
-     "title": "Ulsan attacker Lee Dong-gyeong up for 2nd straight K League 1 MVP award",
-     "url": "https://www.koreatimes.co.kr/sports/20261126/ulsan-attacker-lee-dong-gyeong-up-for-2nd-straight-k-league-1-mvp-award"
-    },
-    {
-     "source": "GOAL",
-     "title": "Arsenal launch pursuit of Spain international for White replacement",
-     "url": "https://www.goal.com/en-us/news/arsenal-contact-sporting-cp-ivan-fresneda-transfer-ben-white/blt19b3907441a7e2b5"
-    },
-    {
-     "source": "GOAL",
-     "title": "Man Utd identify Fernandes replacement",
-     "url": "https://www.goal.com/en-us/news/man-utd-nico-paz-bruno-fernandes-replacement-contract/blt94408f4938366e78"
-    },
-    {
-     "source": "GOAL",
-     "title": "Liverpool join Man Utd in race for £66m-rated Newcastle star Hall",
-     "url": "https://www.goal.com/en-us/news/liverpool-join-man-utd-race-newcastle-left-back-lewis-hall-valuation/blt726463422788c676"
-    },
-    {
-     "source": "GOAL",
-     "title": "Villa open to Garnacho exit if overseas clubs agree Chelsea deal",
-     "url": "https://www.goal.com/en-us/news/aston-villa-open-alejandro-garnacho-january-exit-overseas-clubs-chelsea/blt6dd703f80e1365e6"
+     "title": "Why are Arsenal throwing away leads? Itchy trigger fingers cost Mikel Arteta's side against Dortmund",
+     "url": "https://www.cbssports.com/soccer/news/why-arsenal-throwing-away-leads-champions-league-dortmund/"
     }
    ],
-   "updatedAt": "2026-11-27T11:45:12Z"
+   "updatedAt": "2026-11-28T12:40:00Z"
   }
  },
  "articles": [
+  {
+   "id": "pbs-320220794f06",
+   "added": "2026-11-28T12:05:00Z",
+   "published": "2026-11-27T22:10:46Z",
+   "source": "pbs",
+   "summary": "Thousands joined a Black Friday protest in San Juan over record electricity rates, the cost of living and failing public services.",
+   "title": "Protesters take to the streets in Puerto Rico's capital as standard of living deteriorates",
+   "url": "https://www.pbs.org/newshour/nation/protesters-take-to-the-streets-in-puerto-ricos-capital-as-standard-of-living-deteriorates"
+  },
+  {
+   "id": "pbs-2fdc1f6b2266",
+   "added": "2026-11-28T12:05:00Z",
+   "published": "2026-11-27T21:36:37Z",
+   "source": "pbs",
+   "summary": "Mexico's government filed a complaint over a DEA anonymous crime tip line it calls foreign interference, while some Mexicans welcomed it.",
+   "title": "Mexico's government is slamming a DEA crime tip line as foreign interference. Others are thrilled.",
+   "url": "https://www.pbs.org/newshour/world/mexicos-government-is-slamming-a-dea-crime-tip-line-as-foreign-interference-others-are-thrilled"
+  },
+  {
+   "id": "pbs-0c6650b3f44f",
+   "added": "2026-11-28T12:05:00Z",
+   "published": "2026-11-27T20:48:47Z",
+   "source": "pbs",
+   "summary": "Canada's Supreme Court largely upheld Quebec's 2019 Bill 21, which bans religious symbols for public workers in positions of authority.",
+   "title": "Canada's Supreme Court largely upholds a Quebec ban on religious symbols for public servants",
+   "url": "https://www.pbs.org/newshour/world/canadas-supreme-court-largely-upholds-a-quebec-ban-on-religious-symbols-for-public-servants"
+  },
+  {
+   "id": "time-8d620e63b59f",
+   "added": "2026-11-28T12:05:00Z",
+   "published": "2026-11-27T19:48:00Z",
+   "source": "time",
+   "summary": "Moscow announced funding for two railway ferries to Kaliningrad amid maritime incidents and NATO tensions that have made the exclave a potential flashpoint.",
+   "title": "Why the Russian Exclave of Kaliningrad Is at the Center of a NATO Row",
+   "url": "https://time.com/article/2026/11/27/russian-exclave-kaliningrad-threat-nato-tensions-ukraine-war/"
+  },
+  {
+   "id": "pbs-565627e43282",
+   "added": "2026-11-28T12:05:00Z",
+   "published": "2026-11-27T19:39:21Z",
+   "source": "pbs",
+   "summary": "U.S. Central Command says an aircraft disabled the propulsion of a Palau-flagged ship that tried to breach the naval blockade of Iranian ports.",
+   "title": "U.S. military says it disabled another ship that tried to breach naval blockade on Iranian ports",
+   "url": "https://www.pbs.org/newshour/world/u-s-military-says-it-disabled-another-ship-that-tried-to-breach-naval-blockade-on-iranian-ports"
+  },
+  {
+   "id": "pbs-5831dc383bdc",
+   "added": "2026-11-28T12:05:00Z",
+   "published": "2026-11-27T18:19:36Z",
+   "source": "pbs",
+   "summary": "EU leaders failed to agree on a long-term budget and a new loan for Ukraine after more than 12 hours of talks and will try again in December.",
+   "title": "A Ukraine loan is in limbo after EU budget talks stall. Leaders will try again",
+   "url": "https://www.pbs.org/newshour/world/a-ukraine-loan-is-in-limbo-after-eu-budget-talks-stall-leaders-will-try-again"
+  },
+  {
+   "id": "pbs-76a4d8ad7048",
+   "added": "2026-11-28T12:05:00Z",
+   "published": "2026-11-27T16:51:50Z",
+   "source": "pbs",
+   "summary": "After election losses centered on rising costs, many Republicans say they are open to reconsidering some of Trump's tariffs.",
+   "title": "Republicans rethink tariffs, giving Democrats an opening to challenge Trump",
+   "url": "https://www.pbs.org/newshour/politics/republicans-rethink-tariffs-giving-democrats-an-opening-to-challenge-trump"
+  },
+  {
+   "id": "pbs-c680336443f4",
+   "added": "2026-11-28T12:05:00Z",
+   "published": "2026-11-27T16:20:17Z",
+   "source": "pbs",
+   "summary": "The Los Angeles school district quietly disabled Google's AI features on school devices and is considering dropping the company's products.",
+   "title": "Los Angeles schools block Google's AI features, consider dropping tech giant's products",
+   "url": "https://www.pbs.org/newshour/education/as-google-threatens-to-cut-schools-search-access-los-angeles-blocks-ai-features"
+  },
+  {
+   "id": "pbs-e5bf3012ba7c",
+   "added": "2026-11-28T12:05:00Z",
+   "published": "2026-11-27T15:51:35Z",
+   "source": "pbs",
+   "summary": "Serbia's student movement named chemistry professor Radomir Saicic as its candidate for the Dec. 27 presidential election.",
+   "title": "Serbia's student movement proposes a chemistry professor for presidency ahead of Dec. 27 ballot",
+   "url": "https://www.pbs.org/newshour/world/serbias-student-movement-proposes-a-chemistry-professor-for-presidency-ahead-of-dec-27-ballot"
+  },
+  {
+   "id": "pbs-74829c53aa14",
+   "added": "2026-11-28T12:05:00Z",
+   "published": "2026-11-27T15:31:42Z",
+   "source": "pbs",
+   "summary": "Zelenskyy told the BBC that Trump's description of Putin as a friend was strange and urged Washington to pressure Moscow.",
+   "title": "Zelenskyy urges the U.S. to pressure Putin, calling Trump's 'my friend' remark strange",
+   "url": "https://www.pbs.org/newshour/world/zelenskyy-urges-the-u-s-to-pressure-putin-calling-trumps-my-friend-remark-strange"
+  },
+  {
+   "id": "pbs-4542d18e470f",
+   "added": "2026-11-28T12:05:00Z",
+   "published": "2026-11-27T15:15:26Z",
+   "source": "pbs",
+   "summary": "Heavy rain wound down after Thanksgiving storms that snarled travel, downed power lines and led to water rescues from New York to Virginia.",
+   "title": "Parts of the U.S. clean up, power outages being restored after Thanksgiving storm soaks East Coast",
+   "url": "https://www.pbs.org/newshour/nation/heavy-rain-winds-down-as-power-remains-out-for-hundreds-of-thousands-on-the-east-coast"
+  },
   {
    "id": "time-3249cd8e3de2",
    "added": "2026-11-27T11:43:27Z",
@@ -3268,6 +3456,15 @@
    "summary": "This article examines how Democratic gains in the midterm elections may affect upcoming redistricting efforts.",
    "title": "What Democrats’ Sweeping Midterm Wins Could Mean for the Redistricting Battle",
    "url": "https://time.com/article/2026/11/27/midterm-elections-redistricting-gerrymandering/"
+  },
+  {
+   "id": "npr-7207ea497184",
+   "added": "2026-11-28T12:05:00Z",
+   "published": "2026-11-27T11:49:50Z",
+   "source": "npr",
+   "summary": "A French court ordered actor Gérard Depardieu to stand trial for rape and sexual assault, one of the most prominent cases in France's reckoning with sexual violence.",
+   "title": "French cinema star Gérard Depardieu ordered to stand trial for rape and sexual assault",
+   "url": "https://www.npr.org/2026/11/27/nx-s1-6055559/gerard-depardieu-trial-rape-france"
   },
   {
    "id": "npr-fb81a8082c44",
@@ -3612,186 +3809,6 @@
    "url": "https://www.npr.org/2026/11/25/nx-s1-6048524/what-to-know-before-using-ai-agents-for-black-friday-shopping"
   },
   {
-   "id": "time-1fd468caff08",
-   "added": "2026-11-25T11:35:49Z",
-   "published": "2026-11-25T12:00:00Z",
-   "source": "time",
-   "summary": "Australia's planned digital duty of care law would require large tech platforms to prevent foreseeable harms or face heavy fines.",
-   "title": "What Australia's 'Digital Duty of Care' Law Means for Big Tech",
-   "url": "https://time.com/article/2026/11/25/australia-digital-duty-of-care-big-tech-fines-social-media-platforms-risks-harms-safety/"
-  },
-  {
-   "id": "time-691c85b7261c",
-   "added": "2026-11-25T11:35:49Z",
-   "published": "2026-11-25T12:00:00Z",
-   "source": "time",
-   "summary": "A U.S. jury convicted Chinese telecom giant Huawei of bank fraud and conspiracy in a case tied to its business dealings with Iran.",
-   "title": "China's Huawei Convicted in U.S. Over Bank Fraud, Iran Ties",
-   "url": "https://time.com/article/2026/11/25/huawei-guilty-crimes-fraud-conspiracy-sanctions-us-china/"
-  },
-  {
-   "id": "time-bc4a477dd6cd",
-   "added": "2026-11-26T11:45:00Z",
-   "published": "2026-11-25T12:00:00Z",
-   "source": "time",
-   "summary": "Support is growing for the release of Eva Yi Xie, a Princeton doctoral candidate detained by ICE at a Virginia airport on Nov. 19.",
-   "title": "The Push to Free a Princeton Scientist From ICE Detention Is Growing",
-   "url": "https://time.com/article/2026/11/25/the-push-to-free-a-princeton-scientist-from-ice-detention-is-growing/"
-  },
-  {
-   "id": "npr-0c20c7905a17",
-   "added": "2026-11-25T11:35:49Z",
-   "published": "2026-11-25T10:00:00Z",
-   "source": "npr",
-   "summary": "Steep 'Green Wednesday' discounts are lowering cannabis prices for customers, though experts say retailers are under financial pressure.",
-   "title": "In a time of rising costs, one Thanksgiving commodity is cheaper: cannabis",
-   "url": "https://www.npr.org/2026/11/25/nx-s1-6046173/cannabis-marijuana-prices-retailers-discounts"
-  },
-  {
-   "id": "npr-f7c6557134a3",
-   "added": "2026-11-25T11:35:49Z",
-   "published": "2026-11-25T10:00:00Z",
-   "source": "npr",
-   "summary": "The Macy's Thanksgiving Day Parade marks its 100th procession in New York City with new balloon characters among its inflatables.",
-   "title": "New balloons will fly for the 100th Macy's Thanksgiving Day Parade",
-   "url": "https://www.npr.org/2026/11/25/nx-s1-6037568/100th-macys-thanksgiving-day-parade-balloons"
-  },
-  {
-   "id": "npr-4e85b765ac0b",
-   "added": "2026-11-25T11:35:49Z",
-   "published": "2026-11-25T09:44:13Z",
-   "source": "npr",
-   "summary": "China is investigating Politburo member and Shanghai party chief Chen Jining, the latest senior official targeted in Xi Jinping's long-running anti-corruption campaign.",
-   "title": "China investigates Politburo member and Shanghai party chief Chen Jining",
-   "url": "https://www.npr.org/2026/11/25/nx-s1-6053801/china-investigation-politburo-shanghai-party"
-  },
-  {
-   "id": "npr-3d49b100bd90",
-   "added": "2026-11-25T11:35:49Z",
-   "published": "2026-11-25T09:19:50Z",
-   "source": "npr",
-   "summary": "Kilmar Abrego Garcia, a Salvadoran immigrant who became a symbol of Trump's deportation campaign, left the U.S. voluntarily for Spain after nearly two years of legal battles.",
-   "title": "Kilmar Abrego Garcia leaves U.S. voluntarily for Spain",
-   "url": "https://www.npr.org/2026/11/25/nx-s1-6053203/abrego-garcia-leaves-us"
-  },
-  {
-   "id": "npr-a2acf5847ee5",
-   "added": "2026-11-25T11:35:49Z",
-   "published": "2026-11-25T06:43:23Z",
-   "source": "npr",
-   "summary": "A sports court returned the Africa Cup title to Senegal, which won on the field in January but lost the title in March over a walk-off during stoppage time.",
-   "title": "Africa Cup title given back to Senegal after sports court rules against Morocco",
-   "url": "https://www.npr.org/2026/11/25/nx-s1-6053783/africa-cup-senegal-morocco"
-  },
-  {
-   "id": "pbs-df37bbc910c3",
-   "added": "2026-11-25T11:35:49Z",
-   "published": "2026-11-24T23:55:53Z",
-   "source": "pbs",
-   "summary": "A new report suggests President Trump may have gained millions of dollars after he intervened to reinstate Nvidia CEO Jensen Huang.",
-   "title": "How Trump may have profited from Huang's return to Nvidia",
-   "url": "https://www.pbs.org/newshour/show/how-trump-may-have-profited-from-huangs-return-to-nvidia"
-  },
-  {
-   "id": "npr-ac888b7ee4d8",
-   "added": "2026-11-25T11:35:49Z",
-   "published": "2026-11-24T23:48:14Z",
-   "source": "npr",
-   "summary": "NPR speaks with Forbes senior editor Dan Alexander about the president's financial holdings in Nvidia after Jensen Huang's reinstatement.",
-   "title": "Unpacking President Trump's financial stake in Nvidia",
-   "url": "https://www.npr.org/2026/11/24/nx-s1-6052402/unpacking-president-trumps-financial-stake-in-nvidia"
-  },
-  {
-   "id": "pbs-7971b48dc335",
-   "added": "2026-11-25T11:35:49Z",
-   "published": "2026-11-24T23:30:40Z",
-   "source": "pbs",
-   "summary": "Hundreds of thousands of legally residing immigrants have lost Medicaid coverage under a provision of President Trump's tax and spending law.",
-   "title": "Thousands of immigrants with legal status lose Medicaid coverage",
-   "url": "https://www.pbs.org/newshour/show/thousands-of-immigrants-with-legal-status-lose-medicaid-coverage"
-  },
-  {
-   "id": "pbs-f76c0458647c",
-   "added": "2026-11-25T11:35:49Z",
-   "published": "2026-11-24T22:16:09Z",
-   "source": "pbs",
-   "summary": "States sued HUD over a rule ending housing aid for mixed-status families, which the department says prevents misuse of eligibility rules.",
-   "title": "States sue HUD over a rule that would end housing aid for mixed-status families",
-   "url": "https://www.pbs.org/newshour/nation/states-sue-hud-over-a-rule-that-would-end-housing-aid-for-mixed-status-families"
-  },
-  {
-   "id": "pbs-1aede1271f7c",
-   "added": "2026-11-25T11:35:49Z",
-   "published": "2026-11-24T21:33:53Z",
-   "source": "pbs",
-   "summary": "Texas Attorney General Ken Paxton dropped lawsuits against three doctors he had accused of illegally providing transgender care to minors.",
-   "title": "Paxton drops Texas lawsuits that accused doctors of illegally providing transgender youth care",
-   "url": "https://www.pbs.org/newshour/nation/paxton-drops-texas-lawsuits-that-accused-doctors-of-illegally-providing-transgender-youth-care"
-  },
-  {
-   "id": "pbs-d7f8065020bc",
-   "added": "2026-11-25T11:35:49Z",
-   "published": "2026-11-24T21:17:46Z",
-   "source": "pbs",
-   "summary": "A U.S. jury found Huawei guilty of conspiring to steal trade secrets and of bank fraud in a case that also involved sanctions-violation charges.",
-   "title": "U.S. jury finds Chinese tech giant Huawei guilty of conspiracy to steal trade secrets, bank fraud",
-   "url": "https://www.pbs.org/newshour/nation/u-s-jury-finds-chinese-tech-giant-huawei-guilty-of-conspiracy-to-steal-trade-secrets-bank-fraud"
-  },
-  {
-   "id": "pbs-93be82f0e5f0",
-   "added": "2026-11-25T11:35:49Z",
-   "published": "2026-11-24T20:42:20Z",
-   "source": "pbs",
-   "summary": "The Defense Department accused Canada of failing to make the decisions needed to modernize its military and meet NATO commitments.",
-   "title": "Pentagon sharply criticizes Canada over modernizing military",
-   "url": "https://www.pbs.org/newshour/world/pentagon-sharply-criticizes-canada-over-modernizing-military"
-  },
-  {
-   "id": "pbs-44219b0dcf35",
-   "added": "2026-11-25T11:35:49Z",
-   "published": "2026-11-24T20:10:42Z",
-   "source": "pbs",
-   "summary": "Australia's government reached a deal on online safety laws that could fine tech giants billions for failing to prevent foreseeable online harms.",
-   "title": "Australia set to pass online safety laws with multibillion-dollar fines for tech giants",
-   "url": "https://www.pbs.org/newshour/world/australia-set-to-pass-online-safety-laws-with-multibillion-dollar-fines-for-tech-giants"
-  },
-  {
-   "id": "pbs-2018c49adb0d",
-   "added": "2026-11-25T11:35:49Z",
-   "published": "2026-11-24T18:29:25Z",
-   "source": "pbs",
-   "summary": "Dozens of nations objected to the U.N. climate summit's final text for omitting fossil fuels and more aid for poorer countries; experts weigh the fallout.",
-   "title": "Experts say failed climate talks could worsen inequality, but progress not stalled",
-   "url": "https://www.pbs.org/newshour/science/experts-say-failed-climate-talks-could-worsen-inequality-but-progress-not-stalled"
-  },
-  {
-   "id": "pbs-2a4a16b8eb30",
-   "added": "2026-11-25T11:35:49Z",
-   "published": "2026-11-24T18:25:59Z",
-   "source": "pbs",
-   "summary": "San Francisco Bay Area tides could run 2.6 feet above normal Tuesday and peak at 2.8 feet Wednesday, a National Weather Service forecaster said.",
-   "title": "West Coast king tides could break decades-old records and flood communities",
-   "url": "https://www.pbs.org/newshour/nation/west-coast-king-tides-could-break-decades-old-records-and-flood-communities"
-  },
-  {
-   "id": "pbs-e236fe549aab",
-   "added": "2026-11-25T11:35:49Z",
-   "published": "2026-11-24T17:53:38Z",
-   "source": "pbs",
-   "summary": "Trump will award the Presidential Medal of Freedom to Rudy Giuliani, his former personal lawyer and a central figure in efforts to overturn the 2020 election.",
-   "title": "Trump will give Medal of Freedom to Giuliani, a fierce political ally who led New York through 9/11",
-   "url": "https://www.pbs.org/newshour/politics/trump-will-give-medal-of-freedom-to-giuliani-a-fierce-political-ally-who-led-new-york-through-9-11"
-  },
-  {
-   "id": "npr-7b9b3002934a",
-   "added": "2026-11-25T11:35:49Z",
-   "published": "2026-11-24T14:24:04Z",
-   "source": "npr",
-   "summary": "Albania's prime minister says Kushner's resort project will proceed, but a prosecutor's investigation into forged land titles could halt it.",
-   "title": "Who really owns the land in Albania that Jared Kushner wants to develop?",
-   "url": "https://www.npr.org/2026/11/24/g-s1-154623/albania-jared-kushner-land-deal-protests"
-  },
-  {
    "id": "e360-8537f5c1070a",
    "added": "2026-11-25T11:35:49Z",
    "published": "2026-11-24T08:16:00Z",
@@ -3820,41 +3837,41 @@
   }
  ],
  "edition": {
-  "no": 48,
-  "date": "2026-11-27"
+  "no": 49,
+  "date": "2026-11-28"
  },
  "extras": {
-  "date": "2026-11-27",
+  "date": "2026-11-28",
   "fact": {
-   "answer": "Pruny fingertips aren't simply waterlogged. Soaking triggers an involuntary nervous-system response in which nerve fibers in the fingers tighten the blood vessels beneath the skin. With less blood filling the tissue, the skin loses volume and pulls down into wrinkles. One leading idea is that water entering the sweat glands upsets the skin's salt balance.\n\nFor centuries people assumed skin just soaked up water. Studies from the 1930s onward undercut that idea: when the nerves supplying the hand were damaged, fingers didn't wrinkle after soaking.\n\nThe wrinkles may work like tire treads, channeling water away so you can grip wet objects with less force, though studies disagree. They take about five minutes to appear, so a long bath or swim, not a quick hand wash, brings them out.",
-   "question": "Why do your fingers wrinkle in water?",
+   "answer": "Lightning heats the air in its path to as much as 50,000°F, so the air in the channel expands supersonically as a shock wave, then cools and contracts just as quickly. That sudden push is the sound we call thunder.\n\nThe rumble comes from the lightning's long, crooked path. Sound from the nearest part of the channel reaches you first, while sound from farther portions arrives later, stretching one flash into a rolling growl. A sharp crack or click means the lightning passed nearby; a rumble means it was at least several miles away.\n\nTo estimate distance, count the seconds between flash and thunder and divide by 5: five seconds is about a mile. Thunder carries only about 10 miles.",
+   "question": "Why does thunder rumble?",
    "sources": [
     {
-     "name": "Smithsonian Magazine",
-     "url": "https://www.smithsonianmag.com/smithsonian-institution/ask-smithsonian-why-do-we-get-prune-fingers-180956024/"
+     "name": "National Weather Service",
+     "url": "https://www.weather.gov/safety/lightning-science-thunder"
     },
     {
-     "name": "UTMB Medical Discovery News",
-     "url": "https://www.utmb.edu/mdnews/podcast/episode/why-do-we-prune-in-water"
+     "name": "Britannica",
+     "url": "https://www.britannica.com/science/thunder"
     }
    ]
   },
-  "updatedAt": "2026-11-27T11:45:12Z",
+  "updatedAt": "2026-11-28T12:45:00Z",
   "word": {
-   "definition": "Clear and easy to understand; also, thinking clearly and fully aware of what is going on.",
-   "example": "After an hour of rambling slides, her lucid five-minute summary finally made the budget plan click for everyone in the room.",
-   "pos": "adjective",
-   "pron": "LOO-sid",
+   "definition": "To support or strengthen something, or to give it a boost, such as confidence, an argument, or a weak position.",
+   "example": "Sharing a few early wins with the client helped bolster their confidence in the new project timeline.",
+   "pos": "verb",
+   "pron": "BOHL-ster",
    "source": {
     "name": "Merriam-Webster",
-    "url": "https://www.merriam-webster.com/dictionary/lucid"
+    "url": "https://www.merriam-webster.com/dictionary/bolster"
    },
    "synonyms": [
-    "clear",
-    "straightforward",
-    "transparent"
+    "reinforce",
+    "support",
+    "boost"
    ],
-   "word": "lucid"
+   "word": "bolster"
   }
  }
 }
